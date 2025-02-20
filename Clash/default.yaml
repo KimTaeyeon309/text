@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-20 23:35:46
+# 配置生成日期：2025-02-20 23:54:07
 
 mixed-port: 7890
 allow-lan: false
@@ -50,191 +50,105 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: "🇷🇺_RU_俄罗斯\r\r_1"
-    type: ss
-    server: 217.30.10.18
-    port: 9045
-    tls: false
-    password: Lp27rqyJq72bZsqX
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇷🇺_RU_俄罗斯\r\r_2"
-    type: ss
-    server: 217.30.10.18
-    port: 9025
-    tls: false
-    password: XPtzA9sCug3SPR4c
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_1"
-    type: ss
-    server: 184.170.241.194
-    port: 443
-    tls: false
-    password: shadowsocks
-    ip-version: dual
-    udp: true
-    cipher: aes-128-cfb
-  - name: 🇷🇺_RU_俄罗斯_1
-    type: vmess
-    server: 195.58.49.42
-    port: 20326
-    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "🇩🇪_DE_德国\r\r"
-    type: ss
-    server: 45.87.175.181
-    port: 8080
-    tls: false
-    password: cvII85TrW6n0OGyfpHVS1u
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: "🇺🇸_US_美国\r\r_2"
-    type: ss
-    server: 35.94.110.89
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-    type: vmess
-    server: 46.8.237.183
-    port: 49148
-    uuid: 50bb8072-dd3d-4d1b-8b32-9520cb97f8c2
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-    type: ss
-    server: us.fastsoonlink.com
-    port: 40001
-    tls: false
-    password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: "🇷🇺_RU_俄罗斯\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9041
-    tls: false
-    password: U6qnYRhfyDmn8sgn
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "美国-89.9MB%2Fs\r\r"
+  - name: "美国-89.9MB%2Fs\r"
     type: ss
     server: 170.64.237.214
     port: 8443
     tls: false
     password: ef713649-c164-4a36-9fc2-ebf93d76e14f
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "乌克兰_Telegram%40kxswa\r\r_1"
+  - name: "乌克兰_Telegram%40kxswa\r_1"
     type: ss
     server: 92.113.116.11
     port: 15002
     tls: false
     password: 2MNBVYYYB23ZF03Z
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-8.93MB%2Fs\r\r"
+  - name: "美国-8.93MB%2Fs\r"
     type: ss
     server: 156.231.104.19
     port: 18009
     tls: false
     password: TQQGWG024W2BF6RP
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "罗马尼亚_Telegram%40kxswa\r\r"
+  - name: "罗马尼亚_Telegram%40kxswa\r"
     type: ss
     server: 185.126.239.231
     port: 20002
     tls: false
     password: G2LC1BQ48SXSBKZX
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "土耳其-8.0MB%2Fs\r\r"
+  - name: "土耳其-8.0MB%2Fs\r"
     type: ss
     server: 185.123.101.241
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "中转节点-184.7KB/s\r\r"
+  - name: 橘子公益-未知-94
     type: trojan
     server: naiu-other.05vr9nyqg5.download
     port: 13035
     network: tcp
     tls: true
     password: 65f14831-5c67-483f-9e85-f3aa73f21187
-    sni: cloudflare.node-ssl.cdn-alibaba.com
+    sni: naiu-other.05vr9nyqg5.download
     skip-cert-verify: true
     ip-version: dual
-    udp: true
-  - name: "美国_Telegram%40kxswa\r\r_1"
+  - name: "未知国家-12.3MB%2Fs\r"
     type: ss
     server: 23.185.248.13
     port: 17003
     tls: false
     password: LKG8G8VL60RSB59P
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "土耳其-18.1MB%2Fs\r\r"
+  - name: "土耳其-18.1MB%2Fs\r"
     type: ss
     server: 185.123.101.241
     port: 990
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "新加坡-111.3KB%2Fs\r\r"
+  - name: "新加坡-111.3KB%2Fs\r"
     type: ss
     server: 47.129.37.234
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "中转节点-2.61MB%2Fs\r\r"
+  - name: "中转节点-2.61MB%2Fs\r"
     type: ss
     server: gdgs.tarioblink.me
     port: 30003
     tls: false
     password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国-71.7MB%2Fs\r\r"
+  - name: "美国-71.7MB%2Fs\r"
     type: ss
     server: 156.231.104.20
     port: 18010
     tls: false
     password: 0A876XZUZX93N371
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "香港-34.3MB/s\r\r"
+  - name: "美国-1.78MB%2Fs\r"
+    type: ss
+    server: 35.94.110.89
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "香港-34.3MB/s\r"
     type: trojan
     server: 104.251.227.182
     port: 443
@@ -244,8 +158,7 @@ proxies:
     sni: hezijiasuqi.com
     skip-cert-verify: true
     ip-version: dual
-    udp: true
-  - name: "日本-16.5MB/s\r\r"
+  - name: 橘子公益-未知-98
     type: trojan
     server: 188.253.22.10
     port: 443
@@ -255,78 +168,69 @@ proxies:
     sni: key-pangolin.treefrog761.one
     skip-cert-verify: true
     ip-version: dual
-    udp: true
-  - name: "俄罗斯联邦-2.15MB%2Fs\r\r"
+  - name: "俄罗斯联邦-2.15MB%2Fs\r"
     type: ss
     server: tel5.vpntype.dev
     port: 8388
     tls: false
     password: 4qD26WardzNTK079
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-3.98MB%2Fs\r\r"
+  - name: "美国-3.98MB%2Fs\r"
     type: ss
     server: 54.184.126.174
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "中转节点-121.2KB%2Fs\r\r"
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国\r"
     type: ss
     server: 119.167.230.252
     port: 22040
     tls: false
     password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
-    udp: true
     cipher: aes-128-gcm
-  - name: "新加坡-8.4MB%2Fs\r\r"
+  - name: "新加坡-8.4MB%2Fs\r"
     type: ss
     server: 154.196.244.12
     port: 16002
     tls: false
     password: CZWGKVVKET2BTRBK
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "韩国-1.66MB%2Fs\r\r"
+  - name: "韩国-1.66MB%2Fs\r"
     type: ss
     server: 43.203.253.211
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "波兰-157.1KB%2Fs\r\r"
+  - name: "波兰-157.1KB%2Fs\r"
     type: ss
     server: 217.30.10.18
     port: 9033
     tls: false
     password: UTJA57ypk2XKQpnm
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "香港-1.43MB%2Fs\r\r"
+  - name: "香港-1.43MB%2Fs\r"
     type: ss
     server: 156.245.190.19
     port: 15010
     tls: false
     password: AYC4MQ5DSGJ4QOKG
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "以色列-38.0MB%2Fs\r\r"
+  - name: "以色列-38.0MB%2Fs\r"
     type: ss
     server: 188.191.147.127
     port: 31348
     tls: false
     password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
   - name: 美国-2.91MB/s
     type: vmess
@@ -336,35 +240,31 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
-  - name: "英国-1.38MB%2Fs\r\r"
+  - name: "英国-1.38MB%2Fs\r"
     type: ss
     server: 62.100.205.48
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "韩国-3.09MB%2Fs\r\r"
+  - name: "韩国-3.09MB%2Fs\r"
     type: ss
     server: 52.79.101.162
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "美国_Telegram%40kxswa\r\r_2"
+  - name: "美国_Telegram%40kxswa\r_2"
     type: ss
     server: 23.185.248.17
     port: 17007
     tls: false
     password: Z7C08JB1HBMWQHVP
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 法国-14.4MB/s
     type: vmess
@@ -374,54 +274,48 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "中转节点-234.7KB%2Fs\r\r"
+  - name: "中转节点-234.7KB%2Fs\r"
     type: ss
     server: hk.fastsoonlink.com
     port: 40000
     tls: false
     password: 3FB23A19-9424-40C7-9139-3540228283FA
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "斯洛伐克-31.8MB%2Fs\r\r"
+  - name: "斯洛伐克-31.8MB%2Fs\r"
     type: ss
     server: 156.146.40.194
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "新加坡-115.1KB%2Fs\r\r"
+  - name: "新加坡-115.1KB%2Fs\r"
     type: ss
     server: 13.213.40.92
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "奥地利-469.2KB%2Fs\r\r"
+  - name: "奥地利-469.2KB%2Fs\r"
     type: ss
     server: at1.opensocks.site
     port: 8388
     tls: false
     password: OWY4ODBm
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "马来西亚-17.8MB%2Fs\r\r"
+  - name: "马来西亚-17.8MB%2Fs\r"
     type: ss
     server: 103.106.229.219
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "中转节点-911.8KB/s\r\r"
+  - name: "中转节点-911.8KB/s\r"
     type: trojan
     server: naiu-us.05vr9nyqg5.download
     port: 13019
@@ -431,15 +325,13 @@ proxies:
     sni: cloudflare.node-ssl.cdn-alibaba.com
     skip-cert-verify: true
     ip-version: dual
-    udp: true
-  - name: "香港_Telegram%40kxswa\r\r_1"
+  - name: "中转节点-105.0KB%2Fs\r"
     type: ss
     server: 119.167.230.252
     port: 28164
     tls: false
     password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
-    udp: true
     cipher: aes-128-gcm
   - name: 法国-527.4KB/s
     type: vmess
@@ -449,19 +341,17 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     alterId: 1
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r_2"
+  - name: "香港-15.4MB%2Fs\r"
     type: ss
     server: 156.245.190.23
     port: 15014
     tls: false
     password: ZDGC0Q2E112UAJO6
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "中转节点-6.15MB/s\r\r"
+  - name: 橘子公益-未知-57
     type: trojan
     server: lm.kaiqsz.com
     port: 51075
@@ -471,42 +361,37 @@ proxies:
     sni: mmbiz10.redapricotcloud.com
     skip-cert-verify: true
     ip-version: dual
-    udp: true
-  - name: "香港_Telegram%40kxswa\r\r_3"
+  - name: "新加坡-80.9MB%2Fs\r"
     type: ss
     server: 154.196.244.21
     port: 16011
     tls: false
     password: 8WDLSCVIFB4I26GB
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r_4"
+  - name: "新加坡-8.8MB%2Fs\r"
     type: ss
     server: 154.196.244.20
     port: 16010
     tls: false
     password: 2UOL8ESS12X0J31P
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "中转节点-687.0KB%2Fs\r\r"
+  - name: "中转节点-687.0KB%2Fs\r"
     type: ss
     server: tengx.wwwq.net
     port: 37310
     tls: false
     password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "韩国-1.56MB%2Fs\r\r"
+  - name: "韩国-1.56MB%2Fs\r"
     type: ss
     server: 3.39.249.88
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 美国-3.49MB/s
     type: vmess
@@ -516,79 +401,70 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "韩国-4.16MB%2Fs\r\r"
+  - name: "韩国-4.16MB%2Fs\r"
     type: ss
     server: 13.125.111.28
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "韩国-95.4MB%2Fs\r\r"
+  - name: "韩国-95.4MB%2Fs\r"
     type: ss
     server: 54.180.133.38
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "香港-11.3MB%2Fs\r\r"
+  - name: "香港-11.3MB%2Fs\r"
     type: ss
     server: 156.245.190.16
     port: 15007
     tls: false
     password: MHZUEOX3KBXAV09K
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "德国_Telegram%40kxswa\r\r"
+  - name: "德国_Telegram%40kxswa\r"
     type: ss
     server: 45.87.175.65
     port: 8080
     tls: false
     password: oZIoA69Q8yhcQV8ka3Pa3A
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国-4.01MB%2Fs\r\r"
+  - name: "美国-4.01MB%2Fs\r"
     type: ss
     server: 45.158.171.110
     port: 8080
     tls: false
     password: oZIoA69Q8yhcQV8ka3Pa3A
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r\r_3"
+  - name: 美国-9.9MB%2Fs
     type: ss
     server: 156.231.104.26
     port: 18016
     tls: false
     password: PGF2TGUCHQBC5IP5
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r_5"
+  - name: "香港_Telegram%40kxswa\r_5"
     type: ss
     server: 154.196.244.26
     port: 16016
     tls: false
     password: YHK82TR73114VN9O
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r_4"
+  - name: "美国-12.6MB%2Fs\r"
     type: ss
     server: 156.231.104.18
     port: 18008
     tls: false
     password: 53RIUQDZR3B23TA3
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 美国-4.44MB/s
     type: vmess
@@ -598,53 +474,47 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
-  - name: "俄罗斯联邦-81.3MB%2Fs\r\r"
+  - name: "俄罗斯联邦-81.3MB%2Fs\r"
     type: ss
     server: 89.221.224.166
     port: 1443
     tls: false
     password: NjBlZDlk
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "🇷🇺_RU_俄罗斯\r\r_3"
+  - name: "🇷🇺_RU_俄罗斯\r_1"
     type: ss
     server: 217.30.10.18
     port: 9019
     tls: false
     password: GA9KzeEgvfxNrgmM
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "俄罗斯_Telegram%40kxswa\r\r_1"
+  - name: "俄罗斯_Telegram%40kxswa\r_1"
     type: ss
     server: 89.221.224.166
     port: 8388
     tls: false
     password: NjBlZDlk
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r\r_5"
+  - name: "美国-9.9MB%2Fs\r"
     type: ss
     server: 156.231.104.23
     port: 18013
     tls: false
     password: 4OAKJ8CASERAWXI1
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "俄罗斯_Telegram%40kxswa\r\r_2"
+  - name: "俄罗斯_Telegram%40kxswa\r_2"
     type: ss
     server: is3.opensocks.site
     port: 8388
     tls: false
     password: NjBlZDlk
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
   - name: 美国-156.2KB/s
     type: vmess
@@ -654,7 +524,6 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
   - name: 美国-3.20MB/s
     type: vmess
@@ -664,62 +533,55 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
-  - name: "瑞士-31.3MB%2Fs\r\r"
+  - name: "🇨🇭_CH_瑞士\r"
     type: ss
     server: 84.17.53.160
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: "美国-717.4KB%2Fs\r\r"
+  - name: "美国-717.4KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 3306
     tls: false
     password: Y6R9pAtvxxzmGC
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-723.4KB%2Fs\r\r"
+  - name: "美国-723.4KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 7001
     tls: false
     password: RexnBgU7EV5ADxG
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-764.8KB%2Fs\r\r"
+  - name: "美国-764.8KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 2376
     tls: false
     password: faBAoD54k87UJG7
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-695.6KB%2Fs\r\r"
+  - name: "美国-695.6KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 5500
     tls: false
     password: KixLvKzwjekG00rm
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-656.3KB%2Fs\r\r"
+  - name: "美国-656.3KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 5003
     tls: false
     password: g5MeD6Ft3CWlJId
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 美国-2.89MB/s
     type: vmess
@@ -729,71 +591,63 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
-  - name: "美国-747.6KB%2Fs\r\r"
+  - name: "美国-747.6KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 9102
     tls: false
     password: e4FCWrgpkji3QY
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-712.1KB%2Fs\r\r"
+  - name: "美国-712.1KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8118
     tls: false
     password: cdBIDV42DCwnfIN
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-572.0KB%2Fs\r\r"
+  - name: "美国-572.0KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8009
     tls: false
     password: XKFKl2rULjIp74
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-833.0KB%2Fs\r\r"
+  - name: "美国-833.0KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 5601
     tls: false
     password: Y6R9pAtvxxzmGC
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-807.2KB%2Fs\r\r"
+  - name: "美国-807.2KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 443
     tls: false
     password: pKEW8JPByTVTLtM
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-729.1KB%2Fs\r\r"
+  - name: "美国-729.1KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 9101
     tls: false
     password: e4FCWrgpkji3QY
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-219.1KB%2Fs\r\r"
+  - name: "美国-219.1KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 7002
     tls: false
     password: RexnBgU7EV5ADxG
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 美国-2.44MB/s
     type: vmess
@@ -803,44 +657,39 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
-  - name: "美国-120.7KB%2Fs\r\r"
+  - name: "美国-120.7KB%2Fs\r"
     type: ss
     server: 95.164.122.61
     port: 54075
     tls: false
     password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国-232.9KB%2Fs\r\r"
+  - name: "美国-232.9KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 6379
     tls: false
     password: zDNVedRFPQexG9v
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-404.0KB%2Fs\r\r"
+  - name: "美国-404.0KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8000
     tls: false
     password: KixLvKzwjekG00rm
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-715.1KB%2Fs\r\r"
+  - name: "美国-715.1KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8091
     tls: false
     password: PCnnH6SQSnfoS27
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 美国-4.86MB/s
     type: vmess
@@ -850,7 +699,6 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
   - name: 美国-3.53MB/s
@@ -861,43 +709,38 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "美国-242.5KB%2Fs\r\r"
+  - name: "美国-242.5KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 4444
     tls: false
     password: pKEW8JPByTVTLtM
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-165.0KB%2Fs\r\r"
+  - name: "美国-165.0KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8008
     tls: false
     password: XKFKl2rULjIp74
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-178.2KB%2Fs\r\r"
+  - name: "美国-178.2KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8080
     tls: false
     password: KixLvKzwjekG00rm
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-421.5KB%2Fs\r\r"
+  - name: "美国-421.5KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8888
     tls: false
     password: Y6R9pAtvxxzmGC
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 中转节点-1.06MB/s
     type: vmess
@@ -907,7 +750,6 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
   - name: 香港_Telegram@kxswa_1
@@ -918,26 +760,31 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "未知国家-575.4KB%2Fs\r\r"
+  - name: "未知国家-575.4KB%2Fs\r"
     type: ss
     server: service.ouluyun9803.com
     port: 20005
     tls: false
     password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国-672.7KB%2Fs\r\r"
+  - name: "美国-672.7KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 8881
     tls: false
     password: kDWvXYZoTBcGkC4
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
+  - name: "立陶宛-1.74MB%2Fs\r"
+    type: ss
+    server: 45.87.175.181
+    port: 8080
+    tls: false
+    password: cvII85TrW6n0OGyfpHVS1u
+    ip-version: dual
+    cipher: chacha20-ietf-poly1305
   - name: 未知国家-296.6KB/s
     type: vmess
     server: s1.db-link01.top
@@ -946,25 +793,22 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "美国-369.6KB%2Fs\r\r"
+  - name: "美国-369.6KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 6679
     tls: false
     password: TEzjfAYq2IjtuoS
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "荷兰-798.3KB%2Fs\r\r"
+  - name: "荷兰-798.3KB%2Fs\r"
     type: ss
     server: 185.242.86.156
     port: 54170
     tls: false
     password: 36ZCHeabUSfKjfQEvJ4HDV
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
   - name: 未知国家-675.2KB/s
     type: vmess
@@ -974,7 +818,6 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
   - name: 未知国家-650.4KB/s
     type: vmess
@@ -984,43 +827,55 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "美国-736.0KB%2Fs\r\r"
+  - name: 俄罗斯联邦-72.3MB/s
+    type: vmess
+    server: 195.58.49.42
+    port: 20326
+    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: "美国-736.0KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 5600
     tls: false
     password: Y6R9pAtvxxzmGC
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-560.2KB%2Fs\r\r"
+  - name: "美国-560.2KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 7307
     tls: false
     password: FoOiGlkAA9yPEGP
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "美国-104.9KB%2Fs\r\r"
+  - name: "美国-10.4MB%2Fs\r"
+    type: ss
+    server: 184.170.241.194
+    port: 443
+    tls: false
+    password: shadowsocks
+    ip-version: dual
+    cipher: aes-128-cfb
+  - name: "美国-104.9KB%2Fs\r"
     type: ss
     server: 38.121.43.71
     port: 5004
     tls: false
     password: g5MeD6Ft3CWlJId
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
-  - name: "立陶宛-209.6KB%2Fs\r\r"
+  - name: "立陶宛-209.6KB%2Fs\r"
     type: ss
     server: 45.87.175.171
     port: 8080
     tls: false
     password: 4a2rfixophdjffa8KVA4Aa
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
   - name: 美国-269.6KB/s
     type: vmess
@@ -1030,46 +885,41 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     alterId: 64
     cipher: auto
-  - name: "德国-154.2KB%2Fs\r\r"
+  - name: "德国-154.2KB%2Fs\r"
     type: ss
     server: 193.108.119.230
     port: 8080
     tls: false
     password: 14fFPrbezE3HDZzsMOr6
     ip-version: dual
-    udp: true
     cipher: rc4-md5
-  - name: "英国-206.6KB%2Fs\r\r"
+  - name: "英国-206.6KB%2Fs\r"
     type: ss
     server: 212.102.53.194
     port: 443
     tls: false
     password: shadowsocks
     ip-version: dual
-    udp: true
     cipher: aes-128-gcm
-  - name: "荷兰-201.8KB%2Fs\r\r"
+  - name: "荷兰-201.8KB%2Fs\r"
     type: ss
     server: 193.29.139.179
     port: 8080
     tls: false
     password: 4a2rfixophdjffa8KVA4Aa
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "伊朗_Telegram%40kxswa\r\r"
+  - name: "伊朗_Telegram%40kxswa\r"
     type: ss
     server: sgp.fastsoonlink.com
     port: 40005
     tls: false
     password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_2
+  - name: 橘子公益-未知-92
     type: vmess
     server: 120.232.153.40
     port: 54082
@@ -1077,18 +927,16 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r_6"
+  - name: "香港_Telegram%40kxswa\r_6"
     type: ss
     server: 203.23.128.79
     port: 51348
     tls: false
     password: dt31KYYCCAUBwu09QwG9flPBIuP9jA6VXnjN8StKTkgc45ny
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_3
+  - name: 香港_Telegram@kxswa_2
     type: vmess
     server: 183.236.51.38
     port: 42120
@@ -1096,9 +944,8 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: 香港_Telegram@kxswa_4
+  - name: 橘子公益-未知-67
     type: vmess
     server: 120.232.153.63
     port: 40165
@@ -1106,9 +953,8 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: 香港_Telegram@kxswa_5
+  - name: 香港_Telegram@kxswa_3
     type: vmess
     server: 120.198.71.216
     port: 55482
@@ -1116,9 +962,8 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: 香港_Telegram@kxswa_6
+  - name: 橘子公益-未知-99
     type: vmess
     server: 120.234.102.229
     port: 52908
@@ -1126,9 +971,8 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: 香港_Telegram@kxswa_7
+  - name: 香港_Telegram@kxswa_4
     type: vmess
     server: 120.232.153.63
     port: 40172
@@ -1136,9 +980,8 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: 香港_Telegram@kxswa_8
+  - name: 香港_Telegram@kxswa_5
     type: vmess
     server: 120.232.153.123
     port: 45402
@@ -1146,36 +989,38 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: "乌克兰_Telegram%40kxswa\r\r_2"
+  - name: "乌克兰_Telegram%40kxswa\r_2"
     type: ss
     server: 185.234.64.35
     port: 8388
     tls: false
     password: YTNjNDY5
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "韩国_Telegram%40kxswa\r\r"
+  - name: "韩国_Telegram%40kxswa\r"
     type: ss
     server: kr.fastsoonlink.com
     port: 40032
     tls: false
     password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "🇺🇸_US_美国\r\r_3"
-    type: ss
-    server: 54.244.0.4
-    port: 443
-    tls: false
-    password: amazonskr05
+  - name: "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+    type: vless
+    server: 14.102.229.149
+    port: 2052
+    uuid: 0c319c06-c493-5cef-9fa1-765ddcc37e8c
+    network: ws
+    tls: true
+    servername: sPeedtest2.sbs.us2.v2vless.sitespeedtest.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      headers:
+        host: sPeedtest2.sbs.us2.v2vless.sitespeedtest.net
     ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_4"
+  - name: "🇺🇸_US_美国\r_1"
     type: vless
     server: 104.17.148.22
     port: 2052
@@ -1189,107 +1034,21 @@ proxies:
       headers:
         host: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
     ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国\r\r_5"
+  - name: 橘子公益-美国US-153
     type: vless
-    server: 151.101.2.228
-    port: 80
-    uuid: 5f301020-9b83-493f-94a9-75fb761ef0d3
+    server: 104.17.147.22
+    port: 2052
+    uuid: bd58bea4-c47e-5312-ab74-da275166c87e
     network: ws
     tls: true
-    servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v24.drlimit.net
+    servername: sPeedtest2.sbs.lt2.vless.sitespeedtest.net
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: /vless
       headers:
-        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v24.drlimit.net
+        host: sPeedtest2.sbs.lt2.vless.sitespeedtest.net
     ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-    type: vless
-    server: 151.101.64.155
-    port: 80
-    uuid: 3871aa58-c190-4468-9b17-d34fa2371f0b
-    network: ws
-    tls: false
-    servername: Www.speedtest.net.sPeedtest2.sbs.
-    ws-opts:
-      path: /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6
-      headers:
-        host: Www.speedtest.net.sPeedtest2.sbs.
-    ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-    type: vless
-    server: 151.101.2.219
-    port: 80
-    uuid: a1b08f93-c47f-40f6-9650-e31bf26bfcba
-    network: ws
-    tls: true
-    servername: V5B28L9.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android
-      headers:
-        host: V5B28L9.com
-    ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国\r\r_6"
-    type: ss
-    server: 185.47.253.171
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇦_UA_乌克兰\r\r"
-    type: ss
-    server: 176.103.53.105
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_7"
-    type: trojan
-    server: 3.69.213.55
-    port: 22222
-    network: tcp
-    tls: true
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国\r\r_8"
-    type: vless
-    server: 151.101.194.219
-    port: 80
-    uuid: fe27a1ea-68e4-4784-834e-b4dc239fa152
-    network: ws
-    tls: true
-    servername: foffmelo.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /olem/ws
-      headers:
-        host: foffmelo.com
-    ip-version: dual
-    udp: true
-  - name: "🇷🇺_RU_俄罗斯\r\r_4"
-    type: ss
-    server: 217.30.10.18
-    port: 9040
-    tls: false
-    password: p9z5BVADH2YFs3MN
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_9"
+  - name: "🇺🇸_US_美国\r_2"
     type: vless
     server: 151.101.66.219
     port: 80
@@ -1303,15 +1062,134 @@ proxies:
       headers:
         host: IPSERVIS2.ORG
     ip-version: dual
-    udp: true
-  - name: "🇩🇰_DK_丹麦\r\r"
+  - name: 橘子公益-美国US-105
+    type: vless
+    server: 151.101.2.228
+    port: 80
+    uuid: f5b5b75a-a1e2-4e6f-8dce-14dd99c80f39
+    network: ws
+    tls: true
+    servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
+    ip-version: dual
+  - name: "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+    type: vless
+    server: 146.75.8.88
+    port: 80
+    uuid: 898b70c4-f839-455a-acc0-96d670be166b
+    network: ws
+    tls: true
+    servername: melodebot.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /melo/ws
+      headers:
+        host: melodebot.net
+    ip-version: dual
+  - name: "🇺🇸_US_美国\r_3"
+    type: ss
+    server: 54.244.0.4
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "🇷🇺_RU_俄罗斯\r_2"
+    type: ss
+    server: 217.30.10.18
+    port: 9041
+    tls: false
+    password: U6qnYRhfyDmn8sgn
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+    type: vless
+    server: 151.101.64.155
+    port: 80
+    uuid: 3871aa58-c190-4468-9b17-d34fa2371f0b
+    network: ws
+    tls: false
+    servername: Www.speedtest.net.sPeedtest2.sbs.
+    ws-opts:
+      path: /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6
+      headers:
+        host: Www.speedtest.net.sPeedtest2.sbs.
+    ip-version: dual
+  - name: "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+    type: vless
+    server: 151.101.2.219
+    port: 80
+    uuid: a1b08f93-c47f-40f6-9650-e31bf26bfcba
+    network: ws
+    tls: true
+    servername: V5B28L9.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android
+      headers:
+        host: V5B28L9.com
+    ip-version: dual
+  - name: "🇺🇸_US_美国\r_4"
+    type: ss
+    server: 185.47.253.171
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "🇺🇦_UA_乌克兰\r"
+    type: ss
+    server: 176.103.53.105
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_5"
+    type: trojan
+    server: 3.69.213.55
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+  - name: "🇺🇸_US_美国\r_6"
+    type: vless
+    server: 151.101.194.219
+    port: 80
+    uuid: fe27a1ea-68e4-4784-834e-b4dc239fa152
+    network: ws
+    tls: true
+    servername: foffmelo.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+  - name: "🇷🇺_RU_俄罗斯\r_3"
+    type: ss
+    server: 217.30.10.18
+    port: 9040
+    tls: false
+    password: p9z5BVADH2YFs3MN
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "🇩🇰_DK_丹麦\r"
     type: ss
     server: 185.186.79.53
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇬🇧_GB_英国
     type: vmess
@@ -1321,848 +1199,4151 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
-    udp: true
     cipher: auto
-  - name: 🇷🇺_RU_俄罗斯_2
+  - name: 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+    type: vmess
+    server: 46.8.237.183
+    port: 49148
+    uuid: 50bb8072-dd3d-4d1b-8b32-9520cb97f8c2
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 🇷🇺_RU_俄罗斯
     type: ss
     server: 217.30.10.18
     port: 9024
     tls: false
     password: BejrQvtu9sqUeNuZ
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
+  - name: 橘子公益-美国US-1
+    type: vless
+    server: 172.67.73.163
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-133
+    type: vless
+    server: www.speedtest.net
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-3
+    type: vless
+    server: 108.162.195.157
+    port: 443
+    uuid: 683ca56e-5b47-48d8-ae1e-9c4df7be9802
+    network: ws
+    tls: true
+    servername: k2h6ga.alligator27app.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /wss
+      headers:
+        host: k2h6ga.alligator27app.com
+    ip-version: dual
+  - name: 橘子公益-美国US-86
+    type: vless
+    server: 104.17.147.22
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-109
+    type: vless
+    server: 104.20.129.2
+    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-6
+    type: vmess
+    server: anycast.cf.030419.xyz
+    port: 80
+    uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-135
+    type: vless
+    server: fastly.net
+    port: 80
+    uuid: 7f97027a-6f60-5723-b101-eef62aab17db
+    network: ws
+    tls: true
+    servername: JoinBede-mosiv2.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: JoinBede-mosiv2.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-142
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: 2f90343f-c92f-4dcf-b150-4369c8749145
+    network: ws
+    tls: true
+    servername: Digikala.iranian.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
+      headers:
+        host: Digikala.iranian.net
+    ip-version: dual
+  - name: 橘子公益-美国US-13
+    type: vless
+    server: 15.204.145.23
+    port: 443
+    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    network: tcp
+    tls: true
+    servername: 147135001178.sec22org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-27
+    type: vless
+    server: 104.17.148.22
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /LwW5jwrnymnOdqki
+      headers:
+        host: redw.pooriam.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-111
+    type: vless
+    server: 104.17.148.22
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-156
+    type: vless
+    server: hajlab.ucdavis.edu
+    port: 443
+    uuid: 374135e2-9df0-43e7-8c12-4023374dbd72
+    network: ws
+    tls: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      headers:
+        host: joinshhproxybedeeeee.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-19
+    type: vless
+    server: 135.148.74.154
+    port: 443
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    network: tcp
+    tls: true
+    servername: 147135004002.sec20org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-21
+    type: vless
+    server: jermaine.ns.cloudflare.com
+    port: 443
+    uuid: 3a80097c-9f2a-4df5-a9f3-d826623c87b2
+    network: ws
+    tls: true
+    servername: kpncvy.payperflower.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /wss
+      headers:
+        host: kpncvy.payperflower.com
+    ip-version: dual
+  - name: 橘子公益-美国US-22
+    type: vless
+    server: 147135010072.sec21org.com
+    port: 443
+    uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-87
+    type: vless
+    server: 172.67.75.172
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: redw.pooriam.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-150
+    type: vless
+    server: 104.21.56.44
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-32
+    type: vless
+    server: 162.159.44.250
+    port: 443
+    uuid: ea37f538-e65d-4029-abc1-4ad8dce6045d
+    network: ws
+    tls: true
+    servername: 12zljq.alligator27.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /wss
+      headers:
+        host: 12zljq.alligator27.com
+    ip-version: dual
+  - name: 橘子公益-美国US-33
+    type: vless
+    server: 51.81.78.51
+    port: 443
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    network: tcp
+    tls: true
+    servername: 147135001195.sec22org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-101
+    type: vless
+    server: 151.101.130.228
+    port: 80
+    uuid: f5b5b75a-a1e2-4e6f-8dce-14dd99c80f39
+    network: ws
+    tls: true
+    servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v21.drlimit.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v21.drlimit.net
+    ip-version: dual
+  - name: 橘子公益-美国US-38
+    type: vless
+    server: 147.135.125.122
+    port: 443
+    uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
+    network: tcp
+    tls: true
+    servername: 147135010103.sec19org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-39
+    type: vless
+    server: 135.148.152.102
+    port: 443
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    network: tcp
+    tls: true
+    servername: 147135001195.sec22org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-64
+    type: vless
+    server: join.vmessorg.fastly80-3.hosting-ip.com
+    port: 80
+    uuid: 48106cfc-d347-47c2-852f-cde042bea7b9
+    network: ws
+    tls: true
+    servername: JoinBede--vmessorg--vmessorg.iR
+    skip-cert-verify: true
+    ws-opts:
+      path: /@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg
+      headers:
+        host: JoinBede--vmessorg--vmessorg.iR
+    ip-version: dual
+  - name: 橘子公益-美国US-41
+    type: vmess
+    server: s5.db-link01.top
+    port: 2052
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-44
+    type: vmess
+    server: cloudflare.182682.xyz
+    port: 80
+    uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-100
+    type: vless
+    server: goreng.cepu.us.kg
+    port: 443
+    uuid: 7557597d-5a65-4463-8f16-ce6b8c60ec19
+    network: ws
+    tls: true
+    servername: goreng.cepu.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /Free-CF-Proxy-RU1
+    ip-version: dual
+  - name: 橘子公益-美国US-50
+    type: vless
+    server: 151.101.2.133
+    port: 443
+    uuid: 72aeacb0-49a3-41b0-a4f6-380d3be88a5e
+    network: ws
+    tls: true
+    servername: live.wkrq.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: bale.ai
+    ip-version: dual
+  - name: 橘子公益-美国US-81
+    type: vless
+    server: 104.20.129.2
+    port: 80
+    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+    network: ws
+    tls: true
+    servername: pormang.webhost99.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /MTMVPN
+      headers:
+        host: pormang.webhost99.workers.dev
+    ip-version: dual
+  - name: 橘子公益-美国US-75
+    type: vmess
+    server: 104.19.150.10
+    port: 2095
+    uuid: 94f332b0-c5d3-4531-a1d6-6e6358cc6c72
+    network: httpupgrade
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-54
+    type: vless
+    server: 104.16.38.178
+    port: 80
+    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+    network: ws
+    tls: true
+    servername: pormang.webhost99.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ShadowProxy66
+      headers:
+        host: pormang.webhost99.workers.dev
+    ip-version: dual
+  - name: 橘子公益-美国US-55
+    type: vless
+    server: 147.135.125.120
+    port: 443
+    uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
+    network: tcp
+    tls: true
+    servername: 147135010103.sec19org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-56
+    type: vless
+    server: 135.148.74.152
+    port: 443
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    network: tcp
+    tls: true
+    servername: 147135004002.sec20org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-57
+    type: vless
+    server: 3.73.231.59
+    port: 22222
+    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+    network: ws
+    tls: true
+    servername: telegram-channel-vlessconfig.sohala.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-channel-vlessconfig-ws
+      headers:
+        host: telegram-channel-vlessconfig.sohala.uk
+    ip-version: dual
+  - name: 橘子公益-美国US-97
+    type: vless
+    server: www.speedtest.net
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /LwW5jwrnymnOdqki
+      headers:
+        host: redw.pooriam.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-59
+    type: vless
+    server: 13.37.71.212
+    port: 22222
+    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+    network: ws
+    tls: true
+    servername: telegram-channel-vlessconfig.sohala.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-channel-vlessconfig-ws
+      headers:
+        host: telegram-channel-vlessconfig.sohala.uk
+    ip-version: dual
+  - name: 橘子公益-美国US-62
+    type: vless
+    server: 135.148.186.250
+    port: 443
+    uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+    network: tcp
+    tls: true
+    servername: 147135011033.sec21org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-70
+    type: vless
+    server: 147.135.10.103
+    port: 443
+    uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
+    network: tcp
+    tls: true
+    servername: 147135010103.sec19org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-91
+    type: vmess
+    server: 23.224.152.62
+    port: 31909
+    uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-149
+    type: vless
+    server: 151.101.129.6
+    port: 80
+    uuid: 7f97027a-6f60-5723-b101-eef62aab17db
+    network: ws
+    tls: true
+    servername: JoinBede-mosiv2.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: JoinBede-mosiv2.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-73
+    type: vless
+    server: 151.101.194.228
+    port: 80
+    uuid: f5b5b75a-a1e2-4e6f-8dce-14dd99c80f39
+    network: ws
+    tls: true
+    servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
+    ip-version: dual
+  - name: 橘子公益-美国US-76
+    type: vless
+    server: 190.93.245.137
+    port: 443
+    uuid: 183e85ba-0240-4308-9f03-32eab4285181
+    network: ws
+    tls: false
+    servername: WWW.EsfahAnsimaN.infO.
+    ws-opts:
+      path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
+      headers:
+        host: WWW.EsfahAnsimaN.infO.
+    ip-version: dual
+  - name: 橘子公益-美国US-136
+    type: vless
+    server: 104.21.56.44
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: redw.pooriam.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-79
+    type: vless
+    server: ww.speedmeter.life
+    port: 80
+    uuid: 32e881ea-c6e2-4024-9191-283d8680361d
+    network: ws
+    tls: false
+    servername: Www.speedtest.net.sPeedtest2.sbs.
+    ws-opts:
+      path: /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6
+      headers:
+        host: Www.speedtest.net.sPeedtest2.sbs.
+    ip-version: dual
+  - name: 橘子公益-美国US-90
+    type: vless
+    server: 172.66.168.199
+    port: 443
+    uuid: f8f1763f-2411-4170-903d-0ad30a49d1c5
+    network: ws
+    tls: true
+    servername: Ca-FuLL.PRiVAteiP.neT
+    skip-cert-verify: true
+    ws-opts:
+      path: /VLESS
+      headers:
+        host: Ca-FuLL.PRiVAteiP.neT
+    ip-version: dual
+  - name: 橘子公益-美国US-82
+    type: vless
+    server: 172.67.112.141
+    port: 443
+    uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e
+    network: ws
+    tls: true
+    servername: r-uHMYL7d2INfl3Pf4.sm-node.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /vless_ws/smjc/index
+      headers:
+        host: cdn-ca.sm-node.com
+    ip-version: dual
+  - name: 橘子公益-美国US-92
+    type: vless
+    server: 135.148.206.182
+    port: 443
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    network: tcp
+    tls: true
+    servername: 147135004002.sec20org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-95
+    type: vmess
+    server: 152.70.57.182
+    port: 443
+    uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-145
+    type: vless
+    server: faculty.ucdavis.edu
+    port: 443
+    uuid: 7f97027a-6f60-5723-b101-eef62aab17db
+    network: ws
+    tls: true
+    servername: faculty.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: JoinBede-mosiv2.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-112
+    type: vless
+    server: fishlab.ucdavis.edu
+    port: 443
+    uuid: 1ea9f12f-cfab-400d-825c-aa70e3d6decc
+    network: ws
+    tls: true
+    servername: fishlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev
+      headers:
+        host: JoinBede--Unlimiteddev--Unlimiteddev.iR.
+    ip-version: dual
+  - name: 橘子公益-美国US-103
+    type: vless
+    server: 135.148.74.159
+    port: 443
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    network: tcp
+    tls: true
+    servername: 147135004002.sec20org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-104
+    type: vless
+    server: 52.187.36.104
+    port: 443
+    uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+    network: ws
+    tls: true
+    servername: werrr.azurewebsites.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: werrr.azurewebsites.net
+    ip-version: dual
+  - name: 橘子公益-美国US-107
+    type: vless
+    server: 147.135.125.127
+    port: 443
+    uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
+    network: tcp
+    tls: true
+    servername: 147135010103.sec19org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-108
+    type: vmess
+    server: www.vpslook.com
+    port: 443
+    uuid: 627a811e-acab-4d97-a683-ebdae2e2565b
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-110
+    type: vless
+    server: 104.17.147.22
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: redw.pooriam.ir
+    ip-version: dual
+  - name: 橘子公益-美国US-132
+    type: vmess
+    server: tasnim.ITN24.IR
+    port: 443
+    uuid: 0a4e54be-5bbe-4ece-9f5a-2c0d7be3ae85
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-138
+    type: vmess
+    server: mizban.ITN24.IR
+    port: 443
+    uuid: 26ef6212-eabb-4727-8425-21504f968eec
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-129
+    type: vless
+    server: 172.64.35.129
+    port: 80
+    uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+    network: ws
+    tls: true
+    servername: cc.ailicf.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /b5cdabf0-e04
+      headers:
+        host: cc.ailicf.us.kg
+    ip-version: dual
+  - name: 橘子公益-美国US-118
+    type: vless
+    server: 104.22.52.235
+    port: 80
+    uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+    network: ws
+    tls: true
+    servername: cc.ailicf.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /b5cdabf0-e04
+      headers:
+        host: cc.ailicf.us.kg
+    ip-version: dual
+  - name: 橘子公益-美国US-117
+    type: vless
+    server: 172.67.155.146
+    uuid: 2737560d-1867-47fa-aa80-351c36d771c7
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-121
+    type: vless
+    server: 172.67.63.182
+    uuid: 2737560d-1867-47fa-aa80-351c36d771c7
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-122
+    type: vless
+    server: 172.67.202.6
+    uuid: 2737560d-1867-47fa-aa80-351c36d771c7
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-146
+    type: vless
+    server: 172.67.27.46
+    port: 80
+    uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+    network: ws
+    tls: true
+    servername: cc.ailicf.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /b5cdabf0-e04
+      headers:
+        host: cc.ailicf.us.kg
+    ip-version: dual
+  - name: 橘子公益-美国US-125
+    type: vless
+    server: join.unlimiteddev.fastly80-3.hosting-ip.com
+    port: 80
+    uuid: 1ea9f12f-cfab-400d-825c-aa70e3d6decc
+    network: ws
+    tls: false
+    servername: JoinBede--Unlimiteddev--Unlimiteddev.iR.
+    ws-opts:
+      path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev
+      headers:
+        host: JoinBede--Unlimiteddev--Unlimiteddev.iR.
+    ip-version: dual
+  - name: 橘子公益-美国US-134
+    type: vless
+    server: 172.66.168.197
+    port: 443
+    uuid: 054d503d-4748-47a6-8118-71a96c51f2d9
+    network: ws
+    tls: true
+    servername: Nl2-FulL.PrIvAteiP.NeT
+    skip-cert-verify: true
+    ws-opts:
+      path: /VLESS
+      headers:
+        host: Nl2-FulL.PrIvAteiP.NeT
+    ip-version: dual
+  - name: 橘子公益-美国US-131
+    type: vless
+    server: 104.18.15.19
+    uuid: bf09ef80-aae7-42b7-ab37-a29cd310a9a4
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-美国US-137
+    type: vmess
+    server: 152.67.251.232
+    port: 443
+    uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-美国US-140
+    type: vless
+    server: 135.148.74.158
+    port: 443
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    network: tcp
+    tls: true
+    servername: 147135004002.sec20org.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-美国US-148
+    type: vless
+    server: 151.101.193.6
+    port: 80
+    uuid: 7f97027a-6f60-5723-b101-eef62aab17db
+    network: ws
+    tls: true
+    servername: JoinBede-mosiv2.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: JoinBede-mosiv2.ir
+    ip-version: dual
+  - name: 橘子公益-德国DE-1
+    type: vless
+    server: mods.lnmarketplace.net
+    port: 443
+    uuid: 9e55e24c-8de9-4357-8a37-9cf1212c6491
+    network: tcp
+    tls: true
+    servername: mods.lnmarketplace.net
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-德国DE-2
+    type: vless
+    server: 128.140.43.250
+    port: 8081
+    uuid: 5d245df1-c570-4b84-9642-faa4d0e3d3b7
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-德国DE-7
+    type: vmess
+    server: 130.61.23.77
+    port: 443
+    uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-德国DE-4
+    type: vmess
+    server: 91.107.188.10
+    port: 1080
+    uuid: 3427b7ab-859d-4004-8aa6-d3864c43d9ea
+    network: grpc
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-德国DE-6
+    type: vmess
+    server: 193.122.58.158
+    port: 443
+    uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-荷兰NL-5
+    type: vless
+    server: 45.149.12.128
+    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-荷兰NL-4
+    type: vless
+    server: 45.149.12.206
+    port: 80
+    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+    network: ws
+    tls: true
+    servername: pormang.webhost99.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+      headers:
+        host: pormang.webhost99.workers.dev
+    ip-version: dual
+  - name: 橘子公益-荷兰NL-6
+    type: vless
+    server: 45.149.12.128
+    port: 80
+    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+    network: ws
+    tls: true
+    servername: pormang.webhost99.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+      headers:
+        host: pormang.webhost99.workers.dev
+    ip-version: dual
+  - name: 橘子公益-乌克兰UA-1
+    type: vless
+    server: 89.187.28.126
+    port: 8443
+    uuid: 8b54a6c7-2544-4a07-9520-b4e5252ba2b7
+    network: ws
+    tls: true
+    servername: ul-japan1.09vpn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /vless/
+    ip-version: dual
+  - name: 橘子公益-未知-1
+    type: vless
+    server: 37.27.185.191
+    port: 16538
+    uuid: e1cb17da-47ee-442a-fc77-51b61199ec17
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-未知-43
+    type: vmess
+    server: 183.2.194.142
+    port: 26191
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-40
+    type: vmess
+    server: 183.2.194.142
+    port: 26051
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-4
+    type: vless
+    server: wfxpmyjva5c9.librekit.com
+    port: 16538
+    uuid: e1cb17da-47ee-442a-fc77-51b61199ec17
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-未知-34
+    type: vmess
+    server: 183.2.194.142
+    port: 26201
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-11
+    type: vmess
+    server: 183.2.194.142
+    port: 26021
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-25
+    type: vmess
+    server: 183.2.194.142
+    port: 26024
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-36
+    type: vmess
+    server: 183.2.194.142
+    port: 26221
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-30
+    type: vmess
+    server: 183.2.194.142
+    port: 26033
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-21
+    type: vmess
+    server: 183.2.194.142
+    port: 26181
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-12
+    type: vmess
+    server: 183.2.194.142
+    port: 26022
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-66
+    type: vmess
+    server: 183.2.194.142
+    port: 26094
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-50
+    type: vmess
+    server: 183.2.194.142
+    port: 26151
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-19
+    type: vmess
+    server: 183.2.194.142
+    port: 26091
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-51
+    type: vmess
+    server: 183.2.194.142
+    port: 26023
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-45
+    type: vmess
+    server: 183.2.194.142
+    port: 26031
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-61
+    type: vmess
+    server: 183.2.194.142
+    port: 26013
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-41
+    type: vmess
+    server: 183.2.194.142
+    port: 26082
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-23
+    type: vless
+    server: tls.zeoaeriedo-saioesrio.ir
+    port: 8080
+    uuid: 7d458f0f-6320-4928-838f-1a6a11be71be
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+  - name: 橘子公益-未知-37
+    type: vmess
+    server: 183.2.194.142
+    port: 26014
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-68
+    type: vmess
+    server: 183.2.194.142
+    port: 26073
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-42
+    type: vmess
+    server: 183.2.194.142
+    port: 26092
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-62
+    type: vmess
+    server: 183.2.194.142
+    port: 26012
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-29
+    type: vmess
+    server: 183.2.194.142
+    port: 26171
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-69
+    type: vmess
+    server: 183.2.194.142
+    port: 26141
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-44
+    type: vmess
+    server: 183.2.194.142
+    port: 26081
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-64
+    type: vmess
+    server: 183.2.194.142
+    port: 26034
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-75
+    type: vmess
+    server: 183.2.194.142
+    port: 26093
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-76
+    type: vmess
+    server: 183.2.194.142
+    port: 26161
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-88
+    type: vmess
+    server: 183.2.194.142
+    port: 26101
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-46
+    type: vless
+    server: 35.177.146.225
+    port: 22222
+    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+    network: ws
+    tls: true
+    servername: telegram-channel-vlessconfig.sohala.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-channel-vlessconfig-ws
+      headers:
+        host: telegram-channel-vlessconfig.sohala.uk
+    ip-version: dual
+  - name: 橘子公益-未知-47
+    type: vless
+    server: 188.245.240.163
+    port: 2000
+    uuid: 48390ac8-9983-40cf-a522-265e00cf4cb6
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+  - name: 橘子公益-未知-48
+    type: trojan
+    server: 52.47.207.189
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-49
+    type: trojan
+    server: 54.87.150.85
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-79
+    type: vmess
+    server: 183.2.194.142
+    port: 26071
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-55
+    type: vmess
+    server: 183.2.194.142
+    port: 26011
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-54
+    type: vmess
+    server: 183.2.194.142
+    port: 26231
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-70
+    type: vmess
+    server: 103.30.76.129
+    port: 22666
+    uuid: aede82af-c2ca-425d-9423-c68490ab2277
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-58
+    type: trojan
+    server: 49.212.170.40
+    port: 443
+    network: tcp
+    tls: true
+    password: 1e63e585ab2fef3adcc9ea75a62abc23
+    sni: hezijiasuqi.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-63
+    type: vmess
+    server: 183.2.194.142
+    port: 26072
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-60
+    type: vless
+    server: 3.254.24.190
+    port: 22222
+    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+    network: ws
+    tls: true
+    servername: telegram-channel-vlessconfig.sohala.uk
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-channel-vlessconfig-ws
+      headers:
+        host: telegram-channel-vlessconfig.sohala.uk
+    ip-version: dual
+  - name: 橘子公益-未知-65
+    type: vless
+    server: tls.zeoaeriedo-saioesrio.ir
+    port: 2000
+    uuid: 48390ac8-9983-40cf-a522-265e00cf4cb6
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+  - name: 橘子公益-未知-71
+    type: vless
+    server: p.alaba.cam
+    port: 2083
+    uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+  - name: 橘子公益-未知-72
+    type: vmess
+    server: 183.2.194.142
+    port: 26074
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-73
+    type: vmess
+    server: 183.2.194.142
+    port: 26211
+    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-78
+    type: vmess
+    server: 183.2.194.142
+    port: 26032
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-77
+    type: vmess
+    server: 183.2.194.142
+    port: 26111
+    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+    network: tcp
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-80
+    type: trojan
+    server: 16.16.246.128
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-81
+    type: trojan
+    server: 18.153.127.70
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-82
+    type: trojan
+    server: 63.177.6.64
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-83
+    type: trojan
+    server: 52.56.123.140
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-93
+    type: vmess
+    server: 185.174.138.199
+    port: 2052
+    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-85
+    type: vless
+    server: 185.79.158.141
+    port: 8088
+    uuid: 9542de76-e19e-4b7a-8aa8-d6ace8fd0272
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-未知-86
+    type: vless
+    server: fi.zytro.su
+    port: 38142
+    uuid: 26721978-890e-4946-bafa-cb03c9ff7f4a
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-未知-87
+    type: trojan
+    server: 13.43.77.153
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-89
+    type: vless
+    server: 138.199.162.176
+    port: 465
+    uuid: a93fc14d-9438-4f2f-9778-313e2c57031b
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-未知-90
+    type: vless
+    server: de.lunarmc.ir
+    port: 465
+    uuid: a93fc14d-9438-4f2f-9778-313e2c57031b
+    network: tcp
+    tls: false
+    ip-version: dual
+  - name: 橘子公益-未知-91
+    type: vless
+    server: 188.245.240.163
+    port: 8080
+    uuid: 7d458f0f-6320-4928-838f-1a6a11be71be
+    network: grpc
+    tls: false
+    grpc-opts: {}
+    ip-version: dual
+  - name: 橘子公益-未知-95
+    type: vmess
+    server: 185.174.138.196
+    port: 2082
+    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: 橘子公益-未知-96
+    type: trojan
+    server: patient-ghost.treefrog761.one
+    port: 443
+    network: tcp
+    tls: true
+    password: '3782591447421952000'
+    sni: patient-ghost.treefrog761.one
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-97
+    type: trojan
+    server: nextstepcareer.online
+    port: 443
+    network: tcp
+    tls: false
+    password: 4732adfa16c6450bbef87264e41332db
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-100
+    type: trojan
+    server: 51.20.13.202
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-101
+    type: trojan
+    server: 16.16.230.199
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-102
+    type: trojan
+    server: 108.128.226.203
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-103
+    type: trojan
+    server: 165.22.74.230
+    port: 443
+    network: tcp
+    tls: true
+    password: 4732adfa16c6450bbef87264e41332db
+    sni: nextstepcareer.online
+    skip-cert-verify: true
+    ip-version: dual
+  - name: 橘子公益-未知-104
+    type: vless
+    server: expressvpn_420.fastly80-3.hosting-ip.com
+    port: 80
+    uuid: 2f90343f-c92f-4dcf-b150-4369c8749145
+    network: ws
+    tls: true
+    servername: Digikala.iranian.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
+      headers:
+        host: Digikala.iranian.net
+    ip-version: dual
+  - name: 橘子公益-未知-105
+    type: vless
+    server: expressvpn_420.fast.hosting-ip.com
+    port: 80
+    uuid: 2f90343f-c92f-4dcf-b150-4369c8749145
+    network: ws
+    tls: true
+    servername: Digikala.iranian.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
+      headers:
+        host: Digikala.iranian.net
+    ip-version: dual
+  - name: 橘子公益-未知-106
+    type: trojan
+    server: key-pangolin.treefrog761.one
+    port: 443
+    network: tcp
+    tls: false
+    password: '3778399737045327872'
+    skip-cert-verify: true
+    ip-version: dual
+  - name: HK🐲™️_1
+    type: vless
+    server: 8.218.39.183
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_2
+    type: vless
+    server: 43.129.171.137
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_3
+    type: vless
+    server: 103.148.72.147
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_4
+    type: vless
+    server: 156.251.180.181
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_5
+    type: vless
+    server: 91.217.139.121
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_6
+    type: vless
+    server: 103.103.245.188
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_7
+    type: vless
+    server: 45.154.15.138
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_8
+    type: vless
+    server: 47.76.218.163
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_9
+    type: vless
+    server: 47.238.211.186
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_10
+    type: vless
+    server: 47.76.76.61
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_11
+    type: vless
+    server: 154.21.202.24
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_12
+    type: vless
+    server: 8.223.15.4
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_13
+    type: vless
+    server: 141.11.175.174
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_14
+    type: vless
+    server: 8.218.77.162
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: HK🐲™️_15
+    type: vless
+    server: 103.235.18.96
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_1
+    type: vless
+    server: 47.128.215.165
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_2
+    type: vless
+    server: 3.0.160.105
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_3
+    type: vless
+    server: 206.238.236.63
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_4
+    type: vless
+    server: 27.50.49.41
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_5
+    type: vless
+    server: 27.50.49.230
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_6
+    type: vless
+    server: 43.156.181.203
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_7
+    type: vless
+    server: 13.228.155.72
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_8
+    type: vless
+    server: 52.220.205.101
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_9
+    type: vless
+    server: 18.136.16.233
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_10
+    type: vless
+    server: 143.42.68.97
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_11
+    type: vless
+    server: 52.74.101.26
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_12
+    type: vless
+    server: 206.238.236.8
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_13
+    type: vless
+    server: 43.156.116.194
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_14
+    type: vless
+    server: 27.50.49.156
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: SG🐲™️_15
+    type: vless
+    server: 188.64.108.9
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_1
+    type: vless
+    server: 103.117.103.23
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_2
+    type: vless
+    server: 103.117.102.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_3
+    type: vless
+    server: 103.117.103.25
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_4
+    type: vless
+    server: 212.52.0.61
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_5
+    type: vless
+    server: 64.110.104.30
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_6
+    type: vless
+    server: 64.110.101.31
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_7
+    type: vless
+    server: 138.2.36.157
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_8
+    type: vless
+    server: 138.3.218.230
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_9
+    type: vless
+    server: 158.101.90.60
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_10
+    type: vless
+    server: 139.162.73.24
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_11
+    type: vless
+    server: 217.142.236.93
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_12
+    type: vless
+    server: 176.97.73.82
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_13
+    type: vless
+    server: 47.91.18.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_14
+    type: vless
+    server: 172.105.233.112
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: JP🐲™️_15
+    type: vless
+    server: 47.79.34.47
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_1
+    type: vless
+    server: 112.171.28.240
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_2
+    type: vless
+    server: 121.187.97.8
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_3
+    type: vless
+    server: 121.185.236.205
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_4
+    type: vless
+    server: 119.206.17.38
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_5
+    type: vless
+    server: 119.205.15.124
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_6
+    type: vless
+    server: 61.83.79.155
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_7
+    type: vless
+    server: 119.194.79.217
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_8
+    type: vless
+    server: 112.163.175.120
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_9
+    type: vless
+    server: 59.22.26.141
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_10
+    type: vless
+    server: 59.21.203.65
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_11
+    type: vless
+    server: 211.114.112.103
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_12
+    type: vless
+    server: 121.154.98.2
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_13
+    type: vless
+    server: 121.190.128.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_14
+    type: vless
+    server: 152.70.245.66
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: KR🐲™️_15
+    type: vless
+    server: 46.232.63.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_1
+    type: vless
+    server: 162.159.38.101
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_2
+    type: vless
+    server: 104.21.19.236
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_3
+    type: vless
+    server: 162.159.44.230
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_4
+    type: vless
+    server: 104.19.86.120
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_5
+    type: vless
+    server: 89.213.182.253
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_6
+    type: vless
+    server: 154.17.232.199
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_7
+    type: vless
+    server: 37.123.192.214
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_8
+    type: vless
+    server: 185.218.7.83
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_9
+    type: vless
+    server: 104.21.25.163
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_10
+    type: vless
+    server: 185.148.13.32
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_11
+    type: vless
+    server: 216.198.53.212
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_12
+    type: vless
+    server: 104.21.52.166
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_13
+    type: vless
+    server: 37.123.193.101
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_14
+    type: vless
+    server: 154.17.228.203
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: US🐲™️_15
+    type: vless
+    server: 172.67.77.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: PL🐲™️_1
+    type: vless
+    server: 45.85.210.234
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: PL🐲™️_2
+    type: vless
+    server: 185.188.147.79
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+  - name: PL🐲™️_3
+    type: vless
+    server: 176.105.253.98
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2185,139 +5366,362 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇷🇺_RU_俄罗斯\r\r_1"
-      - "🇷🇺_RU_俄罗斯\r\r_2"
-      - "🇺🇸_US_美国\r\r_1"
-      - 🇷🇺_RU_俄罗斯_1
-      - "🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_2"
-      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
-      - "🇷🇺_RU_俄罗斯\r"
-      - "美国-89.9MB%2Fs\r\r"
-      - "乌克兰_Telegram%40kxswa\r\r_1"
-      - "美国-8.93MB%2Fs\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
-      - "中转节点-184.7KB/s\r\r"
-      - "美国_Telegram%40kxswa\r\r_1"
-      - "土耳其-18.1MB%2Fs\r\r"
-      - "新加坡-111.3KB%2Fs\r\r"
-      - "中转节点-2.61MB%2Fs\r\r"
-      - "美国-71.7MB%2Fs\r\r"
-      - "香港-34.3MB/s\r\r"
-      - "日本-16.5MB/s\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r"
-      - "美国-3.98MB%2Fs\r\r"
-      - "中转节点-121.2KB%2Fs\r\r"
-      - "新加坡-8.4MB%2Fs\r\r"
-      - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
-      - "香港-1.43MB%2Fs\r\r"
-      - "以色列-38.0MB%2Fs\r\r"
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰_Telegram%40kxswa\r_1"
+      - "美国-8.93MB%2Fs\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - 橘子公益-未知-94
+      - "未知国家-12.3MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-1.78MB%2Fs\r"
+      - "香港-34.3MB/s\r"
+      - 橘子公益-未知-98
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "香港-1.43MB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r"
-      - "韩国-3.09MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_2"
+      - "英国-1.38MB%2Fs\r"
+      - "韩国-3.09MB%2Fs\r"
+      - "美国_Telegram%40kxswa\r_2"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r"
-      - "新加坡-115.1KB%2Fs\r\r"
-      - "奥地利-469.2KB%2Fs\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r"
-      - "中转节点-911.8KB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_1"
+      - "中转节点-234.7KB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-105.0KB%2Fs\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r\r_2"
-      - "中转节点-6.15MB/s\r\r"
-      - "香港_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_4"
-      - "中转节点-687.0KB%2Fs\r\r"
-      - "韩国-1.56MB%2Fs\r\r"
+      - "香港-15.4MB%2Fs\r"
+      - 橘子公益-未知-57
+      - "新加坡-80.9MB%2Fs\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r"
-      - "韩国-95.4MB%2Fs\r\r"
-      - "香港-11.3MB%2Fs\r\r"
-      - "德国_Telegram%40kxswa\r\r"
-      - "美国-4.01MB%2Fs\r\r"
-      - "美国_Telegram%40kxswa\r\r_3"
-      - "香港_Telegram%40kxswa\r\r_5"
-      - "美国_Telegram%40kxswa\r\r_4"
+      - "韩国-4.16MB%2Fs\r"
+      - "韩国-95.4MB%2Fs\r"
+      - "香港-11.3MB%2Fs\r"
+      - "德国_Telegram%40kxswa\r"
+      - "美国-4.01MB%2Fs\r"
+      - 美国-9.9MB%2Fs
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国-12.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r_3"
-      - "俄罗斯_Telegram%40kxswa\r\r_1"
-      - "美国_Telegram%40kxswa\r\r_5"
-      - "俄罗斯_Telegram%40kxswa\r\r_2"
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国-9.9MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r_2"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "瑞士-31.3MB%2Fs\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "🇨🇭_CH_瑞士\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
+      - "美国-747.6KB%2Fs\r"
+      - "美国-712.1KB%2Fs\r"
+      - "美国-572.0KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "美国-807.2KB%2Fs\r"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-219.1KB%2Fs\r"
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
+      - "美国-120.7KB%2Fs\r"
+      - "美国-232.9KB%2Fs\r"
+      - "美国-404.0KB%2Fs\r"
+      - "美国-715.1KB%2Fs\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
+      - "美国-242.5KB%2Fs\r"
+      - "美国-165.0KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
       - 中转节点-1.06MB/s
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
-      - "荷兰-798.3KB%2Fs\r\r"
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
       - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r"
+      - 俄罗斯联邦-72.3MB/s
+      - "美国-736.0KB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "美国-10.4MB%2Fs\r"
+      - "美国-104.9KB%2Fs\r"
+      - "立陶宛-209.6KB%2Fs\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r"
-      - "英国-206.6KB%2Fs\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r"
+      - "德国-154.2KB%2Fs\r"
+      - "英国-206.6KB%2Fs\r"
+      - "荷兰-201.8KB%2Fs\r"
+      - "伊朗_Telegram%40kxswa\r"
+      - 橘子公益-未知-92
+      - "香港_Telegram%40kxswa\r_6"
       - 香港_Telegram@kxswa_2
-      - "香港_Telegram%40kxswa\r\r_6"
+      - 橘子公益-未知-67
       - 香港_Telegram@kxswa_3
+      - 橘子公益-未知-99
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_8
-      - "乌克兰_Telegram%40kxswa\r\r_2"
-      - "韩国_Telegram%40kxswa\r\r"
-      - "🇺🇸_US_美国\r\r_3"
-      - "🇺🇸_US_美国\r\r_4"
-      - "🇺🇸_US_美国\r\r_5"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
-      - "🇺🇸_US_美国\r\r_6"
-      - "🇺🇦_UA_乌克兰\r\r"
-      - "🇺🇸_US_美国\r\r_7"
-      - "🇺🇸_US_美国\r\r_8"
-      - "🇷🇺_RU_俄罗斯\r\r_4"
-      - "🇺🇸_US_美国\r\r_9"
-      - "🇩🇰_DK_丹麦\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r"
+      - "🇺🇸_US_美国\r_1"
+      - 橘子公益-美国US-153
+      - "🇺🇸_US_美国\r_2"
+      - 橘子公益-美国US-105
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_3"
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇺🇸_US_美国\r_4"
+      - "🇺🇦_UA_乌克兰\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇺🇸_US_美国\r_6"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇩🇰_DK_丹麦\r"
       - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯
+      - 橘子公益-美国US-1
+      - 橘子公益-美国US-133
+      - 橘子公益-美国US-3
+      - 橘子公益-美国US-86
+      - 橘子公益-美国US-109
+      - 橘子公益-美国US-6
+      - 橘子公益-美国US-135
+      - 橘子公益-美国US-142
+      - 橘子公益-美国US-13
+      - 橘子公益-美国US-27
+      - 橘子公益-美国US-111
+      - 橘子公益-美国US-156
+      - 橘子公益-美国US-19
+      - 橘子公益-美国US-21
+      - 橘子公益-美国US-22
+      - 橘子公益-美国US-87
+      - 橘子公益-美国US-150
+      - 橘子公益-美国US-32
+      - 橘子公益-美国US-33
+      - 橘子公益-美国US-101
+      - 橘子公益-美国US-38
+      - 橘子公益-美国US-39
+      - 橘子公益-美国US-64
+      - 橘子公益-美国US-41
+      - 橘子公益-美国US-44
+      - 橘子公益-美国US-100
+      - 橘子公益-美国US-50
+      - 橘子公益-美国US-81
+      - 橘子公益-美国US-75
+      - 橘子公益-美国US-54
+      - 橘子公益-美国US-55
+      - 橘子公益-美国US-56
+      - 橘子公益-美国US-57
+      - 橘子公益-美国US-97
+      - 橘子公益-美国US-59
+      - 橘子公益-美国US-62
+      - 橘子公益-美国US-70
+      - 橘子公益-美国US-91
+      - 橘子公益-美国US-149
+      - 橘子公益-美国US-73
+      - 橘子公益-美国US-76
+      - 橘子公益-美国US-136
+      - 橘子公益-美国US-79
+      - 橘子公益-美国US-90
+      - 橘子公益-美国US-82
+      - 橘子公益-美国US-92
+      - 橘子公益-美国US-95
+      - 橘子公益-美国US-145
+      - 橘子公益-美国US-112
+      - 橘子公益-美国US-103
+      - 橘子公益-美国US-104
+      - 橘子公益-美国US-107
+      - 橘子公益-美国US-108
+      - 橘子公益-美国US-110
+      - 橘子公益-美国US-132
+      - 橘子公益-美国US-138
+      - 橘子公益-美国US-129
+      - 橘子公益-美国US-118
+      - 橘子公益-美国US-117
+      - 橘子公益-美国US-121
+      - 橘子公益-美国US-122
+      - 橘子公益-美国US-146
+      - 橘子公益-美国US-125
+      - 橘子公益-美国US-134
+      - 橘子公益-美国US-131
+      - 橘子公益-美国US-137
+      - 橘子公益-美国US-140
+      - 橘子公益-美国US-148
+      - 橘子公益-德国DE-1
+      - 橘子公益-德国DE-2
+      - 橘子公益-德国DE-7
+      - 橘子公益-德国DE-4
+      - 橘子公益-德国DE-6
+      - 橘子公益-荷兰NL-5
+      - 橘子公益-荷兰NL-4
+      - 橘子公益-荷兰NL-6
+      - 橘子公益-乌克兰UA-1
+      - 橘子公益-未知-1
+      - 橘子公益-未知-43
+      - 橘子公益-未知-40
+      - 橘子公益-未知-4
+      - 橘子公益-未知-34
+      - 橘子公益-未知-11
+      - 橘子公益-未知-25
+      - 橘子公益-未知-36
+      - 橘子公益-未知-30
+      - 橘子公益-未知-21
+      - 橘子公益-未知-12
+      - 橘子公益-未知-66
+      - 橘子公益-未知-50
+      - 橘子公益-未知-19
+      - 橘子公益-未知-51
+      - 橘子公益-未知-45
+      - 橘子公益-未知-61
+      - 橘子公益-未知-41
+      - 橘子公益-未知-23
+      - 橘子公益-未知-37
+      - 橘子公益-未知-68
+      - 橘子公益-未知-42
+      - 橘子公益-未知-62
+      - 橘子公益-未知-29
+      - 橘子公益-未知-69
+      - 橘子公益-未知-44
+      - 橘子公益-未知-64
+      - 橘子公益-未知-75
+      - 橘子公益-未知-76
+      - 橘子公益-未知-88
+      - 橘子公益-未知-46
+      - 橘子公益-未知-47
+      - 橘子公益-未知-48
+      - 橘子公益-未知-49
+      - 橘子公益-未知-79
+      - 橘子公益-未知-55
+      - 橘子公益-未知-54
+      - 橘子公益-未知-70
+      - 橘子公益-未知-58
+      - 橘子公益-未知-63
+      - 橘子公益-未知-60
+      - 橘子公益-未知-65
+      - 橘子公益-未知-71
+      - 橘子公益-未知-72
+      - 橘子公益-未知-73
+      - 橘子公益-未知-78
+      - 橘子公益-未知-77
+      - 橘子公益-未知-80
+      - 橘子公益-未知-81
+      - 橘子公益-未知-82
+      - 橘子公益-未知-83
+      - 橘子公益-未知-93
+      - 橘子公益-未知-85
+      - 橘子公益-未知-86
+      - 橘子公益-未知-87
+      - 橘子公益-未知-89
+      - 橘子公益-未知-90
+      - 橘子公益-未知-91
+      - 橘子公益-未知-95
+      - 橘子公益-未知-96
+      - 橘子公益-未知-97
+      - 橘子公益-未知-100
+      - 橘子公益-未知-101
+      - 橘子公益-未知-102
+      - 橘子公益-未知-103
+      - 橘子公益-未知-104
+      - 橘子公益-未知-105
+      - 橘子公益-未知-106
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
