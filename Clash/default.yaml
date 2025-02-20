@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-21 00:39:19
+# 配置生成日期：2025-02-21 00:43:16
 
 mixed-port: 7890
 allow-lan: false
@@ -82,14 +82,14 @@ proxies:
     password: G2LC1BQ48SXSBKZX
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "土耳其-8.0MB%2Fs\r\r"
+  - name: "土耳其-18.1MB%2Fs\r\r"
     type: ss
     server: 185.123.101.241
-    port: 989
+    port: 990
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    cipher: aes-256-cfb
+    cipher: chacha20-ietf-poly1305
   - name: "橘子公益-未知-94\r"
     type: trojan
     server: naiu-other.05vr9nyqg5.download
@@ -108,14 +108,6 @@ proxies:
     password: LKG8G8VL60RSB59P
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "土耳其-18.1MB%2Fs\r\r"
-    type: ss
-    server: 185.123.101.241
-    port: 990
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
   - name: "新加坡-111.3KB%2Fs\r\r"
     type: ss
     server: 47.129.37.234
@@ -184,10 +176,10 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+  - name: "中转节点-105.0KB%2Fs\r\r"
     type: ss
     server: 119.167.230.252
-    port: 22040
+    port: 28164
     tls: false
     password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
@@ -208,12 +200,12 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "波兰-157.1KB%2Fs\r\r"
+  - name: "🇷🇺_RU_俄罗斯\r"
     type: ss
     server: 217.30.10.18
-    port: 9033
+    port: 9024
     tls: false
-    password: UTJA57ypk2XKQpnm
+    password: BejrQvtu9sqUeNuZ
     ip-version: dual
     cipher: aes-256-cfb
   - name: "香港-1.43MB%2Fs\r\r"
@@ -325,14 +317,6 @@ proxies:
     sni: cloudflare.node-ssl.cdn-alibaba.com
     skip-cert-verify: true
     ip-version: dual
-  - name: "中转节点-105.0KB%2Fs\r\r"
-    type: ss
-    server: 119.167.230.252
-    port: 28164
-    tls: false
-    password: b637f2e47b7827b308ebf399008075d2
-    ip-version: dual
-    cipher: aes-128-gcm
   - name: 法国-527.4KB/s
     type: vmess
     server: 57.129.25.20
@@ -476,22 +460,6 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "俄罗斯联邦-81.3MB%2Fs\r\r"
-    type: ss
-    server: 89.221.224.166
-    port: 1443
-    tls: false
-    password: NjBlZDlk
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "🇷🇺_RU_俄罗斯\r_1\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9019
-    tls: false
-    password: GA9KzeEgvfxNrgmM
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "俄罗斯_Telegram%40kxswa\r_1\r"
     type: ss
     server: 89.221.224.166
@@ -543,42 +511,10 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "美国-717.4KB%2Fs\r\r"
+  - name: "美国-104.9KB%2Fs\r\r"
     type: ss
     server: 38.121.43.71
-    port: 3306
-    tls: false
-    password: Y6R9pAtvxxzmGC
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-723.4KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 7001
-    tls: false
-    password: RexnBgU7EV5ADxG
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-764.8KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 2376
-    tls: false
-    password: faBAoD54k87UJG7
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-695.6KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5500
-    tls: false
-    password: KixLvKzwjekG00rm
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-656.3KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5003
+    port: 5004
     tls: false
     password: g5MeD6Ft3CWlJId
     ip-version: dual
@@ -593,62 +529,6 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "美国-747.6KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 9102
-    tls: false
-    password: e4FCWrgpkji3QY
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-712.1KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8118
-    tls: false
-    password: cdBIDV42DCwnfIN
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-572.0KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8009
-    tls: false
-    password: XKFKl2rULjIp74
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-833.0KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5601
-    tls: false
-    password: Y6R9pAtvxxzmGC
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-807.2KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 443
-    tls: false
-    password: pKEW8JPByTVTLtM
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-729.1KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 9101
-    tls: false
-    password: e4FCWrgpkji3QY
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-219.1KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 7002
-    tls: false
-    password: RexnBgU7EV5ADxG
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: 美国-2.44MB/s
     type: vmess
     server: 107.167.20.189
@@ -667,30 +547,6 @@ proxies:
     password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国-232.9KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 6379
-    tls: false
-    password: zDNVedRFPQexG9v
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-404.0KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8000
-    tls: false
-    password: KixLvKzwjekG00rm
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-715.1KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8091
-    tls: false
-    password: PCnnH6SQSnfoS27
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: 美国-4.86MB/s
     type: vmess
     server: 142.4.104.33
@@ -710,47 +566,14 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "美国-242.5KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 4444
-    tls: false
-    password: pKEW8JPByTVTLtM
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-165.0KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8008
-    tls: false
-    password: XKFKl2rULjIp74
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-178.2KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8080
-    tls: false
-    password: KixLvKzwjekG00rm
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-421.5KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8888
-    tls: false
-    password: Y6R9pAtvxxzmGC
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: 中转节点-1.06MB/s
+  - name: 香港_Telegram@kxswa_2
     type: vmess
     server: 183.236.51.38
-    port: 59104
+    port: 42120
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
     ip-version: dual
-    alterId: 64
     cipher: auto
   - name: 香港_Telegram@kxswa_1
     type: vmess
@@ -769,14 +592,6 @@ proxies:
     password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国-672.7KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8881
-    tls: false
-    password: kDWvXYZoTBcGkC4
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "立陶宛-1.74MB%2Fs\r\r"
     type: ss
     server: 45.87.175.181
@@ -794,14 +609,6 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "美国-369.6KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 6679
-    tls: false
-    password: TEzjfAYq2IjtuoS
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "荷兰-798.3KB%2Fs\r\r"
     type: ss
     server: 185.242.86.156
@@ -810,15 +617,6 @@ proxies:
     password: 36ZCHeabUSfKjfQEvJ4HDV
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: 未知国家-675.2KB/s
-    type: vmess
-    server: 104.16.155.10
-    port: 2082
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: 未知国家-650.4KB/s
     type: vmess
     server: 104.16.155.10
@@ -837,22 +635,6 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "美国-736.0KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5600
-    tls: false
-    password: Y6R9pAtvxxzmGC
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-560.2KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 7307
-    tls: false
-    password: FoOiGlkAA9yPEGP
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "美国-10.4MB%2Fs\r\r"
     type: ss
     server: 184.170.241.194
@@ -861,14 +643,6 @@ proxies:
     password: shadowsocks
     ip-version: dual
     cipher: aes-128-cfb
-  - name: "美国-104.9KB%2Fs\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5004
-    tls: false
-    password: g5MeD6Ft3CWlJId
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "立陶宛-209.6KB%2Fs\r\r"
     type: ss
     server: 45.87.175.171
@@ -936,20 +710,11 @@ proxies:
     password: dt31KYYCCAUBwu09QwG9flPBIuP9jA6VXnjN8StKTkgc45ny
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_2
-    type: vmess
-    server: 183.236.51.38
-    port: 42120
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-67
+  - name: 香港_Telegram@kxswa_4
     type: vmess
     server: 120.232.153.63
-    port: 40165
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    port: 40172
+    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
     network: tcp
     tls: false
     ip-version: dual
@@ -968,15 +733,6 @@ proxies:
     server: 120.234.102.229
     port: 52908
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_4
-    type: vmess
-    server: 120.232.153.63
-    port: 40172
-    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
     network: tcp
     tls: false
     ip-version: dual
@@ -1020,33 +776,25 @@ proxies:
       headers:
         host: sPeedtest2.sbs.us2.v2vless.sitespeedtest.net
     ip-version: dual
-  - name: "🇺🇸_US_美国\r_1\r"
+  - name: "橘子公益-美国US-111\r"
     type: vless
     server: 104.17.148.22
-    port: 2052
-    uuid: 9f78ae61-2cc0-5df1-9845-f7aff09e22ae
-    network: ws
-    tls: true
-    servername: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
-      headers:
-        host: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    tls: false
     ip-version: dual
-  - name: "橘子公益-美国US-153\r"
+  - name: "橘子公益-美国US-110\r"
     type: vless
     server: 104.17.147.22
-    port: 2052
-    uuid: bd58bea4-c47e-5312-ab74-da275166c87e
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
     network: ws
     tls: true
-    servername: sPeedtest2.sbs.lt2.vless.sitespeedtest.net
+    servername: redw.pooriam.ir
     skip-cert-verify: true
     ws-opts:
-      path: /vless
+      path: /
       headers:
-        host: sPeedtest2.sbs.lt2.vless.sitespeedtest.net
+        host: redw.pooriam.ir
     ip-version: dual
   - name: "🇺🇸_US_美国\r_2\r"
     type: vless
@@ -1096,14 +844,6 @@ proxies:
     port: 443
     tls: false
     password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇷🇺_RU_俄罗斯\r_2\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9041
-    tls: false
-    password: U6qnYRhfyDmn8sgn
     ip-version: dual
     cipher: aes-256-cfb
   - name: "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
@@ -1175,14 +915,6 @@ proxies:
       headers:
         host: foffmelo.com
     ip-version: dual
-  - name: "🇷🇺_RU_俄罗斯\r_3\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9040
-    tls: false
-    password: p9z5BVADH2YFs3MN
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "🇩🇰_DK_丹麦\r\r"
     type: ss
     server: 185.186.79.53
@@ -1209,25 +941,25 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "🇷🇺_RU_俄罗斯\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9024
-    tls: false
-    password: BejrQvtu9sqUeNuZ
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "橘子公益-美国US-1\r"
     type: vless
     server: 172.67.73.163
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     tls: false
     ip-version: dual
-  - name: "橘子公益-美国US-133\r"
+  - name: "橘子公益-美国US-97\r"
     type: vless
     server: www.speedtest.net
+    port: 80
     uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    tls: false
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /LwW5jwrnymnOdqki
+      headers:
+        host: redw.pooriam.ir
     ip-version: dual
   - name: "橘子公益-美国US-3\r"
     type: vless
@@ -1243,17 +975,19 @@ proxies:
       headers:
         host: k2h6ga.alligator27app.com
     ip-version: dual
-  - name: "橘子公益-美国US-86\r"
-    type: vless
-    server: 104.17.147.22
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    tls: false
-    ip-version: dual
-  - name: "橘子公益-美国US-109\r"
+  - name: "橘子公益-美国US-81\r"
     type: vless
     server: 104.20.129.2
+    port: 80
     uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-    tls: false
+    network: ws
+    tls: true
+    servername: pormang.webhost99.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /MTMVPN
+      headers:
+        host: pormang.webhost99.workers.dev
     ip-version: dual
   - name: 橘子公益-美国US-6
     type: vmess
@@ -1301,26 +1035,6 @@ proxies:
     tls: true
     servername: 147135001178.sec22org.com
     skip-cert-verify: true
-    ip-version: dual
-  - name: "橘子公益-美国US-27\r"
-    type: vless
-    server: 104.17.148.22
-    port: 80
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    network: ws
-    tls: true
-    servername: redw.pooriam.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /LwW5jwrnymnOdqki
-      headers:
-        host: redw.pooriam.ir
-    ip-version: dual
-  - name: "橘子公益-美国US-111\r"
-    type: vless
-    server: 104.17.148.22
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    tls: false
     ip-version: dual
   - name: "橘子公益-美国US-156\r"
     type: vless
@@ -1382,11 +1096,19 @@ proxies:
       headers:
         host: redw.pooriam.ir
     ip-version: dual
-  - name: "橘子公益-美国US-150\r"
+  - name: "橘子公益-美国US-136\r"
     type: vless
     server: 104.21.56.44
+    port: 80
     uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    tls: false
+    network: ws
+    tls: true
+    servername: redw.pooriam.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: redw.pooriam.ir
     ip-version: dual
   - name: "橘子公益-美国US-32\r"
     type: vless
@@ -1504,20 +1226,6 @@ proxies:
       headers:
         host: bale.ai
     ip-version: dual
-  - name: "橘子公益-美国US-81\r"
-    type: vless
-    server: 104.20.129.2
-    port: 80
-    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-    network: ws
-    tls: true
-    servername: pormang.webhost99.workers.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /MTMVPN
-      headers:
-        host: pormang.webhost99.workers.dev
-    ip-version: dual
   - name: 橘子公益-美国US-75
     type: vmess
     server: 104.19.150.10
@@ -1574,20 +1282,6 @@ proxies:
       path: /telegram-channel-vlessconfig-ws
       headers:
         host: telegram-channel-vlessconfig.sohala.uk
-    ip-version: dual
-  - name: "橘子公益-美国US-97\r"
-    type: vless
-    server: www.speedtest.net
-    port: 80
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    network: ws
-    tls: true
-    servername: redw.pooriam.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /LwW5jwrnymnOdqki
-      headers:
-        host: redw.pooriam.ir
     ip-version: dual
   - name: "橘子公益-美国US-59\r"
     type: vless
@@ -1672,20 +1366,6 @@ proxies:
       path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
       headers:
         host: WWW.EsfahAnsimaN.infO.
-    ip-version: dual
-  - name: "橘子公益-美国US-136\r"
-    type: vless
-    server: 104.21.56.44
-    port: 80
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    network: ws
-    tls: true
-    servername: redw.pooriam.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: redw.pooriam.ir
     ip-version: dual
   - name: "橘子公益-美国US-79\r"
     type: vless
@@ -1818,20 +1498,6 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "橘子公益-美国US-110\r"
-    type: vless
-    server: 104.17.147.22
-    port: 80
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    network: ws
-    tls: true
-    servername: redw.pooriam.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: redw.pooriam.ir
-    ip-version: dual
   - name: 橘子公益-美国US-132
     type: vmess
     server: tasnim.ITN24.IR
@@ -2022,15 +1688,9 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "橘子公益-荷兰NL-5\r"
+  - name: "橘子公益-荷兰NL-6\r"
     type: vless
     server: 45.149.12.128
-    uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-    tls: false
-    ip-version: dual
-  - name: "橘子公益-荷兰NL-4\r"
-    type: vless
-    server: 45.149.12.206
     port: 80
     uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
     network: ws
@@ -2042,9 +1702,9 @@ proxies:
       headers:
         host: pormang.webhost99.workers.dev
     ip-version: dual
-  - name: "橘子公益-荷兰NL-6\r"
+  - name: "橘子公益-荷兰NL-4\r"
     type: vless
-    server: 45.149.12.128
+    server: 45.149.12.206
     port: 80
     uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
     network: ws
@@ -2076,20 +1736,11 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-  - name: 橘子公益-未知-43
+  - name: 橘子公益-未知-77
     type: vmess
     server: 183.2.194.142
-    port: 26191
+    port: 26111
     uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-40
-    type: vmess
-    server: 183.2.194.142
-    port: 26051
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
     network: tcp
     tls: false
     ip-version: dual
@@ -2102,240 +1753,15 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-  - name: 橘子公益-未知-34
-    type: vmess
-    server: 183.2.194.142
-    port: 26201
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-11
-    type: vmess
-    server: 183.2.194.142
-    port: 26021
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-25
-    type: vmess
-    server: 183.2.194.142
-    port: 26024
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-36
-    type: vmess
-    server: 183.2.194.142
-    port: 26221
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-30
-    type: vmess
-    server: 183.2.194.142
-    port: 26033
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-21
-    type: vmess
-    server: 183.2.194.142
-    port: 26181
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-12
-    type: vmess
-    server: 183.2.194.142
-    port: 26022
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-66
-    type: vmess
-    server: 183.2.194.142
-    port: 26094
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-50
-    type: vmess
-    server: 183.2.194.142
-    port: 26151
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-19
-    type: vmess
-    server: 183.2.194.142
-    port: 26091
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-51
-    type: vmess
-    server: 183.2.194.142
-    port: 26023
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-45
-    type: vmess
-    server: 183.2.194.142
-    port: 26031
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-61
-    type: vmess
-    server: 183.2.194.142
-    port: 26013
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-41
-    type: vmess
-    server: 183.2.194.142
-    port: 26082
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "橘子公益-未知-23\r"
+  - name: "橘子公益-未知-65\r"
     type: vless
     server: tls.zeoaeriedo-saioesrio.ir
-    port: 8080
-    uuid: 7d458f0f-6320-4928-838f-1a6a11be71be
+    port: 2000
+    uuid: 48390ac8-9983-40cf-a522-265e00cf4cb6
     network: grpc
     tls: false
     grpc-opts: {}
     ip-version: dual
-  - name: 橘子公益-未知-37
-    type: vmess
-    server: 183.2.194.142
-    port: 26014
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-68
-    type: vmess
-    server: 183.2.194.142
-    port: 26073
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-42
-    type: vmess
-    server: 183.2.194.142
-    port: 26092
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-62
-    type: vmess
-    server: 183.2.194.142
-    port: 26012
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-29
-    type: vmess
-    server: 183.2.194.142
-    port: 26171
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-69
-    type: vmess
-    server: 183.2.194.142
-    port: 26141
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-44
-    type: vmess
-    server: 183.2.194.142
-    port: 26081
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-64
-    type: vmess
-    server: 183.2.194.142
-    port: 26034
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-75
-    type: vmess
-    server: 183.2.194.142
-    port: 26093
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-76
-    type: vmess
-    server: 183.2.194.142
-    port: 26161
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-88
-    type: vmess
-    server: 183.2.194.142
-    port: 26101
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: "橘子公益-未知-46\r"
     type: vless
     server: 35.177.146.225
@@ -2350,11 +1776,11 @@ proxies:
       headers:
         host: telegram-channel-vlessconfig.sohala.uk
     ip-version: dual
-  - name: "橘子公益-未知-47\r"
+  - name: "橘子公益-未知-91\r"
     type: vless
     server: 188.245.240.163
-    port: 2000
-    uuid: 48390ac8-9983-40cf-a522-265e00cf4cb6
+    port: 8080
+    uuid: 7d458f0f-6320-4928-838f-1a6a11be71be
     network: grpc
     tls: false
     grpc-opts: {}
@@ -2379,33 +1805,6 @@ proxies:
     sni: trojan.burgerip.co.uk
     skip-cert-verify: true
     ip-version: dual
-  - name: 橘子公益-未知-79
-    type: vmess
-    server: 183.2.194.142
-    port: 26071
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-55
-    type: vmess
-    server: 183.2.194.142
-    port: 26011
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-54
-    type: vmess
-    server: 183.2.194.142
-    port: 26231
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: 橘子公益-未知-70
     type: vmess
     server: 103.30.76.129
@@ -2425,15 +1824,6 @@ proxies:
     sni: hezijiasuqi.com
     skip-cert-verify: true
     ip-version: dual
-  - name: 橘子公益-未知-63
-    type: vmess
-    server: 183.2.194.142
-    port: 26072
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: "橘子公益-未知-60\r"
     type: vless
     server: 3.254.24.190
@@ -2448,15 +1838,6 @@ proxies:
       headers:
         host: telegram-channel-vlessconfig.sohala.uk
     ip-version: dual
-  - name: "橘子公益-未知-65\r"
-    type: vless
-    server: tls.zeoaeriedo-saioesrio.ir
-    port: 2000
-    uuid: 48390ac8-9983-40cf-a522-265e00cf4cb6
-    network: grpc
-    tls: false
-    grpc-opts: {}
-    ip-version: dual
   - name: "橘子公益-未知-71\r"
     type: vless
     server: p.alaba.cam
@@ -2466,42 +1847,6 @@ proxies:
     tls: false
     grpc-opts: {}
     ip-version: dual
-  - name: 橘子公益-未知-72
-    type: vmess
-    server: 183.2.194.142
-    port: 26074
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-73
-    type: vmess
-    server: 183.2.194.142
-    port: 26211
-    uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-78
-    type: vmess
-    server: 183.2.194.142
-    port: 26032
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 橘子公益-未知-77
-    type: vmess
-    server: 183.2.194.142
-    port: 26111
-    uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: "橘子公益-未知-80\r"
     type: trojan
     server: 16.16.246.128
@@ -2592,15 +1937,6 @@ proxies:
     uuid: a93fc14d-9438-4f2f-9778-313e2c57031b
     network: tcp
     tls: false
-    ip-version: dual
-  - name: "橘子公益-未知-91\r"
-    type: vless
-    server: 188.245.240.163
-    port: 8080
-    uuid: 7d458f0f-6320-4928-838f-1a6a11be71be
-    network: grpc
-    tls: false
-    grpc-opts: {}
     ip-version: dual
   - name: 橘子公益-未知-95
     type: vmess
@@ -3185,10 +2521,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -3197,10 +2532,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -3214,7 +2549,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -3232,53 +2566,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -3287,50 +2595,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -3341,13 +2641,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -3355,7 +2653,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -3367,7 +2664,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -3387,57 +2683,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -3448,7 +2708,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
@@ -3547,10 +2806,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -3559,10 +2817,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -3576,7 +2834,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -3594,53 +2851,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -3649,50 +2880,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -3703,13 +2926,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -3717,7 +2938,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -3729,7 +2949,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -3749,57 +2968,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -3810,7 +2993,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
@@ -3909,10 +3091,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -3921,10 +3102,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -3938,7 +3119,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -3956,53 +3136,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -4011,50 +3165,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -4065,13 +3211,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -4079,7 +3223,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -4091,7 +3234,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -4111,57 +3253,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -4172,7 +3278,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
@@ -4270,10 +3375,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -4282,10 +3386,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -4299,7 +3403,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -4317,53 +3420,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -4372,50 +3449,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -4426,13 +3495,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -4440,7 +3507,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -4452,7 +3518,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -4472,57 +3537,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -4533,7 +3562,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
@@ -4631,10 +3659,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -4643,10 +3670,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -4660,7 +3687,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -4678,53 +3704,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -4733,50 +3733,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -4787,13 +3779,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -4801,7 +3791,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -4813,7 +3802,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -4833,57 +3821,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -4894,7 +3846,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
@@ -4992,10 +3943,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -5004,10 +3954,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -5021,7 +3971,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -5039,53 +3988,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -5094,50 +4017,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -5148,13 +4063,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -5162,7 +4075,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -5174,7 +4086,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -5194,57 +4105,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -5255,7 +4130,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
@@ -5370,10 +4244,9 @@ proxy-groups:
       - "乌克兰_Telegram%40kxswa\r_1\r"
       - "美国-8.93MB%2Fs\r\r"
       - "罗马尼亚_Telegram%40kxswa\r\r"
-      - "土耳其-8.0MB%2Fs\r\r"
+      - "土耳其-18.1MB%2Fs\r\r"
       - "橘子公益-未知-94\r"
       - "未知国家-12.3MB%2Fs\r\r"
-      - "土耳其-18.1MB%2Fs\r\r"
       - "新加坡-111.3KB%2Fs\r\r"
       - "中转节点-2.61MB%2Fs\r\r"
       - "美国-71.7MB%2Fs\r\r"
@@ -5382,10 +4255,10 @@ proxy-groups:
       - "橘子公益-未知-98\r"
       - "俄罗斯联邦-2.15MB%2Fs\r\r"
       - "美国-3.98MB%2Fs\r\r"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r"
+      - "中转节点-105.0KB%2Fs\r\r"
       - "新加坡-8.4MB%2Fs\r\r"
       - "韩国-1.66MB%2Fs\r\r"
-      - "波兰-157.1KB%2Fs\r\r"
+      - "🇷🇺_RU_俄罗斯\r"
       - "香港-1.43MB%2Fs\r\r"
       - "以色列-38.0MB%2Fs\r\r"
       - 美国-2.91MB/s
@@ -5399,7 +4272,6 @@ proxy-groups:
       - "奥地利-469.2KB%2Fs\r\r"
       - "马来西亚-17.8MB%2Fs\r\r"
       - "中转节点-911.8KB/s\r\r"
-      - "中转节点-105.0KB%2Fs\r\r"
       - 法国-527.4KB/s
       - "香港-15.4MB%2Fs\r\r"
       - "橘子公益-未知-57\r"
@@ -5417,53 +4289,27 @@ proxy-groups:
       - "香港_Telegram%40kxswa\r_5\r"
       - "美国-12.6MB%2Fs\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r"
-      - "🇷🇺_RU_俄罗斯\r_1\r"
       - "俄罗斯_Telegram%40kxswa\r_1\r"
       - "美国-9.9MB%2Fs\r\r"
       - "俄罗斯_Telegram%40kxswa\r_2\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
       - "🇨🇭_CH_瑞士\r\r"
-      - "美国-717.4KB%2Fs\r\r"
-      - "美国-723.4KB%2Fs\r\r"
-      - "美国-764.8KB%2Fs\r\r"
-      - "美国-695.6KB%2Fs\r\r"
-      - "美国-656.3KB%2Fs\r\r"
+      - "美国-104.9KB%2Fs\r\r"
       - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r"
-      - "美国-712.1KB%2Fs\r\r"
-      - "美国-572.0KB%2Fs\r\r"
-      - "美国-833.0KB%2Fs\r\r"
-      - "美国-807.2KB%2Fs\r\r"
-      - "美国-729.1KB%2Fs\r\r"
-      - "美国-219.1KB%2Fs\r\r"
       - 美国-2.44MB/s
       - "美国-120.7KB%2Fs\r\r"
-      - "美国-232.9KB%2Fs\r\r"
-      - "美国-404.0KB%2Fs\r\r"
-      - "美国-715.1KB%2Fs\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
-      - "美国-242.5KB%2Fs\r\r"
-      - "美国-165.0KB%2Fs\r\r"
-      - "美国-178.2KB%2Fs\r\r"
-      - "美国-421.5KB%2Fs\r\r"
-      - 中转节点-1.06MB/s
+      - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
       - "未知国家-575.4KB%2Fs\r\r"
-      - "美国-672.7KB%2Fs\r\r"
       - "立陶宛-1.74MB%2Fs\r\r"
       - 未知国家-296.6KB/s
-      - "美国-369.6KB%2Fs\r\r"
       - "荷兰-798.3KB%2Fs\r\r"
-      - 未知国家-675.2KB/s
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-736.0KB%2Fs\r\r"
-      - "美国-560.2KB%2Fs\r\r"
       - "美国-10.4MB%2Fs\r\r"
-      - "美国-104.9KB%2Fs\r\r"
       - "立陶宛-209.6KB%2Fs\r\r"
       - 美国-269.6KB/s
       - "德国-154.2KB%2Fs\r\r"
@@ -5472,50 +4318,42 @@ proxy-groups:
       - "伊朗_Telegram%40kxswa\r\r"
       - 橘子公益-未知-92
       - "香港_Telegram%40kxswa\r_6\r"
-      - 香港_Telegram@kxswa_2
-      - 橘子公益-未知-67
+      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
-      - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - "乌克兰_Telegram%40kxswa\r_2\r"
       - "韩国_Telegram%40kxswa\r\r"
       - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "橘子公益-美国US-153\r"
+      - "橘子公益-美国US-111\r"
+      - "橘子公益-美国US-110\r"
       - "🇺🇸_US_美国\r_2\r"
       - "橘子公益-美国US-105\r"
       - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_3\r"
-      - "🇷🇺_RU_俄罗斯\r_2\r"
       - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r"
       - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r"
       - "🇺🇸_US_美国\r_4\r"
       - "🇺🇦_UA_乌克兰\r\r"
       - "🇺🇸_US_美国\r_5\r"
       - "🇺🇸_US_美国\r_6\r"
-      - "🇷🇺_RU_俄罗斯\r_3\r"
       - "🇩🇰_DK_丹麦\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "🇷🇺_RU_俄罗斯\r"
       - "橘子公益-美国US-1\r"
-      - "橘子公益-美国US-133\r"
+      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-3\r"
-      - "橘子公益-美国US-86\r"
-      - "橘子公益-美国US-109\r"
+      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-6
       - "橘子公益-美国US-135\r"
       - "橘子公益-美国US-142\r"
       - "橘子公益-美国US-13\r"
-      - "橘子公益-美国US-27\r"
-      - "橘子公益-美国US-111\r"
       - "橘子公益-美国US-156\r"
       - "橘子公益-美国US-19\r"
       - "橘子公益-美国US-21\r"
       - "橘子公益-美国US-22\r"
       - "橘子公益-美国US-87\r"
-      - "橘子公益-美国US-150\r"
+      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-32\r"
       - "橘子公益-美国US-33\r"
       - "橘子公益-美国US-101\r"
@@ -5526,13 +4364,11 @@ proxy-groups:
       - 橘子公益-美国US-44
       - "橘子公益-美国US-100\r"
       - "橘子公益-美国US-50\r"
-      - "橘子公益-美国US-81\r"
       - 橘子公益-美国US-75
       - "橘子公益-美国US-54\r"
       - "橘子公益-美国US-55\r"
       - "橘子公益-美国US-56\r"
       - "橘子公益-美国US-57\r"
-      - "橘子公益-美国US-97\r"
       - "橘子公益-美国US-59\r"
       - "橘子公益-美国US-62\r"
       - "橘子公益-美国US-70\r"
@@ -5540,7 +4376,6 @@ proxy-groups:
       - "橘子公益-美国US-149\r"
       - "橘子公益-美国US-73\r"
       - "橘子公益-美国US-76\r"
-      - "橘子公益-美国US-136\r"
       - "橘子公益-美国US-79\r"
       - "橘子公益-美国US-90\r"
       - "橘子公益-美国US-82\r"
@@ -5552,7 +4387,6 @@ proxy-groups:
       - "橘子公益-美国US-104\r"
       - "橘子公益-美国US-107\r"
       - 橘子公益-美国US-108
-      - "橘子公益-美国US-110\r"
       - 橘子公益-美国US-132
       - 橘子公益-美国US-138
       - "橘子公益-美国US-129\r"
@@ -5572,57 +4406,21 @@ proxy-groups:
       - 橘子公益-德国DE-7
       - 橘子公益-德国DE-4
       - 橘子公益-德国DE-6
-      - "橘子公益-荷兰NL-5\r"
-      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-荷兰NL-6\r"
+      - "橘子公益-荷兰NL-4\r"
       - "橘子公益-乌克兰UA-1\r"
       - "橘子公益-未知-1\r"
-      - 橘子公益-未知-43
-      - 橘子公益-未知-40
+      - 橘子公益-未知-77
       - "橘子公益-未知-4\r"
-      - 橘子公益-未知-34
-      - 橘子公益-未知-11
-      - 橘子公益-未知-25
-      - 橘子公益-未知-36
-      - 橘子公益-未知-30
-      - 橘子公益-未知-21
-      - 橘子公益-未知-12
-      - 橘子公益-未知-66
-      - 橘子公益-未知-50
-      - 橘子公益-未知-19
-      - 橘子公益-未知-51
-      - 橘子公益-未知-45
-      - 橘子公益-未知-61
-      - 橘子公益-未知-41
-      - "橘子公益-未知-23\r"
-      - 橘子公益-未知-37
-      - 橘子公益-未知-68
-      - 橘子公益-未知-42
-      - 橘子公益-未知-62
-      - 橘子公益-未知-29
-      - 橘子公益-未知-69
-      - 橘子公益-未知-44
-      - 橘子公益-未知-64
-      - 橘子公益-未知-75
-      - 橘子公益-未知-76
-      - 橘子公益-未知-88
+      - "橘子公益-未知-65\r"
       - "橘子公益-未知-46\r"
-      - "橘子公益-未知-47\r"
+      - "橘子公益-未知-91\r"
       - "橘子公益-未知-48\r"
       - "橘子公益-未知-49\r"
-      - 橘子公益-未知-79
-      - 橘子公益-未知-55
-      - 橘子公益-未知-54
       - 橘子公益-未知-70
       - "橘子公益-未知-58\r"
-      - 橘子公益-未知-63
       - "橘子公益-未知-60\r"
-      - "橘子公益-未知-65\r"
       - "橘子公益-未知-71\r"
-      - 橘子公益-未知-72
-      - 橘子公益-未知-73
-      - 橘子公益-未知-78
-      - 橘子公益-未知-77
       - "橘子公益-未知-80\r"
       - "橘子公益-未知-81\r"
       - "橘子公益-未知-82\r"
@@ -5633,7 +4431,6 @@ proxy-groups:
       - "橘子公益-未知-87\r"
       - "橘子公益-未知-89\r"
       - "橘子公益-未知-90\r"
-      - "橘子公益-未知-91\r"
       - 橘子公益-未知-95
       - "橘子公益-未知-96\r"
       - "橘子公益-未知-97\r"
