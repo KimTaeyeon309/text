@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-20 20:06:24
+# 配置生成日期：2025-02-20 20:34:50
 
 mixed-port: 7890
 allow-lan: false
@@ -50,182 +50,939 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: "马来西亚-39.5MB%2Fs\r\r\r\r"
+  - name: "美国-89.9MB%2Fs\r"
     type: ss
-    server: 103.106.229.219
+    server: 170.64.237.214
+    port: 8443
+    tls: false
+    password: ef713649-c164-4a36-9fc2-ebf93d76e14f
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "乌克兰-2.29MB%2Fs\r"
+    type: ss
+    server: 92.113.116.11
+    port: 15002
+    tls: false
+    password: 2MNBVYYYB23ZF03Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-8.93MB%2Fs\r"
+    type: ss
+    server: 156.231.104.19
+    port: 18009
+    tls: false
+    password: TQQGWG024W2BF6RP
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "俄罗斯联邦-4.12MB%2Fs\r"
+    type: ss
+    server: 185.126.239.231
+    port: 20002
+    tls: false
+    password: G2LC1BQ48SXSBKZX
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "土耳其-8.0MB%2Fs\r"
+    type: ss
+    server: 185.123.101.241
     port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "香港-30.4MB/s\r\r\r\r"
+  - name: "中转节点-207.4KB/s\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "未知国家-2.54MB%2Fs\r"
+    type: ss
+    server: 23.185.248.13
+    port: 17003
+    tls: false
+    password: LKG8G8VL60RSB59P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "土耳其-7.1MB%2Fs\r"
+    type: ss
+    server: 185.123.101.241
+    port: 990
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "新加坡-111.3KB%2Fs\r"
+    type: ss
+    server: 47.129.37.234
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-2.61MB%2Fs\r"
+    type: ss
+    server: gdgs.tarioblink.me
+    port: 30003
+    tls: false
+    password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国-71.7MB%2Fs\r"
+    type: ss
+    server: 156.231.104.20
+    port: 18010
+    tls: false
+    password: 0A876XZUZX93N371
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-3.14MB%2Fs\r"
+    type: ss
+    server: 35.94.110.89
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "俄罗斯联邦-65.8MB%2Fs\r"
+    type: ss
+    server: 185.126.239.231
+    port: 20002
+    tls: false
+    password: G2LC1BQ48SXSBKZX
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-30.4MB/s\r"
     type: trojan
     server: 104.251.227.182
     port: 443
-    network: tcp
     tls: true
     password: 1e63e585ab2fef3adcc9ea75a62abc23
     sni: hezijiasuqi.com
     skip-cert-verify: true
     ip-version: dual
-  - name: "香港_Telegram%40kxswa\r\r\r\r_3"
-    type: ss
-    server: 119.167.230.252
-    port: 28164
-    tls: false
-    password: b637f2e47b7827b308ebf399008075d2
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: 美国-2.44MB/s
-    type: vmess
-    server: 107.167.20.189
-    port: 30001
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
-  - name: "🇺🇸_US_美国\r\r\r\r_5"
-    type: vless
-    server: 104.17.148.22
-    port: 2052
-    uuid: 9f78ae61-2cc0-5df1-9845-f7aff09e22ae
-    network: ws
-    tls: true
-    servername: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
-      headers:
-        host: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r\r\r_6"
-    type: vless
-    server: 104.17.148.22
-    port: 2082
-    uuid: 4e0e0901-374a-4c1f-f71e-9f841e36489e
-    network: ws
-    tls: false
-    servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    ws-opts:
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      headers:
-        host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    ip-version: dual
-  - name: "台湾-194.1KB%2Fs\r\r\r\r"
-    type: ss
-    server: '@@185.189.160.98'
-    port: 64759
-    tls: false
-    password: qwerREWQ
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 美国-1.73MB/s
-    type: vmess
-    server: 107.174.34.6
+    udp: true
+  - name: "日本-16.5MB/s\r"
+    type: trojan
+    server: 188.253.22.10
     port: 443
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    network: ws
-    tls: false
+    tls: true
+    password: '3778399737045327872'
+    sni: key-pangolin.treefrog761.one
+    skip-cert-verify: true
     ip-version: dual
-    cipher: auto
-  - name: "中转节点-1.65MB%2Fs\r\r\r\r"
+    udp: true
+  - name: "俄罗斯联邦-2.15MB%2Fs\r"
+    type: ss
+    server: tel5.vpntype.dev
+    port: 8388
+    tls: false
+    password: 4qD26WardzNTK079
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-2.94MB%2Fs\r"
+    type: ss
+    server: 54.184.126.174
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-1.65MB%2Fs\r"
     type: ss
     server: 119.167.230.252
     port: 22040
     tls: false
     password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
+    udp: true
     cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_5
-    type: vmess
-    server: 120.198.71.216
-    port: 55482
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_8
-    type: vmess
-    server: 120.232.153.123
-    port: 45402
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_1
-    type: vmess
-    server: 120.232.153.40
-    port: 54082
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_4
-    type: vmess
-    server: 120.232.153.63
-    port: 40165
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_7
-    type: vmess
-    server: 120.232.153.63
-    port: 40172
-    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_6
-    type: vmess
-    server: 120.234.102.229
-    port: 52908
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "韩国-4.16MB%2Fs\r\r\r\r"
+  - name: "新加坡-126.4KB%2Fs\r"
     type: ss
-    server: 13.125.111.28
+    server: 154.196.244.12
+    port: 16002
+    tls: false
+    password: CZWGKVVKET2BTRBK
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-1.66MB%2Fs\r"
+    type: ss
+    server: 43.203.253.211
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "新加坡-1.16MB%2Fs\r\r\r\r"
+  - name: "波兰-33.9MB%2Fs\r"
+    type: ss
+    server: 217.30.10.18
+    port: 9033
+    tls: false
+    password: UTJA57ypk2XKQpnm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-2.73MB/s\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "香港-1.43MB%2Fs\r"
+    type: ss
+    server: 156.245.190.19
+    port: 15010
+    tls: false
+    password: AYC4MQ5DSGJ4QOKG
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-2.67MB%2Fs\r"
+    type: ss
+    server: 35.94.110.89
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "俄罗斯联邦-44.5MB%2Fs\r"
+    type: ss
+    server: 185.126.239.231
+    port: 20002
+    tls: false
+    password: G2LC1BQ48SXSBKZX
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "土耳其-18.1MB%2Fs\r"
+    type: ss
+    server: 185.123.101.241
+    port: 990
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "以色列-33.8MB%2Fs\r"
+    type: ss
+    server: 188.191.147.127
+    port: 31348
+    tls: false
+    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 美国-2.91MB/s
+    type: vmess
+    server: 38.174.190.80
+    port: 38007
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "乌克兰-52.4MB%2Fs\r"
+    type: ss
+    server: 92.113.116.11
+    port: 15002
+    tls: false
+    password: 2MNBVYYYB23ZF03Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "新加坡-8.4MB%2Fs\r"
+    type: ss
+    server: 154.196.244.12
+    port: 16002
+    tls: false
+    password: CZWGKVVKET2BTRBK
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-3.46MB%2Fs\r"
+    type: ss
+    server: 35.94.110.89
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "英国-12.3MB%2Fs\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "韩国-191.4KB%2Fs\r"
+    type: ss
+    server: 52.79.101.162
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "未知国家-8.9MB%2Fs\r"
+    type: ss
+    server: 23.185.248.17
+    port: 17007
+    tls: false
+    password: Z7C08JB1HBMWQHVP
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 法国-14.4MB/s
+    type: vmess
+    server: 57.129.28.69
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "美国-1.78MB%2Fs\r"
+    type: ss
+    server: 35.94.110.89
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-234.7KB%2Fs\r"
+    type: ss
+    server: hk.fastsoonlink.com
+    port: 40000
+    tls: false
+    password: 3FB23A19-9424-40C7-9139-3540228283FA
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国-1.71MB%2Fs\r"
+    type: ss
+    server: 54.184.126.174
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "斯洛伐克-31.8MB%2Fs\r"
+    type: ss
+    server: 156.146.40.194
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "新加坡-115.1KB%2Fs\r"
     type: ss
     server: 13.213.40.92
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "美国-3.74MB%2Fs\r\r\r\r"
+  - name: "奥地利-469.2KB%2Fs\r"
     type: ss
-    server: 137.175.113.215
+    server: at1.opensocks.site
     port: 8388
     tls: false
-    password: asd123456
+    password: OWY4ODBm
     ip-version: dual
-    cipher: chacha20-ietf
-  - name: 美国-2.97MB/s
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-224.2KB/s\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "马来西亚-34.1MB%2Fs\r"
+    type: ss
+    server: 103.106.229.219
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港-6.60MB/s\r"
+    type: trojan
+    server: 104.251.227.182
+    port: 443
+    tls: true
+    password: 1e63e585ab2fef3adcc9ea75a62abc23
+    sni: hezijiasuqi.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "英国-168.5KB%2Fs\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "乌克兰-31.5MB%2Fs\r"
+    type: ss
+    server: 92.113.116.11
+    port: 15002
+    tls: false
+    password: 2MNBVYYYB23ZF03Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-911.8KB/s\r"
+    type: trojan
+    server: naiu-us.05vr9nyqg5.download
+    port: 13019
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "中转节点-38.6MB%2Fs\r"
+    type: ss
+    server: 119.167.230.252
+    port: 28164
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "未知国家-18.1MB%2Fs\r"
+    type: ss
+    server: 23.185.248.17
+    port: 17007
+    tls: false
+    password: Z7C08JB1HBMWQHVP
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 法国-527.4KB/s
     type: vmess
-    server: 142.4.104.33
-    port: 52143
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
+    server: 57.129.25.20
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    network: ws
     tls: false
     ip-version: dual
+    udp: true
+    alterId: 1
+    cipher: auto
+  - name: "韩国-3.09MB%2Fs\r"
+    type: ss
+    server: 52.79.101.162
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "英国-3.13MB%2Fs\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港-1.70MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-3.39MB/s\r"
+    type: trojan
+    server: lm.kaiqsz.com
+    port: 51075
+    tls: true
+    password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "新加坡-52.3MB%2Fs\r"
+    type: ss
+    server: 154.196.244.21
+    port: 16011
+    tls: false
+    password: 8WDLSCVIFB4I26GB
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "新加坡-15.6MB%2Fs\r"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-831.4KB%2Fs\r"
+    type: ss
+    server: tengx.wwwq.net
+    port: 37310
+    tls: false
+    password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-2.63MB%2Fs\r"
+    type: ss
+    server: 3.39.249.88
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 美国-3.49MB/s
+    type: vmess
+    server: 172.111.36.108
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "韩国-3.38MB%2Fs\r"
+    type: ss
+    server: 13.125.111.28
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "未知国家-16.5MB%2Fs\r"
+    type: ss
+    server: 23.185.248.13
+    port: 17003
+    tls: false
+    password: LKG8G8VL60RSB59P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-2.67MB%2Fs\r"
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-135.2KB%2Fs\r"
+    type: ss
+    server: 119.167.230.252
+    port: 28164
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "新加坡-17.5MB%2Fs\r"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-121.2KB%2Fs\r"
+    type: ss
+    server: 119.167.230.252
+    port: 22040
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "香港-266.9KB%2Fs\r"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "马来西亚-42.2MB%2Fs\r"
+    type: ss
+    server: 103.106.229.219
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "立陶宛-254.9KB%2Fs\r"
+    type: ss
+    server: 45.87.175.65
+    port: 8080
+    tls: false
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-171.2KB/s\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "美国-4.37MB%2Fs\r"
+    type: ss
+    server: 54.184.126.174
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "英国-2.71MB%2Fs\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-4.12MB%2Fs\r"
+    type: ss
+    server: 45.158.171.110
+    port: 8080
+    tls: false
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-239.5KB%2Fs\r"
+    type: ss
+    server: tengx.wwwq.net
+    port: 37310
+    tls: false
+    password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-21.8MB%2Fs\r"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "波兰-157.1KB%2Fs\r"
+    type: ss
+    server: 217.30.10.18
+    port: 9033
+    tls: false
+    password: UTJA57ypk2XKQpnm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "韩国-4.20MB%2Fs\r"
+    type: ss
+    server: 3.39.249.88
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "新加坡-18.1MB%2Fs\r"
+    type: ss
+    server: 154.196.244.26
+    port: 16016
+    tls: false
+    password: YHK82TR73114VN9O
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-101.5KB%2Fs\r"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-3.98MB%2Fs\r"
+    type: ss
+    server: 54.184.126.174
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "立陶宛-79.6MB%2Fs\r"
+    type: ss
+    server: 45.87.175.65
+    port: 8080
+    tls: false
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "韩国-4.15MB%2Fs\r"
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 美国-4.82MB/s
+    type: vmess
+    server: 142.4.108.135
+    port: 38007
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
     alterId: 64
     cipher: auto
+  - name: "俄罗斯联邦-81.3MB%2Fs\r"
+    type: ss
+    server: 89.221.224.166
+    port: 1443
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "波兰-120.7KB%2Fs\r"
+    type: ss
+    server: 217.30.10.18
+    port: 9019
+    tls: false
+    password: GA9KzeEgvfxNrgmM
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-122.2KB/s\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "未知国家-15.1MB%2Fs\r"
+    type: ss
+    server: 23.185.248.13
+    port: 17003
+    tls: false
+    password: LKG8G8VL60RSB59P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-687.0KB%2Fs\r"
+    type: ss
+    server: tengx.wwwq.net
+    port: 37310
+    tls: false
+    password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-4.01MB%2Fs\r"
+    type: ss
+    server: 45.158.171.110
+    port: 8080
+    tls: false
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-3.07MB/s\r"
+    type: trojan
+    server: lm.kaiqsz.com
+    port: 51075
+    tls: true
+    password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "俄罗斯联邦-226.7KB%2Fs\r"
+    type: ss
+    server: 89.221.224.166
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "香港-61.4MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-4.16MB%2Fs\r"
+    type: ss
+    server: 13.125.111.28
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-115.1KB%2Fs\r"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "马来西亚-45.8MB%2Fs\r"
+    type: ss
+    server: 103.106.229.219
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "乌克兰-14.5MB%2Fs\r"
+    type: ss
+    server: 92.113.116.11
+    port: 15002
+    tls: false
+    password: 2MNBVYYYB23ZF03Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-206.3KB%2Fs\r"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-4.06MB%2Fs\r"
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "俄罗斯联邦-30.5MB%2Fs\r"
+    type: ss
+    server: is3.opensocks.site
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-184.7KB/s\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 美国-156.2KB/s
+    type: vmess
+    server: 170.114.46.139
+    port: 8443
+    uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港-68.6MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
   - name: 美国-4.44MB/s
     type: vmess
     server: 142.4.108.135
@@ -234,430 +991,2683 @@ proxies:
     network: ws
     tls: false
     ip-version: dual
+    udp: true
     alterId: 64
     cipher: auto
-  - name: "🇺🇸_US_美国\r\r\r\r_4"
-    type: vless
-    server: 151.101.130.219
-    port: 80
-    uuid: cdf893de-bf95-40f9-b2ea-fae31f2bc7fb
-    network: ws
-    tls: true
-    servername: Digikala.iranian.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
-      headers:
-        host: Digikala.iranian.net
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r\r\r_1"
-    type: vless
-    server: 151.101.194.219
-    port: 80
-    uuid: fe27a1ea-68e4-4784-834e-b4dc239fa152
-    network: ws
-    tls: true
-    servername: foffmelo.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /olem/ws
-      headers:
-        host: foffmelo.com
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r\r_2"
-    type: vless
-    server: 151.101.65.6
-    port: 80
-    uuid: f6646232-9d2a-50ec-82d2-8a51673d84d7
-    network: ws
-    tls: true
-    servername: JoinBede-mosiv2.ir
-    skip-cert-verify: true
-    ws-opts:
-      headers:
-        host: JoinBede-mosiv2.ir
-    ip-version: dual
-  - name: "新加坡-126.4KB%2Fs\r\r\r\r"
+  - name: "韩国-2.98MB%2Fs\r"
     type: ss
-    server: 154.196.244.12
-    port: 16002
+    server: 54.180.133.38
+    port: 443
     tls: false
-    password: CZWGKVVKET2BTRBK
+    password: amazonskr05
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r\r\r_5"
-    type: ss
-    server: 154.196.244.20
-    port: 16010
-    tls: false
-    password: 2UOL8ESS12X0J31P
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r\r\r_1"
-    type: ss
-    server: 154.196.244.21
-    port: 16011
-    tls: false
-    password: 8WDLSCVIFB4I26GB
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r\r\r_4"
-    type: ss
-    server: 154.196.244.26
-    port: 16016
-    tls: false
-    password: YHK82TR73114VN9O
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "美国-80.4MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.16
-    port: 18006
+  - name: 美国-4.84MB/s
+    type: vmess
+    server: 38.33.24.90
+    port: 37001
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
     tls: false
-    password: 7U4Y1WQBHKIMGFBR
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r\r\r_4"
-    type: ss
-    server: 156.231.104.18
-    port: 18008
-    tls: false
-    password: 53RIUQDZR3B23TA3
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-8.93MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.19
-    port: 18009
-    tls: false
-    password: TQQGWG024W2BF6RP
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-71.7MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.20
-    port: 18010
-    tls: false
-    password: 0A876XZUZX93N371
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-25.1MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.22
-    port: 18012
-    tls: false
-    password: V4R0XM7GMEZF9QA5
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r\r\r_2"
-    type: ss
-    server: 156.231.104.23
-    port: 18013
-    tls: false
-    password: 4OAKJ8CASERAWXI1
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r\r\r_3"
-    type: ss
-    server: 156.231.104.26
-    port: 18016
-    tls: false
-    password: PGF2TGUCHQBC5IP5
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "香港-47.4MB%2Fs\r\r\r\r"
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "香港-66.6MB%2Fs\r"
     type: ss
     server: 156.245.190.16
     port: 15007
     tls: false
     password: MHZUEOX3KBXAV09K
     ip-version: dual
+    udp: true
     cipher: aes-256-gcm
-  - name: "香港-1.43MB%2Fs\r\r\r\r"
+  - name: "未知国家-14.1MB%2Fs\r"
     type: ss
-    server: 156.245.190.19
-    port: 15010
+    server: 23.185.248.13
+    port: 17003
     tls: false
-    password: AYC4MQ5DSGJ4QOKG
+    password: LKG8G8VL60RSB59P
     ip-version: dual
+    udp: true
     cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r\r\r_6"
+  - name: "韩国-2.70MB%2Fs\r"
+    type: ss
+    server: 3.39.249.88
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "俄罗斯联邦-145.9KB%2Fs\r"
+    type: ss
+    server: 89.221.224.166
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "英国-53.9MB%2Fs\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港-1.65MB/s\r"
+    type: trojan
+    server: 104.251.227.182
+    port: 443
+    tls: true
+    password: 1e63e585ab2fef3adcc9ea75a62abc23
+    sni: hezijiasuqi.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "新加坡-8.8MB%2Fs\r"
+    type: ss
+    server: 154.196.244.26
+    port: 16016
+    tls: false
+    password: YHK82TR73114VN9O
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "俄罗斯联邦-29.3MB%2Fs\r"
+    type: ss
+    server: is3.opensocks.site
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "韩国-4.12MB%2Fs\r"
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "瑞士-3.36MB%2Fs\r"
+    type: ss
+    server: 84.17.53.160
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "立陶宛-195.4KB%2Fs\r"
+    type: ss
+    server: 45.87.175.65
+    port: 8080
+    tls: false
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "香港-27.3MB%2Fs\r"
     type: ss
     server: 156.245.190.23
     port: 15014
     tls: false
     password: ZDGC0Q2E112UAJO6
     ip-version: dual
+    udp: true
     cipher: aes-256-gcm
+  - name: "韩国-2.68MB%2Fs\r"
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-83.7MB%2Fs\r"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 美国-3.20MB/s
+    type: vmess
+    server: 38.33.24.90
+    port: 37001
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "韩国-2.54MB%2Fs\r"
+    type: ss
+    server: 3.39.249.88
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "乌克兰-11.6MB%2Fs\r"
+    type: ss
+    server: 92.113.116.11
+    port: 15002
+    tls: false
+    password: 2MNBVYYYB23ZF03Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "新加坡-48.8MB%2Fs\r"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-197.3KB%2Fs\r"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-71.0MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "新加坡-18.8MB%2Fs\r"
+    type: ss
+    server: 154.196.244.26
+    port: 16016
+    tls: false
+    password: YHK82TR73114VN9O
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "马来西亚-49.2MB%2Fs\r"
+    type: ss
+    server: 103.106.229.219
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-717.4KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 3306
+    tls: false
+    password: Y6R9pAtvxxzmGC
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-723.4KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 7001
+    tls: false
+    password: RexnBgU7EV5ADxG
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-764.8KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 2376
+    tls: false
+    password: faBAoD54k87UJG7
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-747.9KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 5500
+    tls: false
+    password: KixLvKzwjekG00rm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-656.3KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 5003
+    tls: false
+    password: g5MeD6Ft3CWlJId
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 美国-2.89MB/s
+    type: vmess
+    server: 38.14.107.226
+    port: 38003
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "美国-747.6KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 9102
+    tls: false
+    password: e4FCWrgpkji3QY
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-742.3KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8118
+    tls: false
+    password: cdBIDV42DCwnfIN
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-748.5KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8009
+    tls: false
+    password: XKFKl2rULjIp74
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-833.0KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 5601
+    tls: false
+    password: Y6R9pAtvxxzmGC
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-6.15MB/s\r"
+    type: trojan
+    server: lm.kaiqsz.com
+    port: 51075
+    tls: true
+    password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "美国-747.6KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 9102
+    tls: false
+    password: e4FCWrgpkji3QY
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-807.2KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 443
+    tls: false
+    password: pKEW8JPByTVTLtM
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-729.1KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 9101
+    tls: false
+    password: e4FCWrgpkji3QY
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-556.8KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8009
+    tls: false
+    password: XKFKl2rULjIp74
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "新加坡-27.3MB%2Fs\r"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-22.8MB%2Fs\r"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-21.6MB%2Fs\r_1"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-1.47MB%2Fs\r"
+    type: ss
+    server: 3.39.249.88
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港-116.5KB%2Fs\r_1"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-807.2KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 443
+    tls: false
+    password: pKEW8JPByTVTLtM
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-828.7KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 7002
+    tls: false
+    password: RexnBgU7EV5ADxG
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-367.7KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8118
+    tls: false
+    password: cdBIDV42DCwnfIN
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 美国-2.44MB/s
+    type: vmess
+    server: 107.167.20.189
+    port: 30001
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "瑞士-31.3MB%2Fs\r"
+    type: ss
+    server: 84.17.53.160
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港-18.8MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-17.5MB%2Fs\r"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-21.6MB%2Fs\r_2"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "未知国家-13.9MB%2Fs\r"
+    type: ss
+    server: 23.185.248.13
+    port: 17003
+    tls: false
+    password: LKG8G8VL60RSB59P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-32.6MB%2Fs\r_1"
+    type: ss
+    server: 119.167.230.252
+    port: 28164
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "美国-572.0KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 8009
+    tls: false
+    password: XKFKl2rULjIp74
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-13.4MB%2Fs\r_1"
+    type: ss
+    server: 95.164.122.61
+    port: 54075
+    tls: false
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "新加坡-3.5MB%2Fs\r_1"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-116.5KB%2Fs\r_2"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-712.1KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 8118
+    tls: false
+    password: cdBIDV42DCwnfIN
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-730.1KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 6379
+    tls: false
+    password: zDNVedRFPQexG9v
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-33.0MB%2Fs\r_1"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-18.7MB%2Fs\r_1"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-39.6MB%2Fs\r_1"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-32.6MB%2Fs\r_2"
+    type: ss
+    server: 119.167.230.252
+    port: 28164
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "美国-572.0KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 8009
+    tls: false
+    password: XKFKl2rULjIp74
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-13.4MB%2Fs\r_2"
+    type: ss
+    server: 95.164.122.61
+    port: 54075
+    tls: false
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "新加坡-3.5MB%2Fs\r_2"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-116.5KB%2Fs\r_3"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-712.1KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 8118
+    tls: false
+    password: cdBIDV42DCwnfIN
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-730.1KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 6379
+    tls: false
+    password: zDNVedRFPQexG9v
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-33.0MB%2Fs\r_2"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-18.7MB%2Fs\r_2"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-39.6MB%2Fs\r_2"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "英国-15.5MB%2Fs\r_1"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-9.8MB%2Fs\r_1"
+    type: ss
+    server: 95.164.122.61
+    port: 54075
+    tls: false
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国-219.1KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 7002
+    tls: false
+    password: RexnBgU7EV5ADxG
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-404.0KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 8000
+    tls: false
+    password: KixLvKzwjekG00rm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-715.1KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 8091
+    tls: false
+    password: PCnnH6SQSnfoS27
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "以色列-59.0MB%2Fs\r_1"
+    type: ss
+    server: 188.191.147.127
+    port: 31348
+    tls: false
+    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 美国-2.88MB/s_1
+    type: vmess
+    server: 142.4.104.33
+    port: 52143
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: 美国-3.53MB/s_1
+    type: vmess
+    server: 38.54.94.122
+    port: 2053
+    uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "美国-341.6KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 6379
+    tls: false
+    password: zDNVedRFPQexG9v
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-242.5KB%2Fs\r_1"
+    type: ss
+    server: 38.121.43.71
+    port: 4444
+    tls: false
+    password: pKEW8JPByTVTLtM
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "英国-15.5MB%2Fs\r_2"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-9.8MB%2Fs\r_2"
+    type: ss
+    server: 95.164.122.61
+    port: 54075
+    tls: false
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国-219.1KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 7002
+    tls: false
+    password: RexnBgU7EV5ADxG
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-404.0KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 8000
+    tls: false
+    password: KixLvKzwjekG00rm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-715.1KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 8091
+    tls: false
+    password: PCnnH6SQSnfoS27
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "以色列-59.0MB%2Fs\r_2"
+    type: ss
+    server: 188.191.147.127
+    port: 31348
+    tls: false
+    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 美国-2.88MB/s_2
+    type: vmess
+    server: 142.4.104.33
+    port: 52143
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: 美国-3.53MB/s_2
+    type: vmess
+    server: 38.54.94.122
+    port: 2053
+    uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "美国-341.6KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 6379
+    tls: false
+    password: zDNVedRFPQexG9v
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-242.5KB%2Fs\r_2"
+    type: ss
+    server: 38.121.43.71
+    port: 4444
+    tls: false
+    password: pKEW8JPByTVTLtM
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-165.0KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8008
+    tls: false
+    password: XKFKl2rULjIp74
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "波兰-224.4KB%2Fs\r"
+    type: ss
+    server: 217.30.10.18
+    port: 9019
+    tls: false
+    password: GA9KzeEgvfxNrgmM
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-178.2KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8080
+    tls: false
+    password: KixLvKzwjekG00rm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-1.56MB%2Fs\r"
+    type: ss
+    server: 3.39.249.88
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 美国-2.97MB/s
+    type: vmess
+    server: 142.4.104.33
+    port: 52143
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "香港-47.4MB%2Fs\r"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-31.9MB%2Fs\r"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-23.3MB%2Fs\r"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-21.7MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-19.0MB%2Fs\r"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-11.0MB%2Fs\r"
+    type: ss
+    server: 95.164.122.61
+    port: 54075
+    tls: false
+    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "英国-37.4MB%2Fs\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 美国-4.86MB/s
+    type: vmess
+    server: 142.4.104.33
+    port: 52143
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: "美国-257.5KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8888
+    tls: false
+    password: Y6R9pAtvxxzmGC
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-19.9MB%2Fs\r"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-27.3MB%2Fs\r"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-17.0MB%2Fs\r"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-2.59MB%2Fs\r"
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 中转节点-1.06MB/s
+    type: vmess
+    server: 183.236.51.38
+    port: 59104
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 64
+    cipher: auto
+  - name: 中转节点-13.1MB/s
+    type: vmess
+    server: 47.97.82.13
+    port: 11126
+    uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "未知国家-575.4KB%2Fs\r"
+    type: ss
+    server: service.ouluyun9803.com
+    port: 20005
+    tls: false
+    password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国-672.7KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8881
+    tls: false
+    password: kDWvXYZoTBcGkC4
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-695.6KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 5500
+    tls: false
+    password: KixLvKzwjekG00rm
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-421.5KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 8888
+    tls: false
+    password: Y6R9pAtvxxzmGC
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "立陶宛-1.74MB%2Fs\r"
+    type: ss
+    server: 45.87.175.181
+    port: 8080
+    tls: false
+    password: cvII85TrW6n0OGyfpHVS1u
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 未知国家-296.6KB/s
+    type: vmess
+    server: s1.db-link01.top
+    port: 8080
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "美国-369.6KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 6679
+    tls: false
+    password: TEzjfAYq2IjtuoS
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "荷兰-798.3KB%2Fs\r"
+    type: ss
+    server: 185.242.86.156
+    port: 54170
+    tls: false
+    password: 36ZCHeabUSfKjfQEvJ4HDV
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 未知国家-675.2KB/s
+    type: vmess
+    server: 104.16.155.10
+    port: 2082
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 未知国家-650.4KB/s
+    type: vmess
+    server: 104.16.155.10
+    port: 2086
+    uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 俄罗斯联邦-72.3MB/s
+    type: vmess
+    server: 195.58.49.42
+    port: 20326
+    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "新加坡-351.3KB%2Fs\r"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-736.0KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 5600
+    tls: false
+    password: Y6R9pAtvxxzmGC
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "以色列-38.0MB%2Fs\r"
+    type: ss
+    server: 188.191.147.127
+    port: 31348
+    tls: false
+    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "马来西亚-17.8MB%2Fs\r"
+    type: ss
+    server: 103.106.229.219
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国-560.2KB%2Fs\r"
+    type: ss
+    server: 38.121.43.71
+    port: 7307
+    tls: false
+    password: FoOiGlkAA9yPEGP
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-23.9MB%2Fs\r"
+    type: ss
+    server: 156.245.190.16
+    port: 15007
+    tls: false
+    password: MHZUEOX3KBXAV09K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-15.1MB%2Fs\r"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-18.4MB%2Fs\r"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 韩国-95.4MB%2Fs
+    type: ss
+    server: 54.180.133.38
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -680,44 +3690,241 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - "香港-30.4MB/s\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - 美国-2.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "台湾-194.1KB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_8
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_6
-      - "韩国-4.16MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
+      - "美国-89.9MB%2Fs\r"
+      - "乌克兰-2.29MB%2Fs\r"
+      - "美国-8.93MB%2Fs\r"
+      - "俄罗斯联邦-4.12MB%2Fs\r"
+      - "土耳其-8.0MB%2Fs\r"
+      - "中转节点-207.4KB/s\r"
+      - "未知国家-2.54MB%2Fs\r"
+      - "土耳其-7.1MB%2Fs\r"
+      - "新加坡-111.3KB%2Fs\r"
+      - "中转节点-2.61MB%2Fs\r"
+      - "美国-71.7MB%2Fs\r"
+      - "美国-3.14MB%2Fs\r"
+      - "俄罗斯联邦-65.8MB%2Fs\r"
+      - "香港-30.4MB/s\r"
+      - "日本-16.5MB/s\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r"
+      - "美国-2.94MB%2Fs\r"
+      - "中转节点-1.65MB%2Fs\r"
+      - "新加坡-126.4KB%2Fs\r"
+      - "韩国-1.66MB%2Fs\r"
+      - "波兰-33.9MB%2Fs\r"
+      - "中转节点-2.73MB/s\r"
+      - "香港-1.43MB%2Fs\r"
+      - "美国-2.67MB%2Fs\r"
+      - "俄罗斯联邦-44.5MB%2Fs\r"
+      - "土耳其-18.1MB%2Fs\r"
+      - "以色列-33.8MB%2Fs\r"
+      - 美国-2.91MB/s
+      - "乌克兰-52.4MB%2Fs\r"
+      - "新加坡-8.4MB%2Fs\r"
+      - "美国-3.46MB%2Fs\r"
+      - "英国-12.3MB%2Fs\r"
+      - "韩国-191.4KB%2Fs\r"
+      - "未知国家-8.9MB%2Fs\r"
+      - 法国-14.4MB/s
+      - "美国-1.78MB%2Fs\r"
+      - "中转节点-234.7KB%2Fs\r"
+      - "美国-1.71MB%2Fs\r"
+      - "斯洛伐克-31.8MB%2Fs\r"
+      - "新加坡-115.1KB%2Fs\r"
+      - "奥地利-469.2KB%2Fs\r"
+      - "中转节点-224.2KB/s\r"
+      - "马来西亚-34.1MB%2Fs\r"
+      - "香港-6.60MB/s\r"
+      - "英国-168.5KB%2Fs\r"
+      - "乌克兰-31.5MB%2Fs\r"
+      - "中转节点-911.8KB/s\r"
+      - "中转节点-38.6MB%2Fs\r"
+      - "未知国家-18.1MB%2Fs\r"
+      - 法国-527.4KB/s
+      - "韩国-3.09MB%2Fs\r"
+      - "英国-3.13MB%2Fs\r"
+      - "香港-1.70MB%2Fs\r"
+      - "中转节点-3.39MB/s\r"
+      - "新加坡-52.3MB%2Fs\r"
+      - "新加坡-15.6MB%2Fs\r"
+      - "中转节点-831.4KB%2Fs\r"
+      - "韩国-2.63MB%2Fs\r"
+      - 美国-3.49MB/s
+      - "韩国-3.38MB%2Fs\r"
+      - "未知国家-16.5MB%2Fs\r"
+      - "韩国-2.67MB%2Fs\r"
+      - "中转节点-135.2KB%2Fs\r"
+      - "新加坡-17.5MB%2Fs\r"
+      - "中转节点-121.2KB%2Fs\r"
+      - "香港-266.9KB%2Fs\r"
+      - "马来西亚-42.2MB%2Fs\r"
+      - "立陶宛-254.9KB%2Fs\r"
+      - "中转节点-171.2KB/s\r"
+      - "美国-4.37MB%2Fs\r"
+      - "英国-2.71MB%2Fs\r"
+      - "美国-4.12MB%2Fs\r"
+      - "中转节点-239.5KB%2Fs\r"
+      - "美国-21.8MB%2Fs\r"
+      - "波兰-157.1KB%2Fs\r"
+      - "韩国-4.20MB%2Fs\r"
+      - "新加坡-18.1MB%2Fs\r"
+      - "美国-101.5KB%2Fs\r"
+      - "美国-3.98MB%2Fs\r"
+      - "立陶宛-79.6MB%2Fs\r"
+      - "韩国-4.15MB%2Fs\r"
+      - 美国-4.82MB/s
+      - "俄罗斯联邦-81.3MB%2Fs\r"
+      - "波兰-120.7KB%2Fs\r"
+      - "中转节点-122.2KB/s\r"
+      - "未知国家-15.1MB%2Fs\r"
+      - "中转节点-687.0KB%2Fs\r"
+      - "美国-4.01MB%2Fs\r"
+      - "中转节点-3.07MB/s\r"
+      - "俄罗斯联邦-226.7KB%2Fs\r"
+      - "香港-61.4MB%2Fs\r"
+      - "韩国-4.16MB%2Fs\r"
+      - "美国-115.1KB%2Fs\r"
+      - "马来西亚-45.8MB%2Fs\r"
+      - "乌克兰-14.5MB%2Fs\r"
+      - "美国-206.3KB%2Fs\r"
+      - "韩国-4.06MB%2Fs\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r"
+      - "中转节点-184.7KB/s\r"
+      - 美国-156.2KB/s
+      - "香港-68.6MB%2Fs\r"
       - 美国-4.44MB/s
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国-8.93MB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
-      - "美国_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "香港-47.4MB%2Fs\r\r\r\r"
-      - "香港-1.43MB%2Fs\r\r\r\r"
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
+      - "韩国-2.98MB%2Fs\r"
+      - 美国-4.84MB/s
+      - "香港-66.6MB%2Fs\r"
+      - "未知国家-14.1MB%2Fs\r"
+      - "韩国-2.70MB%2Fs\r"
+      - "俄罗斯联邦-145.9KB%2Fs\r"
+      - "英国-53.9MB%2Fs\r"
+      - "香港-1.65MB/s\r"
+      - "新加坡-8.8MB%2Fs\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r"
+      - "韩国-4.12MB%2Fs\r"
+      - "瑞士-3.36MB%2Fs\r"
+      - "立陶宛-195.4KB%2Fs\r"
+      - "香港-27.3MB%2Fs\r"
+      - "韩国-2.68MB%2Fs\r"
+      - "美国-83.7MB%2Fs\r"
+      - 美国-3.20MB/s
+      - "韩国-2.54MB%2Fs\r"
+      - "乌克兰-11.6MB%2Fs\r"
+      - "新加坡-48.8MB%2Fs\r"
+      - "香港-197.3KB%2Fs\r"
+      - "香港-71.0MB%2Fs\r"
+      - "新加坡-18.8MB%2Fs\r"
+      - "马来西亚-49.2MB%2Fs\r"
+      - "美国-717.4KB%2Fs\r"
+      - "美国-723.4KB%2Fs\r"
+      - "美国-764.8KB%2Fs\r"
+      - "美国-747.9KB%2Fs\r"
+      - "美国-656.3KB%2Fs\r"
+      - 美国-2.89MB/s
+      - "美国-747.6KB%2Fs\r_1"
+      - "美国-742.3KB%2Fs\r"
+      - "美国-748.5KB%2Fs\r"
+      - "美国-833.0KB%2Fs\r"
+      - "中转节点-6.15MB/s\r"
+      - "美国-747.6KB%2Fs\r_2"
+      - "美国-807.2KB%2Fs\r_1"
+      - "美国-729.1KB%2Fs\r"
+      - "美国-556.8KB%2Fs\r"
+      - "新加坡-27.3MB%2Fs\r"
+      - "美国-22.8MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_1"
+      - "韩国-1.47MB%2Fs\r"
+      - "香港-116.5KB%2Fs\r_1"
+      - "美国-807.2KB%2Fs\r_2"
+      - "美国-828.7KB%2Fs\r"
+      - "美国-367.7KB%2Fs\r"
+      - 美国-2.44MB/s
+      - "瑞士-31.3MB%2Fs\r"
+      - "香港-18.8MB%2Fs\r"
+      - "美国-17.5MB%2Fs\r"
+      - "美国-21.6MB%2Fs\r_2"
+      - "未知国家-13.9MB%2Fs\r"
+      - "中转节点-32.6MB%2Fs\r_1"
+      - "美国-572.0KB%2Fs\r_1"
+      - "美国-13.4MB%2Fs\r_1"
+      - "新加坡-3.5MB%2Fs\r_1"
+      - "香港-116.5KB%2Fs\r_2"
+      - "美国-712.1KB%2Fs\r_1"
+      - "美国-730.1KB%2Fs\r_1"
+      - "香港-33.0MB%2Fs\r_1"
+      - "美国-18.7MB%2Fs\r_1"
+      - "美国-39.6MB%2Fs\r_1"
+      - "中转节点-32.6MB%2Fs\r_2"
+      - "美国-572.0KB%2Fs\r_2"
+      - "美国-13.4MB%2Fs\r_2"
+      - "新加坡-3.5MB%2Fs\r_2"
+      - "香港-116.5KB%2Fs\r_3"
+      - "美国-712.1KB%2Fs\r_2"
+      - "美国-730.1KB%2Fs\r_2"
+      - "香港-33.0MB%2Fs\r_2"
+      - "美国-18.7MB%2Fs\r_2"
+      - "美国-39.6MB%2Fs\r_2"
+      - "英国-15.5MB%2Fs\r_1"
+      - "美国-9.8MB%2Fs\r_1"
+      - "美国-219.1KB%2Fs\r_1"
+      - "美国-404.0KB%2Fs\r_1"
+      - "美国-715.1KB%2Fs\r_1"
+      - "以色列-59.0MB%2Fs\r_1"
+      - 美国-2.88MB/s_1
+      - 美国-3.53MB/s_1
+      - "美国-341.6KB%2Fs\r_1"
+      - "美国-242.5KB%2Fs\r_1"
+      - "英国-15.5MB%2Fs\r_2"
+      - "美国-9.8MB%2Fs\r_2"
+      - "美国-219.1KB%2Fs\r_2"
+      - "美国-404.0KB%2Fs\r_2"
+      - "美国-715.1KB%2Fs\r_2"
+      - "以色列-59.0MB%2Fs\r_2"
+      - 美国-2.88MB/s_2
+      - 美国-3.53MB/s_2
+      - "美国-341.6KB%2Fs\r_2"
+      - "美国-242.5KB%2Fs\r_2"
+      - "美国-165.0KB%2Fs\r"
+      - "波兰-224.4KB%2Fs\r"
+      - "美国-178.2KB%2Fs\r"
+      - "韩国-1.56MB%2Fs\r"
+      - 美国-2.97MB/s
+      - "香港-47.4MB%2Fs\r"
+      - "美国-31.9MB%2Fs\r"
+      - "美国-23.3MB%2Fs\r"
+      - "香港-21.7MB%2Fs\r"
+      - "美国-19.0MB%2Fs\r"
+      - "美国-11.0MB%2Fs\r"
+      - "英国-37.4MB%2Fs\r"
+      - 美国-4.86MB/s
+      - "美国-257.5KB%2Fs\r"
+      - "美国-19.9MB%2Fs\r"
+      - "美国-27.3MB%2Fs\r"
+      - "美国-17.0MB%2Fs\r"
+      - "韩国-2.59MB%2Fs\r"
+      - 中转节点-1.06MB/s
+      - 中转节点-13.1MB/s
+      - "未知国家-575.4KB%2Fs\r"
+      - "美国-672.7KB%2Fs\r"
+      - "美国-695.6KB%2Fs\r"
+      - "美国-421.5KB%2Fs\r"
+      - "立陶宛-1.74MB%2Fs\r"
+      - 未知国家-296.6KB/s
+      - "美国-369.6KB%2Fs\r"
+      - "荷兰-798.3KB%2Fs\r"
+      - 未知国家-675.2KB/s
+      - 未知国家-650.4KB/s
+      - 俄罗斯联邦-72.3MB/s
+      - "新加坡-351.3KB%2Fs\r"
+      - "美国-736.0KB%2Fs\r"
+      - "以色列-38.0MB%2Fs\r"
+      - "马来西亚-17.8MB%2Fs\r"
+      - "美国-560.2KB%2Fs\r"
+      - "香港-23.9MB%2Fs\r"
+      - "香港-15.1MB%2Fs\r"
+      - "美国-18.4MB%2Fs\r"
+      - 韩国-95.4MB%2Fs
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
