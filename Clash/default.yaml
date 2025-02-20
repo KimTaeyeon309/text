@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-20 19:44:38
+# 配置生成日期：2025-02-20 20:00:40
 
 mixed-port: 7890
 allow-lan: false
@@ -50,16 +50,6 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 美国-2.91MB/s
-    type: vmess
-    server: 38.174.190.80
-    port: 38007
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
   - name: "乌克兰-52.4MB%2Fs\r\r\r\r"
     type: ss
     server: 92.113.116.11
@@ -108,15 +98,6 @@ proxies:
     password: Z7C08JB1HBMWQHVP
     ip-version: dual
     cipher: aes-256-gcm
-  - name: 法国-14.4MB/s
-    type: vmess
-    server: 57.129.28.69
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: "美国-1.78MB%2Fs\r\r\r\r"
     type: ss
     server: 35.94.110.89
@@ -131,14 +112,6 @@ proxies:
     port: 443
     tls: false
     password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "斯洛伐克-31.8MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
   - name: "新加坡-115.1KB%2Fs\r\r\r\r"
@@ -199,24 +172,6 @@ proxies:
     password: Z7C08JB1HBMWQHVP
     ip-version: dual
     cipher: aes-256-gcm
-  - name: 法国-527.4KB/s
-    type: vmess
-    server: 57.129.25.20
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 1
-    cipher: auto
-  - name: "韩国-3.09MB%2Fs\r\r\r\r"
-    type: ss
-    server: 52.79.101.162
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "英国-3.13MB%2Fs\r\r\r\r"
     type: ss
     server: 62.100.205.48
@@ -257,15 +212,6 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: 美国-3.49MB/s
-    type: vmess
-    server: 172.111.36.108
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: "韩国-3.38MB%2Fs\r\r\r\r"
     type: ss
     server: 13.125.111.28
@@ -436,14 +382,6 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
-    type: ss
-    server: 89.221.224.166
-    port: 1443
-    tls: false
-    password: NjBlZDlk
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
   - name: "波兰-120.7KB%2Fs\r\r\r\r"
     type: ss
     server: 217.30.10.18
@@ -460,14 +398,6 @@ proxies:
     password: LKG8G8VL60RSB59P
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国-4.01MB%2Fs\r\r\r\r"
-    type: ss
-    server: 45.158.171.110
-    port: 8080
-    tls: false
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
   - name: "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
     type: ss
     server: 89.221.224.166
@@ -484,14 +414,6 @@ proxies:
     password: ZDGC0Q2E112UAJO6
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "韩国-4.16MB%2Fs\r\r\r\r"
-    type: ss
-    server: 13.125.111.28
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "美国-115.1KB%2Fs\r\r\r\r"
     type: ss
     server: 156.231.104.26
@@ -532,15 +454,6 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: 美国-156.2KB/s
-    type: vmess
-    server: 170.114.46.139
-    port: 8443
-    uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
   - name: "香港-68.6MB%2Fs\r\r\r\r"
     type: ss
     server: 156.245.190.23
@@ -549,16 +462,6 @@ proxies:
     password: ZDGC0Q2E112UAJO6
     ip-version: dual
     cipher: aes-256-gcm
-  - name: 美国-4.44MB/s
-    type: vmess
-    server: 142.4.108.135
-    port: 38007
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
   - name: "韩国-2.98MB%2Fs\r\r\r\r"
     type: ss
     server: 54.180.133.38
@@ -667,14 +570,6 @@ proxies:
     password: ZDGC0Q2E112UAJO6
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "韩国-2.68MB%2Fs\r\r\r\r"
-    type: ss
-    server: 54.180.133.38
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "美国-83.7MB%2Fs\r\r\r\r"
     type: ss
     server: 156.231.104.18
@@ -683,16 +578,6 @@ proxies:
     password: 53RIUQDZR3B23TA3
     ip-version: dual
     cipher: aes-256-gcm
-  - name: 美国-3.20MB/s
-    type: vmess
-    server: 38.33.24.90
-    port: 37001
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
   - name: "韩国-2.54MB%2Fs\r\r\r\r"
     type: ss
     server: 3.39.249.88
@@ -749,64 +634,6 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "美国-717.4KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 3306
-    tls: false
-    password: Y6R9pAtvxxzmGC
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-723.4KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 7001
-    tls: false
-    password: RexnBgU7EV5ADxG
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-764.8KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 2376
-    tls: false
-    password: faBAoD54k87UJG7
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-747.9KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5500
-    tls: false
-    password: KixLvKzwjekG00rm
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-656.3KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5003
-    tls: false
-    password: g5MeD6Ft3CWlJId
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: 美国-2.89MB/s
-    type: vmess
-    server: 38.14.107.226
-    port: 38003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
-  - name: "美国-747.6KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 9102
-    tls: false
-    password: e4FCWrgpkji3QY
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "美国-742.3KB%2Fs\r\r\r\r"
     type: ss
     server: 38.121.43.71
@@ -821,30 +648,6 @@ proxies:
     port: 8009
     tls: false
     password: XKFKl2rULjIp74
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-833.0KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 5601
-    tls: false
-    password: Y6R9pAtvxxzmGC
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-807.2KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 443
-    tls: false
-    password: pKEW8JPByTVTLtM
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-729.1KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 9101
-    tls: false
-    password: e4FCWrgpkji3QY
     ip-version: dual
     cipher: aes-256-gcm
   - name: "美国-556.8KB%2Fs\r\r\r\r"
@@ -911,16 +714,6 @@ proxies:
     password: cdBIDV42DCwnfIN
     ip-version: dual
     cipher: aes-256-gcm
-  - name: 美国-2.44MB/s
-    type: vmess
-    server: 107.167.20.189
-    port: 30001
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
   - name: "瑞士-31.3MB%2Fs\r\r\r\r"
     type: ss
     server: 84.17.53.160
@@ -969,14 +762,6 @@ proxies:
     password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
     cipher: aes-128-gcm
-  - name: "美国-572.0KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8009
-    tls: false
-    password: XKFKl2rULjIp74
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "美国-13.4MB%2Fs\r\r\r\r"
     type: ss
     server: 95.164.122.61
@@ -991,14 +776,6 @@ proxies:
     port: 16010
     tls: false
     password: 2UOL8ESS12X0J31P
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-712.1KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8118
-    tls: false
-    password: cdBIDV42DCwnfIN
     ip-version: dual
     cipher: aes-256-gcm
   - name: "美国-730.1KB%2Fs\r\r\r\r"
@@ -1041,38 +818,6 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "美国-9.8MB%2Fs\r\r\r\r"
-    type: ss
-    server: 95.164.122.61
-    port: 54075
-    tls: false
-    password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "美国-219.1KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 7002
-    tls: false
-    password: RexnBgU7EV5ADxG
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-404.0KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8000
-    tls: false
-    password: KixLvKzwjekG00rm
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-715.1KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8091
-    tls: false
-    password: PCnnH6SQSnfoS27
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "以色列-59.0MB%2Fs\r\r\r\r"
     type: ss
     server: 188.191.147.127
@@ -1091,81 +836,6 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: 美国-3.53MB/s
-    type: vmess
-    server: 38.54.94.122
-    port: 2053
-    uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "美国-341.6KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 6379
-    tls: false
-    password: zDNVedRFPQexG9v
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-242.5KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 4444
-    tls: false
-    password: pKEW8JPByTVTLtM
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-165.0KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8008
-    tls: false
-    password: XKFKl2rULjIp74
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "波兰-224.4KB%2Fs\r\r\r\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9019
-    tls: false
-    password: GA9KzeEgvfxNrgmM
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "美国-178.2KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.71
-    port: 8080
-    tls: false
-    password: KixLvKzwjekG00rm
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "韩国-1.56MB%2Fs\r\r\r\r"
-    type: ss
-    server: 3.39.249.88
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 美国-2.97MB/s
-    type: vmess
-    server: 142.4.104.33
-    port: 52143
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
-  - name: "香港-47.4MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.245.190.16
-    port: 15007
-    tls: false
-    password: MHZUEOX3KBXAV09K
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "美国-31.9MB%2Fs\r\r\r\r"
     type: ss
     server: 156.231.104.18
@@ -1198,34 +868,6 @@ proxies:
     password: 4OAKJ8CASERAWXI1
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "🇺🇸_US_美国\r\r\r\r_1"
-    type: vless
-    server: 151.101.194.219
-    port: 80
-    uuid: fe27a1ea-68e4-4784-834e-b4dc239fa152
-    network: ws
-    tls: true
-    servername: foffmelo.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /olem/ws
-      headers:
-        host: foffmelo.com
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r\r\r_2"
-    type: vless
-    server: 172.64.35.129
-    port: 80
-    uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
-    network: ws
-    tls: true
-    servername: cc.ailicf.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /b5cdabf0-e04
-      headers:
-        host: cc.ailicf.us.kg
-    ip-version: dual
   - name: "🇺🇸_US_美国\r\r\r\r_3"
     type: vless
     server: 151.101.65.6
@@ -1238,42 +880,6 @@ proxies:
     ws-opts:
       headers:
         host: JoinBede-mosiv2.ir
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r\r\r_4"
-    type: vless
-    server: 151.101.130.219
-    port: 80
-    uuid: cdf893de-bf95-40f9-b2ea-fae31f2bc7fb
-    network: ws
-    tls: true
-    servername: Digikala.iranian.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
-      headers:
-        host: Digikala.iranian.net
-    ip-version: dual
-  - name: "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-    type: ss
-    server: 217.30.10.18
-    port: 9025
-    tls: false
-    password: XPtzA9sCug3SPR4c
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r\r\r_5"
-    type: vless
-    server: 104.17.148.22
-    port: 2052
-    uuid: 9f78ae61-2cc0-5df1-9845-f7aff09e22ae
-    network: ws
-    tls: true
-    servername: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
-      headers:
-        host: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
     ip-version: dual
   - name: "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
     type: ss
@@ -1304,14 +910,6 @@ proxies:
     password: oZIoA69Q8yhcQV8ka3Pa3A
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
-    type: ss
-    server: 188.214.36.155
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "🇺🇦_UA_乌克兰\r\r\r\r"
     type: ss
     server: 188.191.147.127
@@ -1328,38 +926,6 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇬🇧_GB_英国\r\r\r\r"
-    type: ss
-    server: 62.100.205.48
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-    type: ss
-    server: 217.30.10.18
-    port: 9018
-    tls: false
-    password: fG2artUmHfNT2cX7
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-    type: ss
-    server: 185.231.233.173
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇷🇺_RU_俄罗斯\r\r\r\r_4"
-    type: ss
-    server: 217.30.10.18
-    port: 9024
-    tls: false
-    password: BejrQvtu9sqUeNuZ
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "🇮🇹_IT_意大利\r\r\r\r"
     type: ss
     server: 37.143.129.230
@@ -1368,56 +934,6 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r\r\r_6"
-    type: vless
-    server: 104.17.148.22
-    port: 2082
-    uuid: 4e0e0901-374a-4c1f-f71e-9f841e36489e
-    network: ws
-    tls: false
-    servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    ws-opts:
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      headers:
-        host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    ip-version: dual
-  - name: "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-    type: ss
-    server: 217.30.10.18
-    port: 9045
-    tls: false
-    password: Lp27rqyJq72bZsqX
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r\r_2"
-    type: vless
-    server: 151.101.65.6
-    port: 80
-    uuid: f6646232-9d2a-50ec-82d2-8a51673d84d7
-    network: ws
-    tls: true
-    servername: JoinBede-mosiv2.ir
-    skip-cert-verify: true
-    ws-opts:
-      headers:
-        host: JoinBede-mosiv2.ir
-    ip-version: dual
-  - name: "🇷🇴_RO_罗马尼亚\r\r\r"
-    type: ss
-    server: 185.193.49.88
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "立陶宛-3.80MB%2Fs\r\r\r\r"
-    type: ss
-    server: 45.87.175.154
-    port: 8080
-    tls: false
-    password: 4a2rfixophdjffa8KVA4Aa
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
   - name: "美国-3.16MB%2Fs\r\r\r\r"
     type: ss
     server: 45.158.171.146
@@ -1426,40 +942,6 @@ proxies:
     password: QCXDxuDlTTMD7jtgHUjIoj
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国-80.4MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.16
-    port: 18006
-    tls: false
-    password: 7U4Y1WQBHKIMGFBR
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "韩国-2.96MB%2Fs\r\r\r\r"
-    type: ss
-    server: 54.180.9.100
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "匈牙利-14.4MB/s\r\r\r\r"
-    type: trojan
-    server: 62.112.221.57
-    port: 443
-    network: tcp
-    tls: true
-    password: '3747000103274291200'
-    sni: integral-malamute.adder289.quest
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "美国-460.5KB%2Fs\r\r\r\r"
-    type: ss
-    server: 38.121.43.6
-    port: 8008
-    tls: false
-    password: XKFKl2rULjIp74
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "马来西亚-3.13MB%2Fs\r\r\r\r"
     type: ss
     server: 103.106.229.219
@@ -1468,14 +950,6 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "未知国家-16.8MB%2Fs\r\r\r\r"
-    type: ss
-    server: 23.185.248.11
-    port: 17001
-    tls: false
-    password: Z7ZSQR3OI9JVRA6N
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "未知国家-125.3KB%2Fs\r\r\r\r"
     type: ss
     server: 23.185.248.17
@@ -1484,36 +958,12 @@ proxies:
     password: 0U17L4LTFDK38Y1J
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国-3.07MB%2Fs\r\r\r\r"
-    type: ss
-    server: 194.5.215.59
-    port: 8080
-    tls: false
-    password: 14fFPrbezE3HDZzsMOr6
-    ip-version: dual
-    cipher: rc4-md5
   - name: "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
     type: ss
     server: 185.126.239.231
     port: 20002
     tls: false
     password: 4XMQB6GZ26O7YYUN
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "英国-127.2KB%2Fs\r\r\r\r"
-    type: ss
-    server: 212.102.53.197
-    port: 443
-    tls: false
-    password: shadowsocks
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: "美国-25.1MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.22
-    port: 18012
-    tls: false
-    password: V4R0XM7GMEZF9QA5
     ip-version: dual
     cipher: aes-256-gcm
   - name: "未知国家-57.2MB%2Fs\r\r\r\r"
@@ -1524,117 +974,12 @@ proxies:
     password: PO156F4FRXFM1UOT
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "新加坡-1.16MB%2Fs\r\r\r\r"
-    type: ss
-    server: 13.213.40.92
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-    type: ss
-    server: 181.119.30.20
-    port: 990
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "未知国家-27.3MB%2Fs\r\r\r\r"
-    type: ss
-    server: 23.185.248.12
-    port: 17002
-    tls: false
-    password: YKB42JGKK8H5DIWF
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "瑞士-78.7MB%2Fs\r\r\r\r"
-    type: ss
-    server: 84.17.53.160
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "法国-125.8KB%2Fs\r\r\r\r"
-    type: ss
-    server: 185.231.205.179
-    port: 8388
-    tls: false
-    password: OTVlMzcy
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "美国-3.59MB%2Fs\r\r\r\r"
-    type: ss
-    server: 45.158.171.146
-    port: 8080
-    tls: false
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "美国-3.74MB%2Fs\r\r\r\r"
-    type: ss
-    server: 137.175.113.215
-    port: 8388
-    tls: false
-    password: asd123456
-    ip-version: dual
-    cipher: chacha20-ietf
-  - name: "芬兰-1.53MB%2Fs\r\r\r\r"
-    type: ss
-    server: 37.143.129.230
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "日本-139.5KB%2Fs\r\r\r\r"
-    type: ss
-    server: 52.197.129.53
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "马来西亚-39.5MB%2Fs\r\r\r\r"
-    type: ss
-    server: 103.106.229.219
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 美国-1.73MB/s
-    type: vmess
-    server: 107.174.34.6
-    port: 443
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "美国-89.9MB%2Fs\r\r\r\r"
-    type: ss
-    server: 170.64.237.214
-    port: 8443
-    tls: false
-    password: ef713649-c164-4a36-9fc2-ebf93d76e14f
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "乌克兰-2.29MB%2Fs\r\r\r\r"
     type: ss
     server: 92.113.116.11
     port: 15002
     tls: false
     password: 2MNBVYYYB23ZF03Z
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-8.93MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.19
-    port: 18009
-    tls: false
-    password: TQQGWG024W2BF6RP
     ip-version: dual
     cipher: aes-256-gcm
   - name: "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
@@ -1645,14 +990,6 @@ proxies:
     password: G2LC1BQ48SXSBKZX
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "土耳其-8.0MB%2Fs\r\r\r\r"
-    type: ss
-    server: 185.123.101.241
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "未知国家-2.54MB%2Fs\r\r\r\r"
     type: ss
     server: 23.185.248.13
@@ -1669,22 +1006,6 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "新加坡-111.3KB%2Fs\r\r\r\r"
-    type: ss
-    server: 47.129.37.234
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "美国-71.7MB%2Fs\r\r\r\r"
-    type: ss
-    server: 156.231.104.20
-    port: 18010
-    tls: false
-    password: 0A876XZUZX93N371
-    ip-version: dual
-    cipher: aes-256-gcm
   - name: "美国-3.14MB%2Fs\r\r\r\r"
     type: ss
     server: 35.94.110.89
@@ -1701,6 +1022,179 @@ proxies:
     password: G2LC1BQ48SXSBKZX
     ip-version: dual
     cipher: aes-256-gcm
+  - name: "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+    type: ss
+    server: 185.126.239.231
+    port: 20002
+    tls: false
+    password: G2LC1BQ48SXSBKZX
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+    type: ss
+    server: is3.opensocks.site
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    cipher: chacha20-ietf-poly1305
+  - name: "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+    type: ss
+    server: is3.opensocks.site
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-3.39MB/s\r\r\r\r"
+    type: trojan
+    server: lm.kaiqsz.com
+    port: 51075
+    network: tcp
+    tls: true
+    password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-3.07MB/s\r\r\r\r"
+    type: trojan
+    server: lm.kaiqsz.com
+    port: 51075
+    network: tcp
+    tls: true
+    password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-6.15MB/s\r\r\r\r"
+    type: trojan
+    server: lm.kaiqsz.com
+    port: 51075
+    network: tcp
+    tls: true
+    password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-224.2KB/s\r\r\r\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    network: tcp
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-171.2KB/s\r\r\r\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    network: tcp
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-122.2KB/s\r\r\r\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    network: tcp
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-184.7KB/s\r\r\r\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    network: tcp
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-2.71MB/s\r\r\r\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    network: tcp
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-207.4KB/s\r\r\r\r"
+    type: trojan
+    server: naiu-other.05vr9nyqg5.download
+    port: 13035
+    network: tcp
+    tls: true
+    password: 65f14831-5c67-483f-9e85-f3aa73f21187
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: true
+    ip-version: dual
+  - name: "中转节点-831.4KB%2Fs\r\r\r\r"
+    type: ss
+    server: tengx.wwwq.net
+    port: 37310
+    tls: false
+    password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "中转节点-239.5KB%2Fs\r\r\r\r"
+    type: ss
+    server: tengx.wwwq.net
+    port: 37310
+    tls: false
+    password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "台湾-194.1KB%2Fs\r\r\r\r"
+    type: ss
+    server: '@@185.189.160.98'
+    port: 64759
+    tls: false
+    password: qwerREWQ
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "马来西亚-39.5MB%2Fs\r\r\r\r"
+    type: ss
+    server: 103.106.229.219
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r\r\r\r_5"
+    type: vless
+    server: 104.17.148.22
+    port: 2052
+    uuid: 9f78ae61-2cc0-5df1-9845-f7aff09e22ae
+    network: ws
+    tls: true
+    servername: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      headers:
+        host: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
+    ip-version: dual
+  - name: "🇺🇸_US_美国\r\r\r\r_6"
+    type: vless
+    server: 104.17.148.22
+    port: 2082
+    uuid: 4e0e0901-374a-4c1f-f71e-9f841e36489e
+    network: ws
+    tls: false
+    servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    ws-opts:
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      headers:
+        host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    ip-version: dual
   - name: "香港-30.4MB/s\r\r\r\r"
     type: trojan
     server: 104.251.227.182
@@ -1711,62 +1205,63 @@ proxies:
     sni: hezijiasuqi.com
     skip-cert-verify: true
     ip-version: dual
-  - name: "日本-16.5MB/s\r\r\r\r"
-    type: trojan
-    server: 188.253.22.10
-    port: 443
-    network: tcp
-    tls: true
-    password: '3778399737045327872'
-    sni: key-pangolin.treefrog761.one
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "美国-2.94MB%2Fs\r\r\r\r"
-    type: ss
-    server: 54.184.126.174
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 香港_Telegram@kxswa_1
+  - name: 美国-2.44MB/s
     type: vmess
-    server: 120.232.153.40
-    port: 54082
+    server: 107.167.20.189
+    port: 30001
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
+    tls: false
+    ip-version: dual
+    alterId: 64
+    cipher: auto
+  - name: 美国-1.73MB/s
+    type: vmess
+    server: 107.174.34.6
+    port: 443
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    network: ws
+    tls: false
+    ip-version: dual
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r\r\r\r_3"
+    type: ss
+    server: 119.167.230.252
+    port: 28164
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    cipher: aes-128-gcm
+  - name: "中转节点-1.65MB%2Fs\r\r\r\r"
+    type: ss
+    server: 119.167.230.252
+    port: 22040
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    cipher: aes-128-gcm
+  - name: 香港_Telegram@kxswa_5
+    type: vmess
+    server: 120.198.71.216
+    port: 55482
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r\r\r_1"
-    type: ss
-    server: 154.196.244.21
-    port: 16011
-    tls: false
-    password: 8WDLSCVIFB4I26GB
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r\r\r_2"
-    type: ss
-    server: 203.23.128.79
-    port: 51348
-    tls: false
-    password: dt31KYYCCAUBwu09QwG9flPBIuP9jA6VXnjN8StKTkgc45ny
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_2
+  - name: 香港_Telegram@kxswa_8
     type: vmess
-    server: 47.97.82.13
-    port: 11126
-    uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
+    server: 120.232.153.123
+    port: 45402
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
     ip-version: dual
     cipher: auto
-  - name: 香港_Telegram@kxswa_3
+  - name: 香港_Telegram@kxswa_1
     type: vmess
-    server: 183.236.51.38
-    port: 42120
+    server: 120.232.153.40
+    port: 54082
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
@@ -1781,11 +1276,11 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: 香港_Telegram@kxswa_5
+  - name: 香港_Telegram@kxswa_7
     type: vmess
-    server: 120.198.71.216
-    port: 55482
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: 120.232.153.63
+    port: 40172
+    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
     network: tcp
     tls: false
     ip-version: dual
@@ -1799,29 +1294,97 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: 香港_Telegram@kxswa_7
+  - name: "韩国-4.16MB%2Fs\r\r\r\r"
+    type: ss
+    server: 13.125.111.28
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "新加坡-1.16MB%2Fs\r\r\r\r"
+    type: ss
+    server: 13.213.40.92
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    cipher: aes-256-cfb
+  - name: "美国-3.74MB%2Fs\r\r\r\r"
+    type: ss
+    server: 137.175.113.215
+    port: 8388
+    tls: false
+    password: asd123456
+    ip-version: dual
+    cipher: chacha20-ietf
+  - name: 美国-2.97MB/s
     type: vmess
-    server: 120.232.153.63
-    port: 40172
-    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+    server: 142.4.104.33
+    port: 52143
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
     ip-version: dual
+    alterId: 64
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r\r\r_3"
-    type: ss
-    server: 119.167.230.252
-    port: 28164
+  - name: 美国-4.44MB/s
+    type: vmess
+    server: 142.4.108.135
+    port: 38007
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: ws
     tls: false
-    password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
-    cipher: aes-128-gcm
-  - name: "香港_Telegram%40kxswa\r\r\r\r_4"
+    alterId: 64
+    cipher: auto
+  - name: "🇺🇸_US_美国\r\r\r\r_4"
+    type: vless
+    server: 151.101.130.219
+    port: 80
+    uuid: cdf893de-bf95-40f9-b2ea-fae31f2bc7fb
+    network: ws
+    tls: true
+    servername: Digikala.iranian.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
+      headers:
+        host: Digikala.iranian.net
+    ip-version: dual
+  - name: "🇺🇸_US_美国\r\r\r\r_1"
+    type: vless
+    server: 151.101.194.219
+    port: 80
+    uuid: fe27a1ea-68e4-4784-834e-b4dc239fa152
+    network: ws
+    tls: true
+    servername: foffmelo.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+  - name: "🇺🇸_US_美国\r\r\r_2"
+    type: vless
+    server: 151.101.65.6
+    port: 80
+    uuid: f6646232-9d2a-50ec-82d2-8a51673d84d7
+    network: ws
+    tls: true
+    servername: JoinBede-mosiv2.ir
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: JoinBede-mosiv2.ir
+    ip-version: dual
+  - name: "新加坡-126.4KB%2Fs\r\r\r\r"
     type: ss
-    server: 154.196.244.26
-    port: 16016
+    server: 154.196.244.12
+    port: 16002
     tls: false
-    password: YHK82TR73114VN9O
+    password: CZWGKVVKET2BTRBK
     ip-version: dual
     cipher: aes-256-gcm
   - name: "香港_Telegram%40kxswa\r\r\r\r_5"
@@ -1832,45 +1395,68 @@ proxies:
     password: 2UOL8ESS12X0J31P
     ip-version: dual
     cipher: aes-256-gcm
-  - name: 香港_Telegram@kxswa_8
-    type: vmess
-    server: 120.232.153.123
-    port: 45402
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r\r\r_6"
+  - name: "香港_Telegram%40kxswa\r\r\r\r_1"
     type: ss
-    server: 156.245.190.23
-    port: 15014
+    server: 154.196.244.21
+    port: 16011
     tls: false
-    password: ZDGC0Q2E112UAJO6
+    password: 8WDLSCVIFB4I26GB
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "乌克兰_Telegram%40kxswa\r\r\r\r_1"
+  - name: "香港_Telegram%40kxswa\r\r\r\r_4"
     type: ss
-    server: 92.113.116.11
-    port: 15002
+    server: 154.196.244.26
+    port: 16016
     tls: false
-    password: 2MNBVYYYB23ZF03Z
+    password: YHK82TR73114VN9O
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "乌克兰_Telegram%40kxswa\r\r\r\r_2"
+  - name: "斯洛伐克-31.8MB%2Fs\r\r\r\r"
     type: ss
-    server: 185.234.64.35
-    port: 8388
+    server: 156.146.40.194
+    port: 989
     tls: false
-    password: YTNjNDY5
+    password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r\r\r\r_1"
+    cipher: aes-256-cfb
+  - name: "美国-80.4MB%2Fs\r\r\r\r"
     type: ss
-    server: 23.185.248.13
-    port: 17003
+    server: 156.231.104.16
+    port: 18006
     tls: false
-    password: LKG8G8VL60RSB59P
+    password: 7U4Y1WQBHKIMGFBR
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%40kxswa\r\r\r\r_4"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "美国-8.93MB%2Fs\r\r\r\r"
+    type: ss
+    server: 156.231.104.19
+    port: 18009
+    tls: false
+    password: TQQGWG024W2BF6RP
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "美国-71.7MB%2Fs\r\r\r\r"
+    type: ss
+    server: 156.231.104.20
+    port: 18010
+    tls: false
+    password: 0A876XZUZX93N371
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "美国-25.1MB%2Fs\r\r\r\r"
+    type: ss
+    server: 156.231.104.22
+    port: 18012
+    tls: false
+    password: V4R0XM7GMEZF9QA5
     ip-version: dual
     cipher: aes-256-gcm
   - name: "美国_Telegram%40kxswa\r\r\r\r_2"
@@ -1889,78 +1475,14 @@ proxies:
     password: PGF2TGUCHQBC5IP5
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r\r\r_4"
+  - name: "香港-47.4MB%2Fs\r\r\r\r"
     type: ss
-    server: 156.231.104.18
-    port: 18008
+    server: 156.245.190.16
+    port: 15007
     tls: false
-    password: 53RIUQDZR3B23TA3
+    password: MHZUEOX3KBXAV09K
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r\r\r_5"
-    type: ss
-    server: 23.185.248.17
-    port: 17007
-    tls: false
-    password: Z7C08JB1HBMWQHVP
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-    type: ss
-    server: 185.126.239.231
-    port: 20002
-    tls: false
-    password: G2LC1BQ48SXSBKZX
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-    type: ss
-    server: 89.221.224.166
-    port: 8388
-    tls: false
-    password: NjBlZDlk
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "德国_Telegram%40kxswa\r\r\r"
-    type: ss
-    server: 45.87.175.65
-    port: 8080
-    tls: false
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-1.65MB%2Fs\r\r\r\r"
-    type: ss
-    server: 119.167.230.252
-    port: 22040
-    tls: false
-    password: b637f2e47b7827b308ebf399008075d2
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: "新加坡-126.4KB%2Fs\r\r\r\r"
-    type: ss
-    server: 154.196.244.12
-    port: 16002
-    tls: false
-    password: CZWGKVVKET2BTRBK
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "韩国-1.66MB%2Fs\r\r\r\r"
-    type: ss
-    server: 43.203.253.211
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "波兰-33.9MB%2Fs\r\r\r\r"
-    type: ss
-    server: 217.30.10.18
-    port: 9033
-    tls: false
-    password: UTJA57ypk2XKQpnm
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: "香港-1.43MB%2Fs\r\r\r\r"
     type: ss
     server: 156.245.190.19
@@ -1969,55 +1491,28 @@ proxies:
     password: AYC4MQ5DSGJ4QOKG
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国-2.67MB%2Fs\r\r\r\r"
+  - name: "香港_Telegram%40kxswa\r\r\r\r_6"
     type: ss
-    server: 35.94.110.89
-    port: 443
+    server: 156.245.190.23
+    port: 15014
     tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-    type: ss
-    server: 185.126.239.231
-    port: 20002
-    tls: false
-    password: G2LC1BQ48SXSBKZX
+    password: ZDGC0Q2E112UAJO6
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "土耳其-18.1MB%2Fs\r\r\r\r"
-    type: ss
-    server: 185.123.101.241
-    port: 990
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "以色列-33.8MB%2Fs\r\r\r"
-    type: ss
-    server: 188.191.147.127
-    port: 31348
-    tls: false
-    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -2025,14 +1520,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -2054,21 +1546,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -2082,9 +1569,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -2092,18 +1577,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -2112,151 +1587,109 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -2264,14 +1697,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -2293,21 +1723,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -2321,9 +1746,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -2331,18 +1754,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -2351,151 +1764,109 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -2503,14 +1874,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -2532,21 +1900,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -2560,9 +1923,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -2570,18 +1931,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -2590,150 +1941,108 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -2741,14 +2050,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -2770,21 +2076,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -2798,9 +2099,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -2808,18 +2107,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -2828,150 +2117,108 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -2979,14 +2226,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -3008,21 +2252,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -3036,9 +2275,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -3046,18 +2283,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -3066,150 +2293,108 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -3217,14 +2402,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -3246,21 +2428,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -3274,9 +2451,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -3284,18 +2459,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -3304,134 +2469,95 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3454,17 +2580,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-2.91MB/s
       - "乌克兰-52.4MB%2Fs\r\r\r\r"
       - "新加坡-8.4MB%2Fs\r\r\r\r"
       - "美国-3.46MB%2Fs\r\r\r\r"
       - "英国-12.3MB%2Fs\r\r\r\r"
       - "韩国-191.4KB%2Fs\r\r\r\r"
       - "未知国家-8.9MB%2Fs\r\r\r\r"
-      - 法国-14.4MB/s
       - "美国-1.78MB%2Fs\r\r\r\r"
       - "美国-1.71MB%2Fs\r\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
       - "新加坡-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-34.1MB%2Fs\r\r\r\r"
       - "香港-6.60MB/s\r\r\r\r"
@@ -3472,14 +2595,11 @@ proxy-groups:
       - "乌克兰-31.5MB%2Fs\r\r\r\r"
       - "中转节点-38.6MB%2Fs\r\r\r\r"
       - "未知国家-18.1MB%2Fs\r\r\r\r"
-      - 法国-527.4KB/s
-      - "韩国-3.09MB%2Fs\r\r\r\r"
       - "英国-3.13MB%2Fs\r\r\r\r"
       - "香港-1.70MB%2Fs\r\r\r\r"
       - "新加坡-52.3MB%2Fs\r\r\r\r"
       - "新加坡-15.6MB%2Fs\r\r\r\r"
       - "韩国-2.63MB%2Fs\r\r\r\r"
-      - 美国-3.49MB/s
       - "韩国-3.38MB%2Fs\r\r\r\r"
       - "未知国家-16.5MB%2Fs\r\r\r\r"
       - "韩国-2.67MB%2Fs\r\r\r\r"
@@ -3501,21 +2621,16 @@ proxy-groups:
       - "立陶宛-79.6MB%2Fs\r\r\r\r"
       - "韩国-4.15MB%2Fs\r\r\r\r"
       - 美国-4.82MB/s
-      - "俄罗斯联邦-81.3MB%2Fs\r\r\r\r"
       - "波兰-120.7KB%2Fs\r\r\r\r"
       - "未知国家-15.1MB%2Fs\r\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-226.7KB%2Fs\r\r\r\r"
       - "香港-61.4MB%2Fs\r\r\r\r"
-      - "韩国-4.16MB%2Fs\r\r\r\r"
       - "美国-115.1KB%2Fs\r\r\r\r"
       - "马来西亚-45.8MB%2Fs\r\r\r\r"
       - "乌克兰-14.5MB%2Fs\r\r\r\r"
       - "美国-206.3KB%2Fs\r\r\r\r"
       - "韩国-4.06MB%2Fs\r\r\r\r"
-      - 美国-156.2KB/s
       - "香港-68.6MB%2Fs\r\r\r\r"
-      - 美国-4.44MB/s
       - "韩国-2.98MB%2Fs\r\r\r\r"
       - 美国-4.84MB/s
       - "香港-66.6MB%2Fs\r\r\r\r"
@@ -3529,9 +2644,7 @@ proxy-groups:
       - "瑞士-3.36MB%2Fs\r\r\r\r"
       - "立陶宛-195.4KB%2Fs\r\r\r\r"
       - "香港-27.3MB%2Fs\r\r\r\r"
-      - "韩国-2.68MB%2Fs\r\r\r\r"
       - "美国-83.7MB%2Fs\r\r\r\r"
-      - 美国-3.20MB/s
       - "韩国-2.54MB%2Fs\r\r\r\r"
       - "乌克兰-11.6MB%2Fs\r\r\r\r"
       - "新加坡-48.8MB%2Fs\r\r\r\r"
@@ -3539,18 +2652,8 @@ proxy-groups:
       - "香港-71.0MB%2Fs\r\r\r\r"
       - "新加坡-18.8MB%2Fs\r\r\r\r"
       - "马来西亚-49.2MB%2Fs\r\r\r\r"
-      - "美国-717.4KB%2Fs\r\r\r\r"
-      - "美国-723.4KB%2Fs\r\r\r\r"
-      - "美国-764.8KB%2Fs\r\r\r\r"
-      - "美国-747.9KB%2Fs\r\r\r\r"
-      - "美国-656.3KB%2Fs\r\r\r\r"
-      - 美国-2.89MB/s
-      - "美国-747.6KB%2Fs\r\r\r\r"
       - "美国-742.3KB%2Fs\r\r\r\r"
       - "美国-748.5KB%2Fs\r\r\r\r"
-      - "美国-833.0KB%2Fs\r\r\r\r"
-      - "美国-807.2KB%2Fs\r\r\r\r"
-      - "美国-729.1KB%2Fs\r\r\r\r"
       - "美国-556.8KB%2Fs\r\r\r\r"
       - "新加坡-27.3MB%2Fs\r\r\r\r"
       - "美国-22.8MB%2Fs\r\r\r\r"
@@ -3559,134 +2662,95 @@ proxy-groups:
       - "香港-116.5KB%2Fs\r\r\r\r"
       - "美国-828.7KB%2Fs\r\r\r\r"
       - "美国-367.7KB%2Fs\r\r\r\r"
-      - 美国-2.44MB/s
       - "瑞士-31.3MB%2Fs\r\r\r\r"
       - "香港-18.8MB%2Fs\r\r\r\r"
       - "美国-17.5MB%2Fs\r\r\r\r"
       - "美国-21.6MB%2Fs\r\r\r\r_2"
       - "未知国家-13.9MB%2Fs\r\r\r\r"
       - "中转节点-32.6MB%2Fs\r\r\r\r"
-      - "美国-572.0KB%2Fs\r\r\r\r"
       - "美国-13.4MB%2Fs\r\r\r\r"
       - "新加坡-3.5MB%2Fs\r\r\r\r"
-      - "美国-712.1KB%2Fs\r\r\r\r"
       - "美国-730.1KB%2Fs\r\r\r\r"
       - "香港-33.0MB%2Fs\r\r\r\r"
       - "美国-18.7MB%2Fs\r\r\r\r"
       - "美国-39.6MB%2Fs\r\r\r\r"
       - "英国-15.5MB%2Fs\r\r\r\r"
-      - "美国-9.8MB%2Fs\r\r\r\r"
-      - "美国-219.1KB%2Fs\r\r\r\r"
-      - "美国-404.0KB%2Fs\r\r\r\r"
-      - "美国-715.1KB%2Fs\r\r\r\r"
       - "以色列-59.0MB%2Fs\r\r\r\r"
       - 美国-2.88MB/s
-      - 美国-3.53MB/s
-      - "美国-341.6KB%2Fs\r\r\r\r"
-      - "美国-242.5KB%2Fs\r\r\r\r"
-      - "美国-165.0KB%2Fs\r\r\r\r"
-      - "波兰-224.4KB%2Fs\r\r\r\r"
-      - "美国-178.2KB%2Fs\r\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r\r"
-      - 美国-2.97MB/s
-      - "香港-47.4MB%2Fs\r\r\r\r"
       - "美国-31.9MB%2Fs\r\r\r\r"
       - "美国-23.3MB%2Fs\r\r\r\r"
       - "香港-21.7MB%2Fs\r\r\r\r"
       - "美国-19.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_2"
       - "🇺🇸_US_美国\r\r\r\r_3"
-      - "🇺🇸_US_美国\r\r\r\r_4"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_1"
-      - "🇺🇸_US_美国\r\r\r\r_5"
       - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r\r\r"
       - "🇺🇸_US_美国\r\r\r_1"
       - "🇩🇪_DE_德国\r\r\r\r"
-      - "🇷🇴_RO_罗马尼亚\r\r\r\r_1"
       - "🇺🇦_UA_乌克兰\r\r\r\r"
       - "🇷🇴_RO_罗马尼亚\r\r\r\r_2"
-      - "🇬🇧_GB_英国\r\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_2"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_3"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_4"
       - "🇮🇹_IT_意大利\r\r\r\r"
-      - "🇺🇸_US_美国\r\r\r\r_6"
-      - "🇷🇺_RU_俄罗斯\r\r\r\r_5"
-      - "🇺🇸_US_美国\r\r\r_2"
-      - "🇷🇴_RO_罗马尼亚\r\r\r"
-      - "立陶宛-3.80MB%2Fs\r\r\r\r"
       - "美国-3.16MB%2Fs\r\r\r\r"
-      - "美国-80.4MB%2Fs\r\r\r\r"
-      - "韩国-2.96MB%2Fs\r\r\r\r"
-      - "匈牙利-14.4MB/s\r\r\r\r"
-      - "美国-460.5KB%2Fs\r\r\r\r"
       - "马来西亚-3.13MB%2Fs\r\r\r\r"
-      - "未知国家-16.8MB%2Fs\r\r\r\r"
       - "未知国家-125.3KB%2Fs\r\r\r\r"
-      - "美国-3.07MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-49.7MB%2Fs\r\r\r\r"
-      - "英国-127.2KB%2Fs\r\r\r\r"
-      - "美国-25.1MB%2Fs\r\r\r\r"
       - "未知国家-57.2MB%2Fs\r\r\r\r"
-      - "新加坡-1.16MB%2Fs\r\r\r\r"
-      - "哥伦比亚-31.1MB%2Fs\r\r\r\r"
-      - "未知国家-27.3MB%2Fs\r\r\r\r"
-      - "瑞士-78.7MB%2Fs\r\r\r\r"
-      - "法国-125.8KB%2Fs\r\r\r\r"
-      - "美国-3.59MB%2Fs\r\r\r\r"
-      - "美国-3.74MB%2Fs\r\r\r\r"
-      - "芬兰-1.53MB%2Fs\r\r\r\r"
-      - "日本-139.5KB%2Fs\r\r\r\r"
-      - "马来西亚-39.5MB%2Fs\r\r\r\r"
-      - 美国-1.73MB/s
-      - "美国-89.9MB%2Fs\r\r\r\r"
       - "乌克兰-2.29MB%2Fs\r\r\r\r"
-      - "美国-8.93MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-4.12MB%2Fs\r\r\r\r"
-      - "土耳其-8.0MB%2Fs\r\r\r\r"
       - "未知国家-2.54MB%2Fs\r\r\r\r"
       - "土耳其-7.1MB%2Fs\r\r\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r\r"
       - "美国-3.14MB%2Fs\r\r\r\r"
       - "俄罗斯联邦-65.8MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "俄罗斯联邦-30.5MB%2Fs\r\r\r\r"
+      - "俄罗斯联邦-29.3MB%2Fs\r\r\r\r"
+      - "中转节点-3.39MB/s\r\r\r\r"
+      - "中转节点-3.07MB/s\r\r\r\r"
+      - "中转节点-6.15MB/s\r\r\r\r"
+      - "中转节点-224.2KB/s\r\r\r\r"
+      - "中转节点-171.2KB/s\r\r\r\r"
+      - "中转节点-122.2KB/s\r\r\r\r"
+      - "中转节点-184.7KB/s\r\r\r\r"
+      - "中转节点-2.71MB/s\r\r\r\r"
+      - "中转节点-207.4KB/s\r\r\r\r"
+      - "中转节点-831.4KB%2Fs\r\r\r\r"
+      - "中转节点-239.5KB%2Fs\r\r\r\r"
+      - "台湾-194.1KB%2Fs\r\r\r\r"
+      - "马来西亚-39.5MB%2Fs\r\r\r\r"
+      - "🇺🇸_US_美国\r\r\r\r_5"
+      - "🇺🇸_US_美国\r\r\r\r_6"
       - "香港-30.4MB/s\r\r\r\r"
-      - "日本-16.5MB/s\r\r\r\r"
-      - "美国-2.94MB%2Fs\r\r\r\r"
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r\r\r_1"
-      - "香港_Telegram%40kxswa\r\r\r\r_2"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - 香港_Telegram@kxswa_7
+      - 美国-2.44MB/s
+      - 美国-1.73MB/s
       - "香港_Telegram%40kxswa\r\r\r\r_3"
-      - "香港_Telegram%40kxswa\r\r\r\r_4"
-      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "中转节点-1.65MB%2Fs\r\r\r\r"
+      - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_8
-      - "香港_Telegram%40kxswa\r\r\r\r_6"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_1"
-      - "乌克兰_Telegram%40kxswa\r\r\r\r_2"
-      - "美国_Telegram%40kxswa\r\r\r\r_1"
+      - 香港_Telegram@kxswa_1
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_6
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "新加坡-1.16MB%2Fs\r\r\r\r"
+      - "美国-3.74MB%2Fs\r\r\r\r"
+      - 美国-2.97MB/s
+      - 美国-4.44MB/s
+      - "🇺🇸_US_美国\r\r\r\r_4"
+      - "🇺🇸_US_美国\r\r\r\r_1"
+      - "🇺🇸_US_美国\r\r\r_2"
+      - "新加坡-126.4KB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_5"
+      - "香港_Telegram%40kxswa\r\r\r\r_1"
+      - "香港_Telegram%40kxswa\r\r\r\r_4"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "美国-80.4MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r\r\r\r_4"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-25.1MB%2Fs\r\r\r\r"
       - "美国_Telegram%40kxswa\r\r\r\r_2"
       - "美国_Telegram%40kxswa\r\r\r\r_3"
-      - "美国_Telegram%40kxswa\r\r\r\r_4"
-      - "美国_Telegram%40kxswa\r\r\r\r_5"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
-      - "俄罗斯_Telegram%40kxswa\r\r\r\r_2"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "中转节点-1.65MB%2Fs\r\r\r\r"
-      - "新加坡-126.4KB%2Fs\r\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r\r"
-      - "波兰-33.9MB%2Fs\r\r\r\r"
+      - "香港-47.4MB%2Fs\r\r\r\r"
       - "香港-1.43MB%2Fs\r\r\r\r"
-      - "美国-2.67MB%2Fs\r\r\r\r"
-      - "俄罗斯联邦-44.5MB%2Fs\r\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r\r"
-      - "以色列-33.8MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r\r\r\r_6"
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
