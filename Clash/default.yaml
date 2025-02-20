@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-20 20:46:02
+# 配置生成日期：2025-02-20 20:47:54
 
 mixed-port: 7890
 allow-lan: false
@@ -2225,7 +2225,7 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r"
+  - name: "美国_Telegram%40kxswa\r_1"
     type: ss
     server: 23.185.248.13
     port: 17003
@@ -2234,7 +2234,7 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
-  - name: "乌克兰_Telegram%40kxswa\r"
+  - name: "乌克兰_Telegram%40kxswa\r_1"
     type: ss
     server: 92.113.116.11
     port: 15002
@@ -2252,6 +2252,1073 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
+  - name: "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+    type: ss
+    server: 119.167.230.252
+    port: 22040
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "🇺🇦_UA_乌克兰\r_1"
+    type: ss
+    server: 188.191.147.127
+    port: 31348
+    tls: false
+    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "🇬🇧_GB_英国\r"
+    type: ss
+    server: 62.100.205.48
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国_Telegram%40kxswa\r_2"
+    type: ss
+    server: 23.185.248.17
+    port: 17007
+    tls: false
+    password: Z7C08JB1HBMWQHVP
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_1"
+    type: ss
+    server: 119.167.230.252
+    port: 28164
+    tls: false
+    password: b637f2e47b7827b308ebf399008075d2
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "香港_Telegram%40kxswa\r_2"
+    type: ss
+    server: 156.245.190.23
+    port: 15014
+    tls: false
+    password: ZDGC0Q2E112UAJO6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_3"
+    type: ss
+    server: 154.196.244.21
+    port: 16011
+    tls: false
+    password: 8WDLSCVIFB4I26GB
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_4"
+    type: ss
+    server: 154.196.244.20
+    port: 16010
+    tls: false
+    password: 2UOL8ESS12X0J31P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "🇩🇪_DE_德国\r"
+    type: ss
+    server: 45.87.175.65
+    port: 8080
+    tls: false
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国_Telegram%40kxswa\r_3"
+    type: ss
+    server: 156.231.104.26
+    port: 18016
+    tls: false
+    password: PGF2TGUCHQBC5IP5
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_5"
+    type: ss
+    server: 154.196.244.26
+    port: 16016
+    tls: false
+    password: YHK82TR73114VN9O
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%40kxswa\r_4"
+    type: ss
+    server: 156.231.104.18
+    port: 18008
+    tls: false
+    password: 53RIUQDZR3B23TA3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "俄罗斯_Telegram%40kxswa\r_1"
+    type: ss
+    server: 89.221.224.166
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国_Telegram%40kxswa\r_5"
+    type: ss
+    server: 156.231.104.23
+    port: 18013
+    tls: false
+    password: 4OAKJ8CASERAWXI1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "俄罗斯_Telegram%40kxswa\r_2"
+    type: ss
+    server: is3.opensocks.site
+    port: 8388
+    tls: false
+    password: NjBlZDlk
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 香港_Telegram@kxswa_1
+    type: vmess
+    server: 47.97.82.13
+    port: 11126
+    uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "伊朗_Telegram%40kxswa\r"
+    type: ss
+    server: sgp.fastsoonlink.com
+    port: 40005
+    tls: false
+    password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 香港_Telegram@kxswa_2
+    type: vmess
+    server: 120.232.153.40
+    port: 54082
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_6"
+    type: ss
+    server: 203.23.128.79
+    port: 51348
+    tls: false
+    password: dt31KYYCCAUBwu09QwG9flPBIuP9jA6VXnjN8StKTkgc45ny
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 香港_Telegram@kxswa_3
+    type: vmess
+    server: 183.236.51.38
+    port: 42120
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_4
+    type: vmess
+    server: 120.232.153.63
+    port: 40165
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_5
+    type: vmess
+    server: 120.198.71.216
+    port: 55482
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_6
+    type: vmess
+    server: 120.234.102.229
+    port: 52908
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_7
+    type: vmess
+    server: 120.232.153.63
+    port: 40172
+    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_8
+    type: vmess
+    server: 120.232.153.123
+    port: 45402
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "乌克兰_Telegram%40kxswa\r_2"
+    type: ss
+    server: 185.234.64.35
+    port: 8388
+    tls: false
+    password: YTNjNDY5
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "韩国_Telegram%40kxswa\r"
+    type: ss
+    server: kr.fastsoonlink.com
+    port: 40032
+    tls: false
+    password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: HK🐲™️_1
+    type: vless
+    server: 103.117.101.168
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_2
+    type: vless
+    server: 47.238.40.62
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_3
+    type: vless
+    server: 103.148.72.147
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_4
+    type: vless
+    server: 83.229.123.36
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_5
+    type: vless
+    server: 103.103.245.188
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_6
+    type: vless
+    server: 101.32.15.176
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_7
+    type: vless
+    server: 58.176.95.46
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_8
+    type: vless
+    server: 8.217.124.38
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_9
+    type: vless
+    server: 8.218.39.183
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_10
+    type: vless
+    server: 8.223.15.4
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_11
+    type: vless
+    server: 8.218.26.21
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_12
+    type: vless
+    server: 8.218.77.162
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_13
+    type: vless
+    server: 91.217.139.121
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_14
+    type: vless
+    server: 47.238.161.148
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: HK🐲™️_15
+    type: vless
+    server: 8.210.250.122
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_1
+    type: vless
+    server: 13.229.218.95
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_2
+    type: vless
+    server: 188.64.108.9
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_3
+    type: vless
+    server: 13.229.72.179
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_4
+    type: vless
+    server: 20.184.3.9
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_5
+    type: vless
+    server: 27.50.48.18
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_6
+    type: vless
+    server: 52.74.106.147
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_7
+    type: vless
+    server: 43.156.181.203
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_8
+    type: vless
+    server: 8.219.165.74
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_9
+    type: vless
+    server: 27.50.49.251
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_10
+    type: vless
+    server: 43.128.95.110
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_11
+    type: vless
+    server: 47.236.80.212
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_12
+    type: vless
+    server: 47.236.251.178
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_13
+    type: vless
+    server: 13.228.155.72
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_14
+    type: vless
+    server: 27.50.49.166
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: SG🐲™️_15
+    type: vless
+    server: 8.222.190.5
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_1
+    type: vless
+    server: 103.117.102.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_2
+    type: vless
+    server: 149.62.44.15
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_3
+    type: vless
+    server: 103.117.103.25
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_4
+    type: vless
+    server: 45.66.129.8
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_5
+    type: vless
+    server: 103.117.103.23
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_6
+    type: vless
+    server: 141.147.144.246
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_7
+    type: vless
+    server: 152.69.199.70
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_8
+    type: vless
+    server: 217.142.236.93
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_9
+    type: vless
+    server: 132.226.5.113
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_10
+    type: vless
+    server: 141.147.190.61
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_11
+    type: vless
+    server: 47.79.86.103
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_12
+    type: vless
+    server: 128.1.18.29
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_13
+    type: vless
+    server: 168.138.204.44
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_14
+    type: vless
+    server: 47.79.34.47
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: JP🐲™️_15
+    type: vless
+    server: 217.142.243.226
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: TW🐲™️
+    type: vless
+    server: 188.253.6.210
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_1
+    type: vless
+    server: 121.156.155.161
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_2
+    type: vless
+    server: 220.81.82.20
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_3
+    type: vless
+    server: 222.112.173.127
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_4
+    type: vless
+    server: 222.97.84.129
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_5
+    type: vless
+    server: 121.139.183.69
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_6
+    type: vless
+    server: 222.120.140.181
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_7
+    type: vless
+    server: 14.46.214.65
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_8
+    type: vless
+    server: 222.97.207.98
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_9
+    type: vless
+    server: 175.198.156.202
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_10
+    type: vless
+    server: 221.163.88.207
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_11
+    type: vless
+    server: 121.158.247.42
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_12
+    type: vless
+    server: 121.155.61.102
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_13
+    type: vless
+    server: 118.37.74.210
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_14
+    type: vless
+    server: 221.157.0.159
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: KR🐲™️_15
+    type: vless
+    server: 59.21.10.151
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_1
+    type: vless
+    server: 154.31.118.11
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_2
+    type: vless
+    server: 154.21.93.44
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_3
+    type: vless
+    server: 172.67.166.228
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_4
+    type: vless
+    server: 154.26.182.81
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_5
+    type: vless
+    server: 104.21.31.221
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_6
+    type: vless
+    server: 185.148.13.158
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_7
+    type: vless
+    server: 38.84.153.155
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_8
+    type: vless
+    server: 172.67.172.63
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_9
+    type: vless
+    server: 38.47.117.85
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_10
+    type: vless
+    server: 162.159.44.231
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_11
+    type: vless
+    server: 154.17.227.138
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_12
+    type: vless
+    server: 162.159.44.230
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_13
+    type: vless
+    server: 172.67.204.145
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_14
+    type: vless
+    server: 185.218.6.24
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: US🐲™️_15
+    type: vless
+    server: 172.67.135.23
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_1
+    type: vless
+    server: 185.188.147.79
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_2
+    type: vless
+    server: 185.144.245.62
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_3
+    type: vless
+    server: 217.30.10.55
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_4
+    type: vless
+    server: 57.128.197.158
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_5
+    type: vless
+    server: 45.85.210.234
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_6
+    type: vless
+    server: 176.105.253.98
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: PL🐲™️_7
+    type: vless
+    server: 185.238.74.193
+    uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r_1"
+    type: vless
+    server: 151.101.194.219
+    port: 80
+    uuid: fe27a1ea-68e4-4784-834e-b4dc239fa152
+    network: ws
+    tls: false
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: "🇷🇴_RO_罗马尼亚\r_1"
+    type: ss
+    server: 188.214.36.155
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇷🇴_RO_罗马尼亚\r_2"
+    type: ss
+    server: 185.193.49.88
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇷🇺_RU_俄罗斯\r_1"
+    type: ss
+    server: 217.30.10.18
+    port: 9025
+    tls: false
+    password: XPtzA9sCug3SPR4c
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_2"
+    type: vless
+    server: 151.101.130.219
+    port: 80
+    uuid: cdf893de-bf95-40f9-b2ea-fae31f2bc7fb
+    network: ws
+    tls: false
+    ws-opts:
+      path: /telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420
+      headers:
+        host: Digikala.iranian.net
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: vmess
+    server: tttxbmsm.fask511.cfd
+    port: 25774
+    uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "🇷🇺_RU_俄罗斯\r_2"
+    type: ss
+    server: 217.30.10.18
+    port: 9018
+    tls: false
+    password: fG2artUmHfNT2cX7
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇷🇺_RU_俄罗斯\r_3"
+    type: ss
+    server: 185.231.233.173
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_3"
+    type: vless
+    server: 172.64.35.129
+    port: 80
+    uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+    network: ws
+    tls: false
+    ws-opts:
+      path: /b5cdabf0-e04
+      headers:
+        host: cc.ailicf.us.kg
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r_4"
+    type: vless
+    server: 104.17.148.22
+    port: 2052
+    uuid: 9f78ae61-2cc0-5df1-9845-f7aff09e22ae
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      headers:
+        host: sPeedtest2.sbs.se1.v2vless.sitespeedtest.net
+    ip-version: dual
+    udp: true
+  - name: "🇷🇺_RU_俄罗斯\r_4"
+    type: ss
+    server: 217.30.10.18
+    port: 9024
+    tls: false
+    password: BejrQvtu9sqUeNuZ
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇮🇹_IT_意大利\r"
+    type: ss
+    server: 37.143.129.230
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_5"
+    type: vless
+    server: 104.17.148.22
+    port: 2082
+    uuid: 4e0e0901-374a-4c1f-f71e-9f841e36489e
+    network: ws
+    tls: false
+    ws-opts:
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      headers:
+        host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    ip-version: dual
+    udp: true
+  - name: "🇷🇺_RU_俄罗斯\r_5"
+    type: ss
+    server: 217.30.10.18
+    port: 9045
+    tls: false
+    password: Lp27rqyJq72bZsqX
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国
+    type: vless
+    server: 151.101.65.6
+    port: 80
+    uuid: f6646232-9d2a-50ec-82d2-8a51673d84d7
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        host: JoinBede-mosiv2.ir
+    ip-version: dual
+    udp: true
+  - name: "🇺🇦_UA_乌克兰\r_2"
+    type: ss
+    server: 176.103.53.105
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_6"
+    type: vless
+    server: 151.101.2.228
+    port: 80
+    uuid: 5f301020-9b83-493f-94a9-75fb761ef0d3
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v24.drlimit.net
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+    type: vless
+    server: 151.101.2.219
+    port: 80
+    uuid: a1b08f93-c47f-40f6-9650-e31bf26bfcba
+    network: ws
+    tls: false
+    ws-opts:
+      path: /Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android
+      headers:
+        host: V5B28L9.com
+    ip-version: dual
+    udp: true
+  - name: "🇷🇺_RU_俄罗斯\r_6"
+    type: ss
+    server: 217.30.10.18
+    port: 9040
+    tls: false
+    password: p9z5BVADH2YFs3MN
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_7"
+    type: trojan
+    server: 3.69.213.55
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
+    type: vmess
+    server: 46.8.237.183
+    port: 49148
+    uuid: 50bb8072-dd3d-4d1b-8b32-9520cb97f8c2
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2493,9 +3560,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2737,9 +3935,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2981,9 +4310,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
   - name: 📲 电报信息
     type: select
     proxies:
@@ -3224,9 +4684,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -3467,9 +5058,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3710,9 +5432,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3970,9 +5823,140 @@ proxy-groups:
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
       - "罗马尼亚_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
-      - "乌克兰_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r_1"
+      - "乌克兰_Telegram%40kxswa\r_1"
       - "美国-89.9MB%2Fs\r"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r"
+      - "🇺🇦_UA_乌克兰\r_1"
+      - "🇬🇧_GB_英国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_1"
+      - "香港_Telegram%40kxswa\r_2"
+      - "香港_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_4"
+      - "🇩🇪_DE_德国\r"
+      - "美国_Telegram%40kxswa\r_3"
+      - "香港_Telegram%40kxswa\r_5"
+      - "美国_Telegram%40kxswa\r_4"
+      - "俄罗斯_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_5"
+      - "俄罗斯_Telegram%40kxswa\r_2"
+      - 香港_Telegram@kxswa_1
+      - "伊朗_Telegram%40kxswa\r"
+      - 香港_Telegram@kxswa_2
+      - "香港_Telegram%40kxswa\r_6"
+      - 香港_Telegram@kxswa_3
+      - 香港_Telegram@kxswa_4
+      - 香港_Telegram@kxswa_5
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - 香港_Telegram@kxswa_8
+      - "乌克兰_Telegram%40kxswa\r_2"
+      - "韩国_Telegram%40kxswa\r"
+      - HK🐲™️_1
+      - HK🐲™️_2
+      - HK🐲™️_3
+      - HK🐲™️_4
+      - HK🐲™️_5
+      - HK🐲™️_6
+      - HK🐲™️_7
+      - HK🐲™️_8
+      - HK🐲™️_9
+      - HK🐲™️_10
+      - HK🐲™️_11
+      - HK🐲™️_12
+      - HK🐲™️_13
+      - HK🐲™️_14
+      - HK🐲™️_15
+      - SG🐲™️_1
+      - SG🐲™️_2
+      - SG🐲™️_3
+      - SG🐲™️_4
+      - SG🐲™️_5
+      - SG🐲™️_6
+      - SG🐲™️_7
+      - SG🐲™️_8
+      - SG🐲™️_9
+      - SG🐲™️_10
+      - SG🐲™️_11
+      - SG🐲™️_12
+      - SG🐲™️_13
+      - SG🐲™️_14
+      - SG🐲™️_15
+      - JP🐲™️_1
+      - JP🐲™️_2
+      - JP🐲™️_3
+      - JP🐲™️_4
+      - JP🐲™️_5
+      - JP🐲™️_6
+      - JP🐲™️_7
+      - JP🐲™️_8
+      - JP🐲™️_9
+      - JP🐲™️_10
+      - JP🐲™️_11
+      - JP🐲™️_12
+      - JP🐲™️_13
+      - JP🐲™️_14
+      - JP🐲™️_15
+      - TW🐲™️
+      - KR🐲™️_1
+      - KR🐲™️_2
+      - KR🐲™️_3
+      - KR🐲™️_4
+      - KR🐲™️_5
+      - KR🐲™️_6
+      - KR🐲™️_7
+      - KR🐲™️_8
+      - KR🐲™️_9
+      - KR🐲™️_10
+      - KR🐲™️_11
+      - KR🐲™️_12
+      - KR🐲™️_13
+      - KR🐲™️_14
+      - KR🐲™️_15
+      - US🐲™️_1
+      - US🐲™️_2
+      - US🐲™️_3
+      - US🐲™️_4
+      - US🐲™️_5
+      - US🐲™️_6
+      - US🐲™️_7
+      - US🐲™️_8
+      - US🐲™️_9
+      - US🐲™️_10
+      - US🐲™️_11
+      - US🐲™️_12
+      - US🐲™️_13
+      - US🐲™️_14
+      - US🐲™️_15
+      - PL🐲™️_1
+      - PL🐲™️_2
+      - PL🐲™️_3
+      - PL🐲™️_4
+      - PL🐲™️_5
+      - PL🐲™️_6
+      - PL🐲™️_7
+      - "🇺🇸_US_美国\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_1"
+      - "🇷🇴_RO_罗马尼亚\r_2"
+      - "🇷🇺_RU_俄罗斯\r_1"
+      - "🇺🇸_US_美国\r_2"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇷🇺_RU_俄罗斯\r_2"
+      - "🇷🇺_RU_俄罗斯\r_3"
+      - "🇺🇸_US_美国\r_3"
+      - "🇺🇸_US_美国\r_4"
+      - "🇷🇺_RU_俄罗斯\r_4"
+      - "🇮🇹_IT_意大利\r"
+      - "🇺🇸_US_美国\r_5"
+      - "🇷🇺_RU_俄罗斯\r_5"
+      - 🇺🇸_US_美国
+      - "🇺🇦_UA_乌克兰\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r"
+      - "🇷🇺_RU_俄罗斯\r_6"
+      - "🇺🇸_US_美国\r_7"
+      - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
