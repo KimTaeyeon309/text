@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-20 22:08:22
+# 配置生成日期：2025-02-20 22:10:16
 
 mixed-port: 7890
 allow-lan: false
@@ -50,7 +50,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: "美国-89.9MB%2Fs\r\r\r"
+  - name: "美国-89.9MB%2Fs\r\r\r\r"
     type: ss
     server: 170.64.237.214
     port: 8443
@@ -58,7 +58,7 @@ proxies:
     password: ef713649-c164-4a36-9fc2-ebf93d76e14f
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "乌克兰_Telegram%40kxswa\r_1\r\r"
+  - name: "乌克兰_Telegram%40kxswa\r_1\r\r\r"
     type: ss
     server: 92.113.116.11
     port: 15002
@@ -66,7 +66,7 @@ proxies:
     password: 2MNBVYYYB23ZF03Z
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国-8.93MB%2Fs\r\r\r"
+  - name: "美国-8.93MB%2Fs\r\r\r\r"
     type: ss
     server: 156.231.104.19
     port: 18009
@@ -74,7 +74,7 @@ proxies:
     password: TQQGWG024W2BF6RP
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "罗马尼亚_Telegram%40kxswa\r\r\r"
+  - name: "罗马尼亚_Telegram%40kxswa\r\r\r\r"
     type: ss
     server: 185.126.239.231
     port: 20002
@@ -82,7 +82,7 @@ proxies:
     password: G2LC1BQ48SXSBKZX
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "土耳其-18.1MB%2Fs\r\r\r"
+  - name: "土耳其-18.1MB%2Fs\r\r\r\r"
     type: ss
     server: 185.123.101.241
     port: 990
@@ -90,7 +90,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "橘子公益-未知-94\r\r"
+  - name: "橘子公益-未知-94\r\r\r"
     type: trojan
     server: naiu-other.05vr9nyqg5.download
     port: 13035
@@ -100,7 +100,7 @@ proxies:
     sni: naiu-other.05vr9nyqg5.download
     skip-cert-verify: true
     ip-version: dual
-  - name: "美国_Telegram%40kxswa\r_1\r\r"
+  - name: "美国_Telegram%40kxswa\r_1\r\r\r"
     type: ss
     server: 23.185.248.13
     port: 17003
@@ -108,7 +108,7 @@ proxies:
     password: LKG8G8VL60RSB59P
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "新加坡-111.3KB%2Fs\r\r\r"
+  - name: "新加坡-111.3KB%2Fs\r\r\r\r"
     type: ss
     server: 47.129.37.234
     port: 443
@@ -116,7 +116,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "中转节点-2.61MB%2Fs\r\r\r"
+  - name: "中转节点-2.61MB%2Fs\r\r\r\r"
     type: ss
     server: gdgs.tarioblink.me
     port: 30003
@@ -124,7 +124,7 @@ proxies:
     password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国-71.7MB%2Fs\r\r\r"
+  - name: "美国-71.7MB%2Fs\r\r\r\r"
     type: ss
     server: 156.231.104.20
     port: 18010
@@ -132,7 +132,7 @@ proxies:
     password: 0A876XZUZX93N371
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国-1.78MB%2Fs\r\r\r"
+  - name: "美国-1.78MB%2Fs\r\r\r\r"
     type: ss
     server: 35.94.110.89
     port: 443
@@ -140,7 +140,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "香港-1.65MB/s\r\r\r"
+  - name: "香港-1.65MB/s\r\r\r\r"
     type: trojan
     server: 104.251.227.182
     port: 443
@@ -150,7 +150,7 @@ proxies:
     sni: hezijiasuqi.com
     skip-cert-verify: true
     ip-version: dual
-  - name: "橘子公益-未知-98\r\r"
+  - name: "橘子公益-未知-98\r\r\r"
     type: trojan
     server: 188.253.22.10
     port: 443
@@ -160,7 +160,7 @@ proxies:
     sni: key-pangolin.treefrog761.one
     skip-cert-verify: true
     ip-version: dual
-  - name: "俄罗斯联邦-2.15MB%2Fs\r\r\r"
+  - name: "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
     type: ss
     server: tel5.vpntype.dev
     port: 8388
@@ -168,7 +168,7 @@ proxies:
     password: 4qD26WardzNTK079
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国-3.98MB%2Fs\r\r\r"
+  - name: "美国-3.98MB%2Fs\r\r\r\r"
     type: ss
     server: 54.184.126.174
     port: 443
@@ -176,7 +176,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "香港_Telegram%40kxswa\r_1\r\r"
+  - name: "香港_Telegram%40kxswa\r_1\r\r\r"
     type: ss
     server: 119.167.230.252
     port: 28164
@@ -184,7 +184,7 @@ proxies:
     password: b637f2e47b7827b308ebf399008075d2
     ip-version: dual
     cipher: aes-128-gcm
-  - name: "新加坡-8.4MB%2Fs\r\r\r"
+  - name: "新加坡-8.4MB%2Fs\r\r\r\r"
     type: ss
     server: 154.196.244.12
     port: 16002
@@ -192,7 +192,7 @@ proxies:
     password: CZWGKVVKET2BTRBK
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "韩国-1.66MB%2Fs\r\r\r"
+  - name: "韩国-1.66MB%2Fs\r\r\r\r"
     type: ss
     server: 43.203.253.211
     port: 443
@@ -200,7 +200,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇷🇺_RU_俄罗斯\r\r"
+  - name: "🇷🇺_RU_俄罗斯\r\r\r"
     type: ss
     server: 217.30.10.18
     port: 9024
@@ -208,7 +208,7 @@ proxies:
     password: BejrQvtu9sqUeNuZ
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "香港-1.43MB%2Fs\r\r\r"
+  - name: "香港-1.43MB%2Fs\r\r\r\r"
     type: ss
     server: 156.245.190.19
     port: 15010
@@ -216,7 +216,7 @@ proxies:
     password: AYC4MQ5DSGJ4QOKG
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "以色列-38.0MB%2Fs\r\r\r"
+  - name: "以色列-38.0MB%2Fs\r\r\r\r"
     type: ss
     server: 188.191.147.127
     port: 31348
@@ -234,7 +234,7 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "英国-1.38MB%2Fs\r\r\r"
+  - name: "英国-1.38MB%2Fs\r\r\r\r"
     type: ss
     server: 62.100.205.48
     port: 989
@@ -242,7 +242,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "韩国-3.09MB%2Fs\r\r\r"
+  - name: "韩国-3.09MB%2Fs\r\r\r\r"
     type: ss
     server: 52.79.101.162
     port: 443
@@ -250,7 +250,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "美国_Telegram%40kxswa\r_2\r\r"
+  - name: "美国_Telegram%40kxswa\r_2\r\r\r"
     type: ss
     server: 23.185.248.17
     port: 17007
@@ -267,7 +267,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "中转节点-234.7KB%2Fs\r\r\r"
+  - name: "中转节点-234.7KB%2Fs\r\r\r\r"
     type: ss
     server: hk.fastsoonlink.com
     port: 40000
@@ -275,7 +275,7 @@ proxies:
     password: 3FB23A19-9424-40C7-9139-3540228283FA
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "斯洛伐克-31.8MB%2Fs\r\r\r"
+  - name: "斯洛伐克-31.8MB%2Fs\r\r\r\r"
     type: ss
     server: 156.146.40.194
     port: 989
@@ -283,7 +283,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "新加坡-115.1KB%2Fs\r\r\r"
+  - name: "新加坡-115.1KB%2Fs\r\r\r\r"
     type: ss
     server: 13.213.40.92
     port: 443
@@ -291,7 +291,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "奥地利-469.2KB%2Fs\r\r\r"
+  - name: "奥地利-469.2KB%2Fs\r\r\r\r"
     type: ss
     server: at1.opensocks.site
     port: 8388
@@ -299,7 +299,7 @@ proxies:
     password: OWY4ODBm
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "马来西亚-17.8MB%2Fs\r\r\r"
+  - name: "马来西亚-17.8MB%2Fs\r\r\r\r"
     type: ss
     server: 103.106.229.219
     port: 989
@@ -307,7 +307,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "中转节点-911.8KB/s\r\r\r"
+  - name: "中转节点-911.8KB/s\r\r\r\r"
     type: trojan
     server: naiu-us.05vr9nyqg5.download
     port: 13019
@@ -327,7 +327,7 @@ proxies:
     ip-version: dual
     alterId: 1
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r_2\r\r"
+  - name: "香港_Telegram%40kxswa\r_2\r\r\r"
     type: ss
     server: 156.245.190.23
     port: 15014
@@ -335,7 +335,7 @@ proxies:
     password: ZDGC0Q2E112UAJO6
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "橘子公益-未知-57\r\r"
+  - name: "橘子公益-未知-57\r\r\r"
     type: trojan
     server: lm.kaiqsz.com
     port: 51075
@@ -345,7 +345,7 @@ proxies:
     sni: mmbiz10.redapricotcloud.com
     skip-cert-verify: true
     ip-version: dual
-  - name: "香港_Telegram%40kxswa\r_3\r\r"
+  - name: "香港_Telegram%40kxswa\r_3\r\r\r"
     type: ss
     server: 154.196.244.21
     port: 16011
@@ -353,7 +353,7 @@ proxies:
     password: 8WDLSCVIFB4I26GB
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r_4\r\r"
+  - name: "香港_Telegram%40kxswa\r_4\r\r\r"
     type: ss
     server: 154.196.244.20
     port: 16010
@@ -361,7 +361,7 @@ proxies:
     password: 2UOL8ESS12X0J31P
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "中转节点-687.0KB%2Fs\r\r\r"
+  - name: "中转节点-687.0KB%2Fs\r\r\r\r"
     type: ss
     server: tengx.wwwq.net
     port: 37310
@@ -369,7 +369,7 @@ proxies:
     password: c1JpS2F6dHRDQWl3UTl0VVRoZU5YOFRraGlDellJV3M=
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "韩国-1.56MB%2Fs\r\r\r"
+  - name: "韩国-1.56MB%2Fs\r\r\r\r"
     type: ss
     server: 3.39.249.88
     port: 443
@@ -386,7 +386,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "韩国-4.16MB%2Fs\r\r\r"
+  - name: "韩国-4.16MB%2Fs\r\r\r\r"
     type: ss
     server: 13.125.111.28
     port: 443
@@ -394,7 +394,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "韩国-95.4MB%2Fs\r\r\r"
+  - name: "韩国-95.4MB%2Fs\r\r\r\r"
     type: ss
     server: 54.180.133.38
     port: 443
@@ -402,7 +402,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "香港-11.3MB%2Fs\r\r\r"
+  - name: "香港-11.3MB%2Fs\r\r\r\r"
     type: ss
     server: 156.245.190.16
     port: 15007
@@ -410,7 +410,7 @@ proxies:
     password: MHZUEOX3KBXAV09K
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "德国_Telegram%40kxswa\r\r\r"
+  - name: "德国_Telegram%40kxswa\r\r\r\r"
     type: ss
     server: 45.87.175.65
     port: 8080
@@ -418,7 +418,7 @@ proxies:
     password: oZIoA69Q8yhcQV8ka3Pa3A
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国-4.01MB%2Fs\r\r\r"
+  - name: "美国-4.01MB%2Fs\r\r\r\r"
     type: ss
     server: 45.158.171.110
     port: 8080
@@ -426,7 +426,7 @@ proxies:
     password: oZIoA69Q8yhcQV8ka3Pa3A
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r_3\r\r"
+  - name: "美国_Telegram%40kxswa\r_3\r\r\r"
     type: ss
     server: 156.231.104.26
     port: 18016
@@ -434,7 +434,7 @@ proxies:
     password: PGF2TGUCHQBC5IP5
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r_5\r\r"
+  - name: "香港_Telegram%40kxswa\r_5\r\r\r"
     type: ss
     server: 154.196.244.26
     port: 16016
@@ -442,7 +442,7 @@ proxies:
     password: YHK82TR73114VN9O
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r_4\r\r"
+  - name: "美国_Telegram%40kxswa\r_4\r\r\r"
     type: ss
     server: 156.231.104.18
     port: 18008
@@ -460,7 +460,7 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "俄罗斯_Telegram%40kxswa\r_1\r\r"
+  - name: "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
     type: ss
     server: 89.221.224.166
     port: 8388
@@ -468,7 +468,7 @@ proxies:
     password: NjBlZDlk
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r_5\r\r"
+  - name: "美国_Telegram%40kxswa\r_5\r\r\r"
     type: ss
     server: 156.231.104.23
     port: 18013
@@ -476,7 +476,7 @@ proxies:
     password: 4OAKJ8CASERAWXI1
     ip-version: dual
     cipher: aes-256-gcm
-  - name: "俄罗斯_Telegram%40kxswa\r_2\r\r"
+  - name: "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
     type: ss
     server: is3.opensocks.site
     port: 8388
@@ -503,7 +503,7 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "🇨🇭_CH_瑞士\r\r\r"
+  - name: "🇨🇭_CH_瑞士\r\r\r\r"
     type: ss
     server: 84.17.53.160
     port: 989
@@ -511,7 +511,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "美国-104.9KB%2Fs\r\r\r"
+  - name: "美国-104.9KB%2Fs\r\r\r\r"
     type: ss
     server: 38.121.43.71
     port: 5004
@@ -539,7 +539,7 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "美国-120.7KB%2Fs\r\r\r"
+  - name: "美国-120.7KB%2Fs\r\r\r\r"
     type: ss
     server: 95.164.122.61
     port: 54075
@@ -584,7 +584,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "未知国家-575.4KB%2Fs\r\r\r"
+  - name: "未知国家-575.4KB%2Fs\r\r\r\r"
     type: ss
     server: service.ouluyun9803.com
     port: 20005
@@ -592,7 +592,7 @@ proxies:
     password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "立陶宛-1.74MB%2Fs\r\r\r"
+  - name: "立陶宛-1.74MB%2Fs\r\r\r\r"
     type: ss
     server: 45.87.175.181
     port: 8080
@@ -609,7 +609,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "荷兰-798.3KB%2Fs\r\r\r"
+  - name: "荷兰-798.3KB%2Fs\r\r\r\r"
     type: ss
     server: 185.242.86.156
     port: 54170
@@ -635,7 +635,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "美国-10.4MB%2Fs\r\r\r"
+  - name: "美国-10.4MB%2Fs\r\r\r\r"
     type: ss
     server: 184.170.241.194
     port: 443
@@ -643,7 +643,7 @@ proxies:
     password: shadowsocks
     ip-version: dual
     cipher: aes-128-cfb
-  - name: "立陶宛-209.6KB%2Fs\r\r\r"
+  - name: "立陶宛-209.6KB%2Fs\r\r\r\r"
     type: ss
     server: 45.87.175.171
     port: 8080
@@ -661,7 +661,7 @@ proxies:
     ip-version: dual
     alterId: 64
     cipher: auto
-  - name: "德国-154.2KB%2Fs\r\r\r"
+  - name: "德国-154.2KB%2Fs\r\r\r\r"
     type: ss
     server: 193.108.119.230
     port: 8080
@@ -669,7 +669,7 @@ proxies:
     password: 14fFPrbezE3HDZzsMOr6
     ip-version: dual
     cipher: rc4-md5
-  - name: "英国-206.6KB%2Fs\r\r\r"
+  - name: "英国-206.6KB%2Fs\r\r\r\r"
     type: ss
     server: 212.102.53.194
     port: 443
@@ -677,7 +677,7 @@ proxies:
     password: shadowsocks
     ip-version: dual
     cipher: aes-128-gcm
-  - name: "荷兰-201.8KB%2Fs\r\r"
+  - name: "荷兰-201.8KB%2Fs\r\r\r"
     type: ss
     server: 193.29.139.179
     port: 8080
@@ -685,7 +685,7 @@ proxies:
     password: 4a2rfixophdjffa8KVA4Aa
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "伊朗_Telegram%40kxswa\r\r\r"
+  - name: "伊朗_Telegram%40kxswa\r\r\r\r"
     type: ss
     server: sgp.fastsoonlink.com
     port: 40005
@@ -702,7 +702,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r_6\r\r"
+  - name: "香港_Telegram%40kxswa\r_6\r\r\r"
     type: ss
     server: 203.23.128.79
     port: 51348
@@ -746,7 +746,7 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "乌克兰_Telegram%40kxswa\r_2\r\r"
+  - name: "乌克兰_Telegram%40kxswa\r_2\r\r\r"
     type: ss
     server: 185.234.64.35
     port: 8388
@@ -754,7 +754,7 @@ proxies:
     password: YTNjNDY5
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "韩国_Telegram%40kxswa\r\r\r"
+  - name: "韩国_Telegram%40kxswa\r\r\r\r"
     type: ss
     server: kr.fastsoonlink.com
     port: 40032
@@ -762,7 +762,7 @@ proxies:
     password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
     ip-version: dual
     cipher: chacha20-ietf-poly1305
-  - name: "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
+  - name: "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
     type: vless
     server: 14.102.229.149
     port: 2052
@@ -776,13 +776,13 @@ proxies:
       headers:
         host: sPeedtest2.sbs.us2.v2vless.sitespeedtest.net
     ip-version: dual
-  - name: "橘子公益-美国US-111\r\r"
+  - name: "橘子公益-美国US-111\r\r\r"
     type: vless
     server: 104.17.148.22
     uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
     tls: false
     ip-version: dual
-  - name: "橘子公益-美国US-110\r\r"
+  - name: "橘子公益-美国US-110\r\r\r"
     type: vless
     server: 104.17.147.22
     port: 80
@@ -796,7 +796,7 @@ proxies:
       headers:
         host: redw.pooriam.ir
     ip-version: dual
-  - name: "🇺🇸_US_美国\r_2\r\r"
+  - name: "🇺🇸_US_美国\r_2\r\r\r"
     type: vless
     server: 151.101.66.219
     port: 80
@@ -810,7 +810,7 @@ proxies:
       headers:
         host: IPSERVIS2.ORG
     ip-version: dual
-  - name: "橘子公益-美国US-105\r\r"
+  - name: "橘子公益-美国US-105\r\r\r"
     type: vless
     server: 151.101.2.228
     port: 80
@@ -824,7 +824,7 @@ proxies:
       headers:
         host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
     ip-version: dual
-  - name: "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
+  - name: "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
     type: vless
     server: 146.75.8.88
     port: 80
@@ -838,7 +838,7 @@ proxies:
       headers:
         host: melodebot.net
     ip-version: dual
-  - name: "🇺🇸_US_美国\r_3\r\r"
+  - name: "🇺🇸_US_美国\r_3\r\r\r"
     type: ss
     server: 54.244.0.4
     port: 443
@@ -846,7 +846,7 @@ proxies:
     password: amazonskr05
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
+  - name: "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
     type: vless
     server: 151.101.64.155
     port: 80
@@ -859,7 +859,7 @@ proxies:
       headers:
         host: Www.speedtest.net.sPeedtest2.sbs.
     ip-version: dual
-  - name: "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
+  - name: "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
     type: vless
     server: 151.101.2.219
     port: 80
@@ -873,7 +873,7 @@ proxies:
       headers:
         host: V5B28L9.com
     ip-version: dual
-  - name: "🇺🇸_US_美国\r_4\r\r"
+  - name: "🇺🇸_US_美国\r_4\r\r\r"
     type: ss
     server: 185.47.253.171
     port: 989
@@ -881,7 +881,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇺🇦_UA_乌克兰\r\r\r"
+  - name: "🇺🇦_UA_乌克兰\r\r\r\r"
     type: ss
     server: 176.103.53.105
     port: 989
@@ -889,7 +889,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_5\r\r"
+  - name: "🇺🇸_US_美国\r_5\r\r\r"
     type: trojan
     server: 3.69.213.55
     port: 22222
@@ -901,7 +901,7 @@ proxies:
       - http/1.1
     skip-cert-verify: false
     ip-version: dual
-  - name: "🇺🇸_US_美国\r_6\r\r"
+  - name: "🇺🇸_US_美国\r_6\r\r\r"
     type: vless
     server: 151.101.194.219
     port: 80
@@ -915,7 +915,7 @@ proxies:
       headers:
         host: foffmelo.com
     ip-version: dual
-  - name: "🇩🇰_DK_丹麦\r\r\r"
+  - name: "🇩🇰_DK_丹麦\r\r\r\r"
     type: ss
     server: 185.186.79.53
     port: 989
@@ -941,463 +941,463 @@ proxies:
     tls: false
     ip-version: dual
     cipher: auto
-  - name: "HK🐲™️_1\r\r"
+  - name: "HK🐲™️_1\r\r\r"
     type: vless
     server: 8.218.39.183
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_2\r\r"
+  - name: "HK🐲™️_2\r\r\r"
     type: vless
     server: 43.129.171.137
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_3\r\r"
+  - name: "HK🐲™️_3\r\r\r"
     type: vless
     server: 103.148.72.147
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_4\r\r"
+  - name: "HK🐲™️_4\r\r\r"
     type: vless
     server: 156.251.180.181
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_5\r\r"
+  - name: "HK🐲™️_5\r\r\r"
     type: vless
     server: 91.217.139.121
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_6\r\r"
+  - name: "HK🐲™️_6\r\r\r"
     type: vless
     server: 103.103.245.188
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_7\r\r"
+  - name: "HK🐲™️_7\r\r\r"
     type: vless
     server: 45.154.15.138
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_8\r\r"
+  - name: "HK🐲™️_8\r\r\r"
     type: vless
     server: 47.76.218.163
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_9\r\r"
+  - name: "HK🐲™️_9\r\r\r"
     type: vless
     server: 47.238.211.186
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_10\r\r"
+  - name: "HK🐲™️_10\r\r\r"
     type: vless
     server: 47.76.76.61
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_11\r\r"
+  - name: "HK🐲™️_11\r\r\r"
     type: vless
     server: 154.21.202.24
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_12\r\r"
+  - name: "HK🐲™️_12\r\r\r"
     type: vless
     server: 8.223.15.4
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_13\r\r"
+  - name: "HK🐲™️_13\r\r\r"
     type: vless
     server: 141.11.175.174
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_14\r\r"
+  - name: "HK🐲™️_14\r\r\r"
     type: vless
     server: 8.218.77.162
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "HK🐲™️_15\r\r"
+  - name: "HK🐲™️_15\r\r\r"
     type: vless
     server: 103.235.18.96
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_1\r\r"
+  - name: "SG🐲™️_1\r\r\r"
     type: vless
     server: 47.128.215.165
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_2\r\r"
+  - name: "SG🐲™️_2\r\r\r"
     type: vless
     server: 3.0.160.105
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_3\r\r"
+  - name: "SG🐲™️_3\r\r\r"
     type: vless
     server: 206.238.236.63
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_4\r\r"
+  - name: "SG🐲™️_4\r\r\r"
     type: vless
     server: 27.50.49.41
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_5\r\r"
+  - name: "SG🐲™️_5\r\r\r"
     type: vless
     server: 27.50.49.230
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_6\r\r"
+  - name: "SG🐲™️_6\r\r\r"
     type: vless
     server: 43.156.181.203
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_7\r\r"
+  - name: "SG🐲™️_7\r\r\r"
     type: vless
     server: 13.228.155.72
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_8\r\r"
+  - name: "SG🐲™️_8\r\r\r"
     type: vless
     server: 52.220.205.101
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_9\r\r"
+  - name: "SG🐲™️_9\r\r\r"
     type: vless
     server: 18.136.16.233
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_10\r\r"
+  - name: "SG🐲™️_10\r\r\r"
     type: vless
     server: 143.42.68.97
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_11\r\r"
+  - name: "SG🐲™️_11\r\r\r"
     type: vless
     server: 52.74.101.26
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_12\r\r"
+  - name: "SG🐲™️_12\r\r\r"
     type: vless
     server: 206.238.236.8
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_13\r\r"
+  - name: "SG🐲™️_13\r\r\r"
     type: vless
     server: 43.156.116.194
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_14\r\r"
+  - name: "SG🐲™️_14\r\r\r"
     type: vless
     server: 27.50.49.156
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "SG🐲™️_15\r\r"
+  - name: "SG🐲™️_15\r\r\r"
     type: vless
     server: 188.64.108.9
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_1\r\r"
+  - name: "JP🐲™️_1\r\r\r"
     type: vless
     server: 103.117.103.23
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_2\r\r"
+  - name: "JP🐲™️_2\r\r\r"
     type: vless
     server: 103.117.102.127
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_3\r\r"
+  - name: "JP🐲™️_3\r\r\r"
     type: vless
     server: 103.117.103.25
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_4\r\r"
+  - name: "JP🐲™️_4\r\r\r"
     type: vless
     server: 212.52.0.61
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_5\r\r"
+  - name: "JP🐲™️_5\r\r\r"
     type: vless
     server: 64.110.104.30
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_6\r\r"
+  - name: "JP🐲™️_6\r\r\r"
     type: vless
     server: 64.110.101.31
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_7\r\r"
+  - name: "JP🐲™️_7\r\r\r"
     type: vless
     server: 138.2.36.157
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_8\r\r"
+  - name: "JP🐲™️_8\r\r\r"
     type: vless
     server: 138.3.218.230
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_9\r\r"
+  - name: "JP🐲™️_9\r\r\r"
     type: vless
     server: 158.101.90.60
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_10\r\r"
+  - name: "JP🐲™️_10\r\r\r"
     type: vless
     server: 139.162.73.24
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_11\r\r"
+  - name: "JP🐲™️_11\r\r\r"
     type: vless
     server: 217.142.236.93
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_12\r\r"
+  - name: "JP🐲™️_12\r\r\r"
     type: vless
     server: 176.97.73.82
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_13\r\r"
+  - name: "JP🐲™️_13\r\r\r"
     type: vless
     server: 47.91.18.127
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_14\r\r"
+  - name: "JP🐲™️_14\r\r\r"
     type: vless
     server: 172.105.233.112
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "JP🐲™️_15\r\r"
+  - name: "JP🐲™️_15\r\r\r"
     type: vless
     server: 47.79.34.47
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_1\r\r"
+  - name: "KR🐲™️_1\r\r\r"
     type: vless
     server: 112.171.28.240
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_2\r\r"
+  - name: "KR🐲™️_2\r\r\r"
     type: vless
     server: 121.187.97.8
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_3\r\r"
+  - name: "KR🐲™️_3\r\r\r"
     type: vless
     server: 121.185.236.205
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_4\r\r"
+  - name: "KR🐲™️_4\r\r\r"
     type: vless
     server: 119.206.17.38
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_5\r\r"
+  - name: "KR🐲™️_5\r\r\r"
     type: vless
     server: 119.205.15.124
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_6\r\r"
+  - name: "KR🐲™️_6\r\r\r"
     type: vless
     server: 61.83.79.155
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_7\r\r"
+  - name: "KR🐲™️_7\r\r\r"
     type: vless
     server: 119.194.79.217
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_8\r\r"
+  - name: "KR🐲™️_8\r\r\r"
     type: vless
     server: 112.163.175.120
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_9\r\r"
+  - name: "KR🐲™️_9\r\r\r"
     type: vless
     server: 59.22.26.141
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_10\r\r"
+  - name: "KR🐲™️_10\r\r\r"
     type: vless
     server: 59.21.203.65
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_11\r\r"
+  - name: "KR🐲™️_11\r\r\r"
     type: vless
     server: 211.114.112.103
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_12\r\r"
+  - name: "KR🐲™️_12\r\r\r"
     type: vless
     server: 121.154.98.2
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_13\r\r"
+  - name: "KR🐲™️_13\r\r\r"
     type: vless
     server: 121.190.128.127
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_14\r\r"
+  - name: "KR🐲™️_14\r\r\r"
     type: vless
     server: 152.70.245.66
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "KR🐲™️_15\r\r"
+  - name: "KR🐲™️_15\r\r\r"
     type: vless
     server: 46.232.63.127
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_1\r\r"
+  - name: "US🐲™️_1\r\r\r"
     type: vless
     server: 162.159.38.101
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_2\r\r"
+  - name: "US🐲™️_2\r\r\r"
     type: vless
     server: 104.21.19.236
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_3\r\r"
+  - name: "US🐲™️_3\r\r\r"
     type: vless
     server: 162.159.44.230
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_4\r\r"
+  - name: "US🐲™️_4\r\r\r"
     type: vless
     server: 104.19.86.120
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_5\r\r"
+  - name: "US🐲™️_5\r\r\r"
     type: vless
     server: 89.213.182.253
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_6\r\r"
+  - name: "US🐲™️_6\r\r\r"
     type: vless
     server: 154.17.232.199
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_7\r\r"
+  - name: "US🐲™️_7\r\r\r"
     type: vless
     server: 37.123.192.214
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_8\r\r"
+  - name: "US🐲™️_8\r\r\r"
     type: vless
     server: 185.218.7.83
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_9\r\r"
+  - name: "US🐲™️_9\r\r\r"
     type: vless
     server: 104.21.25.163
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_10\r\r"
+  - name: "US🐲™️_10\r\r\r"
     type: vless
     server: 185.148.13.32
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_11\r\r"
+  - name: "US🐲™️_11\r\r\r"
     type: vless
     server: 216.198.53.212
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_12\r\r"
+  - name: "US🐲™️_12\r\r\r"
     type: vless
     server: 104.21.52.166
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_13\r\r"
+  - name: "US🐲™️_13\r\r\r"
     type: vless
     server: 37.123.193.101
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_14\r\r"
+  - name: "US🐲™️_14\r\r\r"
     type: vless
     server: 154.17.228.203
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "US🐲™️_15\r\r"
+  - name: "US🐲™️_15\r\r\r"
     type: vless
     server: 172.67.77.127
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "PL🐲™️_1\r\r"
+  - name: "PL🐲™️_1\r\r\r"
     type: vless
     server: 45.85.210.234
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
     tls: false
     ip-version: dual
-  - name: "PL🐲™️_2\r\r"
+  - name: "PL🐲™️_2\r\r\r"
     type: vless
     server: 185.188.147.79
     uuid: 789b66d4-cc0a-4565-bf23-b2a0a4b3c814
@@ -1415,183 +1415,183 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
   - name: ♻️ 自动选择
     type: url-test
@@ -1599,183 +1599,183 @@ proxy-groups:
     interval: 300
     tolerance: 5000
     proxies:
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
   - name: 🌍 国外媒体
     type: select
@@ -1783,732 +1783,732 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
   - name: 🎯 全球直连
     type: select
@@ -2532,183 +2532,183 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "美国-89.9MB%2Fs\r\r\r"
-      - "乌克兰_Telegram%40kxswa\r_1\r\r"
-      - "美国-8.93MB%2Fs\r\r\r"
-      - "罗马尼亚_Telegram%40kxswa\r\r\r"
-      - "土耳其-18.1MB%2Fs\r\r\r"
-      - "橘子公益-未知-94\r\r"
-      - "美国_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-111.3KB%2Fs\r\r\r"
-      - "中转节点-2.61MB%2Fs\r\r\r"
-      - "美国-71.7MB%2Fs\r\r\r"
-      - "美国-1.78MB%2Fs\r\r\r"
-      - "香港-1.65MB/s\r\r\r"
-      - "橘子公益-未知-98\r\r"
-      - "俄罗斯联邦-2.15MB%2Fs\r\r\r"
-      - "美国-3.98MB%2Fs\r\r\r"
-      - "香港_Telegram%40kxswa\r_1\r\r"
-      - "新加坡-8.4MB%2Fs\r\r\r"
-      - "韩国-1.66MB%2Fs\r\r\r"
-      - "🇷🇺_RU_俄罗斯\r\r"
-      - "香港-1.43MB%2Fs\r\r\r"
-      - "以色列-38.0MB%2Fs\r\r\r"
+      - "美国-89.9MB%2Fs\r\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_1\r\r\r"
+      - "美国-8.93MB%2Fs\r\r\r\r"
+      - "罗马尼亚_Telegram%40kxswa\r\r\r\r"
+      - "土耳其-18.1MB%2Fs\r\r\r\r"
+      - "橘子公益-未知-94\r\r\r"
+      - "美国_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-111.3KB%2Fs\r\r\r\r"
+      - "中转节点-2.61MB%2Fs\r\r\r\r"
+      - "美国-71.7MB%2Fs\r\r\r\r"
+      - "美国-1.78MB%2Fs\r\r\r\r"
+      - "香港-1.65MB/s\r\r\r\r"
+      - "橘子公益-未知-98\r\r\r"
+      - "俄罗斯联邦-2.15MB%2Fs\r\r\r\r"
+      - "美国-3.98MB%2Fs\r\r\r\r"
+      - "香港_Telegram%40kxswa\r_1\r\r\r"
+      - "新加坡-8.4MB%2Fs\r\r\r\r"
+      - "韩国-1.66MB%2Fs\r\r\r\r"
+      - "🇷🇺_RU_俄罗斯\r\r\r"
+      - "香港-1.43MB%2Fs\r\r\r\r"
+      - "以色列-38.0MB%2Fs\r\r\r\r"
       - 美国-2.91MB/s
-      - "英国-1.38MB%2Fs\r\r\r"
-      - "韩国-3.09MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_2\r\r"
+      - "英国-1.38MB%2Fs\r\r\r\r"
+      - "韩国-3.09MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r\r\r"
       - 法国-14.4MB/s
-      - "中转节点-234.7KB%2Fs\r\r\r"
-      - "斯洛伐克-31.8MB%2Fs\r\r\r"
-      - "新加坡-115.1KB%2Fs\r\r\r"
-      - "奥地利-469.2KB%2Fs\r\r\r"
-      - "马来西亚-17.8MB%2Fs\r\r\r"
-      - "中转节点-911.8KB/s\r\r\r"
+      - "中转节点-234.7KB%2Fs\r\r\r\r"
+      - "斯洛伐克-31.8MB%2Fs\r\r\r\r"
+      - "新加坡-115.1KB%2Fs\r\r\r\r"
+      - "奥地利-469.2KB%2Fs\r\r\r\r"
+      - "马来西亚-17.8MB%2Fs\r\r\r\r"
+      - "中转节点-911.8KB/s\r\r\r\r"
       - 法国-527.4KB/s
-      - "香港_Telegram%40kxswa\r_2\r\r"
-      - "橘子公益-未知-57\r\r"
-      - "香港_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_4\r\r"
-      - "中转节点-687.0KB%2Fs\r\r\r"
-      - "韩国-1.56MB%2Fs\r\r\r"
+      - "香港_Telegram%40kxswa\r_2\r\r\r"
+      - "橘子公益-未知-57\r\r\r"
+      - "香港_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_4\r\r\r"
+      - "中转节点-687.0KB%2Fs\r\r\r\r"
+      - "韩国-1.56MB%2Fs\r\r\r\r"
       - 美国-3.49MB/s
-      - "韩国-4.16MB%2Fs\r\r\r"
-      - "韩国-95.4MB%2Fs\r\r\r"
-      - "香港-11.3MB%2Fs\r\r\r"
-      - "德国_Telegram%40kxswa\r\r\r"
-      - "美国-4.01MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r_3\r\r"
-      - "香港_Telegram%40kxswa\r_5\r\r"
-      - "美国_Telegram%40kxswa\r_4\r\r"
+      - "韩国-4.16MB%2Fs\r\r\r\r"
+      - "韩国-95.4MB%2Fs\r\r\r\r"
+      - "香港-11.3MB%2Fs\r\r\r\r"
+      - "德国_Telegram%40kxswa\r\r\r\r"
+      - "美国-4.01MB%2Fs\r\r\r\r"
+      - "美国_Telegram%40kxswa\r_3\r\r\r"
+      - "香港_Telegram%40kxswa\r_5\r\r\r"
+      - "美国_Telegram%40kxswa\r_4\r\r\r"
       - 美国-4.44MB/s
-      - "俄罗斯_Telegram%40kxswa\r_1\r\r"
-      - "美国_Telegram%40kxswa\r_5\r\r"
-      - "俄罗斯_Telegram%40kxswa\r_2\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_1\r\r\r"
+      - "美国_Telegram%40kxswa\r_5\r\r\r"
+      - "俄罗斯_Telegram%40kxswa\r_2\r\r\r"
       - 美国-156.2KB/s
       - 美国-3.20MB/s
-      - "🇨🇭_CH_瑞士\r\r\r"
-      - "美国-104.9KB%2Fs\r\r\r"
+      - "🇨🇭_CH_瑞士\r\r\r\r"
+      - "美国-104.9KB%2Fs\r\r\r\r"
       - 美国-2.89MB/s
       - 美国-2.44MB/s
-      - "美国-120.7KB%2Fs\r\r\r"
+      - "美国-120.7KB%2Fs\r\r\r\r"
       - 美国-4.86MB/s
       - 美国-3.53MB/s
       - 香港_Telegram@kxswa_2
       - 香港_Telegram@kxswa_1
-      - "未知国家-575.4KB%2Fs\r\r\r"
-      - "立陶宛-1.74MB%2Fs\r\r\r"
+      - "未知国家-575.4KB%2Fs\r\r\r\r"
+      - "立陶宛-1.74MB%2Fs\r\r\r\r"
       - 未知国家-296.6KB/s
-      - "荷兰-798.3KB%2Fs\r\r\r"
+      - "荷兰-798.3KB%2Fs\r\r\r\r"
       - 未知国家-650.4KB/s
       - 俄罗斯联邦-72.3MB/s
-      - "美国-10.4MB%2Fs\r\r\r"
-      - "立陶宛-209.6KB%2Fs\r\r\r"
+      - "美国-10.4MB%2Fs\r\r\r\r"
+      - "立陶宛-209.6KB%2Fs\r\r\r\r"
       - 美国-269.6KB/s
-      - "德国-154.2KB%2Fs\r\r\r"
-      - "英国-206.6KB%2Fs\r\r\r"
-      - "荷兰-201.8KB%2Fs\r\r"
-      - "伊朗_Telegram%40kxswa\r\r\r"
+      - "德国-154.2KB%2Fs\r\r\r\r"
+      - "英国-206.6KB%2Fs\r\r\r\r"
+      - "荷兰-201.8KB%2Fs\r\r\r"
+      - "伊朗_Telegram%40kxswa\r\r\r\r"
       - 橘子公益-未知-92
-      - "香港_Telegram%40kxswa\r_6\r\r"
+      - "香港_Telegram%40kxswa\r_6\r\r\r"
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_3
       - 橘子公益-未知-99
       - 香港_Telegram@kxswa_5
-      - "乌克兰_Telegram%40kxswa\r_2\r\r"
-      - "韩国_Telegram%40kxswa\r\r\r"
-      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r"
-      - "橘子公益-美国US-111\r\r"
-      - "橘子公益-美国US-110\r\r"
-      - "🇺🇸_US_美国\r_2\r\r"
-      - "橘子公益-美国US-105\r\r"
-      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_3\r\r"
-      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r"
-      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r"
-      - "🇺🇸_US_美国\r_4\r\r"
-      - "🇺🇦_UA_乌克兰\r\r\r"
-      - "🇺🇸_US_美国\r_5\r\r"
-      - "🇺🇸_US_美国\r_6\r\r"
-      - "🇩🇰_DK_丹麦\r\r\r"
+      - "乌克兰_Telegram%40kxswa\r_2\r\r\r"
+      - "韩国_Telegram%40kxswa\r\r\r\r"
+      - "🇮🇳_IN_印度->🇷🇺_RU_俄罗斯\r\r\r\r"
+      - "橘子公益-美国US-111\r\r\r"
+      - "橘子公益-美国US-110\r\r\r"
+      - "🇺🇸_US_美国\r_2\r\r\r"
+      - "橘子公益-美国US-105\r\r\r"
+      - "🇸🇪_SE_瑞典->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_3\r\r\r"
+      - "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚\r\r\r\r"
+      - "🇺🇸_US_美国->🇩🇪_DE_德国\r\r\r\r"
+      - "🇺🇸_US_美国\r_4\r\r\r"
+      - "🇺🇦_UA_乌克兰\r\r\r\r"
+      - "🇺🇸_US_美国\r_5\r\r\r"
+      - "🇺🇸_US_美国\r_6\r\r\r"
+      - "🇩🇰_DK_丹麦\r\r\r\r"
       - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯->🇷🇴_RO_罗马尼亚
-      - "HK🐲™️_1\r\r"
-      - "HK🐲™️_2\r\r"
-      - "HK🐲™️_3\r\r"
-      - "HK🐲™️_4\r\r"
-      - "HK🐲™️_5\r\r"
-      - "HK🐲™️_6\r\r"
-      - "HK🐲™️_7\r\r"
-      - "HK🐲™️_8\r\r"
-      - "HK🐲™️_9\r\r"
-      - "HK🐲™️_10\r\r"
-      - "HK🐲™️_11\r\r"
-      - "HK🐲™️_12\r\r"
-      - "HK🐲™️_13\r\r"
-      - "HK🐲™️_14\r\r"
-      - "HK🐲™️_15\r\r"
-      - "SG🐲™️_1\r\r"
-      - "SG🐲™️_2\r\r"
-      - "SG🐲™️_3\r\r"
-      - "SG🐲™️_4\r\r"
-      - "SG🐲™️_5\r\r"
-      - "SG🐲™️_6\r\r"
-      - "SG🐲™️_7\r\r"
-      - "SG🐲™️_8\r\r"
-      - "SG🐲™️_9\r\r"
-      - "SG🐲™️_10\r\r"
-      - "SG🐲™️_11\r\r"
-      - "SG🐲™️_12\r\r"
-      - "SG🐲™️_13\r\r"
-      - "SG🐲™️_14\r\r"
-      - "SG🐲™️_15\r\r"
-      - "JP🐲™️_1\r\r"
-      - "JP🐲™️_2\r\r"
-      - "JP🐲™️_3\r\r"
-      - "JP🐲™️_4\r\r"
-      - "JP🐲™️_5\r\r"
-      - "JP🐲™️_6\r\r"
-      - "JP🐲™️_7\r\r"
-      - "JP🐲™️_8\r\r"
-      - "JP🐲™️_9\r\r"
-      - "JP🐲™️_10\r\r"
-      - "JP🐲™️_11\r\r"
-      - "JP🐲™️_12\r\r"
-      - "JP🐲™️_13\r\r"
-      - "JP🐲™️_14\r\r"
-      - "JP🐲™️_15\r\r"
-      - "KR🐲™️_1\r\r"
-      - "KR🐲™️_2\r\r"
-      - "KR🐲™️_3\r\r"
-      - "KR🐲™️_4\r\r"
-      - "KR🐲™️_5\r\r"
-      - "KR🐲™️_6\r\r"
-      - "KR🐲™️_7\r\r"
-      - "KR🐲™️_8\r\r"
-      - "KR🐲™️_9\r\r"
-      - "KR🐲™️_10\r\r"
-      - "KR🐲™️_11\r\r"
-      - "KR🐲™️_12\r\r"
-      - "KR🐲™️_13\r\r"
-      - "KR🐲™️_14\r\r"
-      - "KR🐲™️_15\r\r"
-      - "US🐲™️_1\r\r"
-      - "US🐲™️_2\r\r"
-      - "US🐲™️_3\r\r"
-      - "US🐲™️_4\r\r"
-      - "US🐲™️_5\r\r"
-      - "US🐲™️_6\r\r"
-      - "US🐲™️_7\r\r"
-      - "US🐲™️_8\r\r"
-      - "US🐲™️_9\r\r"
-      - "US🐲™️_10\r\r"
-      - "US🐲™️_11\r\r"
-      - "US🐲™️_12\r\r"
-      - "US🐲™️_13\r\r"
-      - "US🐲™️_14\r\r"
-      - "US🐲™️_15\r\r"
-      - "PL🐲™️_1\r\r"
-      - "PL🐲™️_2\r\r"
+      - "HK🐲™️_1\r\r\r"
+      - "HK🐲™️_2\r\r\r"
+      - "HK🐲™️_3\r\r\r"
+      - "HK🐲™️_4\r\r\r"
+      - "HK🐲™️_5\r\r\r"
+      - "HK🐲™️_6\r\r\r"
+      - "HK🐲™️_7\r\r\r"
+      - "HK🐲™️_8\r\r\r"
+      - "HK🐲™️_9\r\r\r"
+      - "HK🐲™️_10\r\r\r"
+      - "HK🐲™️_11\r\r\r"
+      - "HK🐲™️_12\r\r\r"
+      - "HK🐲™️_13\r\r\r"
+      - "HK🐲™️_14\r\r\r"
+      - "HK🐲™️_15\r\r\r"
+      - "SG🐲™️_1\r\r\r"
+      - "SG🐲™️_2\r\r\r"
+      - "SG🐲™️_3\r\r\r"
+      - "SG🐲™️_4\r\r\r"
+      - "SG🐲™️_5\r\r\r"
+      - "SG🐲™️_6\r\r\r"
+      - "SG🐲™️_7\r\r\r"
+      - "SG🐲™️_8\r\r\r"
+      - "SG🐲™️_9\r\r\r"
+      - "SG🐲™️_10\r\r\r"
+      - "SG🐲™️_11\r\r\r"
+      - "SG🐲™️_12\r\r\r"
+      - "SG🐲™️_13\r\r\r"
+      - "SG🐲™️_14\r\r\r"
+      - "SG🐲™️_15\r\r\r"
+      - "JP🐲™️_1\r\r\r"
+      - "JP🐲™️_2\r\r\r"
+      - "JP🐲™️_3\r\r\r"
+      - "JP🐲™️_4\r\r\r"
+      - "JP🐲™️_5\r\r\r"
+      - "JP🐲™️_6\r\r\r"
+      - "JP🐲™️_7\r\r\r"
+      - "JP🐲™️_8\r\r\r"
+      - "JP🐲™️_9\r\r\r"
+      - "JP🐲™️_10\r\r\r"
+      - "JP🐲™️_11\r\r\r"
+      - "JP🐲™️_12\r\r\r"
+      - "JP🐲™️_13\r\r\r"
+      - "JP🐲™️_14\r\r\r"
+      - "JP🐲™️_15\r\r\r"
+      - "KR🐲™️_1\r\r\r"
+      - "KR🐲™️_2\r\r\r"
+      - "KR🐲™️_3\r\r\r"
+      - "KR🐲™️_4\r\r\r"
+      - "KR🐲™️_5\r\r\r"
+      - "KR🐲™️_6\r\r\r"
+      - "KR🐲™️_7\r\r\r"
+      - "KR🐲™️_8\r\r\r"
+      - "KR🐲™️_9\r\r\r"
+      - "KR🐲™️_10\r\r\r"
+      - "KR🐲™️_11\r\r\r"
+      - "KR🐲™️_12\r\r\r"
+      - "KR🐲™️_13\r\r\r"
+      - "KR🐲™️_14\r\r\r"
+      - "KR🐲™️_15\r\r\r"
+      - "US🐲™️_1\r\r\r"
+      - "US🐲™️_2\r\r\r"
+      - "US🐲™️_3\r\r\r"
+      - "US🐲™️_4\r\r\r"
+      - "US🐲™️_5\r\r\r"
+      - "US🐲™️_6\r\r\r"
+      - "US🐲™️_7\r\r\r"
+      - "US🐲™️_8\r\r\r"
+      - "US🐲™️_9\r\r\r"
+      - "US🐲™️_10\r\r\r"
+      - "US🐲™️_11\r\r\r"
+      - "US🐲™️_12\r\r\r"
+      - "US🐲™️_13\r\r\r"
+      - "US🐲™️_14\r\r\r"
+      - "US🐲™️_15\r\r\r"
+      - "PL🐲™️_1\r\r\r"
+      - "PL🐲™️_2\r\r\r"
       - PL🐲™️_3
 rules:
 # 本地/局域网地址
