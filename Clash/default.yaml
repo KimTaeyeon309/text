@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-02-20 20:34:50
+# 配置生成日期：2025-02-20 20:38:42
 
 mixed-port: 7890
 allow-lan: false
@@ -2225,6 +2225,33 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
+  - name: "乌克兰_Telegram%40kxswa\r"
+    type: ss
+    server: 92.113.116.11
+    port: 15002
+    tls: false
+    password: 2MNBVYYYB23ZF03Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "罗马尼亚_Telegram%40kxswa\r"
+    type: ss
+    server: 185.126.239.231
+    port: 20002
+    tls: false
+    password: G2LC1BQ48SXSBKZX
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%40kxswa\r"
+    type: ss
+    server: 23.185.248.13
+    port: 17003
+    tls: false
+    password: LKG8G8VL60RSB59P
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2466,6 +2493,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2707,6 +2737,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2948,6 +2981,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -3188,6 +3224,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -3428,6 +3467,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3668,6 +3710,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3925,6 +3970,9 @@ proxy-groups:
       - "香港-15.1MB%2Fs\r"
       - "美国-18.4MB%2Fs\r"
       - 韩国-95.4MB%2Fs
+      - "乌克兰_Telegram%40kxswa\r"
+      - "罗马尼亚_Telegram%40kxswa\r"
+      - "美国_Telegram%40kxswa\r"
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
