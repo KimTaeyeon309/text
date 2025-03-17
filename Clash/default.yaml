@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-03-17 18:55:45
+# 配置生成日期：2025-03-17 18:57:13
 
 mixed-port: 7890
 allow-lan: false
@@ -68,7 +68,7 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: "比利时_Telegram%40kxswa\r"
+  - name: "比利时_Telegram%40kxswa\r_1"
     type: ss
     server: 57.128.190.214
     port: 48977
@@ -77,7 +77,7 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r"
+  - name: "美国_Telegram%40kxswa\r_1"
     type: ss
     server: 23.162.56.206
     port: 11201
@@ -140,6 +140,1115 @@ proxies:
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
+  - name: "🇺🇸_US_美国\r_1"
+    type: ss
+    server: 184.170.241.194
+    port: 443
+    tls: false
+    password: shadowsocks
+    ip-version: dual
+    udp: true
+    cipher: aes-128-cfb
+  - name: 香港_Telegram@kxswa_1
+    type: vmess
+    server: 120.232.153.63
+    port: 40102
+    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "科威特_Telegram%40kxswa\r"
+    type: ss
+    server: 163.171.181.49
+    port: 12317
+    tls: false
+    password: 877c3b069c335ffc
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "中转节点-15.79MB%2Fs\r"
+    type: ss
+    server: cn01.efan8867801.xyz
+    port: 8764
+    tls: false
+    password: efanccyun
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: "新加坡-148.0KB%2Fs\r"
+    type: ss
+    server: 54.169.134.156
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "中转节点-38.52MB%2Fs\r"
+    type: ss
+    server: cn01.efan8867801.xyz
+    port: 8716
+    tls: false
+    password: efanccyun
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: "中转节点-41.29MB%2Fs\r"
+    type: ss
+    server: cn01.efan8867801.xyz
+    port: 8752
+    tls: false
+    password: efanccyun
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: "韩国-2.97MB%2Fs\r"
+    type: ss
+    server: 3.34.253.95
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "日本-13.25MB%2Fs\r"
+    type: ss
+    server: 57.180.240.249
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港_Telegram%40kxswa\r_3"
+    type: ss
+    server: mdss-sg.04z3susick.download
+    port: 12022
+    tls: false
+    password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "中转节点-16.34MB%2Fs\r"
+    type: ss
+    server: cn01.efan8867801.xyz
+    port: 8761
+    tls: false
+    password: efanccyun
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: "法国-932.6KB%2Fs\r"
+    type: ss
+    server: 57.130.11.121
+    port: 11202
+    tls: false
+    password: 576f16c6d7e3ec50
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 香港_Telegram@kxswa_2
+    type: vmess
+    server: 183.236.51.38
+    port: 42120
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_3
+    type: vmess
+    server: 183.236.51.38
+    port: 51754
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "日本-177.5KB%2Fs\r"
+    type: ss
+    server: 35.77.94.139
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 中转节点-199.4KB/s
+    type: vmess
+    server: cloudgd.coemn.com
+    port: 46003
+    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "新加坡-114.7KB/s\r"
+    type: trojan
+    server: hardy-haddock.shiner427.skin
+    port: 443
+    tls: true
+    password: '74260716866785000'
+    sni: hardy-haddock.shiner427.skin
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "中转节点-5.38MB%2Fs\r"
+    type: ss
+    server: cn01.efan8867801.xyz
+    port: 8771
+    tls: false
+    password: efanccyun
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: "香港_Telegram%40kxswa\r_4"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 17001
+    tls: false
+    password: 54SY1SP5HU73E00Z
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "比利时_Telegram%40kxswa\r_2"
+    type: ss
+    server: 57.130.11.84
+    port: 11202
+    tls: false
+    password: 602e2068c047d750
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 法国-2.93MB/s
+    type: vmess
+    server: 51.77.20.132
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "俄罗斯联邦-29.6MB%2Fs\r"
+    type: ss
+    server: 147.45.60.33
+    port: 16356
+    tls: false
+    password: LqlPI19oqnunGNSLMvdXyB
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "香港_Telegram%40kxswa\r_5"
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 21006
+    tls: false
+    password: KM16ID6XDW3XRC7K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-115.1KB%2Fs\r"
+    type: ss
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 15004
+    tls: false
+    password: ILY5LWDRY57J5T1O
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_6"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 17008
+    tls: false
+    password: TYM1N812T1QGEUE8
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-13.96MB%2Fs\r"
+    type: ss
+    server: cn01.efan8867801.xyz
+    port: 8745
+    tls: false
+    password: efanccyun
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: 中转节点-150.1KB/s
+    type: vmess
+    server: fadawtawd.zhangwei.li
+    port: 46015
+    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 捷克-1.32MB/s
+    type: vmess
+    server: 212.192.13.68
+    port: 23015
+    uuid: dce42637-5900-4265-b78a-673e20082e8a
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_4
+    type: vmess
+    server: 120.234.102.229
+    port: 31998
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 美国_Telegram@kxswa_1
+    type: vmess
+    server: 172.67.169.40
+    port: 443
+    uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "日本-8.98MB/s\r"
+    type: trojan
+    server: boohoo.meijireform.com
+    port: 28334
+    tls: true
+    password: 9wSlq29Ta3DD633lCcXzFe3qAa3AyC8eO7T7RaFayZRYF3z43ExZuYaEjS0XppgAOg4BC
+    sni: boohoo.meijireform.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r_2"
+    type: ss
+    server: 77.83.246.74
+    port: 443
+    tls: false
+    password: mCeosRacsgFRtnJPq3zctq
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "🇺🇸_US_美国\r_3"
+    type: trojan
+    server: grater.homeofbrave.net
+    port: 28333
+    tls: true
+    password: 7AZzxwaCl5caZaBnASIYOCS28eEF036BelDXED6ZKK3u3COXSe3SSqYZ5C43DOqySTRuR
+    sni: grater.homeofbrave.net
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "新加坡-413.1KB%2Fs\r"
+    type: ss
+    server: 3.0.54.96
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "香港-45.5MB%2Fs\r"
+    type: ss
+    server: 203.23.128.79
+    port: 51348
+    tls: false
+    password: dt31KYYCCAUBwu09QwG9flPBIuP9jA6VXnjN8StKTkgc45ny
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "日本-11.64MB%2Fs\r"
+    type: ss
+    server: 54.238.186.53
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "印度-2.02MB/s\r"
+    type: trojan
+    server: mineral.protocolbuffer.com
+    port: 443
+    tls: true
+    password: Y8aYpzDTE9XBO3Kyca0nZAe3cpFD7eDRqaZxuASIweD5Dyq2Yxxz4SlZ3OpN8jR4OR0ay
+    sni: mineral.protocolbuffer.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "日本-1.31MB/s\r"
+    type: trojan
+    server: kuam.meijireform.com
+    port: 28335
+    tls: true
+    password: 32aFSDKwjFRcASN6DyAF9eqZ07D3OauYTYgxXBI50Tgy8Oxp8N3KAFDaOn3ZDYE334SEC
+    sni: kuam.meijireform.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "日本-295.7KB/s\r"
+    type: trojan
+    server: huzzah.meijireform.com
+    port: 443
+    tls: true
+    password: p0axgx3pXT6yjp4SwSRaaYeCDxCFOFaAlRYDNaRjF8OycXn3ZE3ABaYgnDIx3Eeq9C0ce
+    sni: huzzah.meijireform.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 荷兰-1.07MB/s
+    type: vmess
+    server: 45.144.174.90
+    port: 22016
+    uuid: 41657114-7fdd-4dfb-b905-f92227e757f5
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 未知国家-5.47MB/s
+    type: vmess
+    server: 104.16.60.8
+    port: 80
+    uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_7"
+    type: ss
+    server: 114.132.40.118
+    port: 30018
+    tls: false
+    password: 645d056f-369c-46d3-a1cb-7f04c06916ce
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 未知国家-4.56MB/s
+    type: vmess
+    server: 104.21.95.16
+    port: 443
+    uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "日本-198.1KB/s\r"
+    type: trojan
+    server: compost.meijireform.com
+    port: 18331
+    tls: true
+    password: Aa3xCDR7DZa4YxNSKxCye3OR8xCzepYlY47COSwaFplTYjRDDl6nDAE9AZS0wZF2cRy5X
+    sni: compost.meijireform.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 🇷🇺_RU_俄罗斯
+    type: vmess
+    server: 176.32.35.148
+    port: 21012
+    uuid: 41657114-7fdd-4dfb-b905-f92227e757f5
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "🇺🇸_US_美国\r_4"
+    type: trojan
+    server: landder.wireshop.net
+    port: 443
+    tls: true
+    password: DzOZFu87ZC2AaX6TYy49AxX8zBCAZYDSjyTyDBeDS3CRjlwaF3cep28SOS33AqeYpEF0I
+    sni: landder.wireshop.net
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "英国-3.74MB/s\r"
+    type: trojan
+    server: 13.42.211.66
+    port: 22222
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "新加坡-8.78MB%2Fs\r"
+    type: ss
+    server: 13.215.252.57
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "新加坡-305.3KB/s\r"
+    type: trojan
+    server: orlang.protocolbuffer.com
+    port: 18331
+    tls: true
+    password: DEzpFlNpZCTT7RyZzuAYSnDxA33SyClFpyY3RYaS3O2q8gEXA8lO90xDaAw2YjpBC7cx0
+    sni: orlang.protocolbuffer.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r_5"
+    type: trojan
+    server: garland.taiwanesefood.link
+    port: 443
+    tls: true
+    password: YCz0uZ484pjDCFyKqRZ3823SqxDXEBSwNnNYlay3yeuDaA0aISDR533eFglaaOTO3lF8A
+    sni: garland.taiwanesefood.link
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "新加坡-14.41MB%2Fs\r"
+    type: ss
+    server: 18.142.182.250
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "台湾-5.86MB/s\r"
+    type: trojan
+    server: sohtsa.taiwanesefood.link
+    port: 443
+    tls: true
+    password: 7pE3OSjFe9xFey8YyCgaIaz3Zu2CORpananc34DRlgSyO83XTyNjC4xAIue30YKFCCDlx
+    sni: sohtsa.taiwanesefood.link
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "美国-4.02MB%2Fs\r"
+    type: ss
+    server: 137.175.113.215
+    port: 8388
+    tls: false
+    password: asd123456
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf
+  - name: "新加坡-15.11MB%2Fs\r"
+    type: ss
+    server: 47.129.37.231
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "俄罗斯_Telegram%40kxswa\r"
+    type: ss
+    server: 89.221.225.88
+    port: 443
+    tls: false
+    password: w2HdZnGb5ibh
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "新加坡-15.47MB%2Fs\r"
+    type: ss
+    server: 54.251.193.0
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 俄罗斯联邦-1.11MB/s
+    type: vmess
+    server: 46.17.43.122
+    port: 22009
+    uuid: 8af9de8a-120f-464f-bff3-70fd786d99b2
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 美国-4.83MB/s
+    type: trojan
+    server: 15.204.58.214
+    port: 443
+    tls: true
+    password: 33fe5d7f-c9c1-4fd3-a2db-d0f3db6e5fba
+    sni: tro-us02.gproxy.gratis
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "日本-AWS 1\r"
+    type: vless
+    server: 3bd9.55dca.e048.f1-fef1f.yfjcs.com
+    port: 443
+    uuid: 6c1452c3-e5c7-491f-bed6-498dfb56ce20
+    network: tcp
+    tls: true
+    servername: yfjp.xn--4gq62f52gppi29k.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ip-version: dual
+    udp: true
+  - name: "日本-AWS 2\r"
+    type: vless
+    server: 3bd9.55dca.e048.f2-fef1f.yfjcs.com
+    port: 443
+    uuid: 6c1452c3-e5c7-491f-bed6-498dfb56ce20
+    network: tcp
+    tls: true
+    servername: yfjp.xn--4gq62f52gppi29k.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ip-version: dual
+    udp: true
+  - name: "日本-AWS 3\r"
+    type: vless
+    server: 3bd9.55dca.e048.f3-fef1f.yfjcs.com
+    port: 443
+    uuid: 6c1452c3-e5c7-491f-bed6-498dfb56ce20
+    network: tcp
+    tls: true
+    servername: yfjp.xn--4gq62f52gppi29k.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: safari
+    ip-version: dual
+    udp: true
+  - name: "新加坡-AWS 1\r"
+    type: vless
+    server: 3bd9.55dca.e048.f4-fef1f.yfjcs.com
+    port: 443
+    uuid: 6c1452c3-e5c7-491f-bed6-498dfb56ce20
+    network: tcp
+    tls: true
+    servername: b295-23ap29-6bh.xn--4gq62f52gppi29k.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: ios
+    ip-version: dual
+    udp: true
+  - name: "新加坡-AWS 2\r"
+    type: vless
+    server: 3bd9.55dca.e048.f5-fef1f.yfjcs.com
+    port: 443
+    uuid: 6c1452c3-e5c7-491f-bed6-498dfb56ce20
+    network: tcp
+    tls: true
+    servername: b295-23ap29-6bh.xn--4gq62f52gppi29k.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ip-version: dual
+    udp: true
+  - name: 新加坡-AWS 3
+    type: vless
+    server: 3bd9.55dca.e048.f6-fef1f.yfjcs.com
+    port: 443
+    uuid: 6c1452c3-e5c7-491f-bed6-498dfb56ce20
+    network: tcp
+    tls: true
+    servername: b295-23ap29-6bh.xn--4gq62f52gppi29k.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: ios
+    ip-version: dual
+    udp: true
+  - name: "🇫🇷_FR_法国\r_1"
+    type: vless
+    server: 151.101.123.184
+    port: 80
+    uuid: 568279ce-dd78-4f33-9e5c-64b18c5505db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+    type: ss
+    server: 84.17.53.160
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "美国_Telegram%40kxswa\r_2"
+    type: ss
+    server: 100.42.182.73
+    port: 11738
+    tls: false
+    password: 7cbfe78195fbf19c
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "🇺🇸_US_美国\r_6"
+    type: ss
+    server: 35.86.111.233
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇸🇰_SK_斯洛伐克\r"
+    type: ss
+    server: 156.146.40.194
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_7"
+    type: trojan
+    server: 45.42.142.100
+    port: 443
+    tls: true
+    password: YCz0uZ484pjDCFyKqRZ3823SqxDXEBSwNnNYlay3yeuDaA0aISDR533eFglaaOTO3lF8A
+    sni: garland.taiwanesefood.link
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "🇬🇧_GB_英国\r"
+    type: trojan
+    server: 51.21.166.9
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "🇫🇷_FR_法国\r_2"
+    type: vless
+    server: 151.101.123.212
+    port: 80
+    uuid: 568279ce-dd78-4f33-9e5c-64b18c5505db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: "🇮🇸_IS_冰岛\r"
+    type: ss
+    server: 37.235.49.152
+    port: 989
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇫🇷_FR_法国\r_3"
+    type: vless
+    server: 151.101.123.13
+    port: 80
+    uuid: 568279ce-dd78-4f33-9e5c-64b18c5505db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+    type: vless
+    server: 5.161.144.111
+    port: 443
+    uuid: 95701d09-280b-478f-9812-ae2947cc1b1e
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r_8"
+    type: trojan
+    server: 154.17.12.218
+    port: 28333
+    tls: true
+    password: 7AZzxwaCl5caZaBnASIYOCS28eEF036BelDXED6ZKK3u3COXSe3SSqYZ5C43DOqySTRuR
+    sni: grater.homeofbrave.net
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "🇫🇷_FR_法国\r_4"
+    type: vless
+    server: 151.101.123.229
+    port: 80
+    uuid: 568279ce-dd78-4f33-9e5c-64b18c5505db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国
+    type: ss
+    server: 35.87.37.159
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇫🇷_FR_法国->🇺🇸_US_美国
+    type: trojan
+    server: 52.47.122.14
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 香港_Telegram@kxswa_5
+    type: vmess
+    server: 120.232.153.63
+    port: 40105
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_8"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 15005
+    tls: false
+    password: LZQ0R9BL69GCC6FS
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_9"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 15006
+    tls: false
+    password: RBN1UNGVPF1BQXPK
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_10"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 21004
+    tls: false
+    password: QF377GGQ00RATCMK
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_11"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 16006
+    tls: false
+    password: BFYCOKHTC8HIWWRB
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_12"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 15010
+    tls: false
+    password: 33LNT1PHVSKR8DZ8
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_Telegram@kxswa_6
+    type: vmess
+    server: 183.236.51.38
+    port: 53902
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_7
+    type: vmess
+    server: 120.198.71.219
+    port: 42055
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_13"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 17005
+    tls: false
+    password: E1SCB7Q1P7HFR8K8
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_14"
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 16007
+    tls: false
+    password: 0407WKIEIXMTLGC6
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_15"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 16009
+    tls: false
+    password: WNW5MZJX57ZJUNQU
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_16"
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 15011
+    tls: false
+    password: TCEL1H0XD7TWAKI0
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_17"
+    type: ss
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 18008
+    tls: false
+    password: 4S85LF2Q3QK92171
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_18"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 21006
+    tls: false
+    password: BB9BXCELPCYBVJMY
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_Telegram@kxswa_8
+    type: vmess
+    server: 120.198.71.214
+    port: 35565
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_19"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 18002
+    tls: false
+    password: 84HMRAWILKB49QUZ
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_20"
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 15009
+    tls: false
+    password: FCEUOASRQJC0LN0K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_Telegram@kxswa_9
+    type: vmess
+    server: 183.236.51.38
+    port: 59104
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_21"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 15013
+    tls: false
+    password: R3FYI7545URTZITK
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_Telegram@kxswa_10
+    type: vmess
+    server: bgp1.bgp1.miaomiaowu114514.org
+    port: 11003
+    uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_22"
+    type: ss
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 15008
+    tls: false
+    password: 2H98UZT9LT1TE3X9
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_Telegram@kxswa_11
+    type: vmess
+    server: 120.232.153.40
+    port: 44550
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_12
+    type: vmess
+    server: 183.236.51.38
+    port: 41699
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_Telegram@kxswa_13
+    type: vmess
+    server: 183.236.51.38
+    port: 30302
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_23"
+    type: ss
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 21007
+    tls: false
+    password: F7XGGN9MP0DGPLII
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_Telegram@kxswa_14
+    type: vmess
+    server: bgp1.bgp1.miaomiaowu114514.org
+    port: 11111
+    uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_24"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 18013
+    tls: false
+    password: YMB3QL85L7F1KJR7
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_25"
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 21001
+    tls: false
+    password: Y2U58S90E3GST1AQ
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_26"
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 21002
+    tls: false
+    password: ECOQAU8O56QGBV28
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_27"
+    type: ss
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    port: 16013
+    tls: false
+    password: IHWLYZSSSX4GSKLA
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 美国_Telegram@kxswa_2
+    type: vmess
+    server: glweidf.cfd
+    port: 443
+    uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "保加利亚_Telegram%40kxswa\r"
+    type: ss
+    server: 149.34.244.80
+    port: 443
+    tls: false
+    password: shadowsocks
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -148,14 +1257,125 @@ proxy-groups:
       - DIRECT
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -164,14 +1384,125 @@ proxy-groups:
     proxies:
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -180,14 +1511,125 @@ proxy-groups:
       - 🎯 全球直连
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -195,14 +1637,125 @@ proxy-groups:
       - 🎯 全球直连
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -210,14 +1763,125 @@ proxy-groups:
       - 🚀 节点选择
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -225,14 +1889,125 @@ proxy-groups:
       - 🎯 全球直连
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -257,14 +2032,125 @@ proxy-groups:
       - ♻️ 自动选择
       - "香港-198.8KB%2Fs\r"
       - "日本-13.27MB%2Fs\r"
-      - "比利时_Telegram%40kxswa\r"
-      - "美国_Telegram%40kxswa\r"
+      - "比利时_Telegram%40kxswa\r_1"
+      - "美国_Telegram%40kxswa\r_1"
       - "韩国-142.9KB%2Fs\r"
       - "香港_Telegram%40kxswa\r_1"
       - "新加坡-114.6KB%2Fs\r"
       - "中转节点-28.2MB%2Fs\r"
       - "香港_Telegram%40kxswa\r_2"
       - "美国-128.8KB%2Fs\r"
+      - "🇺🇸_US_美国\r_1"
+      - 香港_Telegram@kxswa_1
+      - "科威特_Telegram%40kxswa\r"
+      - "中转节点-15.79MB%2Fs\r"
+      - "新加坡-148.0KB%2Fs\r"
+      - "中转节点-38.52MB%2Fs\r"
+      - "中转节点-41.29MB%2Fs\r"
+      - "韩国-2.97MB%2Fs\r"
+      - "日本-13.25MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_3"
+      - "中转节点-16.34MB%2Fs\r"
+      - "法国-932.6KB%2Fs\r"
+      - 香港_Telegram@kxswa_2
+      - 香港_Telegram@kxswa_3
+      - "日本-177.5KB%2Fs\r"
+      - 中转节点-199.4KB/s
+      - "新加坡-114.7KB/s\r"
+      - "中转节点-5.38MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_4"
+      - "比利时_Telegram%40kxswa\r_2"
+      - 法国-2.93MB/s
+      - "俄罗斯联邦-29.6MB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_5"
+      - "中转节点-115.1KB%2Fs\r"
+      - "香港_Telegram%40kxswa\r_6"
+      - "中转节点-13.96MB%2Fs\r"
+      - 中转节点-150.1KB/s
+      - 捷克-1.32MB/s
+      - 香港_Telegram@kxswa_4
+      - 美国_Telegram@kxswa_1
+      - "日本-8.98MB/s\r"
+      - "🇺🇸_US_美国\r_2"
+      - "🇺🇸_US_美国\r_3"
+      - "新加坡-413.1KB%2Fs\r"
+      - "香港-45.5MB%2Fs\r"
+      - "日本-11.64MB%2Fs\r"
+      - "印度-2.02MB/s\r"
+      - "日本-1.31MB/s\r"
+      - "日本-295.7KB/s\r"
+      - 荷兰-1.07MB/s
+      - 未知国家-5.47MB/s
+      - "香港_Telegram%40kxswa\r_7"
+      - 未知国家-4.56MB/s
+      - "日本-198.1KB/s\r"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r_4"
+      - "英国-3.74MB/s\r"
+      - "新加坡-8.78MB%2Fs\r"
+      - "新加坡-305.3KB/s\r"
+      - "🇺🇸_US_美国\r_5"
+      - "新加坡-14.41MB%2Fs\r"
+      - "台湾-5.86MB/s\r"
+      - "美国-4.02MB%2Fs\r"
+      - "新加坡-15.11MB%2Fs\r"
+      - "俄罗斯_Telegram%40kxswa\r"
+      - "新加坡-15.47MB%2Fs\r"
+      - 俄罗斯联邦-1.11MB/s
+      - 美国-4.83MB/s
+      - "日本-AWS 1\r"
+      - "日本-AWS 2\r"
+      - "日本-AWS 3\r"
+      - "新加坡-AWS 1\r"
+      - "新加坡-AWS 2\r"
+      - 新加坡-AWS 3
+      - "🇫🇷_FR_法国\r_1"
+      - "🇨🇭_CH_瑞士->🇨🇳_CN_中国\r"
+      - "美国_Telegram%40kxswa\r_2"
+      - "🇺🇸_US_美国\r_6"
+      - "🇸🇰_SK_斯洛伐克\r"
+      - "🇺🇸_US_美国\r_7"
+      - "🇬🇧_GB_英国\r"
+      - "🇫🇷_FR_法国\r_2"
+      - "🇮🇸_IS_冰岛\r"
+      - "🇫🇷_FR_法国\r_3"
+      - "🇩🇪_DE_德国->🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国\r_8"
+      - "🇫🇷_FR_法国\r_4"
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国->🇺🇸_US_美国
+      - 香港_Telegram@kxswa_5
+      - "香港_Telegram%40kxswa\r_8"
+      - "香港_Telegram%40kxswa\r_9"
+      - "香港_Telegram%40kxswa\r_10"
+      - "香港_Telegram%40kxswa\r_11"
+      - "香港_Telegram%40kxswa\r_12"
+      - 香港_Telegram@kxswa_6
+      - 香港_Telegram@kxswa_7
+      - "香港_Telegram%40kxswa\r_13"
+      - "香港_Telegram%40kxswa\r_14"
+      - "香港_Telegram%40kxswa\r_15"
+      - "香港_Telegram%40kxswa\r_16"
+      - "香港_Telegram%40kxswa\r_17"
+      - "香港_Telegram%40kxswa\r_18"
+      - 香港_Telegram@kxswa_8
+      - "香港_Telegram%40kxswa\r_19"
+      - "香港_Telegram%40kxswa\r_20"
+      - 香港_Telegram@kxswa_9
+      - "香港_Telegram%40kxswa\r_21"
+      - 香港_Telegram@kxswa_10
+      - "香港_Telegram%40kxswa\r_22"
+      - 香港_Telegram@kxswa_11
+      - 香港_Telegram@kxswa_12
+      - 香港_Telegram@kxswa_13
+      - "香港_Telegram%40kxswa\r_23"
+      - 香港_Telegram@kxswa_14
+      - "香港_Telegram%40kxswa\r_24"
+      - "香港_Telegram%40kxswa\r_25"
+      - "香港_Telegram%40kxswa\r_26"
+      - "香港_Telegram%40kxswa\r_27"
+      - 美国_Telegram@kxswa_2
+      - "保加利亚_Telegram%40kxswa\r"
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
