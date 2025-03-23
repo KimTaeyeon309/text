@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-03-23 12:35:07
+# 配置生成日期：2025-03-23 12:40:10
 
 mixed-port: 7890
 allow-lan: false
@@ -50,86 +50,552 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: "荷兰-83.3MB%2Fs\r\r\r"
+  - name: 德国-3.81MB/s
+    type: vmess
+    server: 185.85.241.196
+    port: 8080
+    uuid: a9b84c67-6143-4db3-abc0-d9fa332205cc
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "中转节点-35.56MB%2Fs\r\r"
+    type: ss
+    server: 183.240.211.76
+    port: 15006
+    tls: false
+    password: X3F12W4DE3XS3A4K
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-17.86MB/s\r\r"
+    type: trojan
+    server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+    port: 42881
+    network: tcp
+    tls: true
+    password: 0979046d-90cc-4f58-9595-75ba19550d1c
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "中转节点-5.48MB%2Fs\r\r"
+    type: ss
+    server: 183.240.211.76
+    port: 15012
+    tls: false
+    password: CFZJ5GGARXWVUCYJ
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-28.45MB%2Fs\r\r"
+    type: ss
+    server: 120.233.205.203
+    port: 15005
+    tls: false
+    password: IEP8GYP4WMR482TK
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国-665.7KB/s\r\r"
+    type: trojan
+    server: tenderly.meijireform.com
+    port: 28337
+    network: tcp
+    tls: true
+    password: Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS
+    sni: tenderly.meijireform.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "韩国-3.41MB%2Fs\r\r"
+    type: ss
+    server: 43.203.196.43
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 香港_Telegram@kxswa_15
+    type: vmess
+    server: 120.232.153.63
+    port: 40102
+    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 未知国家-1.39MB/s
+    type: vmess
+    server: lA01.890614.FileGEaR-SG.Me
+    port: 443
+    uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "瑞典-3.66MB/s\r\r"
+    type: trojan
+    server: 13.51.136.122
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "中转节点-7.3MB%2Fs\r\r"
+    type: ss
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 15008
+    tls: false
+    password: Q3PP7TUVTV756YSB
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "中转节点-8.5MB%2Fs\r\r"
+    type: ss
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 15014
+    tls: false
+    password: 53HVTBHCBNKKC66Q
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "未知国家-142.9KB/s\r\r"
+    type: trojan
+    server: stodewrn.homeofbrave.net
+    port: 443
+    network: tcp
+    tls: false
+    password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "日本-198.3KB%2Fs\r\r"
+    type: ss
+    server: 13.230.168.61
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "日本-9.99MB%2Fs\r\r"
+    type: ss
+    server: 57.180.35.64
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 中转节点-7.8MB/s
+    type: vmess
+    server: 120.232.153.40
+    port: 51182
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_8
+    type: vmess
+    server: 120.232.153.40
+    port: 41002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "🇮🇳_IN_印度\r\r"
     type: ss
     server: 103.104.247.49
     port: 8080
     tls: false
     password: oZIoA69Q8yhcQV8ka3Pa3A
     ip-version: dual
+    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_3
+  - name: "香港_Telegram%40kxswa\r_10\r"
+    type: ss
+    server: ss.miloli.cc
+    port: 19240
+    tls: false
+    password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "韩国-3.23MB%2Fs\r_2\r"
+    type: ss
+    server: 3.35.138.170
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 香港_Telegram@kxswa_9
     type: vmess
-    server: biiia-vpn-whal.fast.hosting-ip.com
-    port: 80
-    uuid: id9---@vpn-whal
-    network: ws
+    server: 120.198.71.184
+    port: 10703
+    uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
+    network: tcp
     tls: false
     ip-version: dual
+    udp: true
     cipher: auto
-  - name: "🇺🇸_US_美国\r\r_9\r"
+  - name: "🇧🇪_BE_比利时\r\r"
     type: ss
-    server: 44.246.28.217
+    server: 57.128.190.245
+    port: 20568
+    tls: false
+    password: e014f8ab71735926
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国_Telegram%40kxswa\r_3\r"
+    type: ss
+    server: 23.185.248.14
+    port: 17004
+    tls: false
+    password: NRSRWKL1RPGLFZ8G
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港-11.5MB%2Fs\r_2\r"
+    type: ss
+    server: 156.245.190.22
+    port: 15013
+    tls: false
+    password: F2B9WAFTQ9I25SIO
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%40kxswa\r_1\r"
+    type: ss
+    server: 156.231.104.16
+    port: 18006
+    tls: false
+    password: 61B0I2IAA8ZZD7KH
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "韩国-8.92MB%2Fs\r\r"
+    type: ss
+    server: 3.38.92.181
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_2\r"
+  - name: "香港_Telegram%40kxswa\r_4\r"
     type: ss
-    server: 44.242.208.211
-    port: 443
+    server: 156.245.190.17
+    port: 15008
     tls: false
-    password: amazonskr05
+    password: NLGZXGG09D5F8X5U
     ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_4\r"
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_3\r"
     type: ss
-    server: 54.184.74.88
-    port: 443
+    server: 183.232.229.164
+    port: 11002
     tls: false
-    password: amazonskr05
+    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
     ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "台湾-160.1KB%2Fs\r_2\r"
+    type: ss
+    server: '@@185.189.160.98'
+    port: 64759
+    tls: false
+    password: qwerREWQ
+    ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_2\r"
-    type: vless
-    server: 151.101.194.228
-    port: 80
-    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
-    network: ws
+  - name: "瑞典-3.21MB/s\r_2\r"
+    type: trojan
+    server: 13.48.7.125
+    port: 22222
+    network: tcp
     tls: true
-    servername: joinxvproxybedee.ir
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
     skip-cert-verify: true
-    ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
     ip-version: dual
-  - name: "🇺🇸_US_美国\r\r_7\r"
+    udp: true
+  - name: "中转节点-20.31MB/s\r_2\r"
+    type: trojan
+    server: wb.kaiqsz.com
+    port: 48291
+    network: tcp
+    tls: true
+    password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
+    sni: mmbiz1.redapricotcloud.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "美国-1.89MB%2Fs\r_2\r"
     type: ss
-    server: 52.33.164.139
+    server: 34.221.169.63
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "香港_Telegram%40kxswa\r\r_6\r"
+  - name: "香港-36.2MB/s\r_2\r"
+    type: trojan
+    server: 45.196.233.64
+    port: 10105
+    network: tcp
+    tls: false
+    password: 05819241-c538-4a25-9c1b-7dc5d7646e22
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "韩国-102.9KB%2Fs\r_2\r"
+    type: ss
+    server: 43.201.85.71
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 未知国家-1.61MB/s_2
+    type: vmess
+    server: Support.onetwothree123.ir
+    port: 8443
+    uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_1
+    type: vmess
+    server: 120.198.71.219
+    port: 42055
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_1\r"
+    type: ss
+    server: 150.116.11.9
+    port: 21005
+    tls: false
+    password: 9CREQ4Q7QTCEHO4R
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "香港_Telegram%40kxswa\r_2\r"
+    type: ss
+    server: agaungzhou01.bumbleshrimp.com
+    port: 13483
+    tls: false
+    password: VMhGp5wEIyCDf90T
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: 香港_Telegram@kxswa_2
+    type: vmess
+    server: 120.198.71.216
+    port: 40059
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_3
+    type: vmess
+    server: 120.232.153.123
+    port: 51052
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_4
+    type: vmess
+    server: 120.232.153.63
+    port: 40105
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_5
+    type: vmess
+    server: 120.232.153.40
+    port: 34042
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_6
+    type: vmess
+    server: 183.236.51.38
+    port: 59554
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "🇨🇳_CN_中国\r_2\r"
+    type: ss
+    server: bsuqian01.dynu.net
+    port: 56226
+    tls: false
+    password: VMhGp5wEIyCDf90T
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "🇨🇳_CN_中国\r_1\r"
     type: ss
     server: 62.60.233.21
     port: 443
     tls: false
     password: UP3JN98C6EOR
     ip-version: dual
+    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-    type: vless
-    server: 86.38.214.30
-    port: 8080
-    uuid: 31f625ef-7585-441d-9df3-8839506dfb1e
+  - name: 香港_Telegram@kxswa_7
+    type: vmess
+    server: 183.236.51.38
+    port: 55754
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_10
+    type: vmess
+    server: 156.224.77.98
+    port: 11110
+    uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_7\r"
+    type: ss
+    server: gy01.hunheiydd.xyz
+    port: 56277
+    tls: false
+    password: VMhGp5wEIyCDf90T
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: 香港_Telegram@kxswa_11
+    type: vmess
+    server: 120.198.71.184
+    port: 10701
+    uuid: CE361194-7D70-614C-780B-D3BDB61D0257
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: 香港_Telegram@kxswa_12
+    type: vmess
+    server: 183.236.51.38
+    port: 51039
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_8\r"
+    type: ss
+    server: 154.90.63.193
+    port: 990
+    tls: false
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 香港_Telegram@kxswa_13
+    type: vmess
+    server: 120.198.71.214
+    port: 34093
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "香港_Telegram%40kxswa\r_9\r"
+    type: ss
+    server: csuzhou01.1cooldns.com
+    port: 64050
+    tls: false
+    password: VMhGp5wEIyCDf90T
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: 香港_Telegram@kxswa_14
+    type: vmess
+    server: 120.234.102.229
+    port: 31998
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "美国_Telegram%40kxswa\r_2\r"
+    type: ss
+    server: 156.231.104.13
+    port: 18003
+    tls: false
+    password: 7NJNZOGIM3GT2ZOP
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 美国_Telegram@kxswa
+    type: vmess
+    server: ny05.890603.xyz
+    port: 443
+    uuid: a1925233-669e-4068-b740-d77f41986c43
     network: ws
     tls: false
-    servername: sNaPp.MaStErSrV.ir.
-    ws-opts: {}
     ip-version: dual
-  - name: "🇺🇸_US_美国\r\r_8\r"
+    udp: true
+    cipher: auto
+  - name: "🇺🇸_US_美国\r_3\r"
+    type: ss
+    server: 44.246.28.217
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_2\r"
     type: vless
     server: 151.101.2.228
     port: 80
@@ -141,107 +607,17 @@ proxies:
     ws-opts:
       path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
     ip-version: dual
-  - name: "香港_Telegram%40kxswa\r\r_5\r"
+    udp: true
+  - name: "🇺🇸_US_美国\r_7\r_1"
     type: ss
-    server: bsuqian01.dynu.net
-    port: 56226
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-    type: ss
-    server: 35.87.29.54
+    server: 44.242.208.211
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: "法国-53.0MB%2Fs\r\r\r"
-    type: ss
-    server: 57.128.190.245
-    port: 20568
-    tls: false
-    password: e014f8ab71735926
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "🇺🇸_US_美国\r\r_10\r"
-    type: ss
-    server: 35.87.37.159
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_11\r"
-    type: ss
-    server: 54.187.221.114
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-    type: ss
-    server: csuzhou01.1cooldns.com
-    port: 18755
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-    type: vless
-    server: 95.81.86.60
-    port: 20360
-    uuid: 641c3372-5aa7-42f6-b93c-84d9402f7111
-    network: tcp
-    tls: false
-    ip-version: dual
-  - name: "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-    type: ss
-    server: 34.209.89.4
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_12\r"
-    type: ss
-    server: 54.202.63.169
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_13\r"
-    type: vless
-    server: 151.101.66.228
-    port: 80
-    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
-    network: ws
-    tls: true
-    servername: joinxvproxybedee.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r_14\r"
-    type: ss
-    server: 35.93.21.189
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r\r_15\r"
+  - name: "🇺🇸_US_美国\r_9\r"
     type: vless
     server: 104.17.147.22
     port: 2052
@@ -253,7 +629,8 @@ proxies:
     ws-opts:
       path: /vless
     ip-version: dual
-  - name: "🇺🇸_US_美国\r\r_16\r"
+    udp: true
+  - name: "🇺🇸_US_美国\r_10\r"
     type: vless
     server: 104.17.147.22
     port: 2082
@@ -264,4403 +641,642 @@ proxies:
     ws-opts:
       path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
     ip-version: dual
-  - name: 香港_Telegram@kxswa_1
-    type: vmess
-    server: 120.198.71.219
-    port: 42055
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    udp: true
+  - name: "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+    type: vless
+    server: 95.81.86.60
+    port: 20360
+    uuid: 641c3372-5aa7-42f6-b93c-84d9402f7111
     network: tcp
     tls: false
     ip-version: dual
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r_1\r"
+    udp: true
+  - name: "🇺🇸_US_美国\r_8\r_1"
     type: ss
-    server: 150.116.11.9
-    port: 21005
+    server: 54.184.74.88
+    port: 443
     tls: false
-    password: 9CREQ4Q7QTCEHO4R
+    password: amazonskr05
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r\r_2\r"
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
     type: ss
-    server: agaungzhou01.bumbleshrimp.com
-    port: 13483
+    server: 35.87.29.54
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_1\r"
+    type: ss
+    server: 52.33.164.139
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+    type: vless
+    server: 86.38.214.30
+    port: 8080
+    uuid: 31f625ef-7585-441d-9df3-8839506dfb1e
+    network: ws
+    tls: false
+    servername: sNaPp.MaStErSrV.ir.
+    ws-opts: {}
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_1
+    type: vmess
+    server: biiia-vpn-whal.fast.hosting-ip.com
+    port: 80
+    uuid: id9---@vpn-whal
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    cipher: auto
+  - name: "🇺🇸_US_美国\r_4\r"
+    type: ss
+    server: 35.87.37.159
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_5\r"
+    type: ss
+    server: 54.187.221.114
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+    type: ss
+    server: csuzhou01.1cooldns.com
+    port: 18755
     tls: false
     password: VMhGp5wEIyCDf90T
     ip-version: dual
+    udp: true
     cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_2
-    type: vmess
-    server: 120.198.71.216
-    port: 40059
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "中转节点-66.8MB%2Fs\r\r\r"
+  - name: "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
     type: ss
-    server: 183.232.229.164
-    port: 11002
+    server: 34.209.89.4
+    port: 443
     tls: false
-    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+    password: amazonskr05
     ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_3
-    type: vmess
-    server: 120.232.153.123
-    port: 51052
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_4
-    type: vmess
-    server: 120.232.153.63
-    port: 40105
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_5
-    type: vmess
-    server: 120.232.153.40
-    port: 34042
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_6
-    type: vmess
-    server: 183.236.51.38
-    port: 59554
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "香港-8.9MB%2Fs\r\r\r"
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_6\r"
     type: ss
-    server: 156.245.190.17
-    port: 15008
+    server: 54.202.63.169
+    port: 443
     tls: false
-    password: NLGZXGG09D5F8X5U
+    password: amazonskr05
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: 香港_Telegram@kxswa_7
-    type: vmess
-    server: 183.236.51.38
-    port: 55754
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇺🇸_US_美国\r_7\r_2"
+    type: vless
+    server: 151.101.66.228
+    port: 80
+    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
+    network: ws
+    tls: true
+    servername: joinxvproxybedee.ir
+    skip-cert-verify: true
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
     ip-version: dual
-    cipher: auto
-  - name: 中转节点-15.5MB/s
-    type: vmess
-    server: 120.232.153.40
-    port: 41002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 中转节点-10.49MB/s
-    type: vmess
-    server: 120.198.71.184
-    port: 10703
-    uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_10
-    type: vmess
-    server: 156.224.77.98
-    port: 11110
-    uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r_7\r"
+    udp: true
+  - name: "🇺🇸_US_美国\r_8\r_2"
     type: ss
-    server: gy01.hunheiydd.xyz
-    port: 56277
+    server: 35.93.21.189
+    port: 443
     tls: false
-    password: VMhGp5wEIyCDf90T
+    password: amazonskr05
     ip-version: dual
-    cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_11
-    type: vmess
-    server: 120.198.71.184
-    port: 10701
-    uuid: CE361194-7D70-614C-780B-D3BDB61D0257
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 香港_Telegram@kxswa_12
-    type: vmess
-    server: 183.236.51.38
-    port: 51039
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r_8\r"
+    udp: true
+    cipher: aes-256-cfb
+  - name: "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
     type: ss
-    server: 154.90.63.193
-    port: 990
+    server: 156.146.40.194
+    port: 989
     tls: false
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_13
-    type: vmess
-    server: 120.198.71.214
-    port: 34093
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r\r_9\r"
-    type: ss
-    server: csuzhou01.1cooldns.com
-    port: 64050
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_14
-    type: vmess
-    server: 120.234.102.229
-    port: 31998
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "中转节点-3.64MB%2Fs\r\r\r"
-    type: ss
-    server: ss.miloli.cc
-    port: 19240
-    tls: false
-    password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 中转节点-1.43MB/s
-    type: vmess
-    server: 120.232.153.63
-    port: 40102
-    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "美国-17.5MB%2Fs\r\r\r"
-    type: ss
-    server: 156.231.104.16
-    port: 18006
-    tls: false
-    password: 61B0I2IAA8ZZD7KH
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r\r_2\r"
-    type: ss
-    server: 156.231.104.13
-    port: 18003
-    tls: false
-    password: 7NJNZOGIM3GT2ZOP
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "未知国家-14.0MB%2Fs\r\r\r"
-    type: ss
-    server: 23.185.248.14
-    port: 17004
-    tls: false
-    password: NRSRWKL1RPGLFZ8G
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: 美国_Telegram@kxswa
-    type: vmess
-    server: ny05.890603.xyz
-    port: 443
-    uuid: a1925233-669e-4068-b740-d77f41986c43
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: 德国-3.81MB/s
-    type: vmess
-    server: 185.85.241.196
-    port: 8080
-    uuid: a9b84c67-6143-4db3-abc0-d9fa332205cc
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "中转节点-35.56MB%2Fs\r\r\r"
-    type: ss
-    server: 183.240.211.76
-    port: 15006
-    tls: false
-    password: X3F12W4DE3XS3A4K
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "中转节点-17.86MB/s\r\r\r"
-    type: trojan
-    server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-    port: 42881
-    network: tcp
-    tls: true
-    password: 0979046d-90cc-4f58-9595-75ba19550d1c
-    sni: q08m.vgraxiw73s.hasyaf.cn
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "中转节点-5.48MB%2Fs\r\r\r"
-    type: ss
-    server: 183.240.211.76
-    port: 15012
-    tls: false
-    password: CFZJ5GGARXWVUCYJ
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "中转节点-28.45MB%2Fs\r\r\r"
-    type: ss
-    server: 120.233.205.203
-    port: 15005
-    tls: false
-    password: IEP8GYP4WMR482TK
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国-665.7KB/s\r\r\r"
-    type: trojan
-    server: tenderly.meijireform.com
-    port: 28337
-    network: tcp
-    tls: true
-    password: Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS
-    sni: tenderly.meijireform.com
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "韩国-3.41MB%2Fs\r\r\r"
-    type: ss
-    server: 43.203.196.43
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: 未知国家-1.39MB/s
-    type: vmess
-    server: lA01.890614.FileGEaR-SG.Me
-    port: 443
-    uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "瑞典-3.66MB/s\r\r\r"
-    type: trojan
-    server: 13.51.136.122
-    port: 22222
-    network: tcp
-    tls: true
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "中转节点-7.3MB%2Fs\r\r\r"
-    type: ss
-    server: w72tapyb.slashdevslashnetslashtun.net
-    port: 15008
-    tls: false
-    password: Q3PP7TUVTV756YSB
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "中转节点-8.5MB%2Fs\r\r\r"
-    type: ss
-    server: w72tapyb.slashdevslashnetslashtun.net
-    port: 15014
-    tls: false
-    password: 53HVTBHCBNKKC66Q
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "未知国家-142.9KB/s\r\r\r"
-    type: trojan
-    server: stodewrn.homeofbrave.net
-    port: 443
-    network: tcp
-    tls: false
-    password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "日本-198.3KB%2Fs\r\r\r"
-    type: ss
-    server: 13.230.168.61
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "日本-9.99MB%2Fs\r\r\r"
-    type: ss
-    server: 57.180.35.64
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 中转节点-7.8MB/s
-    type: vmess
-    server: 120.232.153.40
-    port: 51182
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "韩国-3.23MB%2Fs\r\r\r"
-    type: ss
-    server: 3.35.138.170
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "香港-11.5MB%2Fs\r\r\r"
-    type: ss
-    server: 156.245.190.22
-    port: 15013
-    tls: false
-    password: F2B9WAFTQ9I25SIO
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "韩国-8.92MB%2Fs\r\r\r"
-    type: ss
-    server: 3.38.92.181
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "台湾-160.1KB%2Fs\r\r\r"
-    type: ss
-    server: '@@185.189.160.98'
-    port: 64759
-    tls: false
-    password: undefined
-    ip-version: dual
-    cipher: 'null'
-  - name: "瑞典-3.21MB/s\r\r\r"
-    type: trojan
-    server: 13.48.7.125
-    port: 22222
-    network: tcp
-    tls: true
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "中转节点-20.31MB/s\r\r\r"
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 48291
-    network: tcp
-    tls: true
-    password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
-    sni: mmbiz1.redapricotcloud.com
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "美国-1.89MB%2Fs\r\r\r"
-    type: ss
-    server: 34.221.169.63
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: "香港-36.2MB/s\r\r\r"
-    type: trojan
-    server: 45.196.233.64
-    port: 10105
-    network: tcp
-    tls: false
-    password: 05819241-c538-4a25-9c1b-7dc5d7646e22
-    skip-cert-verify: true
-    ip-version: dual
-  - name: "韩国-102.9KB%2Fs\r\r\r"
-    type: ss
-    server: 43.201.85.71
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 未知国家-1.61MB/s
-    type: vmess
-    server: Support.onetwothree123.ir
-    port: 8443
-    uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-    network: ws
-    tls: false
-    ip-version: dual
-    cipher: auto
-  - name: "HK\r\r\r_2\r"
-    type: vless
-    server: 47.76.218.163
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_10\r"
-    type: vless
-    server: 43.129.171.137
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HKG\r\r\r_1\r"
-    type: trojan
-    server: 103.103.245.183
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "HK\r\r\r_13\r"
-    type: vless
-    server: 14.198.149.124
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_19\r"
-    type: vless
-    server: 103.117.100.46
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_4\r"
-    type: vless
-    server: 154.9.246.89
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_8\r"
-    type: vless
-    server: 103.103.245.183
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_3\r"
-    type: vless
-    server: 154.198.227.53
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_12\r"
-    type: vless
-    server: 206.237.31.47
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HKG\r\r\r_2\r"
-    type: trojan
-    server: 154.198.227.53
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SG\r\r\r_7\r"
-    type: vless
-    server: 54.255.179.30
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_14\r"
-    type: vless
-    server: 42.200.111.106
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_3\r"
-    type: vless
-    server: 43.156.181.203
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SIN\r\r\r_1\r"
-    type: trojan
-    server: 43.156.181.203
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "HK\r\r\r_30\r"
-    type: vless
-    server: 219.76.13.166
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "TW\r\r\r_3\r"
-    type: vless
-    server: 210.61.97.241
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "HKG\r\r\r_3\r"
-    type: trojan
-    server: 43.129.171.137
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "HKG\r\r\r_4\r"
-    type: trojan
-    server: 103.117.100.46
-    port: 5555
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SG\r\r\r_9\r"
-    type: vless
-    server: 5.253.36.101
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SIN\r\r\r_2\r"
-    type: trojan
-    server: 50.114.55.125
-    port: 40078
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SG\r\r\r_6\r"
-    type: vless
-    server: 50.114.55.125
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SIN\r\r\r_3\r"
-    type: trojan
-    server: 5.253.36.101
-    port: 2443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "JP\r\r\r_1\r"
-    type: vless
-    server: 119.229.77.159
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_16\r"
-    type: vless
-    server: 45.87.103.154
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HKG\r\r\r_5\r"
-    type: trojan
-    server: 154.9.246.89
-    port: 27053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_5\r"
-    type: vless
-    server: 106.240.1.52
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SIN\r\r\r_4\r"
-    type: trojan
-    server: 8.219.6.169
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SG\r\r\r_10\r"
-    type: vless
-    server: 8.219.6.169
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_18\r"
-    type: vless
-    server: 47.243.138.97
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SIN\r\r\r_5\r"
-    type: trojan
-    server: 54.255.179.30
-    port: 2083
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "ICN\r\r\r_1\r"
-    type: trojan
-    server: 106.240.1.52
-    port: 20443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "DEN\r\r\r_1\r"
-    type: trojan
-    server: 154.17.27.166
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "HK\r\r\r_24\r"
-    type: vless
-    server: 219.76.13.183
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_6\r"
-    type: vless
-    server: 45.139.193.145
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_1\r"
-    type: trojan
-    server: 23.95.61.179
-    port: 15160
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "PL\r\r\r_2\r"
-    type: vless
-    server: 185.188.147.79
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_13\r"
-    type: vless
-    server: 141.147.147.28
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_1\r"
-    type: vless
-    server: 104.16.159.190
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_2\r"
-    type: trojan
-    server: 198.46.158.37
-    port: 34237
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CMCC\r\r\r_2\r"
-    type: vless
-    server: 104.17.161.203
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_3\r"
-    type: trojan
-    server: 192.210.207.89
-    port: 20080
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "JP\r\r\r_23\r"
-    type: vless
-    server: 141.147.147.180
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "CMCC-IPV6\r\r\r_23\r"
-    type: vless
-    server: '2606'
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_51\r"
-    type: vless
-    server: 104.129.166.131
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HKG\r\r\r_6\r"
-    type: trojan
-    server: 59.188.46.218
-    port: 10028
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_27\r"
-    type: vless
-    server: thaddeus.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_22\r"
-    type: vless
-    server: 91.217.139.121
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_3\r"
-    type: vless
-    server: 104.17.215.241
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CT\r\r\r_3\r"
-    type: vless
-    server: 162.159.152.142
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_17\r"
-    type: vless
-    server: kip.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_20\r"
-    type: vless
-    server: 27.50.49.37
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_7\r"
-    type: vless
-    server: 104.16.144.119
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "BR\r\r\r_1\r"
-    type: vless
-    server: 185.133.35.242
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_4\r"
-    type: trojan
-    server: 27.50.49.61
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CMCC\r\r\r_5\r"
-    type: vless
-    server: 104.16.144.176
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_24\r"
-    type: vless
-    server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_27\r"
-    type: vless
-    server: 59.188.46.218
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_4\r"
-    type: vless
-    server: damien.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "RU\r\r\r_2\r"
-    type: vless
-    server: 45.67.215.0
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "AT\r\r\r_2\r"
-    type: vless
-    server: 212.183.88.24
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_8\r"
-    type: vless
-    server: 104.16.146.187
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_30\r"
-    type: vless
-    server: 27.50.48.21
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_18\r"
-    type: vless
-    server: 27.50.49.208
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_5\r"
-    type: trojan
-    server: 188.164.159.74
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_6\r"
-    type: trojan
-    server: 45.194.53.81
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_9\r"
-    type: vless
-    server: 192.0.54.137
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "AT\r\r\r_3\r"
-    type: vless
-    server: 212.183.88.109
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CT\r\r\r_4\r"
-    type: vless
-    server: 162.159.152.193
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CT\r\r\r_5\r"
-    type: vless
-    server: 162.159.153.140
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_8\r"
-    type: vless
-    server: ignacio.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_18\r"
-    type: vless
-    server: lynn.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_19\r"
-    type: vless
-    server: 27.50.49.166
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "AT\r\r\r_6\r"
-    type: vless
-    server: 212.183.88.43
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_11\r"
-    type: vless
-    server: 192.0.54.168
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_28\r"
-    type: vless
-    server: 27.50.48.189
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_19\r"
-    type: vless
-    server: pranab.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_7\r"
-    type: trojan
-    server: 66.81.247.230
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_8\r"
-    type: trojan
-    server: 154.211.8.220
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_9\r"
-    type: trojan
-    server: 167.68.4.131
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_13\r"
-    type: vless
-    server: 63.141.128.94
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_10\r"
-    type: trojan
-    server: 27.50.49.37
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_11\r"
-    type: trojan
-    server: 108.165.152.1
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_12\r"
-    type: trojan
-    server: 27.50.49.156
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_13\r"
-    type: trojan
-    server: 104.129.166.131
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CMCC\r\r\r_9\r"
-    type: vless
-    server: 104.17.213.78
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "BR\r\r\r_3\r"
-    type: vless
-    server: 185.133.35.125
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "AT\r\r\r_5\r"
-    type: vless
-    server: 212.183.88.176
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_11\r"
-    type: vless
-    server: 104.18.46.81
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CT\r\r\r_6\r"
-    type: vless
-    server: 162.159.152.244
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_14\r"
-    type: trojan
-    server: 108.165.152.67
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "JP\r\r\r_4\r"
-    type: vless
-    server: 150.230.208.21
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_15\r"
-    type: trojan
-    server: 27.50.49.166
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_35\r"
-    type: vless
-    server: 108.165.152.1
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "GB\r\r\r_2\r"
-    type: vless
-    server: 217.163.76.97
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_15\r"
-    type: vless
-    server: 160.79.105.99
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_12\r"
-    type: vless
-    server: 104.17.220.150
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_16\r"
-    type: trojan
-    server: 45.150.115.195
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_33\r"
-    type: vless
-    server: 108.165.152.67
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_23\r"
-    type: vless
-    server: arvind.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_22\r"
-    type: vless
-    server: 27.50.49.224
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "GB\r\r\r_3\r"
-    type: vless
-    server: 217.163.76.102
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_6\r"
-    type: vless
-    server: 141.147.177.141
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_23\r"
-    type: vless
-    server: 27.50.49.61
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_13\r"
-    type: vless
-    server: 104.18.47.177
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "BR\r\r\r_7\r"
-    type: vless
-    server: 185.133.35.103
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_18\r"
-    type: vless
-    server: 192.200.160.99
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_37\r"
-    type: vless
-    server: 192.210.207.89
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_10\r"
-    type: vless
-    server: sage.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_17\r"
-    type: trojan
-    server: 27.50.49.74
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_18\r"
-    type: trojan
-    server: 108.165.152.58
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_23\r"
-    type: vless
-    server: 66.81.247.230
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_11\r"
-    type: trojan
-    server: lynn.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_21\r"
-    type: vless
-    server: 135.84.76.105
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_31\r"
-    type: vless
-    server: 170.39.66.154
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_19\r"
-    type: trojan
-    server: 108.165.152.252
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_12\r"
-    type: trojan
-    server: pranab.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_25\r"
-    type: vless
-    server: 63.141.128.96
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_13\r"
-    type: trojan
-    server: damien.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_22\r"
-    type: vless
-    server: duke.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_15\r"
-    type: trojan
-    server: ignacio.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_26\r"
-    type: vless
-    server: 135.84.76.115
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_46\r"
-    type: vless
-    server: 129.153.199.107
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_28\r"
-    type: vless
-    server: 192.0.54.18
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_29\r"
-    type: vless
-    server: 63.141.128.218
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_16\r"
-    type: trojan
-    server: theo.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_43\r"
-    type: vless
-    server: 108.165.152.98
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_24\r"
-    type: vless
-    server: 27.50.49.234
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_20\r"
-    type: trojan
-    server: 154.197.64.166
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_21\r"
-    type: trojan
-    server: 108.165.152.98
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "HKG\r\r\r_7\r"
-    type: trojan
-    server: 38.38.251.220
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_22\r"
-    type: trojan
-    server: 199.34.228.191
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "FR\r\r\r_1\r"
-    type: vless
-    server: 185.16.110.103
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_14\r"
-    type: vless
-    server: 104.16.150.133
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_23\r"
-    type: trojan
-    server: 213.241.198.189
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CT\r\r\r_7\r"
-    type: vless
-    server: 162.159.153.119
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_24\r"
-    type: trojan
-    server: 108.165.152.76
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "HK\r\r\r_26\r"
-    type: vless
-    server: 154.218.15.250
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_36\r"
-    type: vless
-    server: 108.165.152.31
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_25\r"
-    type: trojan
-    server: 161.145.150.29
-    port: 2083
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_28\r"
-    type: vless
-    server: theo.ns.cloudflare.com
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_26\r"
-    type: trojan
-    server: 188.164.159.55
-    port: 2096
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_21\r"
-    type: trojan
-    server: thaddeus.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_27\r"
-    type: trojan
-    server: 154.197.64.189
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CT\r\r\r_8\r"
-    type: vless
-    server: 162.159.152.68
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_29\r"
-    type: vless
-    server: 27.50.49.74
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_28\r"
-    type: trojan
-    server: 154.197.64.67
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CMCC\r\r\r_15\r"
-    type: vless
-    server: 198.41.221.186
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SG\r\r\r_27\r"
-    type: vless
-    server: 27.50.49.156
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_42\r"
-    type: vless
-    server: 108.165.152.252
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_29\r"
-    type: trojan
-    server: 192.0.54.221
-    port: 2083
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_30\r"
-    type: trojan
-    server: 154.197.64.248
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "JP\r\r\r_9\r"
-    type: vless
-    server: 153.206.186.231
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_19\r"
-    type: vless
-    server: 104.17.189.210
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "BR\r\r\r_6\r"
-    type: vless
-    server: 185.133.35.120
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_31\r"
-    type: trojan
-    server: 199.34.228.50
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "DEN\r\r\r_2\r"
-    type: trojan
-    server: 150.230.208.21
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_24\r"
-    type: trojan
-    server: arvind.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_32\r"
-    type: trojan
-    server: 108.165.152.31
-    port: 2083
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "官方优选\r\r\r_25\r"
-    type: trojan
-    server: kip.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_33\r"
-    type: trojan
-    server: 108.165.152.93
-    port: 2083
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CMCC\r\r\r_24\r"
-    type: vless
-    server: 104.16.144.239
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_34\r"
-    type: trojan
-    server: 27.50.48.189
-    port: 2083
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "NL\r\r\r_3\r"
-    type: vless
-    server: 45.154.98.100
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "AT\r\r\r_7\r"
-    type: vless
-    server: 212.183.88.132
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "FR\r\r\r_2\r"
-    type: vless
-    server: 185.16.110.0
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_18\r"
-    type: vless
-    server: 104.17.111.56
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_38\r"
-    type: vless
-    server: 135.84.76.110
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "AT\r\r\r_8\r"
-    type: vless
-    server: 212.183.88.162
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_41\r"
-    type: vless
-    server: 160.79.105.80
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_35\r"
-    type: trojan
-    server: 160.79.105.80
-    port: 2087
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_47\r"
-    type: vless
-    server: 63.141.128.163
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "官方优选\r\r\r_26\r"
-    type: trojan
-    server: duke.ns.cloudflare.com
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_31\r"
-    type: vless
-    server: 211.218.223.130
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_26\r"
-    type: vless
-    server: 217.142.236.93
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_36\r"
-    type: trojan
-    server: 27.50.48.21
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_37\r"
-    type: trojan
-    server: 154.211.8.152
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "JP\r\r\r_25\r"
-    type: vless
-    server: 141.147.154.214
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r\r\r_38\r"
-    type: trojan
-    server: 160.79.105.133
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_39\r"
-    type: trojan
-    server: 108.165.152.219
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "ICN\r\r\r_2\r"
-    type: trojan
-    server: 14.56.139.220
-    port: 12151
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "ICN\r\r\r_3\r"
-    type: trojan
-    server: 222.107.236.137
-    port: 12191
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_40\r"
-    type: trojan
-    server: 160.79.105.160
-    port: 8443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_7\r"
-    type: vless
-    server: 221.153.42.212
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_4\r"
-    type: trojan
-    server: 211.38.168.1
-    port: 50000
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "FR\r\r\r_4\r"
-    type: vless
-    server: 185.16.110.111
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_5\r"
-    type: trojan
-    server: 221.157.253.188
-    port: 12384
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "ICN\r\r\r_6\r"
-    type: trojan
-    server: 210.204.159.68
-    port: 11920
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "ICN\r\r\r_7\r"
-    type: trojan
-    server: 121.164.25.233
-    port: 12145
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_16\r"
-    type: vless
-    server: 14.39.43.121
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_8\r"
-    type: trojan
-    server: 121.181.116.10
-    port: 30000
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_38\r"
-    type: vless
-    server: 59.22.26.141
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_9\r"
-    type: trojan
-    server: 14.52.18.105
-    port: 31444
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_36\r"
-    type: vless
-    server: 121.181.116.10
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_21\r"
-    type: vless
-    server: 121.164.25.233
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_40\r"
-    type: vless
-    server: 121.131.180.71
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_10\r"
-    type: trojan
-    server: 59.22.26.141
-    port: 50000
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "CMCC\r\r\r_20\r"
-    type: vless
-    server: 104.16.153.254
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_21\r"
-    type: vless
-    server: 104.16.154.41
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_28\r"
-    type: vless
-    server: 221.162.185.151
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_26\r"
-    type: vless
-    server: 210.204.159.68
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_34\r"
-    type: vless
-    server: 14.52.18.105
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_25\r"
-    type: vless
-    server: 221.157.253.188
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_22\r"
-    type: vless
-    server: 14.56.139.220
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_20\r"
-    type: vless
-    server: 112.186.198.253
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_56\r"
-    type: vless
-    server: 23.95.222.3
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_33\r"
-    type: vless
-    server: 211.38.168.1
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_35\r"
-    type: vless
-    server: 222.107.236.137
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "KR\r\r\r_37\r"
-    type: vless
-    server: 121.129.110.242
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_11\r"
-    type: trojan
-    server: 121.131.180.71
-    port: 50000
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "KR\r\r\r_39\r"
-    type: vless
-    server: 121.190.166.239
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_16\r"
-    type: vless
-    server: 131.186.34.51
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_12\r"
-    type: trojan
-    server: 121.190.166.239
-    port: 50000
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "US\r\r\r_58\r"
-    type: vless
-    server: 107.173.181.236
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_18\r"
-    type: vless
-    server: 131.186.46.14
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_21\r"
-    type: vless
-    server: 132.226.14.23
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_61\r"
-    type: vless
-    server: 23.95.61.179
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_20\r"
-    type: vless
-    server: 138.3.212.194
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "ICN\r\r\r_13\r"
-    type: trojan
-    server: 121.129.110.242
-    port: 18038
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "JP\r\r\r_24\r"
-    type: vless
-    server: 158.179.190.67
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "CMCC\r\r\r_23\r"
-    type: vless
-    server: 104.17.146.152
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_57\r"
-    type: vless
-    server: 107.175.214.198
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "PL\r\r\r_4\r"
-    type: vless
-    server: 176.105.253.98
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_55\r"
-    type: vless
-    server: 23.95.248.118
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "DFW\r\r\r\r"
-    type: trojan
-    server: 23.95.248.118
-    port: 443
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "SJC\r\r\r_41\r"
-    type: trojan
-    server: 107.172.30.194
-    port: 587
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "NL\r\r\r_6\r"
-    type: vless
-    server: 45.154.98.210
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_28\r"
-    type: vless
-    server: 47.79.89.106
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SEA\r\r\r\r"
-    type: trojan
-    server: 47.79.89.106
-    port: 2053
-    network: ws
-    tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
-    ip-version: dual
-  - name: "AE\r\r\r_3\r"
-    type: vless
-    server: 193.123.80.245
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_31\r"
+  - name: 🇺🇸_US_美国_2
     type: vless
-    server: 188.253.19.126
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "HK\r\r\r_29\r"
-    type: vless
-    server: 43.155.20.137
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "AE\r\r\r_6\r"
-    type: vless
-    server: 193.123.81.105
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    tls: false
-    ip-version: dual
-  - name: "US\r\r\r_60\r"
-    type: vless
-    server: 107.172.30.194
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "JP\r\r\r_32\r"
-    type: vless
-    server: 46.232.54.100
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    tls: false
-    ip-version: dual
-  - name: "SJC\r"
-    type: trojan
-    server: 107.175.214.198
-    port: 443
+    server: 151.101.194.228
+    port: 80
+    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
     network: ws
     tls: true
-    password: Aimer
-    sni: agepj.ambercc.filegear-sg.me
+    servername: joinxvproxybedee.ir
     skip-cert-verify: true
     ws-opts:
-      path: /
-      headers:
-        host: agepj.ambercc.filegear-sg.mehttp/1.1
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
     ip-version: dual
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4683,317 +1299,82 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "荷兰-83.3MB%2Fs\r\r\r"
-      - 🇺🇸_US_美国_3
-      - "🇺🇸_US_美国\r\r_9\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - "🇺🇸_US_美国\r\r_4\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r\r_7\r"
-      - "香港_Telegram%40kxswa\r\r_6\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国\r\r_8\r"
-      - "香港_Telegram%40kxswa\r\r_5\r"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r\r"
-      - "法国-53.0MB%2Fs\r\r\r"
-      - "🇺🇸_US_美国\r\r_10\r"
-      - "🇺🇸_US_美国\r\r_11\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_12\r"
-      - "🇺🇸_US_美国\r\r_13\r"
-      - "🇺🇸_US_美国\r\r_14\r"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r\r"
-      - "🇺🇸_US_美国\r\r_15\r"
-      - "🇺🇸_US_美国\r\r_16\r"
+      - 德国-3.81MB/s
+      - "中转节点-35.56MB%2Fs\r\r"
+      - "中转节点-17.86MB/s\r\r"
+      - "中转节点-5.48MB%2Fs\r\r"
+      - "中转节点-28.45MB%2Fs\r\r"
+      - "美国-665.7KB/s\r\r"
+      - "韩国-3.41MB%2Fs\r\r"
+      - 香港_Telegram@kxswa_15
+      - 未知国家-1.39MB/s
+      - "瑞典-3.66MB/s\r\r"
+      - "中转节点-7.3MB%2Fs\r\r"
+      - "中转节点-8.5MB%2Fs\r\r"
+      - "未知国家-142.9KB/s\r\r"
+      - "日本-198.3KB%2Fs\r\r"
+      - "日本-9.99MB%2Fs\r\r"
+      - 中转节点-7.8MB/s
+      - 香港_Telegram@kxswa_8
+      - "🇮🇳_IN_印度\r\r"
+      - "香港_Telegram%40kxswa\r_10\r"
+      - "韩国-3.23MB%2Fs\r_2\r"
+      - 香港_Telegram@kxswa_9
+      - "🇧🇪_BE_比利时\r\r"
+      - "美国_Telegram%40kxswa\r_3\r"
+      - "香港-11.5MB%2Fs\r_2\r"
+      - "美国_Telegram%40kxswa\r_1\r"
+      - "韩国-8.92MB%2Fs\r\r"
+      - "香港_Telegram%40kxswa\r_4\r"
+      - "香港_Telegram%40kxswa\r_3\r"
+      - "台湾-160.1KB%2Fs\r_2\r"
+      - "瑞典-3.21MB/s\r_2\r"
+      - "中转节点-20.31MB/s\r_2\r"
+      - "美国-1.89MB%2Fs\r_2\r"
+      - "香港-36.2MB/s\r_2\r"
+      - "韩国-102.9KB%2Fs\r_2\r"
+      - 未知国家-1.61MB/s_2
       - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r\r_1\r"
-      - "香港_Telegram%40kxswa\r\r_2\r"
+      - "香港_Telegram%40kxswa\r_1\r"
+      - "香港_Telegram%40kxswa\r_2\r"
       - 香港_Telegram@kxswa_2
-      - "中转节点-66.8MB%2Fs\r\r\r"
       - 香港_Telegram@kxswa_3
       - 香港_Telegram@kxswa_4
       - 香港_Telegram@kxswa_5
       - 香港_Telegram@kxswa_6
-      - "香港-8.9MB%2Fs\r\r\r"
+      - "🇨🇳_CN_中国\r_2\r"
+      - "🇨🇳_CN_中国\r_1\r"
       - 香港_Telegram@kxswa_7
-      - 中转节点-15.5MB/s
-      - 中转节点-10.49MB/s
       - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r\r_7\r"
+      - "香港_Telegram%40kxswa\r_7\r"
       - 香港_Telegram@kxswa_11
       - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r\r_8\r"
+      - "香港_Telegram%40kxswa\r_8\r"
       - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r\r_9\r"
+      - "香港_Telegram%40kxswa\r_9\r"
       - 香港_Telegram@kxswa_14
-      - "中转节点-3.64MB%2Fs\r\r\r"
-      - 中转节点-1.43MB/s
-      - "美国-17.5MB%2Fs\r\r\r"
-      - "美国_Telegram%40kxswa\r\r_2\r"
-      - "未知国家-14.0MB%2Fs\r\r\r"
+      - "美国_Telegram%40kxswa\r_2\r"
       - 美国_Telegram@kxswa
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r\r"
-      - "中转节点-17.86MB/s\r\r\r"
-      - "中转节点-5.48MB%2Fs\r\r\r"
-      - "中转节点-28.45MB%2Fs\r\r\r"
-      - "美国-665.7KB/s\r\r\r"
-      - "韩国-3.41MB%2Fs\r\r\r"
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r\r"
-      - "中转节点-7.3MB%2Fs\r\r\r"
-      - "中转节点-8.5MB%2Fs\r\r\r"
-      - "未知国家-142.9KB/s\r\r\r"
-      - "日本-198.3KB%2Fs\r\r\r"
-      - "日本-9.99MB%2Fs\r\r\r"
-      - 中转节点-7.8MB/s
-      - "韩国-3.23MB%2Fs\r\r\r"
-      - "香港-11.5MB%2Fs\r\r\r"
-      - "韩国-8.92MB%2Fs\r\r\r"
-      - "台湾-160.1KB%2Fs\r\r\r"
-      - "瑞典-3.21MB/s\r\r\r"
-      - "中转节点-20.31MB/s\r\r\r"
-      - "美国-1.89MB%2Fs\r\r\r"
-      - "香港-36.2MB/s\r\r\r"
-      - "韩国-102.9KB%2Fs\r\r\r"
-      - 未知国家-1.61MB/s
-      - "HK\r\r\r_2\r"
-      - "HK\r\r\r_10\r"
-      - "HKG\r\r\r_1\r"
-      - "HK\r\r\r_13\r"
-      - "HK\r\r\r_19\r"
-      - "US\r\r\r_4\r"
-      - "HK\r\r\r_8\r"
-      - "US\r\r\r_3\r"
-      - "HK\r\r\r_12\r"
-      - "HKG\r\r\r_2\r"
-      - "SG\r\r\r_7\r"
-      - "HK\r\r\r_14\r"
-      - "SG\r\r\r_3\r"
-      - "SIN\r\r\r_1\r"
-      - "HK\r\r\r_30\r"
-      - "TW\r\r\r_3\r"
-      - "HKG\r\r\r_3\r"
-      - "HKG\r\r\r_4\r"
-      - "SG\r\r\r_9\r"
-      - "SIN\r\r\r_2\r"
-      - "SG\r\r\r_6\r"
-      - "SIN\r\r\r_3\r"
-      - "JP\r\r\r_1\r"
-      - "HK\r\r\r_16\r"
-      - "HKG\r\r\r_5\r"
-      - "KR\r\r\r_5\r"
-      - "SIN\r\r\r_4\r"
-      - "SG\r\r\r_10\r"
-      - "HK\r\r\r_18\r"
-      - "SIN\r\r\r_5\r"
-      - "ICN\r\r\r_1\r"
-      - "DEN\r\r\r_1\r"
-      - "HK\r\r\r_24\r"
-      - "US\r\r\r_6\r"
-      - "SJC\r\r\r_1\r"
-      - "PL\r\r\r_2\r"
-      - "JP\r\r\r_13\r"
-      - "CMCC\r\r\r_1\r"
-      - "SJC\r\r\r_2\r"
-      - "CMCC\r\r\r_2\r"
-      - "SJC\r\r\r_3\r"
-      - "JP\r\r\r_23\r"
-      - "CMCC-IPV6\r\r\r_23\r"
-      - "US\r\r\r_51\r"
-      - "HKG\r\r\r_6\r"
-      - "官方优选\r\r\r_27\r"
-      - "HK\r\r\r_22\r"
-      - "CMCC\r\r\r_3\r"
-      - "CT\r\r\r_3\r"
-      - "官方优选\r\r\r_17\r"
-      - "SG\r\r\r_20\r"
-      - "CMCC\r\r\r_7\r"
-      - "BR\r\r\r_1\r"
-      - "SJC\r\r\r_4\r"
-      - "CMCC\r\r\r_5\r"
-      - "US\r\r\r_24\r"
-      - "HK\r\r\r_27\r"
-      - "官方优选\r\r\r_4\r"
-      - "RU\r\r\r_2\r"
-      - "AT\r\r\r_2\r"
-      - "CMCC\r\r\r_8\r"
-      - "SG\r\r\r_30\r"
-      - "SG\r\r\r_18\r"
-      - "SJC\r\r\r_5\r"
-      - "SJC\r\r\r_6\r"
-      - "US\r\r\r_9\r"
-      - "AT\r\r\r_3\r"
-      - "CT\r\r\r_4\r"
-      - "CT\r\r\r_5\r"
-      - "官方优选\r\r\r_8\r"
-      - "官方优选\r\r\r_18\r"
-      - "SG\r\r\r_19\r"
-      - "AT\r\r\r_6\r"
-      - "US\r\r\r_11\r"
-      - "SG\r\r\r_28\r"
-      - "官方优选\r\r\r_19\r"
-      - "SJC\r\r\r_7\r"
-      - "SJC\r\r\r_8\r"
-      - "SJC\r\r\r_9\r"
-      - "US\r\r\r_13\r"
-      - "SJC\r\r\r_10\r"
-      - "SJC\r\r\r_11\r"
-      - "SJC\r\r\r_12\r"
-      - "SJC\r\r\r_13\r"
-      - "CMCC\r\r\r_9\r"
-      - "BR\r\r\r_3\r"
-      - "AT\r\r\r_5\r"
-      - "CMCC\r\r\r_11\r"
-      - "CT\r\r\r_6\r"
-      - "SJC\r\r\r_14\r"
-      - "JP\r\r\r_4\r"
-      - "SJC\r\r\r_15\r"
-      - "US\r\r\r_35\r"
-      - "GB\r\r\r_2\r"
-      - "US\r\r\r_15\r"
-      - "CMCC\r\r\r_12\r"
-      - "SJC\r\r\r_16\r"
-      - "US\r\r\r_33\r"
-      - "官方优选\r\r\r_23\r"
-      - "SG\r\r\r_22\r"
-      - "GB\r\r\r_3\r"
-      - "JP\r\r\r_6\r"
-      - "SG\r\r\r_23\r"
-      - "CMCC\r\r\r_13\r"
-      - "BR\r\r\r_7\r"
-      - "US\r\r\r_18\r"
-      - "US\r\r\r_37\r"
-      - "官方优选\r\r\r_10\r"
-      - "SJC\r\r\r_17\r"
-      - "SJC\r\r\r_18\r"
-      - "US\r\r\r_23\r"
-      - "官方优选\r\r\r_11\r"
-      - "US\r\r\r_21\r"
-      - "US\r\r\r_31\r"
-      - "SJC\r\r\r_19\r"
-      - "官方优选\r\r\r_12\r"
-      - "US\r\r\r_25\r"
-      - "官方优选\r\r\r_13\r"
-      - "官方优选\r\r\r_22\r"
-      - "官方优选\r\r\r_15\r"
-      - "US\r\r\r_26\r"
-      - "US\r\r\r_46\r"
-      - "US\r\r\r_28\r"
-      - "US\r\r\r_29\r"
-      - "官方优选\r\r\r_16\r"
-      - "US\r\r\r_43\r"
-      - "SG\r\r\r_24\r"
-      - "SJC\r\r\r_20\r"
-      - "SJC\r\r\r_21\r"
-      - "HKG\r\r\r_7\r"
-      - "SJC\r\r\r_22\r"
-      - "FR\r\r\r_1\r"
-      - "CMCC\r\r\r_14\r"
-      - "SJC\r\r\r_23\r"
-      - "CT\r\r\r_7\r"
-      - "SJC\r\r\r_24\r"
-      - "HK\r\r\r_26\r"
-      - "US\r\r\r_36\r"
-      - "SJC\r\r\r_25\r"
-      - "官方优选\r\r\r_28\r"
-      - "SJC\r\r\r_26\r"
-      - "官方优选\r\r\r_21\r"
-      - "SJC\r\r\r_27\r"
-      - "CT\r\r\r_8\r"
-      - "SG\r\r\r_29\r"
-      - "SJC\r\r\r_28\r"
-      - "CMCC\r\r\r_15\r"
-      - "SG\r\r\r_27\r"
-      - "US\r\r\r_42\r"
-      - "SJC\r\r\r_29\r"
-      - "SJC\r\r\r_30\r"
-      - "JP\r\r\r_9\r"
-      - "CMCC\r\r\r_19\r"
-      - "BR\r\r\r_6\r"
-      - "SJC\r\r\r_31\r"
-      - "DEN\r\r\r_2\r"
-      - "官方优选\r\r\r_24\r"
-      - "SJC\r\r\r_32\r"
-      - "官方优选\r\r\r_25\r"
-      - "SJC\r\r\r_33\r"
-      - "CMCC\r\r\r_24\r"
-      - "SJC\r\r\r_34\r"
-      - "NL\r\r\r_3\r"
-      - "AT\r\r\r_7\r"
-      - "FR\r\r\r_2\r"
-      - "CMCC\r\r\r_18\r"
-      - "US\r\r\r_38\r"
-      - "AT\r\r\r_8\r"
-      - "US\r\r\r_41\r"
-      - "SJC\r\r\r_35\r"
-      - "US\r\r\r_47\r"
-      - "官方优选\r\r\r_26\r"
-      - "KR\r\r\r_31\r"
-      - "JP\r\r\r_26\r"
-      - "SJC\r\r\r_36\r"
-      - "SJC\r\r\r_37\r"
-      - "JP\r\r\r_25\r"
-      - "SJC\r\r\r_38\r"
-      - "SJC\r\r\r_39\r"
-      - "ICN\r\r\r_2\r"
-      - "ICN\r\r\r_3\r"
-      - "SJC\r\r\r_40\r"
-      - "KR\r\r\r_7\r"
-      - "ICN\r\r\r_4\r"
-      - "FR\r\r\r_4\r"
-      - "ICN\r\r\r_5\r"
-      - "ICN\r\r\r_6\r"
-      - "ICN\r\r\r_7\r"
-      - "KR\r\r\r_16\r"
-      - "ICN\r\r\r_8\r"
-      - "KR\r\r\r_38\r"
-      - "ICN\r\r\r_9\r"
-      - "KR\r\r\r_36\r"
-      - "KR\r\r\r_21\r"
-      - "KR\r\r\r_40\r"
-      - "ICN\r\r\r_10\r"
-      - "CMCC\r\r\r_20\r"
-      - "CMCC\r\r\r_21\r"
-      - "KR\r\r\r_28\r"
-      - "KR\r\r\r_26\r"
-      - "KR\r\r\r_34\r"
-      - "KR\r\r\r_25\r"
-      - "KR\r\r\r_22\r"
-      - "KR\r\r\r_20\r"
-      - "US\r\r\r_56\r"
-      - "KR\r\r\r_33\r"
-      - "KR\r\r\r_35\r"
-      - "KR\r\r\r_37\r"
-      - "ICN\r\r\r_11\r"
-      - "KR\r\r\r_39\r"
-      - "JP\r\r\r_16\r"
-      - "ICN\r\r\r_12\r"
-      - "US\r\r\r_58\r"
-      - "JP\r\r\r_18\r"
-      - "JP\r\r\r_21\r"
-      - "US\r\r\r_61\r"
-      - "JP\r\r\r_20\r"
-      - "ICN\r\r\r_13\r"
-      - "JP\r\r\r_24\r"
-      - "CMCC\r\r\r_23\r"
-      - "US\r\r\r_57\r"
-      - "PL\r\r\r_4\r"
-      - "US\r\r\r_55\r"
-      - "DFW\r\r\r\r"
-      - "SJC\r\r\r_41\r"
-      - "NL\r\r\r_6\r"
-      - "JP\r\r\r_28\r"
-      - "SEA\r\r\r\r"
-      - "AE\r\r\r_3\r"
-      - "JP\r\r\r_31\r"
-      - "HK\r\r\r_29\r"
-      - "AE\r\r\r_6\r"
-      - "US\r\r\r_60\r"
-      - "JP\r\r\r_32\r"
-      - "SJC\r"
+      - "🇺🇸_US_美国\r_3\r"
+      - "🇺🇸_US_美国\r_2\r"
+      - "🇺🇸_US_美国\r_7\r_1"
+      - "🇺🇸_US_美国\r_9\r"
+      - "🇺🇸_US_美国\r_10\r"
+      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
+      - "🇺🇸_US_美国\r_8\r_1"
+      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
+      - "🇺🇸_US_美国\r_1\r"
+      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
+      - 🇺🇸_US_美国_1
+      - "🇺🇸_US_美国\r_4\r"
+      - "🇺🇸_US_美国\r_5\r"
+      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
+      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
+      - "🇺🇸_US_美国\r_6\r"
+      - "🇺🇸_US_美国\r_7\r_2"
+      - "🇺🇸_US_美国\r_8\r_2"
+      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+      - 🇺🇸_US_美国_2
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
