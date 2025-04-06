@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-03-23 12:40:10
+# 配置生成日期：2025-04-06 17:44:23
 
 mixed-port: 7890
 allow-lan: false
@@ -50,437 +50,26 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 德国-3.81MB/s
-    type: vmess
-    server: 185.85.241.196
-    port: 8080
-    uuid: a9b84c67-6143-4db3-abc0-d9fa332205cc
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "中转节点-35.56MB%2Fs\r\r"
-    type: ss
-    server: 183.240.211.76
-    port: 15006
-    tls: false
-    password: X3F12W4DE3XS3A4K
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "中转节点-17.86MB/s\r\r"
+  - name: "英国-347.2KB/s\r\r"
     type: trojan
-    server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-    port: 42881
+    server: possible-tiger.shiner427.skin
+    port: 443
     network: tcp
-    tls: true
-    password: 0979046d-90cc-4f58-9595-75ba19550d1c
-    sni: q08m.vgraxiw73s.hasyaf.cn
+    tls: false
+    password: '74260700211203800'
     skip-cert-verify: true
     ip-version: dual
     udp: true
-  - name: "中转节点-5.48MB%2Fs\r\r"
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
     type: ss
-    server: 183.240.211.76
-    port: 15012
+    server: hk01.x.quickcht3.club
+    port: 52611
     tls: false
-    password: CFZJ5GGARXWVUCYJ
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "中转节点-28.45MB%2Fs\r\r"
-    type: ss
-    server: 120.233.205.203
-    port: 15005
-    tls: false
-    password: IEP8GYP4WMR482TK
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "美国-665.7KB/s\r\r"
-    type: trojan
-    server: tenderly.meijireform.com
-    port: 28337
-    network: tcp
-    tls: true
-    password: Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS
-    sni: tenderly.meijireform.com
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: "韩国-3.41MB%2Fs\r\r"
-    type: ss
-    server: 43.203.196.43
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 香港_Telegram@kxswa_15
-    type: vmess
-    server: 120.232.153.63
-    port: 40102
-    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 未知国家-1.39MB/s
-    type: vmess
-    server: lA01.890614.FileGEaR-SG.Me
-    port: 443
-    uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "瑞典-3.66MB/s\r\r"
-    type: trojan
-    server: 13.51.136.122
-    port: 22222
-    network: tcp
-    tls: true
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: "中转节点-7.3MB%2Fs\r\r"
-    type: ss
-    server: w72tapyb.slashdevslashnetslashtun.net
-    port: 15008
-    tls: false
-    password: Q3PP7TUVTV756YSB
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "中转节点-8.5MB%2Fs\r\r"
-    type: ss
-    server: w72tapyb.slashdevslashnetslashtun.net
-    port: 15014
-    tls: false
-    password: 53HVTBHCBNKKC66Q
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "未知国家-142.9KB/s\r\r"
-    type: trojan
-    server: stodewrn.homeofbrave.net
-    port: 443
-    network: tcp
-    tls: false
-    password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: "日本-198.3KB%2Fs\r\r"
-    type: ss
-    server: 13.230.168.61
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "日本-9.99MB%2Fs\r\r"
-    type: ss
-    server: 57.180.35.64
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 中转节点-7.8MB/s
-    type: vmess
-    server: 120.232.153.40
-    port: 51182
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_8
-    type: vmess
-    server: 120.232.153.40
-    port: 41002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "🇮🇳_IN_印度\r\r"
-    type: ss
-    server: 103.104.247.49
-    port: 8080
-    tls: false
-    password: oZIoA69Q8yhcQV8ka3Pa3A
+    password: 2be0c954-4291-45ea-b47d-ca713180550b
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: "香港_Telegram%40kxswa\r_10\r"
-    type: ss
-    server: ss.miloli.cc
-    port: 19240
-    tls: false
-    password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: "韩国-3.23MB%2Fs\r_2\r"
-    type: ss
-    server: 3.35.138.170
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 香港_Telegram@kxswa_9
-    type: vmess
-    server: 120.198.71.184
-    port: 10703
-    uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "🇧🇪_BE_比利时\r\r"
-    type: ss
-    server: 57.128.190.245
-    port: 20568
-    tls: false
-    password: e014f8ab71735926
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: "美国_Telegram%40kxswa\r_3\r"
-    type: ss
-    server: 23.185.248.14
-    port: 17004
-    tls: false
-    password: NRSRWKL1RPGLFZ8G
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "香港-11.5MB%2Fs\r_2\r"
-    type: ss
-    server: 156.245.190.22
-    port: 15013
-    tls: false
-    password: F2B9WAFTQ9I25SIO
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "美国_Telegram%40kxswa\r_1\r"
-    type: ss
-    server: 156.231.104.16
-    port: 18006
-    tls: false
-    password: 61B0I2IAA8ZZD7KH
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "韩国-8.92MB%2Fs\r\r"
-    type: ss
-    server: 3.38.92.181
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "香港_Telegram%40kxswa\r_4\r"
-    type: ss
-    server: 156.245.190.17
-    port: 15008
-    tls: false
-    password: NLGZXGG09D5F8X5U
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r_3\r"
-    type: ss
-    server: 183.232.229.164
-    port: 11002
-    tls: false
-    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: "台湾-160.1KB%2Fs\r_2\r"
-    type: ss
-    server: '@@185.189.160.98'
-    port: 64759
-    tls: false
-    password: qwerREWQ
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "瑞典-3.21MB/s\r_2\r"
-    type: trojan
-    server: 13.48.7.125
-    port: 22222
-    network: tcp
-    tls: true
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: "中转节点-20.31MB/s\r_2\r"
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 48291
-    network: tcp
-    tls: true
-    password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
-    sni: mmbiz1.redapricotcloud.com
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: "美国-1.89MB%2Fs\r_2\r"
-    type: ss
-    server: 34.221.169.63
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "香港-36.2MB/s\r_2\r"
-    type: trojan
-    server: 45.196.233.64
-    port: 10105
-    network: tcp
-    tls: false
-    password: 05819241-c538-4a25-9c1b-7dc5d7646e22
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-  - name: "韩国-102.9KB%2Fs\r_2\r"
-    type: ss
-    server: 43.201.85.71
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 未知国家-1.61MB/s_2
-    type: vmess
-    server: Support.onetwothree123.ir
-    port: 8443
-    uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_1
-    type: vmess
-    server: 120.198.71.219
-    port: 42055
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r_1\r"
-    type: ss
-    server: 150.116.11.9
-    port: 21005
-    tls: false
-    password: 9CREQ4Q7QTCEHO4R
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: "香港_Telegram%40kxswa\r_2\r"
-    type: ss
-    server: agaungzhou01.bumbleshrimp.com
-    port: 13483
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_2
-    type: vmess
-    server: 120.198.71.216
-    port: 40059
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_3
-    type: vmess
-    server: 120.232.153.123
-    port: 51052
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_4
-    type: vmess
-    server: 120.232.153.63
-    port: 40105
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_5
-    type: vmess
-    server: 120.232.153.40
-    port: 34042
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_6
-    type: vmess
-    server: 183.236.51.38
-    port: 59554
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "🇨🇳_CN_中国\r_2\r"
-    type: ss
-    server: bsuqian01.dynu.net
-    port: 56226
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
-  - name: "🇨🇳_CN_中国\r_1\r"
-    type: ss
-    server: 62.60.233.21
-    port: 443
-    tls: false
-    password: UP3JN98C6EOR
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_7
+  - name: 香港_https://t.me/mfjdkx_1
     type: vmess
     server: 183.236.51.38
     port: 55754
@@ -489,75 +78,106 @@ proxies:
     tls: false
     ip-version: dual
     udp: true
+    alterId: 0
     cipher: auto
-  - name: 香港_Telegram@kxswa_10
-    type: vmess
-    server: 156.224.77.98
-    port: 11110
-    uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "香港_Telegram%40kxswa\r_7\r"
-    type: ss
-    server: gy01.hunheiydd.xyz
-    port: 56277
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_11
-    type: vmess
-    server: 120.198.71.184
-    port: 10701
-    uuid: CE361194-7D70-614C-780B-D3BDB61D0257
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: 香港_Telegram@kxswa_12
+  - name: 香港_https://t.me/mfjdkx_2
     type: vmess
     server: 183.236.51.38
-    port: 51039
+    port: 56901
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
     ip-version: dual
     udp: true
+    alterId: 0
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r_8\r"
-    type: ss
-    server: 154.90.63.193
-    port: 990
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_Telegram@kxswa_13
+  - name: 香港_https://t.me/mfjdkx_3
     type: vmess
-    server: 120.198.71.214
-    port: 34093
+    server: 120.232.153.63
+    port: 40105
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     network: tcp
     tls: false
     ip-version: dual
     udp: true
+    alterId: 0
     cipher: auto
-  - name: "香港_Telegram%40kxswa\r_9\r"
-    type: ss
-    server: csuzhou01.1cooldns.com
-    port: 64050
+  - name: 香港_https://t.me/mfjdkx_4
+    type: vmess
+    server: 183.236.51.38
+    port: 59554
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
     tls: false
-    password: VMhGp5wEIyCDf90T
     ip-version: dual
     udp: true
-    cipher: aes-128-gcm
-  - name: 香港_Telegram@kxswa_14
+    alterId: 0
+    cipher: auto
+  - name: 香港_https://t.me/mfjdkx_5
+    type: vmess
+    server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
+    port: 4135
+    uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_https://t.me/mfjdkx_6
+    type: vmess
+    server: 120.198.71.219
+    port: 51095
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 中转节点-5.9MB/s
+    type: vmess
+    server: 120.232.153.40
+    port: 41002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_https://t.me/mfjdkx_7
+    type: vmess
+    server: 120.198.71.216
+    port: 35001
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港_https://t.me/mfjdkx_8
+    type: vmess
+    server: 2c6d0633-sudhc0-sya9qt-5mq6.c.volczijie.com
+    port: 4151
+    uuid: 7171af52-8586-11ef-86d0-f23c932f2c32
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+    type: ss
+    server: 150.116.11.9
+    port: 21005
+    tls: false
+    password: D9EOTB2JHFUCARRA
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 香港_https://t.me/mfjdkx_9
     type: vmess
     server: 120.234.102.229
     port: 31998
@@ -566,717 +186,1037 @@ proxies:
     tls: false
     ip-version: dual
     udp: true
+    alterId: 0
     cipher: auto
-  - name: "美国_Telegram%40kxswa\r_2\r"
-    type: ss
-    server: 156.231.104.13
-    port: 18003
-    tls: false
-    password: 7NJNZOGIM3GT2ZOP
-    ip-version: dual
-    udp: true
-    cipher: aes-256-gcm
-  - name: 美国_Telegram@kxswa
+  - name: 香港_https://t.me/mfjdkx_10
     type: vmess
-    server: ny05.890603.xyz
-    port: 443
-    uuid: a1925233-669e-4068-b740-d77f41986c43
+    server: v40.heduian.link
+    port: 30840
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     network: ws
     tls: false
     ip-version: dual
     udp: true
+    alterId: 0
     cipher: auto
-  - name: "🇺🇸_US_美国\r_3\r"
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
     type: ss
-    server: 44.246.28.217
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_2\r"
-    type: vless
-    server: 151.101.2.228
-    port: 80
-    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
-    network: ws
-    tls: true
-    servername: joinxvproxybedee.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
-    ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国\r_7\r_1"
-    type: ss
-    server: 44.242.208.211
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_9\r"
-    type: vless
-    server: 104.17.147.22
-    port: 2052
-    uuid: 11dbb0b6-8b02-59b9-ac62-593b1b23898a
-    network: ws
-    tls: true
-    servername: sPeedtest2.sbs.it2.v2vless.sitespeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless
-    ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国\r_10\r"
-    type: vless
-    server: 104.17.147.22
-    port: 2082
-    uuid: 38467d75-fe67-4950-c84d-ce5eb3fbe2ae
-    network: ws
-    tls: false
-    servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    ws-opts:
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-    ip-version: dual
-    udp: true
-  - name: "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-    type: vless
-    server: 95.81.86.60
-    port: 20360
-    uuid: 641c3372-5aa7-42f6-b93c-84d9402f7111
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-  - name: "🇺🇸_US_美国\r_8\r_1"
-    type: ss
-    server: 54.184.74.88
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-    type: ss
-    server: 35.87.29.54
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_1\r"
-    type: ss
-    server: 52.33.164.139
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-    type: vless
-    server: 86.38.214.30
-    port: 8080
-    uuid: 31f625ef-7585-441d-9df3-8839506dfb1e
-    network: ws
-    tls: false
-    servername: sNaPp.MaStErSrV.ir.
-    ws-opts: {}
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_1
-    type: vmess
-    server: biiia-vpn-whal.fast.hosting-ip.com
-    port: 80
-    uuid: id9---@vpn-whal
-    network: ws
-    tls: false
-    ip-version: dual
-    udp: true
-    cipher: auto
-  - name: "🇺🇸_US_美国\r_4\r"
-    type: ss
-    server: 35.87.37.159
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_5\r"
-    type: ss
-    server: 54.187.221.114
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-    type: ss
-    server: csuzhou01.1cooldns.com
-    port: 18755
+    server: shenzhou05.mysynology.net
+    port: 33368
     tls: false
     password: VMhGp5wEIyCDf90T
     ip-version: dual
     udp: true
     cipher: aes-128-gcm
-  - name: "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-    type: ss
-    server: 34.209.89.4
-    port: 443
+  - name: 香港_https://t.me/mfjdkx_11
+    type: vmess
+    server: 183.236.51.38
+    port: 42550
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
     tls: false
-    password: amazonskr05
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_6\r"
+    alterId: 0
+    cipher: auto
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
     type: ss
-    server: 54.202.63.169
-    port: 443
+    server: 156.245.190.21
+    port: 15012
     tls: false
-    password: amazonskr05
+    password: R5SXA70P3ARNBUBO
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
-  - name: "🇺🇸_US_美国\r_7\r_2"
-    type: vless
-    server: 151.101.66.228
-    port: 80
-    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
+    cipher: aes-256-gcm
+  - name: 香港_https://t.me/mfjdkx_12
+    type: vmess
+    server: 120.232.153.40
+    port: 35542
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "中转节点-151.9KB%2Fs\r\r"
+    type: ss
+    server: hk02.x.quickcht3.club
+    port: 52612
+    tls: false
+    password: 2be0c954-4291-45ea-b47d-ca713180550b
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 香港_https://t.me/mfjdkx_13
+    type: vmess
+    server: 120.232.153.41
+    port: 32977
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+    type: ss
+    server: gy01.hunheiydd.xyz
+    port: 56277
+    tls: false
+    password: VMhGp5wEIyCDf90T
+    ip-version: dual
+    udp: true
+    cipher: aes-128-gcm
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+    type: ss
+    server: 156.226.175.196
+    port: 30001
+    tls: false
+    password: d9aea736-3b4d-4644-a999-fe38edfae93c
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 15011
+    tls: false
+    password: N4WB5VAL40S0WSH8
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 美国_Telegram:t.me/mfjdkx_1
+    type: vmess
+    server: 2.58.87.221
+    port: 12269
+    uuid: db85ff0e-c33f-401d-c415-4c7cce135704
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 美国_Telegram:t.me/mfjdkx_2
+    type: vmess
+    server: lon2-dash.930.pp.ua
+    port: 2053
+    uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "波兰-55.8MB%2Fs\r\r"
+    type: ss
+    server: 77.83.246.74
+    port: 443
+    tls: false
+    password: XsDDBBSiY18qHD9CcomK5T
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+    type: ss
+    server: 156.231.104.22
+    port: 18012
+    tls: false
+    password: 75XFDM4RTK8B4LLG
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+    type: ss
+    server: 156.231.104.15
+    port: 18005
+    tls: false
+    password: 2DFUK58DWLGU6EQH
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+    type: ss
+    server: 206.245.211.12
+    port: 19002
+    tls: false
+    password: HW9RL3ZGBLLSO16R
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+    type: ss
+    server: 156.231.104.13
+    port: 18003
+    tls: false
+    password: JPHJGLROBW89TTNI
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+    type: ss
+    server: 206.245.211.15
+    port: 19005
+    tls: false
+    password: 65ZLPN9MI8OTH07C
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+    type: ss
+    server: 45.154.207.246
+    port: 20030
+    tls: false
+    password: HWJLNN7IJAY93SO1
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: vmess
+    server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+    port: 5228
+    uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "🇺🇸_US_美国\r\r_1"
+    type: trojan
+    server: 104.21.16.1
+    port: 443
     network: ws
     tls: true
-    servername: joinxvproxybedee.ir
+    password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+    sni: 1g.890699.xyZ
     skip-cert-verify: true
     ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
+      path: /lXENb74xF4ylXngZ
+      headers:
+        host: 1g.890699.xyZ
     ip-version: dual
     udp: true
-  - name: "🇺🇸_US_美国\r_8\r_2"
+  - name: "🇬🇧_GB_英国\r\r"
+    type: trojan
+    server: 51.68.13.106
+    port: 1935
+    network: tcp
+    tls: true
+    password: FiSo7J6vfS
+    sni: x1fr-ovh.devefun.net
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 中转节点-2.61MB/s
+    type: vmess
+    server: v29.heduian.link
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: "🇺🇸_US_美国\r\r_2"
+    type: trojan
+    server: 172.67.200.238
+    port: 443
+    network: ws
+    tls: true
+    password: 2fec7227-9abe-46f2-af18-78302b836c45
+    sni: 3s.890689.xyz
+    skip-cert-verify: false
+    ws-opts:
+      path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
+      headers: {}
+    ip-version: dual
+    udp: true
+  - name: "🇯🇵_JP_日本\r\r"
+    type: vless
+    server: zmaoz.faculty.ucdavis.edu
+    port: 80
+    uuid: 9df66056-a898-486a-9c67-6a5ad5ea056e
+    network: ws
+    tls: true
+    servername: foffmelo.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /olem/ws
+      headers:
+        host: foffmelo.com
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r\r_3"
+    type: vless
+    server: 172.67.73.163
+    port: 8080
+    uuid: dce4535b-5833-4d62-97e7-3d9d4ba6bd4c
+    network: ws
+    tls: false
+    servername: 0j.Gr02P5L88B.zUlaIR.oRG.
+    ws-opts:
+      headers:
+        host: 0j.Gr02P5L88B.zUlaIR.oRG.
+    ip-version: dual
+    udp: true
+  - name: 🇷🇺_RU_俄罗斯
+    type: vmess
+    server: 176.32.39.240
+    port: 22000
+    uuid: e95cd8fe-a64f-4fbb-9fec-efb700940564
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "🇺🇸_US_美国\r\r_4"
+    type: vless
+    server: 104.17.147.22
+    port: 2082
+    uuid: 8209dbd9-24ef-4d84-bf40-b0e9dbba1279
+    network: ws
+    tls: false
+    servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    ws-opts:
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      headers:
+        host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    ip-version: dual
+    udp: true
+  - name: "🇨🇦_CA_加拿大\r\r"
+    type: trojan
+    server: 142.171.162.85
+    port: 52492
+    network: tcp
+    tls: true
+    password: ef23ddd0-14c5-39c2-9880-af55ce892363
+    sni: t28.qifei.app
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r\r_5"
+    type: trojan
+    server: 63.177.179.90
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: "🇺🇸_US_美国\r\r_6"
+    type: vless
+    server: 104.19.54.50
+    port: 8080
+    uuid: 2bb1cd7f-8260-453b-a62f-cc68ef681e5e
+    network: ws
+    tls: false
+    servername: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
+      headers:
+        host: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
+    ip-version: dual
+    udp: true
+  - name: "中转节点-8.9MB%2Fs\r\r"
     type: ss
-    server: 35.93.21.189
+    server: 120.233.205.203
+    port: 18001
+    tls: false
+    password: 8JLSTR4973MMT8E3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: "立陶宛-185.8KB%2Fs\r\r"
+    type: ss
+    server: 45.87.175.154
+    port: 8080
+    tls: false
+    password: 4a2rfixophdjffa8KVA4Aa
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 中转节点-15.68MB/s
+    type: vmess
+    server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+    port: 4135
+    uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 中转节点-8.02MB/s
+    type: vmess
+    server: gzhmbkqt.xn--fiqs8sjz2bull.com
+    port: 33184
+    uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 未知国家-843.2KB/s
+    type: vmess
+    server: 104.21.69.41
+    port: 80
+    uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "瑞典-3.67MB/s\r\r"
+    type: trojan
+    server: 13.49.16.249
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 中转节点-1.28MB/s
+    type: vmess
+    server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+    port: 3683
+    uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: "美国-4.55MB/s\r\r"
+    type: trojan
+    server: fr2a.88888007.xyz
+    port: 443
+    network: tcp
+    tls: true
+    password: c97cf46e-1554-36cb-8b36-c3556b883dc4
+    sni: fr2a.88888007.xyz
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "未知国家-3.21MB/s\r\r"
+    type: trojan
+    server: ru1a.88888007.xyz
+    port: 443
+    network: tcp
+    tls: true
+    password: c97cf46e-1554-36cb-8b36-c3556b883dc4
+    sni: ru1a.88888007.xyz
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 中转节点-11.7MB/s
+    type: vmess
+    server: v28.heduian.link
+    port: 30828
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: "美国-3.01MB/s\r\r"
+    type: trojan
+    server: us3a.88888007.xyz
+    port: 443
+    network: tcp
+    tls: true
+    password: c97cf46e-1554-36cb-8b36-c3556b883dc4
+    sni: us3a.88888007.xyz
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "英国-957.1KB/s\r\r"
+    type: trojan
+    server: daring-gobbler.shiner427.skin
+    port: 443
+    network: tcp
+    tls: false
+    password: '74260700211203800'
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "日本-147.9KB%2Fs\r\r"
+    type: ss
+    server: 54.238.109.190
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
+  - name: "新加坡-392.6KB%2Fs\r\r"
     type: ss
-    server: 156.146.40.194
-    port: 989
+    server: 47.129.238.196
+    port: 443
     tls: false
-    password: f8f7aCzcPKbsF8p3
+    password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    type: vless
-    server: 151.101.194.228
-    port: 80
-    uuid: 78490186-da2b-4af6-83fa-c593690f3e46
-    network: ws
-    tls: true
-    servername: joinxvproxybedee.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
+  - name: "日本-293.9KB%2Fs\r\r"
+    type: ss
+    server: 54.199.167.92
+    port: 443
+    tls: false
+    password: amazonskr05
     ip-version: dual
     udp: true
+    cipher: aes-256-cfb
+  - name: 香港-6.02MB/s
+    type: vmess
+    server: 223d9378-sucv40-tcop2n-tl32.hk.p5pv.com
+    port: 80
+    uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 中转节点-3.19MB/s
+    type: vmess
+    server: 884b8b44-sudhc0-svm3vt-czv5.d.volczijie.com
+    port: 4135
+    uuid: 82efba2c-f420-11ef-9529-f23c93141fad
+    network: tcp
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港-3.27MB/s
+    type: vmess
+    server: 687032bd-sucv40-sxlqds-1qs82.hk.p5pv.com
+    port: 80
+    uuid: 9c6d1142-dc2b-11ee-88c7-f23c913c8d2b
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 香港-7.33MB/s
+    type: vmess
+    server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+    port: 80
+    uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: "法国-3.86MB/s\r\r"
+    type: trojan
+    server: 15.188.172.210
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: "日本-8.58MB/s\r\r"
+    type: trojan
+    server: t6.qifei.app
+    port: 53284
+    network: tcp
+    tls: false
+    password: ef23ddd0-14c5-39c2-9880-af55ce892363
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 中转节点-26.1MB/s
+    type: vmess
+    server: v7.heduian.link
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: "日本-239.4KB%2Fs\r\r"
+    type: ss
+    server: 18.181.170.89
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 中转节点-14.10MB%2Fs
+    type: ss
+    server: okanc.node-is.green
+    port: 21114
+    tls: false
+    password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1299,82 +1239,74 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国-3.81MB/s
-      - "中转节点-35.56MB%2Fs\r\r"
-      - "中转节点-17.86MB/s\r\r"
-      - "中转节点-5.48MB%2Fs\r\r"
-      - "中转节点-28.45MB%2Fs\r\r"
-      - "美国-665.7KB/s\r\r"
-      - "韩国-3.41MB%2Fs\r\r"
-      - 香港_Telegram@kxswa_15
-      - 未知国家-1.39MB/s
-      - "瑞典-3.66MB/s\r\r"
-      - "中转节点-7.3MB%2Fs\r\r"
-      - "中转节点-8.5MB%2Fs\r\r"
-      - "未知国家-142.9KB/s\r\r"
-      - "日本-198.3KB%2Fs\r\r"
-      - "日本-9.99MB%2Fs\r\r"
-      - 中转节点-7.8MB/s
-      - 香港_Telegram@kxswa_8
-      - "🇮🇳_IN_印度\r\r"
-      - "香港_Telegram%40kxswa\r_10\r"
-      - "韩国-3.23MB%2Fs\r_2\r"
-      - 香港_Telegram@kxswa_9
-      - "🇧🇪_BE_比利时\r\r"
-      - "美国_Telegram%40kxswa\r_3\r"
-      - "香港-11.5MB%2Fs\r_2\r"
-      - "美国_Telegram%40kxswa\r_1\r"
-      - "韩国-8.92MB%2Fs\r\r"
-      - "香港_Telegram%40kxswa\r_4\r"
-      - "香港_Telegram%40kxswa\r_3\r"
-      - "台湾-160.1KB%2Fs\r_2\r"
-      - "瑞典-3.21MB/s\r_2\r"
-      - "中转节点-20.31MB/s\r_2\r"
-      - "美国-1.89MB%2Fs\r_2\r"
-      - "香港-36.2MB/s\r_2\r"
-      - "韩国-102.9KB%2Fs\r_2\r"
-      - 未知国家-1.61MB/s_2
-      - 香港_Telegram@kxswa_1
-      - "香港_Telegram%40kxswa\r_1\r"
-      - "香港_Telegram%40kxswa\r_2\r"
-      - 香港_Telegram@kxswa_2
-      - 香港_Telegram@kxswa_3
-      - 香港_Telegram@kxswa_4
-      - 香港_Telegram@kxswa_5
-      - 香港_Telegram@kxswa_6
-      - "🇨🇳_CN_中国\r_2\r"
-      - "🇨🇳_CN_中国\r_1\r"
-      - 香港_Telegram@kxswa_7
-      - 香港_Telegram@kxswa_10
-      - "香港_Telegram%40kxswa\r_7\r"
-      - 香港_Telegram@kxswa_11
-      - 香港_Telegram@kxswa_12
-      - "香港_Telegram%40kxswa\r_8\r"
-      - 香港_Telegram@kxswa_13
-      - "香港_Telegram%40kxswa\r_9\r"
-      - 香港_Telegram@kxswa_14
-      - "美国_Telegram%40kxswa\r_2\r"
-      - 美国_Telegram@kxswa
-      - "🇺🇸_US_美国\r_3\r"
-      - "🇺🇸_US_美国\r_2\r"
-      - "🇺🇸_US_美国\r_7\r_1"
-      - "🇺🇸_US_美国\r_9\r"
-      - "🇺🇸_US_美国\r_10\r"
-      - "🇮🇷_IR_伊朗->🇫🇷_FR_法国\r\r"
-      - "🇺🇸_US_美国\r_8\r_1"
-      - "🇺🇸_US_美国->🇸🇬_SG_新加坡\r\r"
-      - "🇺🇸_US_美国\r_1\r"
-      - "🇱🇹_LT_立陶宛->🇫🇷_FR_法国\r\r"
-      - 🇺🇸_US_美国_1
-      - "🇺🇸_US_美国\r_4\r"
-      - "🇺🇸_US_美国\r_5\r"
-      - "🇨🇳_CN_中国->🇦🇺_AU_澳大利亚\r\r"
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r"
-      - "🇺🇸_US_美国\r_6\r"
-      - "🇺🇸_US_美国\r_7\r_2"
-      - "🇺🇸_US_美国\r_8\r_2"
-      - "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国\r\r"
-      - 🇺🇸_US_美国_2
+      - "英国-347.2KB/s\r\r"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_1
+      - 香港_https://t.me/mfjdkx_2
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
+      - 香港_https://t.me/mfjdkx_5
+      - 香港_https://t.me/mfjdkx_6
+      - 中转节点-5.9MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3"
+      - 香港_https://t.me/mfjdkx_11
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_4"
+      - 香港_https://t.me/mfjdkx_12
+      - "中转节点-151.9KB%2Fs\r\r"
+      - 香港_https://t.me/mfjdkx_13
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_5"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_6"
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_7"
+      - 美国_Telegram:t.me/mfjdkx_1
+      - 美国_Telegram:t.me/mfjdkx_2
+      - "波兰-55.8MB%2Fs\r\r"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_1"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_2"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_3"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_4"
+      - "美国_Telegram%3At.me%2Fmfjdkx\r\r_5"
+      - "荷兰_Telegram%3At.me%2Fmfjdkx\r\r"
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇬🇧_GB_英国\r\r"
+      - 中转节点-2.61MB/s
+      - "🇺🇸_US_美国\r\r_2"
+      - "🇯🇵_JP_日本\r\r"
+      - "🇺🇸_US_美国\r\r_3"
+      - 🇷🇺_RU_俄罗斯
+      - "🇺🇸_US_美国\r\r_4"
+      - "🇨🇦_CA_加拿大\r\r"
+      - "🇺🇸_US_美国\r\r_5"
+      - "🇺🇸_US_美国\r\r_6"
+      - "中转节点-8.9MB%2Fs\r\r"
+      - "立陶宛-185.8KB%2Fs\r\r"
+      - 中转节点-15.68MB/s
+      - 中转节点-8.02MB/s
+      - 未知国家-843.2KB/s
+      - "瑞典-3.67MB/s\r\r"
+      - 中转节点-1.28MB/s
+      - "美国-4.55MB/s\r\r"
+      - "未知国家-3.21MB/s\r\r"
+      - 中转节点-11.7MB/s
+      - "美国-3.01MB/s\r\r"
+      - "英国-957.1KB/s\r\r"
+      - "日本-147.9KB%2Fs\r\r"
+      - "新加坡-392.6KB%2Fs\r\r"
+      - "日本-293.9KB%2Fs\r\r"
+      - 香港-6.02MB/s
+      - 中转节点-3.19MB/s
+      - 香港-3.27MB/s
+      - 香港-7.33MB/s
+      - "法国-3.86MB/s\r\r"
+      - "日本-8.58MB/s\r\r"
+      - 中转节点-26.1MB/s
+      - "日本-239.4KB%2Fs\r\r"
+      - 中转节点-14.10MB%2Fs
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
