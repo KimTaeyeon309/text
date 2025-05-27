@@ -1,1468 +1,1790 @@
-# 模版名称：ACL4SSR.ini
-# 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-04-15 22:36:18
-
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2025-05-27 13:40:41
+# 使用模版：V2RaySE 默认模版
+# 节点数量：238
+####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
-allow-lan: false
-mode: rule
+allow-lan: true
 log-level: info
-ipv6: false
 external-controller: 0.0.0.0:9090
 dns:
-  enable: true
-  listen: 0.0.0.0:53
-  ipv6: false
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
   default-nameserver:
     - 223.5.5.5
     - 114.114.114.114
-  nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-    - 119.29.29.29
-    - 180.76.76.76
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
-    - '*.localdomain'
-    - '*.example'
-    - '*.invalid'
-    - '*.localhost'
-    - '*.test'
-    - '*.local'
-    - '*.home.arpa'
-    - router.asus.com
-    - localhost.sec.qq.com
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
     - localhost.ptlogin2.qq.com
-    - +.msftconnecttest.com
-tun:
-  enable: true
-  stack: system
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - 114.114.114.114
-    - 180.76.76.76
-    - 119.29.29.29
-    - 223.5.5.5
-    - 8.8.8.8
-    - 8.8.4.4
-    - 1.1.1.1
-    - 1.0.0.1
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
 proxies:
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_9
-    type: vmess
-    server: f5f98477-sutj40-tdcdb7-1k27l.cu.plebai.net
-    port: 5229
-    uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国
-    type: vmess
-    server: 0000000000000000000000000080.cgroup-node-for-bigairport.sbs
-    port: 42360
-    uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_12
-    type: vmess
-    server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-    port: 5228
-    uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_17
-    type: vmess
-    server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
-    port: 5228
-    uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-79.5MB/s_2
-    type: vmess
-    server: v35.heduian.link
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 2
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_11
-    type: vmess
-    server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
-    port: 5229
-    uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-    type: vmess
-    server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
-    port: 17235
-    uuid: 947dde8e-bcf5-11ef-af4a-f23c91cfbbc9
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-    type: vmess
-    server: 104.18.95.231
-    port: 80
-    uuid: 812eb086-8442-4799-9d92-112fd1a225af
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "🇨🇳_CN_中国\r\r\r"
-    type: vless
-    server: 62.60.178.29
-    port: 32822
-    uuid: b8e67f46-e0f5-416c-bd46-caea21323622
-    tls: false
-    flow: '-udp443'
-    ip-version: dual
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_8
-    type: vmess
-    server: 157.148.96.92
-    port: 5228
-    uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-    type: vmess
-    server: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
-    port: 17235
-    uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-100.9KB/s_2
-    type: vmess
-    server: v36.heduian.link
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 2
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_13
-    type: vmess
-    server: 144.255.36.254
-    port: 14100
-    uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-60.4MB/s
-    type: vmess
-    server: usz1.fgmcx.top
-    port: 23903
-    uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "中转节点-388.4KB%2Fs\r\r_2\r"
-    type: ss
-    server: zz5.fgmcx.top
-    port: 41068
-    tls: false
-    password: be443689-bc64-49ff-85a5-8eecaa2235d3
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-    type: vmess
-    server: 172.67.70.188
-    port: 80
-    uuid: 06135553-6f54-4d32-af08-83bc94823e7e
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_14
-    type: vmess
-    server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
-    port: 5229
-    uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 🇨🇳_CN_中国
-    type: vmess
-    server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
-    port: 5229
-    uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "🇺🇸_US_美国\r\r_1\r"
-    type: trojan
-    server: 13.61.250.229
-    port: 22222
-    network: tcp
-    tls: true
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r_2\r"
-    type: vless
-    server: 104.21.23.63
-    port: 8880
-    uuid: 1e4ccb23-7360-4842-b85c-5207e1add36d
-    network: ws
-    tls: false
-    servername: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-    ws-opts:
-      path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420
-    ip-version: dual
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_15
-    type: vmess
-    server: v29.heduian.link
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 2
-    cipher: auto
-  - name: 中转节点-44.5MB/s
-    type: vmess
-    server: v8.heduian.link
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 2
-    cipher: auto
-  - name: "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-    type: vless
-    server: 104.19.54.50
-    port: 8080
-    uuid: dc95c590-cebb-40c7-9357-4bf7852c4401
-    network: ws
-    tls: false
-    servername: moftvpn.elmahstyle.xyz.
-    ws-opts:
-      path: /@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn
-    ip-version: dual
-  - name: "🇺🇸_US_美国\r\r_3\r"
-    type: vless
-    server: 104.17.147.22
-    port: 2052
-    uuid: f6c96581-cad4-5749-b02d-742cd0870c44
-    network: ws
-    tls: true
-    servername: sPeedtest2.sbs.za.v2vless.sitespeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless
-    ip-version: dual
-  - name: 中转节点-187.2KB/s_2
-    type: vmess
-    server: v7.heduian.link
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 2
-    cipher: auto
-  - name: "🇺🇸_US_美国\r\r"
-    type: vless
-    server: 173.245.58.100
-    port: 2095
-    uuid: 2fb92a60-11ed-4490-a3a1-0afa2bbfa2eb
-    network: ws
-    tls: false
-    servername: xpntEamfree.sockSchangert.ir.
-    ws-opts:
-      path: '@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam'
-    ip-version: dual
-  - name: 香港_https://t.me/mfjdkx_1
-    type: vmess
-    server: 183.236.51.38
-    port: 59554
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_2
-    type: vmess
-    server: 120.232.153.41
-    port: 46597
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-124.0KB/s
-    type: vmess
-    server: 183.236.51.38
-    port: 34652
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-321.4KB/s
-    type: vmess
-    server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-    port: 17232
-    uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "中转节点-80.9MB%2Fs\r\r\r"
-    type: ss
-    server: hk02.x.quickcht3.club
-    port: 52612
-    tls: false
-    password: 2be0c954-4291-45ea-b47d-ca713180550b
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_https://t.me/mfjdkx_5
-    type: vmess
-    server: 120.198.71.216
-    port: 35001
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_6
-    type: vmess
-    server: 120.198.71.216
-    port: 50082
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-    type: ss
-    server: gysz0000.dynu.net
-    port: 56277
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-    type: ss
-    server: shenzhou05.mysynology.net
-    port: 33368
-    tls: false
-    password: VMhGp5wEIyCDf90T
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: 中转节点-79.9MB/s
-    type: vmess
-    server: hzz9.fgmcx.top
-    port: 23919
-    uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "中转节点-93.7MB%2Fs\r\r_2\r"
-    type: ss
-    server: 111.29.57.125
-    port: 52612
-    tls: false
-    password: 2be0c954-4291-45ea-b47d-ca713180550b
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 中转节点-3.20MB/s_2
-    type: vmess
-    server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-    port: 17233
-    uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "中转节点-54.0MB%2Fs\r\r\r"
-    type: ss
-    server: hk2.fgmcx.top
-    port: 41049
-    tls: false
-    password: be443689-bc64-49ff-85a5-8eecaa2235d3
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 中转节点-9.8MB/s
-    type: vmess
-    server: 120.232.153.40
-    port: 36609
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 64
-    cipher: auto
-  - name: 中转节点-2.21MB/s
-    type: vmess
-    server: 120.198.71.214
-    port: 46345
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_11
-    type: vmess
-    server: ecd6d7ce-sux8g0-t0aln2-1kvd6.cm5.p5pv.com
-    port: 17234
-    uuid: baf0d462-b4e2-11ed-b581-f23c9164ca5d
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_12
-    type: vmess
-    server: 183.236.51.38
-    port: 42524
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-240.4KB/s
-    type: vmess
-    server: hzz9.fgmcx.top
-    port: 23910
-    uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_14
-    type: vmess
-    server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-    port: 15229
-    uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_15
-    type: vmess
-    server: 120.232.153.40
-    port: 42892
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "中转节点-23.2MB%2Fs\r\r_2\r"
-    type: ss
-    server: gg21.hangfengjiasu.com
-    port: 13203
-    tls: false
-    password: cdc48a7a-b618-45af-a831-5afbd686b02f
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 中转节点-19.0MB/s_2
-    type: vmess
-    server: fadawtawd.zhangwei.li
-    port: 46005
-    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_18
-    type: vmess
-    server: 120.232.153.40
-    port: 57852
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "中转节点-139.8KB%2Fs\r\r_2\r"
-    type: ss
-    server: hk01.x.quickcht3.club
-    port: 52611
-    tls: false
-    password: 2be0c954-4291-45ea-b47d-ca713180550b
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 香港_https://t.me/mfjdkx_19
-    type: vmess
-    server: 120.232.153.41
-    port: 44491
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_20
-    type: vmess
-    server: 120.232.153.40
-    port: 59082
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 中转节点-16.9MB/s
-    type: vmess
-    server: 183.236.51.38
-    port: 43121
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_22
-    type: vmess
-    server: 120.198.71.216
-    port: 42259
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_23
-    type: vmess
-    server: 183.236.51.38
-    port: 37802
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_24
-    type: vmess
-    server: 120.232.153.63
-    port: 37805
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-    type: ss
-    server: gg21.hangfengjiasu.com
-    port: 12202
-    tls: false
-    password: cdc48a7a-b618-45af-a831-5afbd686b02f
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 中转节点-64.4MB/s
-    type: vmess
-    server: v40.heduian.link
-    port: 30840
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-    type: ss
-    server: qh62onjn.slashdevslashnetslashtun.net
-    port: 15011
-    tls: false
-    password: N4WB5VAL40S0WSH8
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: 香港_https://t.me/mfjdkx_26
-    type: vmess
-    server: 120.198.71.219
-    port: 42355
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 香港_https://t.me/mfjdkx_27
-    type: vmess
-    server: 120.198.71.219
-    port: 51095
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-    type: ss
-    server: gg21.hangfengjiasu.com
-    port: 12210
-    tls: false
-    password: cdc48a7a-b618-45af-a831-5afbd686b02f
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 西班牙_https://t.me/mfjdkx
-    type: vmess
-    server: 212.192.12.154
-    port: 23011
-    uuid: 337db17e-a3b1-4dec-96d2-acc302f5d858
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "加拿大-54.3MB%2Fs\r\r\r"
-    type: ss
-    server: 38.114.114.108
-    port: 8091
-    tls: false
-    password: PCnnH6SQSnfoS27
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-    type: ss
-    server: 38.114.114.108
-    port: 8882
-    tls: false
-    password: kDWvXYZoTBcGkC4
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-    type: ss
-    server: 13.212.90.20
-    port: 443
-    tls: false
-    password: wUIFQcMM2K2VYdVz8GKyeE
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 荷兰_https://t.me/mfjdkx
-    type: vmess
-    server: 45.147.201.231
-    port: 23069
-    uuid: 145bfa92-3022-44b4-bb65-cda6cb83d39f
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "俄罗斯联邦-5.8MB%2Fs\r"
-    type: ss
-    server: 5.189.201.250
-    port: 31348
-    tls: false
-    password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "新加坡-10.8MB/s\r\r\r"
-    type: trojan
-    server: 43.167.160.4
-    port: 443
-    network: tcp
-    tls: true
-    password: oIwjHDXpKePvYIg8
-    sni: myvps.cfd
-    skip-cert-verify: true
-    ip-version: dual
-  - name: 中转节点-2.88MB/s
-    type: vmess
-    server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
-    port: 5229
-    uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "美国-4.62MB%2Fs\r\r\r"
-    type: ss
-    server: 184.170.241.194
-    port: 443
-    tls: false
-    password: shadowsocks
-    ip-version: dual
-    cipher: aes-128-cfb
-  - name: "新加坡-245.4KB/s\r\r\r"
-    type: trojan
-    server: automq4-proxy.automq-sg.com
-    port: 443
-    network: tcp
-    tls: false
-    password: dQUWbcwECl
-    skip-cert-verify: true
-    ip-version: dual
-  - name: 中转节点-5.1MB/s
-    type: vmess
-    server: v9.heduian.link
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 2
-    cipher: auto
-  - name: "中转节点-15.70MB%2Fs\r\r\r"
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8765
-    tls: false
-    password: efanccyun
-    ip-version: dual
-    cipher: rc4-md5
-  - name: "泰国-179.6KB%2Fs\r\r\r"
-    type: ss
-    server: 85.208.139.31
-    port: 42037
-    tls: false
-    password: q7jwtcA0MmyYi0JddUgXXj
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "德国-2.51MB%2Fs\r\r\r"
-    type: ss
-    server: 193.108.119.230
-    port: 8080
-    tls: false
-    password: 14fFPrbezE3HDZzsMOr6
-    ip-version: dual
-    cipher: rc4-md5
-  - name: "荷兰-106.2KB%2Fs\r\r\r"
-    type: ss
-    server: 77.246.97.187
-    port: 7749
-    tls: false
-    password: 7kJQs2RYHhViTYWaf1RobB
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "荷兰-44.5MB%2Fs\r\r\r"
-    type: ss
-    server: 194.87.216.121
-    port: 443
-    tls: false
-    password: piv97XS1Cval86vfwHPD5j
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: 中转节点-160.4KB/s
-    type: vmess
-    server: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net
-    port: 15229
-    uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: 加拿大-12.1MB/s_2
-    type: vmess
-    server: 15.235.83.227
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-  - name: "西班牙-16.1MB%2Fs\r\r\r"
-    type: ss
-    server: 92.38.171.215
-    port: 31348
-    tls: false
-    password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-5.34MB%2Fs\r\r\r"
-    type: ss
-    server: free.2weradf.xyz
-    port: 36143
-    tls: false
-    password: 4e644ef4-79a2-49bc-a4af-a2f943502702
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-6.90MB%2Fs\r\r\r"
-    type: ss
-    server: free.2weradf.xyz
-    port: 36115
-    tls: false
-    password: 4e644ef4-79a2-49bc-a4af-a2f943502702
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-2.02MB%2Fs\r\r\r"
-    type: ss
-    server: free.2weradf.xyz
-    port: 36171
-    tls: false
-    password: 4e644ef4-79a2-49bc-a4af-a2f943502702
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-8.12MB%2Fs\r\r\r"
-    type: ss
-    server: free.2weradf.xyz
-    port: 36173
-    tls: false
-    password: 4e644ef4-79a2-49bc-a4af-a2f943502702
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-8.16MB%2Fs\r\r\r"
-    type: ss
-    server: free.2weradf.xyz
-    port: 36175
-    tls: false
-    password: 4e644ef4-79a2-49bc-a4af-a2f943502702
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-319.2KB%2Fs\r\r\r"
-    type: ss
-    server: free.2weradf.xyz
-    port: 36341
-    tls: false
-    password: 4e644ef4-79a2-49bc-a4af-a2f943502702
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "中转节点-16.09MB%2Fs\r\r\r"
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8766
-    tls: false
-    password: efanccyun
-    ip-version: dual
-    cipher: rc4-md5
-  - name: "印度-3.24MB%2Fs\r\r_2\r"
-    type: ss
-    server: 203.25.108.78
-    port: 44591
-    tls: false
-    password: 9IAge06PmPuo5OJGD17sdg
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
-  - name: "黎巴嫩-1.87MB%2Fs\r\r"
-    type: ss
-    server: 77.110.102.235
-    port: 64864
-    tls: false
-    password: 9onFEWpRgKmtMnxtXGIWD0
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
+  - {"name":"🇭🇰 HK【请勿测速】","type":"vless","server":"47.76.68.32","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"HK\r_5","type":"vless","server":"8.210.213.159","port":587,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇭🇰 HK【请勿测速】 3","type":"vless","server":"154.16.10.34","port":8080,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"HK\r_9","type":"vless","server":"156.224.76.181","port":12384,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG【请勿测速】","type":"vless","server":"92.243.75.49","port":2087,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG【请勿测速】 2","type":"vless","server":"92.243.74.115","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG【请勿测速】 3","type":"vless","server":"27.50.49.234","port":8443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG【请勿测速】 4","type":"vless","server":"92.243.74.180","port":8443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG【请勿测速】 5","type":"vless","server":"92.243.74.2","port":8443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP【请勿测速】","type":"vless","server":"47.91.18.127","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP【请勿测速】 2","type":"vless","server":"62.106.70.181","port":10002,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP【请勿测速】 3","type":"vless","server":"45.66.129.147","port":46741,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP【请勿测速】 4","type":"vless","server":"185.184.223.47","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP【请勿测速】 5","type":"vless","server":"45.39.198.43","port":8080,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇹🇼 TW【请勿测速】","type":"vless","server":"141.11.86.94","port":18333,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇹🇼 TW【请勿测速】 2","type":"vless","server":"141.11.86.109","port":8080,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR【请勿测速】","type":"vless","server":"54.180.247.89","port":8000,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR【请勿测速】 2","type":"vless","server":"119.198.99.196","port":12193,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR【请勿测速】 3","type":"vless","server":"222.105.138.122","port":11180,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR【请勿测速】 4","type":"vless","server":"220.118.170.65","port":50000,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR【请勿测速】 5","type":"vless","server":"59.29.143.247","port":12225,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US【请勿测速】","type":"vless","server":"108.165.152.207","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US【请勿测速】 2","type":"vless","server":"108.165.152.14","port":2096,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US【请勿测速】 3","type":"vless","server":"160.79.105.156","port":2083,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US【请勿测速】 4","type":"vless","server":"108.165.152.0","port":8443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US【请勿测速】 5","type":"vless","server":"108.165.152.204","port":2096,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"PL\r_2","type":"vless","server":"185.188.147.79","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"PL\r_4","type":"vless","server":"176.105.253.98","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇵🇱 PL【请勿测速】 3","type":"vless","server":"217.30.10.55","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"HK\r_2","type":"vless","server":"124.156.129.206","port":6666,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"NRT\r_3","type":"trojan","server":"20.243.85.49","port":10443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"NRT\r_4","type":"trojan","server":"141.98.196.223","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SG\r_2","type":"vless","server":"43.134.167.135","port":9950,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"JP\r_2","type":"vless","server":"20.243.85.49","port":10443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SIN\r_2","type":"trojan","server":"43.134.167.135","port":9950,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"HK\r_6","type":"vless","server":"8.210.96.197","port":12902,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"JP\r_3","type":"vless","server":"202.84.53.85","port":19999,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"JP\r_5","type":"vless","server":"141.98.196.223","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"| 2.48Mb","type":"vmess","server":"112.132.215.12","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HK\r_10","type":"vless","server":"42.200.111.106","port":12351,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"|12.69Mb","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"|23.81Mb","type":"vmess","server":"120.210.205.59","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US_2","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"KR\r_1","type":"vless","server":"116.47.10.236","port":10912,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"|28.32Mb","type":"vmess","server":"120.26.55.225","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"SJC\r_3","type":"trojan","server":"192.210.207.89","port":20080,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"LAX\r_5","type":"trojan","server":"91.149.239.198","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_4","type":"trojan","server":"198.12.121.169","port":24863,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"LAX\r_3","type":"trojan","server":"65.75.194.43","port":10511,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_8","type":"trojan","server":"107.174.88.160","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_7","type":"trojan","server":"192.3.127.231","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"| 5.05Mb","type":"vmess","server":"47.116.166.178","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"ICN\r_14","type":"trojan","server":"112.184.209.63","port":12088,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KR\r_9","type":"vless","server":"220.118.166.81","port":50003,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_92","type":"trojan","server":"107.172.30.194","port":587,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_40","type":"trojan","server":"108.165.152.58","port":2087,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_4","type":"vless","server":"103.116.7.103","port":2083,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_29","type":"trojan","server":"103.116.7.152","port":2096,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r_15","type":"vless","server":"pranab.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_2","type":"vless","server":"192.9.139.160","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"CMCC-IPV6\r_1","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"CMCC-IPV6\r_2","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_3","type":"vless","server":"192.0.63.29","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"JP\r_7","type":"vless","server":"138.2.25.99","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SG\r_4","type":"vless","server":"27.50.49.166","port":8443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_86","type":"trojan","server":"216.24.57.186","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"ZA\r_1","type":"vless","server":"160.123.255.162","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_37","type":"trojan","server":"213.241.198.59","port":2083,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_35","type":"trojan","server":"199.34.228.66","port":2053,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_32","type":"vless","server":"209.94.90.87","port":2087,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_6","type":"vless","server":"158.224.83.27","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_16","type":"trojan","server":"duke.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_23","type":"trojan","server":"188.164.159.18","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_31","type":"trojan","server":"154.211.8.240","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_27","type":"vless","server":"108.165.152.67","port":2053,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_1","type":"vless","server":"toy-people.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"ZA\r_2","type":"vless","server":"160.123.255.180","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_8","type":"vless","server":"216.24.57.36","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"LAX\r_6","type":"trojan","server":"138.2.25.99","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_85","type":"trojan","server":"45.150.115.195","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_34","type":"trojan","server":"108.165.152.225","port":2083,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_29","type":"vless","server":"108.165.152.98","port":2087,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_2","type":"vless","server":"ashton.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"vx.ylka.dpdns.org\r_3","type":"vless","server":"moura.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"US\r_10","type":"vless","server":"icook.hk","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"官方优选\r_26","type":"trojan","server":"kip.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_71","type":"trojan","server":"108.165.152.98","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_89","type":"trojan","server":"209.94.90.87","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_60","type":"trojan","server":"161.145.150.29","port":2083,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_11","type":"vless","server":"192.0.54.174","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_4","type":"vless","server":"benedict.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"官方优选\r_36","type":"trojan","server":"pranab.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r_22","type":"vless","server":"kip.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_19","type":"vless","server":"damien.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_14","type":"vless","server":"lynn.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_25","type":"trojan","server":"103.116.7.103","port":2083,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_47","type":"trojan","server":"108.165.152.249","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_52","type":"trojan","server":"103.116.7.248","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_12","type":"vless","server":"160.79.105.142","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_13","type":"vless","server":"216.24.57.118","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_14","type":"vless","server":"160.79.105.109","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_5","type":"vless","server":"www.ipget.net","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"官方优选\r_9","type":"trojan","server":"sage.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_73","type":"trojan","server":"154.211.8.150","port":2096,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_46","type":"trojan","server":"108.165.152.18","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_51","type":"trojan","server":"154.197.64.166","port":2053,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_87","type":"trojan","server":"108.165.152.0","port":8443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_6","type":"vless","server":"www.whatismyip.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"vx.ylka.dpdns.org\r_7","type":"vless","server":"huxley.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"US\r_15","type":"vless","server":"160.79.104.240","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"RU\r_1","type":"vless","server":"45.67.215.146","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_38","type":"trojan","server":"damien.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r_30","type":"vless","server":"sage.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_16","type":"vless","server":"160.79.104.195","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_23","type":"trojan","server":"theo.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r_35","type":"vless","server":"theo.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_68","type":"trojan","server":"92.53.190.161","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_42","type":"trojan","server":"5.182.84.244","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_17","type":"vless","server":"63.141.128.136","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_18","type":"vless","server":"160.79.104.55","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_19","type":"vless","server":"69.84.182.141","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"AT\r","type":"vless","server":"212.183.88.249","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_20","type":"vless","server":"160.79.104.33","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"CMCC-IPV6\r_3","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_50","type":"trojan","server":"135.84.64.77","port":2096,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_72","type":"trojan","server":"27.50.49.41","port":2096,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_21","type":"vless","server":"192.0.54.111","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"RU\r_2","type":"vless","server":"45.67.215.56","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"RU\r_3","type":"vless","server":"45.67.215.143","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_8","type":"vless","server":"ipinfo.in","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"KR\r_5","type":"vless","server":"221.146.185.120","port":12560,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SG\r_10","type":"vless","server":"27.50.49.208","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SG\r_11","type":"vless","server":"27.50.48.239","port":8443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_53","type":"trojan","server":"86.38.214.186","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_76","type":"trojan","server":"27.50.48.239","port":8443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"BR\r_1","type":"vless","server":"185.133.35.67","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SG\r_7","type":"trojan","server":"92.243.74.180","port":8443,"udp":true,"password":"Aimer","sni":"tyep.esslh.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tyep.esslh.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r_33","type":"trojan","server":"lynn.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_62","type":"trojan","server":"192.200.160.15","port":8443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_64","type":"trojan","server":"154.197.64.219","port":2083,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"BR\r_2","type":"vless","server":"185.133.35.112","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_22","type":"vless","server":"160.79.105.66","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_23","type":"vless","server":"63.141.128.93","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_21","type":"vless","server":"thaddeus.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_77","type":"trojan","server":"154.211.8.152","port":2053,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_79","type":"trojan","server":"188.164.159.74","port":8443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_9","type":"vless","server":"abdullah.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"vx.ylka.dpdns.org\r_10","type":"vless","server":"ip.gs","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"官方优选\r_27","type":"trojan","server":"thaddeus.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SG\r_9","type":"vless","server":"27.50.49.41","port":2096,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_24","type":"vless","server":"128.14.140.2","port":55555,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_25","type":"vless","server":"192.0.54.74","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"US\r_26","type":"vless","server":"160.79.104.164","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"ZA\r_3","type":"vless","server":"160.123.255.130","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_11","type":"vless","server":"www.ddwhm.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"官方优选\r_32","type":"vless","server":"arvind.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_70","type":"trojan","server":"108.165.152.241","port":2053,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_84","type":"trojan","server":"161.145.150.26","port":2087,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_80","type":"trojan","server":"5.182.84.229","port":2087,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_59","type":"trojan","server":"188.164.159.241","port":2096,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_28","type":"vless","server":"160.79.104.165","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"ZA\r_4","type":"vless","server":"160.123.255.58","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_31","type":"vless","server":"duke.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_74","type":"trojan","server":"108.165.152.143","port":2087,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_12","type":"vless","server":"julio.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"US\r_30","type":"vless","server":"160.79.105.190","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"ZA\r_5","type":"vless","server":"160.123.255.65","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_29","type":"vless","server":"ignacio.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_82","type":"trojan","server":"108.165.152.91","port":2083,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_66","type":"trojan","server":"27.50.49.208","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_91","type":"trojan","server":"45.67.214.41","port":2083,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_13","type":"vless","server":"iplocation.io","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"US\r_31","type":"vless","server":"69.84.182.97","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_14","type":"vless","server":"braden.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"CMCC-IPV6\r_4","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_88","type":"trojan","server":"108.165.152.67","port":2053,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SJC\r_90","type":"trojan","server":"156.225.72.199","port":2096,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r_33","type":"vless","server":"198.62.62.209","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"CMCC-IPV6\r_5","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"KR\r_6","type":"vless","server":"210.104.255.234","port":50000,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_78","type":"trojan","server":"199.34.228.143","port":2096,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"CMCC-IPV6\r_6","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_39","type":"trojan","server":"arvind.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"ICN\r_5","type":"trojan","server":"59.29.143.247","port":12225,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_15","type":"vless","server":"time.is","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"RU\r_4","type":"vless","server":"45.67.215.165","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"CMCC-IPV6\r_7","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r_40","type":"trojan","server":"ignacio.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"ICN\r_7","type":"trojan","server":"222.108.106.148","port":12386,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KR\r_8","type":"vless","server":"222.108.106.148","port":12386,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmw.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"vx.ylka.dpdns.org\r_16","type":"vless","server":"comicabc.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"SJC\r_83","type":"trojan","server":"141.11.203.191","port":8443,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"FR\r_1","type":"vless","server":"185.16.110.103","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"IPV6\r","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"ICN\r_6","type":"trojan","server":"210.104.255.234","port":50000,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_17","type":"vless","server":"www.hugedomains.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"ICN\r_15","type":"trojan","server":"220.118.166.81","port":50003,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"ICN\r_11","type":"trojan","server":"221.146.185.120","port":12560,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"FR\r_2","type":"vless","server":"185.16.110.113","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"ICN\r_13","type":"trojan","server":"121.167.54.202","port":50000,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"ICN\r_16","type":"trojan","server":"125.137.12.172","port":16992,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"ICN\r_18","type":"trojan","server":"118.43.90.224","port":50000,"udp":true,"password":"Aimer","sni":"epmw.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmw.ambercc.filegear-sg.meh3"}}}
+  - {"name":"vx.ylka.dpdns.org\r_18","type":"vless","server":"www.iakeys.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
+  - {"name":"CMCC-IPV6\r_8","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"CMCC-IPV6\r_9","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"vx.ylka.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"SJC\r_93","type":"trojan","server":"23.95.215.205","port":8443,"udp":true,"password":"Aimer","sni":"epme.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epme.ambercc.filegear-sg.meh3"}}}
+  - {"name":"🇺🇸_US_美国\r\r_1","type":"trojan","server":"172.67.181.193","port":443,"udp":true,"password":"c8eac4b7-95ba-4ce0-920d-c3279eb3b391","sni":"EEeEee4.hUAngSHANG2030.dPdNS.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ptGwaGzcA4KNAXX","headers":{"host":"EEeEee4.hUAngSHANG2030.dPdNS.org"}}}
+  - {"name":"🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3","type":"ss","server":"195.154.54.171","port":13355,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国\r\r_3","type":"ss","server":"35.165.193.21","port":443,"password":"awsps0501","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3","type":"trojan","server":"eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net","port":15229,"udp":true,"password":"0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9","sni":"eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国\r","type":"vless","server":"104.26.14.85","port":8080,"uuid":"690ab90e-3f21-422b-8cb1-bc9845c7af1e","tls":false,"servername":"IO.IhJtq0hklC.ZULAiR.OrG.","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4","type":"trojan","server":"13.38.223.72","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国\r","type":"ss","server":"120.233.147.197","port":23340,"password":"0fbed6c9-0fb4-4ec3-8582-f569f8d773d5","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港_https://t.me/mfjdkx_1","type":"vmess","server":"120.198.71.219","port":51095,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_2","type":"vmess","server":"cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net","port":8080,"cipher":"auto","uuid":"a5a81a34-f257-11ef-ba82-f23c913c8d2b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"香港_https://t.me/mfjdkx_3","type":"vmess","server":"183.238.90.8","port":41766,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_4","type":"vmess","server":"120.234.102.229","port":42174,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_5","type":"vmess","server":"183.236.51.38","port":41024,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_6","type":"vmess","server":"183.237.84.53","port":55002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_7","type":"vmess","server":"120.198.71.216","port":35921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_8","type":"vmess","server":"183.238.90.8","port":46920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_9","type":"vmess","server":"120.198.71.216","port":46759,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_10","type":"vmess","server":"120.232.153.40","port":59152,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_11","type":"vmess","server":"120.198.71.216","port":52082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_12","type":"vmess","server":"120.198.71.214","port":42375,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_13","type":"vmess","server":"120.198.71.219","port":49355,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_14","type":"vmess","server":"183.236.51.38","port":30052,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_15","type":"vmess","server":"120.232.153.40","port":31209,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_16","type":"vmess","server":"120.198.71.214","port":32980,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":16006,"password":"NNNF0BNE5D7MFDGD","cipher":"aes-256-gcm"}
+  - {"name":"香港_https://t.me/mfjdkx_17","type":"vmess","server":"120.232.153.40","port":43292,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_18","type":"vmess","server":"120.232.153.63","port":37805,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_19","type":"vmess","server":"120.232.153.41","port":41597,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":15010,"password":"ENYGONDU94UW1G6X","cipher":"aes-256-gcm"}
+  - {"name":"香港_https://t.me/mfjdkx_20","type":"vmess","server":"183.236.51.38","port":39919,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_21","type":"vmess","server":"183.236.51.38","port":49121,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_https://t.me/mfjdkx_22","type":"vmess","server":"183.236.51.38","port":49291,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_https://t.me/mfjdkx","type":"vmess","server":"152.67.251.232","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 5000
+    tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1485,96 +1807,245 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_9
-      - 🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_12
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_17
-      - 中转节点-79.5MB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-      - "🇨🇳_CN_中国\r\r\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 中转节点-100.9KB/s_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_13
-      - 中转节点-60.4MB/s
-      - "中转节点-388.4KB%2Fs\r\r_2\r"
-      - 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_14
-      - 🇨🇳_CN_中国
-      - "🇺🇸_US_美国\r\r_1\r"
-      - "🇺🇸_US_美国\r\r_2\r"
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_15
-      - 中转节点-44.5MB/s
-      - "🇺🇸_US_美国->🇨🇳_CN_中国\r\r\r"
-      - "🇺🇸_US_美国\r\r_3\r"
-      - 中转节点-187.2KB/s_2
-      - "🇺🇸_US_美国\r\r"
+      - 🇭🇰 HK【请勿测速】
+      - "HK\r_5"
+      - 🇭🇰 HK【请勿测速】 3
+      - "HK\r_9"
+      - 🇸🇬 SG【请勿测速】
+      - 🇸🇬 SG【请勿测速】 2
+      - 🇸🇬 SG【请勿测速】 3
+      - 🇸🇬 SG【请勿测速】 4
+      - 🇸🇬 SG【请勿测速】 5
+      - 🇯🇵 JP【请勿测速】
+      - 🇯🇵 JP【请勿测速】 2
+      - 🇯🇵 JP【请勿测速】 3
+      - 🇯🇵 JP【请勿测速】 4
+      - 🇯🇵 JP【请勿测速】 5
+      - 🇹🇼 TW【请勿测速】
+      - 🇹🇼 TW【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】
+      - 🇰🇷 KR【请勿测速】 2
+      - 🇰🇷 KR【请勿测速】 3
+      - 🇰🇷 KR【请勿测速】 4
+      - 🇰🇷 KR【请勿测速】 5
+      - 🇺🇸 US【请勿测速】
+      - 🇺🇸 US【请勿测速】 2
+      - 🇺🇸 US【请勿测速】 3
+      - 🇺🇸 US【请勿测速】 4
+      - 🇺🇸 US【请勿测速】 5
+      - "PL\r_2"
+      - "PL\r_4"
+      - 🇵🇱 PL【请勿测速】 3
+      - "HK\r_2"
+      - "NRT\r_3"
+      - "NRT\r_4"
+      - "SG\r_2"
+      - "JP\r_2"
+      - "SIN\r_2"
+      - "HK\r_6"
+      - "JP\r_3"
+      - "JP\r_5"
+      - '| 2.48Mb'
+      - "HK\r_10"
+      - '|12.69Mb'
+      - '|23.81Mb'
+      - US_2
+      - "KR\r_1"
+      - '|28.32Mb'
+      - "SJC\r_3"
+      - "LAX\r_5"
+      - "SJC\r_4"
+      - "LAX\r_3"
+      - "SJC\r_8"
+      - "SJC\r_7"
+      - '| 5.05Mb'
+      - "ICN\r_14"
+      - "KR\r_9"
+      - "SJC\r_92"
+      - "SJC\r_40"
+      - "US\r_4"
+      - "SJC\r_29"
+      - "官方优选\r_15"
+      - "US\r_2"
+      - "CMCC-IPV6\r_1"
+      - "CMCC-IPV6\r_2"
+      - "US\r_3"
+      - "JP\r_7"
+      - "SG\r_4"
+      - "SJC\r_86"
+      - "ZA\r_1"
+      - "SJC\r_37"
+      - "SJC\r_35"
+      - "US\r_32"
+      - "US\r_6"
+      - "官方优选\r_16"
+      - "SJC\r_23"
+      - "SJC\r_31"
+      - "US\r_27"
+      - "vx.ylka.dpdns.org\r_1"
+      - "ZA\r_2"
+      - "US\r_8"
+      - "LAX\r_6"
+      - "SJC\r_85"
+      - "SJC\r_34"
+      - "US\r_29"
+      - "vx.ylka.dpdns.org\r_2"
+      - "vx.ylka.dpdns.org\r_3"
+      - "US\r_10"
+      - "官方优选\r_26"
+      - "SJC\r_71"
+      - "SJC\r_89"
+      - "SJC\r_60"
+      - "US\r_11"
+      - "vx.ylka.dpdns.org\r_4"
+      - "官方优选\r_36"
+      - "官方优选\r_22"
+      - "官方优选\r_19"
+      - "官方优选\r_14"
+      - "SJC\r_25"
+      - "SJC\r_47"
+      - "SJC\r_52"
+      - "US\r_12"
+      - "US\r_13"
+      - "US\r_14"
+      - "vx.ylka.dpdns.org\r_5"
+      - "官方优选\r_9"
+      - "SJC\r_73"
+      - "SJC\r_46"
+      - "SJC\r_51"
+      - "SJC\r_87"
+      - "vx.ylka.dpdns.org\r_6"
+      - "vx.ylka.dpdns.org\r_7"
+      - "US\r_15"
+      - "RU\r_1"
+      - "官方优选\r_38"
+      - "官方优选\r_30"
+      - "US\r_16"
+      - "官方优选\r_23"
+      - "官方优选\r_35"
+      - "SJC\r_68"
+      - "SJC\r_42"
+      - "US\r_17"
+      - "US\r_18"
+      - "US\r_19"
+      - "AT\r"
+      - "US\r_20"
+      - "CMCC-IPV6\r_3"
+      - "SJC\r_50"
+      - "SJC\r_72"
+      - "US\r_21"
+      - "RU\r_2"
+      - "RU\r_3"
+      - "vx.ylka.dpdns.org\r_8"
+      - "KR\r_5"
+      - "SG\r_10"
+      - "SG\r_11"
+      - "SJC\r_53"
+      - "SJC\r_76"
+      - "BR\r_1"
+      - "SG\r_7"
+      - "官方优选\r_33"
+      - "SJC\r_62"
+      - "SJC\r_64"
+      - "BR\r_2"
+      - "US\r_22"
+      - "US\r_23"
+      - "官方优选\r_21"
+      - "SJC\r_77"
+      - "SJC\r_79"
+      - "vx.ylka.dpdns.org\r_9"
+      - "vx.ylka.dpdns.org\r_10"
+      - "官方优选\r_27"
+      - "SG\r_9"
+      - "US\r_24"
+      - "US\r_25"
+      - "US\r_26"
+      - "ZA\r_3"
+      - "vx.ylka.dpdns.org\r_11"
+      - "官方优选\r_32"
+      - "SJC\r_70"
+      - "SJC\r_84"
+      - "SJC\r_80"
+      - "SJC\r_59"
+      - "US\r_28"
+      - "ZA\r_4"
+      - "官方优选\r_31"
+      - "SJC\r_74"
+      - "vx.ylka.dpdns.org\r_12"
+      - "US\r_30"
+      - "ZA\r_5"
+      - "官方优选\r_29"
+      - "SJC\r_82"
+      - "SJC\r_66"
+      - "SJC\r_91"
+      - "vx.ylka.dpdns.org\r_13"
+      - "US\r_31"
+      - "vx.ylka.dpdns.org\r_14"
+      - "CMCC-IPV6\r_4"
+      - "SJC\r_88"
+      - "SJC\r_90"
+      - "US\r_33"
+      - "CMCC-IPV6\r_5"
+      - "KR\r_6"
+      - "SJC\r_78"
+      - "CMCC-IPV6\r_6"
+      - "官方优选\r_39"
+      - "ICN\r_5"
+      - "vx.ylka.dpdns.org\r_15"
+      - "RU\r_4"
+      - "CMCC-IPV6\r_7"
+      - "官方优选\r_40"
+      - "ICN\r_7"
+      - "KR\r_8"
+      - "vx.ylka.dpdns.org\r_16"
+      - "SJC\r_83"
+      - "FR\r_1"
+      - "IPV6\r"
+      - "ICN\r_6"
+      - "vx.ylka.dpdns.org\r_17"
+      - "ICN\r_15"
+      - "ICN\r_11"
+      - "FR\r_2"
+      - "ICN\r_13"
+      - "ICN\r_16"
+      - "ICN\r_18"
+      - "vx.ylka.dpdns.org\r_18"
+      - "CMCC-IPV6\r_8"
+      - "CMCC-IPV6\r_9"
+      - "SJC\r_93"
+      - "🇺🇸_US_美国\r\r_1"
+      - "🇫🇷_FR_法国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r\r_3"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国\r\r_3"
+      - "🇺🇸_US_美国\r"
+      - "🇺🇸_US_美国->🇫🇷_FR_法国\r\r_4"
+      - "🇨🇳_CN_中国\r"
       - 香港_https://t.me/mfjdkx_1
       - 香港_https://t.me/mfjdkx_2
-      - 中转节点-124.0KB/s
-      - 中转节点-321.4KB/s
-      - "中转节点-80.9MB%2Fs\r\r\r"
+      - 香港_https://t.me/mfjdkx_3
+      - 香港_https://t.me/mfjdkx_4
       - 香港_https://t.me/mfjdkx_5
       - 香港_https://t.me/mfjdkx_6
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 中转节点-79.9MB/s
-      - "中转节点-93.7MB%2Fs\r\r_2\r"
-      - 中转节点-3.20MB/s_2
-      - "中转节点-54.0MB%2Fs\r\r\r"
-      - 中转节点-9.8MB/s
-      - 中转节点-2.21MB/s
+      - 香港_https://t.me/mfjdkx_7
+      - 香港_https://t.me/mfjdkx_8
+      - 香港_https://t.me/mfjdkx_9
+      - 香港_https://t.me/mfjdkx_10
       - 香港_https://t.me/mfjdkx_11
       - 香港_https://t.me/mfjdkx_12
-      - 中转节点-240.4KB/s
+      - 香港_https://t.me/mfjdkx_13
       - 香港_https://t.me/mfjdkx_14
       - 香港_https://t.me/mfjdkx_15
-      - "中转节点-23.2MB%2Fs\r\r_2\r"
-      - 中转节点-19.0MB/s_2
+      - 香港_https://t.me/mfjdkx_16
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_1"
+      - 香港_https://t.me/mfjdkx_17
       - 香港_https://t.me/mfjdkx_18
-      - "中转节点-139.8KB%2Fs\r\r_2\r"
       - 香港_https://t.me/mfjdkx_19
+      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2"
       - 香港_https://t.me/mfjdkx_20
-      - 中转节点-16.9MB/s
+      - 香港_https://t.me/mfjdkx_21
       - 香港_https://t.me/mfjdkx_22
-      - 香港_https://t.me/mfjdkx_23
-      - 香港_https://t.me/mfjdkx_24
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_9\r"
-      - 中转节点-64.4MB/s
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_10\r"
-      - 香港_https://t.me/mfjdkx_26
-      - 香港_https://t.me/mfjdkx_27
-      - "香港_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_11\r"
-      - 西班牙_https://t.me/mfjdkx
-      - "加拿大-54.3MB%2Fs\r\r\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_2\r"
-      - "美国_https%3A%2F%2Ft.me%2Fmfjdkx\r\r_3\r"
-      - 荷兰_https://t.me/mfjdkx
-      - "俄罗斯联邦-5.8MB%2Fs\r"
-      - "新加坡-10.8MB/s\r\r\r"
-      - 中转节点-2.88MB/s
-      - "美国-4.62MB%2Fs\r\r\r"
-      - "新加坡-245.4KB/s\r\r\r"
-      - 中转节点-5.1MB/s
-      - "中转节点-15.70MB%2Fs\r\r\r"
-      - "泰国-179.6KB%2Fs\r\r\r"
-      - "德国-2.51MB%2Fs\r\r\r"
-      - "荷兰-106.2KB%2Fs\r\r\r"
-      - "荷兰-44.5MB%2Fs\r\r\r"
-      - 中转节点-160.4KB/s
-      - 加拿大-12.1MB/s_2
-      - "西班牙-16.1MB%2Fs\r\r\r"
-      - "中转节点-5.34MB%2Fs\r\r\r"
-      - "中转节点-6.90MB%2Fs\r\r\r"
-      - "中转节点-2.02MB%2Fs\r\r\r"
-      - "中转节点-8.12MB%2Fs\r\r\r"
-      - "中转节点-8.16MB%2Fs\r\r\r"
-      - "中转节点-319.2KB%2Fs\r\r\r"
-      - "中转节点-16.09MB%2Fs\r\r\r"
-      - "印度-3.24MB%2Fs\r\r_2\r"
-      - "黎巴嫩-1.87MB%2Fs\r\r"
+      - 美国_https://t.me/mfjdkx
+
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -1587,7 +2058,6 @@ rules:
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
-  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -1602,7 +2072,6 @@ rules:
   - DOMAIN,instant.arubanetworks.com,🎯 全球直连
   - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
-  - DOMAIN,www.asusrouter.com,🎯 全球直连
   - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
   - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -1615,7 +2084,6 @@ rules:
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
 # 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
 # 广告关键词
 # 广告联盟-国内****************
@@ -1626,11 +2094,13 @@ rules:
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
   - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+  - DOMAIN-KEYWORD,adservice,🛑 全球拦截
   - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
   - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
   - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
   - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
   - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+  - DOMAIN-KEYWORD,analysis,🛑 全球拦截
   - DOMAIN-KEYWORD,applovin,🛑 全球拦截
   - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
   - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -1644,6 +2114,7 @@ rules:
   - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
   - DOMAIN-KEYWORD,socdm,🛑 全球拦截
   - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+  - DOMAIN-KEYWORD,usage,🛑 全球拦截
   - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
   - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
   - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -1939,6 +2410,7 @@ rules:
   - DOMAIN-SUFFIX,rtbasia.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sanya1.com,🛑 全球拦截
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,serving-sys.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
@@ -2006,7 +2478,6 @@ rules:
   - DOMAIN-SUFFIX,wqmobile.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wrating.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wumii.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
@@ -2437,6 +2908,7 @@ rules:
   - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
   - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
   - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -2794,6 +3266,7 @@ rules:
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
   - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
+  - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
   - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
   - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -2988,6 +3461,7 @@ rules:
   - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
   - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
   - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
+  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
   - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
   - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
   - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -3297,6 +3771,7 @@ rules:
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
 # Google China
+#DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -3308,26 +3783,34 @@ rules:
   - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+  - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+  - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
   - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
   - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
   - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
   - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
 # 内容：SteamCN
-# 数量：16条
+# 数量：15条
   - DOMAIN,csgo.wmsj.cn,🎯 全球直连
   - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
   - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -3339,7 +3822,6 @@ rules:
   - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
   - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
   - DOMAIN,wmsjsteam.com,🎯 全球直连
-  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
   - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
@@ -3359,11 +3841,8 @@ rules:
   - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -3427,13 +3906,11 @@ rules:
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
 # Apple
-# 一般国内Apple肯定正常
-# 不需要开代理
+# 一般国内Apple肯定正常,不需要开代理
   - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -3459,8 +3936,8 @@ rules:
   - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
 # 内容：国外媒体列表
-# 更新：2024-12-14 11:14:53
-# 数量：367条
+# 更新：2023-01-15 22:06:33
+# 数量：330条
 # ABC
 # AbemaTV
 # All4
@@ -3481,7 +3958,6 @@ rules:
 # Hulu
 # HuluJapan
 # ITV
-# Iwara
 # JOOX
 # Japonx
 # KKBOX
@@ -3492,9 +3968,6 @@ rules:
 # MyTVSuper
 # Netflix
 # Niconico
-# NivodTV
-# Olevod
-# OpenAi
 # PBS
 # Pandora
 # Pornhub
@@ -3512,10 +3985,13 @@ rules:
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
 #   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
 #   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
@@ -3534,13 +4010,10 @@ rules:
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
   - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazontours.com,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
 #   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
 #   - USER-AGENT,AppleNews*,🌍 国外媒体
 #   - USER-AGENT,com.apple.news*,🌍 国外媒体
@@ -3627,6 +4100,7 @@ rules:
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
 #   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -3666,7 +4140,6 @@ rules:
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,iwara.tv,🌍 国外媒体
 #   - USER-AGENT,JOOX*,🌍 国外媒体
 #   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
@@ -3747,49 +4220,12 @@ rules:
   - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
   - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
-  - IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
 #   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-  - DOMAIN-KEYWORD,nivod,🌍 国外媒体
-  - DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
-  - DOMAIN-KEYWORD,olevod,🌍 国外媒体
-  - DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,openai,🌍 国外媒体
-  - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
-  - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
 #   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
 #   - USER-AGENT,Pandora*,🌍 国外媒体
@@ -3804,7 +4240,7 @@ rules:
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
 #   - USER-AGENT,Spotify*,🌍 国外媒体
-  - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
+  - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
   - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -3820,7 +4256,7 @@ rules:
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
 #   - USER-AGENT,TikTok*,🌍 国外媒体
-  - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
+  - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -3876,10 +4312,8 @@ rules:
 #   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # Telegram
-#PROCESS-NAME
-# Telegram.exe
-#PROCESS-NAME
-# org.telegram.messenger
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -3887,12 +4321,16 @@ rules:
   - DOMAIN-SUFFIX,telegram.org,📲 电报信息
   - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
   - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
-  - IP-CIDR,95.161.64.0/20,📲 电报信息,no-resolve
   - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
   - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+# 长风网站，自动注入
+  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
+  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
 # 代理列表
 # MyList && Other
 # 国外域名
@@ -3900,22 +4338,17 @@ rules:
 # Top Blocked Sites
 # Amazon
 # BBC
-# Claude
 # Developer 开发者常用国外网站、镜像和论坛
-# Docker
 # Discord
 # Facebook
 # Github
 # Google
 # GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
 # Instagram
-# Iwara
 # Kakao Talk
 # Line
-# OpenAi
 # OneDrive
-#DOMAIN-SUFFIX
-# aria.microsoft.com
+#DOMAIN-SUFFIX,aria.microsoft.com
 # Porn
 # Pixiv
 # Spark
@@ -3927,7 +4360,6 @@ rules:
 # TeraBox
 # Whatsapp
 # Wikipedia 维基相关域名
-# Zoom
 #飞流直播
 #华文电视
 # VikACG
@@ -3935,6 +4367,7 @@ rules:
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
+  - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
   - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
   - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -3945,13 +4378,13 @@ rules:
   - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
   - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
   - DOMAIN-SUFFIX,notion.so,🚀 节点选择
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
   - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
   - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
-  - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -3959,6 +4392,7 @@ rules:
   - DOMAIN-SUFFIX,sg,🚀 节点选择
   - DOMAIN-SUFFIX,tw,🚀 节点选择
   - DOMAIN-SUFFIX,uk,🚀 节点选择
+  - DOMAIN-SUFFIX,us,🚀 节点选择
   - DOMAIN-KEYWORD,1e100,🚀 节点选择
   - DOMAIN-KEYWORD,abema,🚀 节点选择
   - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -4109,11 +4543,8 @@ rules:
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
-  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
-  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
-  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -4131,13 +4562,6 @@ rules:
   - DOMAIN-SUFFIX,spring.io,🚀 节点选择
   - DOMAIN-SUFFIX,spring.net,🚀 节点选择
   - DOMAIN-SUFFIX,stackoverflow.com,🚀 节点选择
-  - DOMAIN,d1q6f0aelx0por.cloudfront.net,🚀 节点选择
-  - DOMAIN,d2wy8f7a9ursnm.cloudfront.net,🚀 节点选择
-  - DOMAIN,d36jcksde1wxzq.cloudfront.net,🚀 节点选择
-  - DOMAIN-SUFFIX,compose-spec.io,🚀 节点选择
-  - DOMAIN-SUFFIX,docker.com,🚀 节点选择
-  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
-  - DOMAIN-SUFFIX,dockerhub.com,🚀 节点选择
   - DOMAIN-SUFFIX,discord.co,🚀 节点选择
   - DOMAIN-SUFFIX,discord.com,🚀 节点选择
   - DOMAIN-SUFFIX,discord.gg,🚀 节点选择
@@ -4211,7 +4635,6 @@ rules:
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
-  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.com,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.co.kr,🚀 节点选择
   - DOMAIN-SUFFIX,kakaocdn.net,🚀 节点选择
@@ -4236,8 +4659,6 @@ rules:
   - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
   - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
   - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
-  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
   - DOMAIN-KEYWORD,1drv,🚀 节点选择
   - DOMAIN-KEYWORD,onedrive,🚀 节点选择
   - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -4275,7 +4696,6 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
   - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
-  - DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -4294,6 +4714,7 @@ rules:
   - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
   - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
+  - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
@@ -4309,7 +4730,6 @@ rules:
   - DOMAIN-SUFFIX,twimg.co,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.org,🚀 节点选择
-  - DOMAIN-SUFFIX,x.com,🚀 节点选择
   - DOMAIN-SUFFIX,t.me,🚀 节点选择
   - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
@@ -4351,8 +4771,6 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
   - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
-  - DOMAIN-SUFFIX,zoom.us,🚀 节点选择
-  - DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
   - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
@@ -4369,6 +4787,7 @@ rules:
 # Alibaba
 # Baidu
 # Bilibili
+# Blizzard
 # ByteDance
 # CCTV
 # ChinaNet
@@ -4376,7 +4795,6 @@ rules:
 # Douyu 斗鱼
 # Epic
 # HuaWei
-# Heytap
 # Iflytek 科大讯飞
 # Iqiyi
 # JD
@@ -4398,17 +4816,13 @@ rules:
 # Ximalaya 喜马拉雅
 # Xunlei 迅雷
 # YYeTs 人人影视
+# Private Tracker
 # TeamViewer
 # Public Direct CDN 公共直连
-#DOMAIN-SUFFIX
-# ajax.aspnetcdn.com
-#DOMAIN-SUFFIX
-# ajax.cloudflare.com
-#DOMAIN-SUFFIX
-# cdnjs.cloudflare.com
-#DOMAIN-SUFFIX
-# code.jquery.com
-# China DNS
+#DOMAIN-SUFFIX,ajax.aspnetcdn.com
+#DOMAIN-SUFFIX,ajax.cloudflare.com
+#DOMAIN-SUFFIX,cdnjs.cloudflare.com
+#DOMAIN-SUFFIX,code.jquery.com
 # AccelerateDirectSites
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
@@ -4425,12 +4839,11 @@ rules:
   - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
-  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
-  - DOMAIN-SUFFIX,tebex.io,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
   - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
   - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+  - DOMAIN-KEYWORD,-cn,🎯 全球直连
   - DOMAIN-KEYWORD,360buy,🎯 全球直连
   - DOMAIN-KEYWORD,alicdn,🎯 全球直连
   - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -4477,7 +4890,6 @@ rules:
   - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
-  - DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
   - DOMAIN-SUFFIX,amap.com,🎯 全球直连
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -4517,8 +4929,6 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
-  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -4526,6 +4936,9 @@ rules:
   - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,im9.com,🎯 全球直连
   - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
+  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
+  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
   - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
   - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
@@ -4540,7 +4953,6 @@ rules:
   - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
   - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
-  - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -4577,8 +4989,6 @@ rules:
   - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
   - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
   - DOMAIN-SUFFIX,udache.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bytefcdnrd.com,🎯 全球直连
-  - DOMAIN-SUFFIX,edgesrv.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
@@ -4591,25 +5001,12 @@ rules:
   - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
-  - DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
   - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
   - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
   - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
-  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
-  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
-  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
-  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
-  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
-  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -4709,7 +5106,6 @@ rules:
   - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
   - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
   - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
-  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
   - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
   - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
   - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
@@ -4761,7 +5157,46 @@ rules:
   - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+  - DOMAIN-KEYWORD,announce,🎯 全球直连
+  - DOMAIN-KEYWORD,torrent,🎯 全球直连
+  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
   - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+  - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
   - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -4775,10 +5210,6 @@ rules:
   - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
   - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
   - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
-  - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
-  - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
-  - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
-  - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
   - DOMAIN-SUFFIX,10010.com,🎯 全球直连
   - DOMAIN-SUFFIX,115.com,🎯 全球直连
   - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -4808,7 +5239,6 @@ rules:
   - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
   - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
   - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
   - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
   - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -4844,7 +5274,6 @@ rules:
   - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
   - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
   - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
-  - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
   - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
   - DOMAIN-SUFFIX,fang.com,🎯 全球直连
   - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
@@ -4888,7 +5317,6 @@ rules:
   - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
   - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
   - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
-  - DOMAIN-SUFFIX,koyso.com,🎯 全球直连
   - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
   - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
@@ -4924,7 +5352,6 @@ rules:
   - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
   - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
@@ -4947,7 +5374,6 @@ rules:
   - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
   - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
   - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
-  - DOMAIN-SUFFIX,realme.com,🎯 全球直连
   - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
   - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
   - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -4981,7 +5407,6 @@ rules:
   - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
   - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
   - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
-  - DOMAIN-SUFFIX,vivo.com,🎯 全球直连
   - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
   - DOMAIN-SUFFIX,weather.com,🎯 全球直连
   - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
@@ -5018,7 +5443,6 @@ rules:
   - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
-  - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
 # 中国云服务商ip端
