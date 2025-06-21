@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-06-11 14:56:12
+# 创建时间：2025-06-21 21:19:50
 # 使用模版：V2RaySE 默认模版
-# 节点数量：156
+# 节点数量：165
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,216 +86,298 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"香港-28.7MB/s","type":"ss","server":"154.223.16.212","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80","type":"vless","server":"140.248.162.12","port":80,"uuid":"a7d69636-a609-4bde-af6a-18baa6937689","tls":false,"servername":"welcomtofreeboarders.com","network":"ws","ws-opts":{"path":"ws/?ed=2048"}}
-  - {"name":"🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562","type":"vmess","server":"15.204.248.92","port":30562,"cipher":"auto","uuid":"82466715-6a58-4046-a363-a0d18e5b2ab4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中转节点-7.66MB/s\r","type":"trojan","server":"120.233.128.68","port":39001,"udp":true,"password":"85f133142f04dbf6547da33895cfabb3","sni":"120.233.128.68","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国\r","type":"vless","server":"172.67.204.84","port":8880,"uuid":"da3fca59-74f6-43b8-87e1-7970587de887","tls":false,"servername":"join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r","type":"vless","server":"172.67.187.26","port":2052,"uuid":"b8bea0dc-a1e4-4327-bcbf-0f0056986e71","tls":false,"servername":"wWw.SpeedtesT.net.xn--hibye-hg1hw1ovzaf50bop5bc33awx0ajxfqk4giqq.store.","network":"ws","ws-opts":{"path":"@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=2048"}}
-  - {"name":"🇨🇳 广东省梅州市 移动","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/oooo","headers":{"host":"v8.heduian.link"}}}
-  - {"name":"香港_https://t.me/mfjdkx\r_4","type":"trojan","server":"99dfcb82-sxhts0-t5qufl-8n27.cu.plebai.net","port":15229,"udp":true,"password":"5dc6fa05-a601-aba6-7761-ecde22d2b0fc","sni":"99dfcb82-sxhts0-t5qufl-8n27.cu.plebai.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_1","type":"vmess","server":"103.224.80.89","port":38993,"cipher":"auto","uuid":"6f8c6f30-c726-4916-8f72-04f020c5c12d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中转节点-5.5MB/s","type":"vmess","server":"120.232.153.40","port":31209,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_3","type":"vmess","server":"120.234.102.229","port":49174,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_4","type":"vmess","server":"120.232.153.63","port":37805,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中转节点-461.6KB/s","type":"vmess","server":"183.236.51.38","port":33519,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx\r_1","type":"trojan","server":"eebe8fb5-sxlj40-tc2sod-1tizo.cu.plebai.net","port":15229,"udp":true,"password":"bf36227c-0191-11f0-aee1-f23c91cfbbc9","sni":"eebe8fb5-sxlj40-tc2sod-1tizo.cu.plebai.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_6","type":"vmess","server":"183.236.51.38","port":30052,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_7","type":"vmess","server":"183.236.51.38","port":49554,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx\r_2","type":"ss","server":"120.253.242.230","port":25601,"password":"07a426bb-b7c9-4eb9-830d-d109e62083e9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港_https://t.me/mfjdkx_8","type":"vmess","server":"183.236.51.38","port":41302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_9","type":"vmess","server":"183.238.90.8","port":46920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_10","type":"vmess","server":"120.232.153.123","port":52352,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_11","type":"vmess","server":"183.238.90.8","port":41766,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_12","type":"vmess","server":"120.198.71.219","port":51095,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx\r_3","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":15011,"password":"N4WB5VAL40S0WSH8","cipher":"aes-256-gcm"}
-  - {"name":"香港_https://t.me/mfjdkx_13","type":"vmess","server":"120.198.71.216","port":59082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_14","type":"vmess","server":"120.232.153.41","port":41491,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_15","type":"vmess","server":"183.238.90.8","port":39076,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_16","type":"vmess","server":"120.198.71.214","port":41175,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_17","type":"vmess","server":"120.198.71.219","port":49355,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_18","type":"vmess","server":"120.198.71.216","port":46159,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_19","type":"vmess","server":"120.198.44.126","port":47883,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_20","type":"vmess","server":"183.236.51.38","port":41024,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_https://t.me/mfjdkx_21","type":"vmess","server":"183.236.51.38","port":47921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_https://t.me/mfjdkx","type":"vmess","server":"15002.kuaiyin02.top","port":15002,"cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 HK🐲™️【橘子科技】\r","type":"vless","server":"8.210.174.22","port":10001,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰 HK🐲™️【橘子科技】 2\r","type":"vless","server":"156.251.180.181","port":21698,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰 HK🐲™️【橘子科技】 3\r","type":"vless","server":"47.242.145.136","port":8001,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰 HK🐲™️【橘子科技】 4\r","type":"vless","server":"141.11.78.77","port":8080,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰 HK🐲™️【橘子科技】 5\r","type":"vless","server":"43.155.30.252","port":443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇸🇬 SG🐲™️【橘子科技】\r","type":"vless","server":"47.74.157.194","port":443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇸🇬 SG🐲™️【橘子科技】 2\r","type":"vless","server":"27.50.48.154","port":8443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇸🇬 SG🐲™️【橘子科技】 3\r","type":"vless","server":"27.50.48.189","port":2083,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇸🇬 SG🐲™️【橘子科技】 4\r","type":"vless","server":"27.50.48.21","port":443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇸🇬 SG🐲™️【橘子科技】 5\r","type":"vless","server":"27.50.49.188","port":2096,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇯🇵 JP🐲™️【橘子科技】\r","type":"vless","server":"47.79.33.117","port":11101,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇯🇵 JP🐲™️【橘子科技】 2\r","type":"vless","server":"202.84.53.85","port":12145,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇯🇵 JP🐲™️【橘子科技】 3\r","type":"vless","server":"45.39.198.43","port":8080,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇯🇵 JP🐲™️【橘子科技】 4\r","type":"vless","server":"121.80.244.179","port":11084,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"TW\r\r_3","type":"vless","server":"210.61.97.241","port":81,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇰🇷 KR🐲™️【橘子科技】\r","type":"vless","server":"118.45.113.48","port":18022,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇰🇷 KR🐲™️【橘子科技】 2\r","type":"vless","server":"222.102.151.29","port":14401,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇰🇷 KR🐲™️【橘子科技】 3\r","type":"vless","server":"49.1.224.28","port":12529,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇰🇷 KR🐲™️【橘子科技】 4\r","type":"vless","server":"220.124.188.229","port":21247,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇰🇷 KR🐲™️【橘子科技】 5\r","type":"vless","server":"59.19.15.198","port":11210,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸 US🐲™️【橘子科技】\r","type":"vless","server":"199.34.228.66","port":2053,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸 US🐲™️【橘子科技】 2\r","type":"vless","server":"108.165.152.67","port":2053,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸 US🐲™️【橘子科技】 3\r","type":"vless","server":"154.21.83.154","port":443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸 US🐲™️【橘子科技】 4\r","type":"vless","server":"198.62.62.192","port":2083,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸 US🐲™️【橘子科技】 5\r","type":"vless","server":"108.165.152.169","port":2087,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇵🇱 PL🐲™️【橘子科技】\r","type":"vless","server":"176.105.253.98","port":443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇵🇱 PL🐲™️【橘子科技】 2","type":"vless","server":"185.188.147.79","port":443,"uuid":"9e0684fc-f456-4877-a1b7-80e08783f600","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC\r\r_7","type":"vless","server":"104.19.145.14","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"AU\r\r","type":"vless","server":"152.67.125.174","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_4","type":"vless","server":"107.174.228.38","port":23234,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"KR\r\r_7","type":"vless","server":"121.128.107.69","port":16923,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_1","type":"vless","server":"www.hugedomains.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"KR\r\r_6","type":"vless","server":"59.25.82.79","port":12318,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"KR\r\r_3","type":"vless","server":"119.197.201.29","port":11481,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_2","type":"vless","server":"craig.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_3","type":"vless","server":"129.213.130.70","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC-IPV6\r\r_15","type":"vless","server":"2606","port":4700,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_3","type":"vless","server":"www.digitalocean.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"HK\r\r","type":"vless","server":"47.57.233.126","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_4","type":"vless","server":"huxley.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_5","type":"vless","server":"uriah.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_5","type":"vless","server":"160.79.105.219","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_6","type":"vless","server":"bowen.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_7","type":"vless","server":"icook.tw","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_8","type":"vless","server":"ip.gs","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_33","type":"vless","server":"time.is","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CT\r\r_1","type":"vless","server":"162.159.152.69","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"FR\r\r_1","type":"vless","server":"185.16.110.200","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_14","type":"vless","server":"join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_9","type":"vless","server":"ipinfo.in","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_10","type":"vless","server":"whatismyipaddress.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_8","type":"vless","server":"135.84.76.143","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_11","type":"vless","server":"braden.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_12","type":"vless","server":"iplocation.io","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_13","type":"vless","server":"decker.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_9","type":"vless","server":"69.84.182.53","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_14","type":"vless","server":"dylan.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_10","type":"vless","server":"160.79.104.175","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_15","type":"vless","server":"benedict.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_16","type":"vless","server":"toy-people.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_17","type":"vless","server":"www.ddwhm.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_18","type":"vless","server":"www.iakeys.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CT\r\r_4","type":"vless","server":"162.159.153.217","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_19","type":"vless","server":"damien.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_11","type":"vless","server":"192.0.54.134","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_20","type":"vless","server":"www.ipget.net","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_21","type":"vless","server":"lewis.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_22","type":"vless","server":"otto.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_23","type":"vless","server":"pranab.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_24","type":"vless","server":"www.pcmag.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"🇺🇸 US\r\r","type":"vless","server":"162.159.129.11","port":2053,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_15","type":"vless","server":"69.84.182.12","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_25","type":"vless","server":"trevor.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_26","type":"vless","server":"dnschecker.org","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_27","type":"vless","server":"rustam.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_28","type":"vless","server":"162.159.133.85","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_29","type":"vless","server":"nikon.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CT\r\r_5","type":"vless","server":"162.159.153.42","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_16","type":"vless","server":"160.79.104.117","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_30","type":"vless","server":"moura.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_31","type":"vless","server":"steamdb.info","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_17","type":"vless","server":"160.79.105.223","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_18","type":"vless","server":"69.84.182.41","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_19","type":"vless","server":"160.79.104.6","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_32","type":"vless","server":"cris.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"RU\r\r","type":"vless","server":"45.67.215.58","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"FR\r\r_2","type":"vless","server":"185.16.110.181","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"DE\r\r","type":"vless","server":"150.230.146.170","port":2053,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_20","type":"vless","server":"192.0.54.24","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_34","type":"vless","server":"julio.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"US\r\r_21","type":"vless","server":"icook.hk","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_35","type":"vless","server":"www.whatismyip.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_36","type":"vless","server":"ashton.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CT\r\r_6","type":"vless","server":"162.159.153.209","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"ZA\r\r","type":"vless","server":"160.123.255.163","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_37","type":"vless","server":"sullivan.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_38","type":"vless","server":"abdullah.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_39","type":"vless","server":"ip.sb","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"KR\r\r_8","type":"vless","server":"130.162.130.105","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_40","type":"vless","server":"comicabc.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_41","type":"vless","server":"kyree.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CMCC\r\r_13","type":"vless","server":"104.17.219.208","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC\r\r_3","type":"vless","server":"104.17.110.70","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_42","type":"vless","server":"wilson.ns.cloudflare.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CMCC\r\r_14","type":"vless","server":"104.18.147.201","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"US\r\r_23","type":"vless","server":"192.9.139.160","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC\r\r_5","type":"vless","server":"104.19.150.163","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_43","type":"vless","server":"www.okcupid.com","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CMCC\r\r_6","type":"vless","server":"104.19.150.28","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC\r\r_8","type":"vless","server":"104.18.93.7","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC\r\r_10","type":"vless","server":"104.18.80.243","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"CMCC\r\r_11","type":"vless","server":"104.16.249.174","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰 HK\r\r","type":"vless","server":"104.17.71.31","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"CMCC\r\r_15","type":"vless","server":"104.17.100.185","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"oz.ylks0033.dpdns.org\r\r_44","type":"vless","server":"172.67.79.211","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"randomized"}
-  - {"name":"sg\r","type":"vless","server":"103.44.255.81","port":443,"uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","tls":true,"servername":"oz.ylks0033.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
-  - {"name":"中转节点-3.50MB/s\r","type":"trojan","server":"125.94.40.221","port":39001,"udp":true,"password":"85f133142f04dbf6547da33895cfabb3","sni":"www.yrtok.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港-80.2MB/s\r","type":"ss","server":"43.226.17.11","port":35947,"password":"60a930c17ff0","cipher":"chacha20-ietf-poly1305","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"kr6v1.xpmc.cc","path":"/matwnpkhug","mux":false}}
-  - {"name":"香港-314.1KB/s\r","type":"ss","server":"121.127.231.217","port":13231,"password":"1450cecfb93f","cipher":"chacha20-ietf-poly1305","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"kh36v1.pmxiaonan.xyz","path":"/simieepvt","mux":false}}
-  - {"name":"中转节点-171.2KB/s\r","type":"trojan","server":"203.156.253.12","port":39001,"udp":true,"password":"85f133142f04dbf6547da33895cfabb3","sni":"www.yrtok.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知国家-2.63MB/s","type":"vmess","server":"us01.sh-cloudflare.sbs","port":8443,"cipher":"auto","uuid":"dda037d3-189f-469f-a657-7618be34bee8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us01.sh-cloudflare.sbs"}}}
-  - {"name":"中转节点-10.7MB/s","type":"vmess","server":"v6.heduian.link","port":30806,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/oooo","headers":{"host":"ocbc.com"}}}
-  - {"name":"中转节点-3.4MB/s","type":"vmess","server":"v32.heduian.link","port":30832,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/oooo","headers":{"host":"baidu.com"}}}
+  - {"name":"中国【机场推荐：https://socks.news】48","type":"vmess","server":"v40.heduian.link","port":30840,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"api100-core-quic-lf.amemv.com"}}}
+  - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大\r","type":"trojan","server":"104.21.84.242","port":443,"udp":true,"password":"03e92910-34b1-4245-ac63-04a865f43cd5","sni":"3ERt.4444916.XyZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bi35bFWoRrnPhIJoo2wcE6Q","headers":{"host":"3ert.4444916.xyz"}}}
+  - {"name":"🇵🇱 PL_196\r","type":"ss","server":"pr.fastsoonlink.com","port":40030,"password":"7905a32b-012c-4711-89e2-73b6713eca75","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 韩国|@ripaojiedian\r","type":"ss","server":"112.54.161.141","port":20406,"password":"dwz1GtF7","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇨🇦_CA_加拿大","type":"trojan","server":"120.233.128.68","port":39001,"udp":true,"password":"85f133142f04dbf6547da33895cfabb3","sni":"120.233.128.68","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB-62.100.205.48-0273\r","type":"ss","server":"62.100.205.48","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳 CN_88","type":"vmess","server":"120.26.55.225","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB-62.100.205.48-5072","type":"ssr","server":"62.100.205.48","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb","obfs":"plain","protocol":"origin"}
+  - {"name":"🇷🇺 RU_193\r","type":"ss","server":"185.153.197.5","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"13,14|美国3|@ripaojiedian","type":"vmess","server":"dddddDDDDD4.222560.xyZ","port":80,"cipher":"auto","uuid":"393b1061-d615-459a-8616-3f9447bdff5a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/iXfi0mMmPYp9UA6Y34zWUk6JUQ","headers":{"host":"dddddddddd4.222560.xyz"}}}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"36.151.251.62","port":23770,"udp":true,"password":"VdWBGFmg","sni":"TG.WangCai2","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"JP\r\r_1","type":"vless","server":"18.183.158.211","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"KHH\r\r_2","type":"trojan","server":"3.1.116.161","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"JP\r\r_2","type":"vless","server":"154.31.113.72","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_130","type":"trojan","server":"172.67.77.127","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_80","type":"trojan","server":"89.248.207.37","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_10","type":"trojan","server":"108.165.152.163","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_24","type":"trojan","server":"176.124.223.40","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_23","type":"trojan","server":"192.200.160.169","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_14","type":"trojan","server":"92.53.190.161","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_6","type":"trojan","server":"pranab.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_111","type":"trojan","server":"167.68.4.7","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_57","type":"trojan","server":"199.34.228.66","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_13","type":"trojan","server":"5.182.85.255","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_30","type":"trojan","server":"154.211.8.209","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_109","type":"trojan","server":"108.162.194.221","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_87","type":"trojan","server":"188.164.159.22","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_7","type":"trojan","server":"5.182.84.9","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_16","type":"trojan","server":"172.67.187.145","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_21","type":"trojan","server":"108.165.152.169","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_20","type":"trojan","server":"141.11.203.168","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_12","type":"trojan","server":"27.50.49.61","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_107","type":"trojan","server":"199.34.228.71","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"SG\r\r_3","type":"vless","server":"27.50.49.61","port":2096,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_68","type":"trojan","server":"213.241.198.56","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_82","type":"trojan","server":"135.84.74.254","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_100","type":"trojan","server":"154.197.64.228","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_11","type":"trojan","server":"108.165.152.92","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_2","type":"vless","server":"damien.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_26","type":"trojan","server":"108.165.152.131","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_3","type":"vless","server":"duke.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇭🇰 HK🐲™️【橘子科技】 3\r","type":"vless","server":"154.218.15.250","port":2083,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"官方优选\r\r_10","type":"trojan","server":"lynn.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_101","type":"trojan","server":"167.68.4.10","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_58","type":"trojan","server":"5.182.84.22","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_99","type":"trojan","server":"154.211.8.220","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_112","type":"trojan","server":"45.67.215.217","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_102","type":"trojan","server":"162.159.44.78","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_38","type":"trojan","server":"104.21.16.71","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_40","type":"trojan","server":"108.165.152.71","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_34","type":"trojan","server":"104.19.103.190","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_39","type":"trojan","server":"103.116.7.133","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_62","type":"trojan","server":"45.67.214.140","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_69","type":"trojan","server":"46.254.92.191","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_108","type":"trojan","server":"192.0.54.7","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_65","type":"trojan","server":"192.9.250.241","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_15","type":"trojan","server":"108.165.152.98","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_5","type":"trojan","server":"duke.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_81","type":"trojan","server":"188.164.159.138","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"🇸🇬 SG🐲™️【橘子科技】 2\r","type":"vless","server":"27.50.49.207","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_86","type":"trojan","server":"199.34.228.178","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_66","type":"trojan","server":"213.241.198.189","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_53","type":"trojan","server":"154.197.64.164","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_49","type":"trojan","server":"108.165.152.104","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_63","type":"trojan","server":"104.19.60.107","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_105","type":"trojan","server":"104.21.10.106","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_125","type":"trojan","server":"176.124.223.133","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_7","type":"vless","server":"lynn.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_103","type":"trojan","server":"46.254.93.175","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_76","type":"trojan","server":"154.211.8.18","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_17","type":"trojan","server":"188.164.159.107","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_78","type":"trojan","server":"104.19.60.193","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"US\r\r_2","type":"vless","server":"108.165.152.104","port":2053,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_70","type":"trojan","server":"27.50.49.188","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_60","type":"trojan","server":"199.34.228.143","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_98","type":"trojan","server":"172.66.206.205","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_110","type":"trojan","server":"154.219.5.242","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_77","type":"trojan","server":"199.34.228.50","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_24","type":"trojan","server":"188.164.159.55","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_91","type":"trojan","server":"103.21.244.0","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_11","type":"trojan","server":"theo.ns.cloudflare.com","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_74","type":"trojan","server":"172.64.35.95","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_21","type":"trojan","server":"104.21.63.200","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_92","type":"trojan","server":"27.50.49.207","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_75","type":"trojan","server":"108.165.152.93","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_114","type":"trojan","server":"108.165.152.1","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"官方优选\r\r_9","type":"vless","server":"theo.ns.cloudflare.com","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"TPE\r\r_90","type":"trojan","server":"162.120.94.23","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_95","type":"trojan","server":"162.159.44.48","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_104","type":"trojan","server":"172.66.206.60","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_106","type":"trojan","server":"108.165.152.143","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_94","type":"trojan","server":"108.165.152.225","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_96","type":"trojan","server":"156.225.72.199","port":2096,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_97","type":"trojan","server":"209.94.90.87","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_23","type":"trojan","server":"135.84.64.36","port":2083,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_126","type":"trojan","server":"148.135.15.148","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_121","type":"trojan","server":"104.19.239.137","port":2087,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_116","type":"trojan","server":"104.16.253.83","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_119","type":"trojan","server":"54.37.64.148","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_120","type":"trojan","server":"168.138.13.201","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_124","type":"trojan","server":"162.19.66.30","port":2053,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r","type":"trojan","server":"156.230.12.71","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"KHH\r\r_26","type":"trojan","server":"107.172.190.130","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_127","type":"trojan","server":"91.197.3.168","port":8443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"TPE\r\r_129","type":"trojan","server":"143.42.66.91","port":443,"udp":true,"password":"Aimer","sni":"epmo.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"epmo.ambercc.filegear-sg.meh3"}}}
+  - {"name":"HK\r\r_2","type":"vless","server":"38.207.172.42","port":443,"uuid":"ee6774c0-9b19-4ff1-8b30-2da4b71977e2","tls":true,"servername":"edmp.aimercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇭🇰 HK🐲™️【橘子科技】\r","type":"vless","server":"156.255.90.175","port":8443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇭🇰 HK🐲™️【橘子科技】 2\r","type":"vless","server":"43.154.96.33","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇭🇰 HK🐲™️【橘子科技】 4\r","type":"vless","server":"219.76.13.166","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇭🇰 HK🐲™️【橘子科技】 5\r","type":"vless","server":"47.57.245.232","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG🐲™️【橘子科技】\r","type":"vless","server":"206.238.236.16","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG🐲™️【橘子科技】 3\r","type":"vless","server":"27.50.49.37","port":2053,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG🐲™️【橘子科技】 4\r","type":"vless","server":"206.206.76.208","port":2053,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇸🇬 SG🐲™️【橘子科技】 5\r","type":"vless","server":"13.228.142.218","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP🐲™️【橘子科技】\r","type":"vless","server":"141.147.185.63","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP🐲™️【橘子科技】 2\r","type":"vless","server":"131.186.33.175","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇯🇵 JP🐲™️【橘子科技】 3\r","type":"vless","server":"150.230.201.239","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇹🇼 TW🐲™️【橘子科技】\r","type":"vless","server":"85.237.207.8","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇹🇼 TW🐲™️【橘子科技】 2\r","type":"vless","server":"85.237.207.2","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇹🇼 TW🐲™️【橘子科技】 3\r","type":"vless","server":"85.237.206.17","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇹🇼 TW🐲™️【橘子科技】 4\r","type":"vless","server":"85.237.206.234","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR🐲™️【橘子科技】\r","type":"vless","server":"132.226.16.97","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR🐲™️【橘子科技】 2\r","type":"vless","server":"132.145.81.117","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR🐲™️【橘子科技】 3\r","type":"vless","server":"149.129.8.215","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR🐲™️【橘子科技】 4\r","type":"vless","server":"144.24.73.232","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇰🇷 KR🐲™️【橘子科技】 5\r","type":"vless","server":"132.226.224.232","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US🐲™️【橘子科技】\r","type":"vless","server":"104.21.16.71","port":2096,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US🐲™️【橘子科技】 2\r","type":"vless","server":"104.19.60.193","port":2083,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US🐲™️【橘子科技】 3\r","type":"vless","server":"162.159.44.48","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US🐲™️【橘子科技】 4\r","type":"vless","server":"162.120.94.23","port":2087,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇺🇸 US🐲™️【橘子科技】 5\r","type":"vless","server":"107.173.146.14","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇵🇱 PL🐲™️【橘子科技】\r","type":"vless","server":"145.239.27.230","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇵🇱 PL🐲™️【橘子科技】 2\r","type":"vless","server":"185.238.74.193","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇵🇱 PL🐲™️【橘子科技】 3\r","type":"vless","server":"45.144.48.49","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇵🇱 PL🐲™️【橘子科技】 4\r","type":"vless","server":"45.144.48.116","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"🇵🇱 PL🐲™️【橘子科技】 5","type":"vless","server":"176.105.253.98","port":443,"uuid":"5bc34b35-66c0-4e44-829e-63b761b10990","tls":true,"servername":"edv.sosocn.filegear-sg.me","network":"ws","ws-opts":{"path":"/?ed=2560"},"client-fingerprint":"random"}
+  - {"name":"广州→香港🇭🇰 联通500Mbps","type":"vmess","server":"157.255.56.93","port":30514,"cipher":"auto","uuid":"02f0d2ec-086c-4ca2-a229-7ee75e9a73b6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"广州→香港🇭🇰 移动500Mbps","type":"vmess","server":"120.233.248.133","port":30514,"cipher":"auto","uuid":"02f0d2ec-086c-4ca2-a229-7ee75e9a73b6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"defaultName","type":"http","server":"t.me/proxy?server=3arx9g2v.8542112.xyz&port=49290&secret=ee48ff843c619bc29619af45a2d707f07e617a7572652e6d6963726f736f66742e636f6d\r","port":null}
+  - {"name":"🇭🇰 Coal HK V2 nano-v4\r","type":"vless","server":"45.207.223.248","port":33844,"udp":true,"uuid":"18476b6e-7a07-4b35-a0f4-2e5cf9408f37","tls":true,"servername":"apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"KFeueecikpFlxYw3KfVspr5P2S-tX3i80BzvKuhch2I","short-id":"4fb6"},"client-fingerprint":"chrome"}
+  - {"name":"🇭🇰 Coal HK V2 ss-v6\r","type":"ss","server":"2602","port":51691,"password":"KxFBrolUOF7NJOweHp+TsH5A/aEiDKwT+H7P9Bu7wvw=","cipher":"2022-blake3-aes-256-gcm:xvVXvZ8YCfvkfAzeBkET73Ylc8Vsux5d7LdpsxFKEik="}
+  - {"name":"🇭🇰 Coal HK V1 nano-v4\r","type":"vless","server":"45.87.103.41","port":33168,"udp":true,"uuid":"967bde9e-3711-4ce9-9be8-003e1a79c55c","tls":true,"servername":"apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tyaPaHAgsJvC1AnYWk3ltdrtNZC4SaAK3yp3q65NsTY","short-id":"8b0143"},"client-fingerprint":"chrome"}
+  - {"name":"🇭🇰 Coal HK V1 ss-v6","type":"ss","server":"2602","port":21331,"password":"S4/ZlDW4DDY01ODIA/ZabTr9pN+GC+iVMwVJwxXgNhQ=","cipher":"2022-blake3-aes-128-gcm:5zdvvQA0Wj5HU8qqBj0XK48C+6y3noY3O44KAI1whys="}
+  - {"name":"香港-907.9KB/s\r","type":"ss","server":"194.41.59.80","port":8388,"password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"韩国-29.0MB/s\r","type":"ss","server":"218.237.185.230","port":4652,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇰 香港6|@ripaojiedian\r_2","type":"ss","server":"111.45.33.5","port":30017,"password":"dwz1GtF7","cipher":"aes-256-gcm"}
+  - {"name":"中转节点-5.58MB/s\r","type":"ss","server":"cn01.efan8867801.xyz","port":8774,"password":"efanccyun","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转节点-196.3KB/s\r","type":"trojan","server":"203.156.253.12","port":39001,"udp":true,"password":"85f133142f04dbf6547da33895cfabb3","sni":"www.yrtok.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国-23.8MB/s\r","type":"ss","server":"p141.panda001.net","port":4652,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺 RU_202\r","type":"ss","server":"h110vpnde.outlinekeys.net","port":21712,"password":"NTE3PCCNFgLyG6nsTv80Yp","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"中转节点-1.1MB/s\r","type":"ss","server":"183.240.180.48","port":58436,"password":"di3YDVupSCsXSe2NbYlw5A==","cipher":"2022-blake3-aes-128-gcm"}
+  - {"name":"德国-34.9MB/s","type":"vmess","server":"132.145.232.171","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddsz.cfd"}}}
+  - {"name":"[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r","type":"ss","server":"62.133.60.217","port":34218,"password":"WTW3IKzimgbaBa0jELvP7R","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅_1","type":"vless","server":"m1.persiangames.online","port":3073,"uuid":"99f2acd8-b0ab-4dbd-edc3-467ae27a95a7","tls":false,"servername":"persiangames.online","network":"tcp"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅_2","type":"vless","server":"www.speedtest.net","port":80,"uuid":"716afcbb-e1d3-49d5-bdd1-4a0826eb8fd5","tls":false,"servername":"Www.speedtest.net.developsp.ir.joinbedeh.xyz.","network":"ws","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048"}}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅_3","type":"vless","server":"irserver.colsvpn.top","port":33696,"uuid":"a99fb47f-6808-462c-8a40-31ed57a8f1d3","tls":false,"servername":"telewebion.com","network":"tcp"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1","type":"trojan","server":"node10.upperboundnode.click","port":443,"udp":true,"password":"3b9f06bc-83ae-4df8-98ca-0cea043b3369","sni":"node9.servernode.store","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1","type":"vless","server":"a1.graphapp.ir","port":2121,"udp":true,"uuid":"c0897efd-edb8-432a-bbbe-e5d2daff948e","tls":true,"servername":"journalofbigdata.springeropen.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"8C0SElSc2U3jqim6AFkqwy2trWXhIAuh_5W1KOrSRF4"},"client-fingerprint":"firefox"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1","type":"ss","server":"37.202.231.23","port":444,"password":"undefined","cipher":"null"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2","type":"vless","server":"meli2.lamine.top","port":80,"uuid":"e96b0250-a2cf-4725-addf-803242e7c7bc","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2","type":"vless","server":"account3.shark1.ir","port":8443,"uuid":"12d2c2e0-8b75-4655-bcd6-db36103c972c","tls":true,"servername":"speed.koshtiiraniha.ir.","network":"httpupgrade","client-fingerprint":"random"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2","type":"vless","server":"142.93.168.151","port":8443,"udp":true,"uuid":"0636501b-7caa-4e85-92d6-d69f00184b3b","tls":true,"servername":"journalofbigdata.springeropen.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"jmJIrcH1e8ZRuWLVxngatpieUfew6vs_UrBl5gKkOxA","short-id":"9e0ef855491cb004"},"client-fingerprint":"chrome"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4","type":"trojan","server":"18.199.53.32","port":22223,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":false,"network":"tcp"}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5","type":"vless","server":"vpncityy3.aliha.icu","port":9089,"uuid":"01e3cb69-c63c-49d4-b652-cc98ae4a6ea5","tls":false,"servername":"zula.ir","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6","type":"vless","server":"81.12.21.147","port":443,"uuid":"9ceb4327-952c-4d87-981c-d933bd81ced9","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -307,157 +389,166 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -469,157 +560,166 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -631,156 +731,165 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -792,156 +901,165 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -953,156 +1071,165 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -1114,103 +1241,39 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1233,54 +1296,127 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-28.7MB/s
-      - 🔒 VL-WS-NONE 🇺🇸 US-140.248.162.12:80
-      - 🔒 VM-TCP-NA 🇺🇸 US-15.204.248.92:30562
-      - "中转节点-7.66MB/s\r"
-      - "🇺🇸_US_美国\r"
-      - "🔒 VL-WS-NA 🏴‍☠️ NA-172.67.187.26:2052\r"
-      - 🇨🇳 广东省梅州市 移动
-      - "香港_https://t.me/mfjdkx\r_4"
-      - 香港_https://t.me/mfjdkx_1
-      - 中转节点-5.5MB/s
-      - 香港_https://t.me/mfjdkx_3
-      - 香港_https://t.me/mfjdkx_4
-      - 中转节点-461.6KB/s
-      - "香港_https://t.me/mfjdkx\r_1"
-      - 香港_https://t.me/mfjdkx_6
-      - 香港_https://t.me/mfjdkx_7
-      - "香港_https://t.me/mfjdkx\r_2"
-      - 香港_https://t.me/mfjdkx_8
-      - 香港_https://t.me/mfjdkx_9
-      - 香港_https://t.me/mfjdkx_10
-      - 香港_https://t.me/mfjdkx_11
-      - 香港_https://t.me/mfjdkx_12
-      - "香港_https://t.me/mfjdkx\r_3"
-      - 香港_https://t.me/mfjdkx_13
-      - 香港_https://t.me/mfjdkx_14
-      - 香港_https://t.me/mfjdkx_15
-      - 香港_https://t.me/mfjdkx_16
-      - 香港_https://t.me/mfjdkx_17
-      - 香港_https://t.me/mfjdkx_18
-      - 香港_https://t.me/mfjdkx_19
-      - 香港_https://t.me/mfjdkx_20
-      - 香港_https://t.me/mfjdkx_21
-      - 美国_https://t.me/mfjdkx
+      - 中国【机场推荐：https://socks.news】48
+      - "🇺🇸_US_美国->🇨🇦_CA_加拿大\r"
+      - "🇵🇱 PL_196\r"
+      - "🇰🇷 韩国|@ripaojiedian\r"
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - "🇬🇧GB-62.100.205.48-0273\r"
+      - 🇨🇳 CN_88
+      - 🇬🇧GB-62.100.205.48-5072
+      - "🇷🇺 RU_193\r"
+      - 13,14|美国3|@ripaojiedian
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - "JP\r\r_1"
+      - "KHH\r\r_2"
+      - "JP\r\r_2"
+      - "TPE\r\r_130"
+      - "TPE\r\r_80"
+      - "KHH\r\r_10"
+      - "TPE\r\r_24"
+      - "TPE\r\r_23"
+      - "TPE\r\r_14"
+      - "官方优选\r\r_6"
+      - "TPE\r\r_111"
+      - "TPE\r\r_57"
+      - "KHH\r\r_13"
+      - "TPE\r\r_30"
+      - "TPE\r\r_109"
+      - "TPE\r\r_87"
+      - "KHH\r\r_7"
+      - "KHH\r\r_16"
+      - "TPE\r\r_21"
+      - "KHH\r\r_20"
+      - "TPE\r\r_12"
+      - "TPE\r\r_107"
+      - "SG\r\r_3"
+      - "TPE\r\r_68"
+      - "TPE\r\r_82"
+      - "TPE\r\r_100"
+      - "KHH\r\r_11"
+      - "官方优选\r\r_2"
+      - "TPE\r\r_26"
+      - "官方优选\r\r_3"
+      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
+      - "官方优选\r\r_10"
+      - "TPE\r\r_101"
+      - "TPE\r\r_58"
+      - "TPE\r\r_99"
+      - "TPE\r\r_112"
+      - "TPE\r\r_102"
+      - "TPE\r\r_38"
+      - "TPE\r\r_40"
+      - "TPE\r\r_34"
+      - "TPE\r\r_39"
+      - "TPE\r\r_62"
+      - "TPE\r\r_69"
+      - "TPE\r\r_108"
+      - "TPE\r\r_65"
+      - "KHH\r\r_15"
+      - "官方优选\r\r_5"
+      - "TPE\r\r_81"
+      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
+      - "TPE\r\r_86"
+      - "TPE\r\r_66"
+      - "TPE\r\r_53"
+      - "TPE\r\r_49"
+      - "TPE\r\r_63"
+      - "TPE\r\r_105"
+      - "TPE\r\r_125"
+      - "官方优选\r\r_7"
+      - "TPE\r\r_103"
+      - "TPE\r\r_76"
+      - "KHH\r\r_17"
+      - "TPE\r\r_78"
+      - "US\r\r_2"
+      - "TPE\r\r_70"
+      - "TPE\r\r_60"
+      - "TPE\r\r_98"
+      - "TPE\r\r_110"
+      - "TPE\r\r_77"
+      - "KHH\r\r_24"
+      - "TPE\r\r_91"
+      - "官方优选\r\r_11"
+      - "TPE\r\r_74"
+      - "KHH\r\r_21"
+      - "TPE\r\r_92"
+      - "TPE\r\r_75"
+      - "TPE\r\r_114"
+      - "官方优选\r\r_9"
+      - "TPE\r\r_90"
+      - "TPE\r\r_95"
+      - "TPE\r\r_104"
+      - "TPE\r\r_106"
+      - "TPE\r\r_94"
+      - "TPE\r\r_96"
+      - "TPE\r\r_97"
+      - "KHH\r\r_23"
+      - "TPE\r\r_126"
+      - "TPE\r\r_121"
+      - "TPE\r\r_116"
+      - "TPE\r\r_119"
+      - "TPE\r\r_120"
+      - "TPE\r\r_124"
+      - "TPE\r"
+      - "KHH\r\r_26"
+      - "TPE\r\r_127"
+      - "TPE\r\r_129"
+      - "HK\r\r_2"
       - "🇭🇰 HK🐲™️【橘子科技】\r"
       - "🇭🇰 HK🐲™️【橘子科技】 2\r"
-      - "🇭🇰 HK🐲™️【橘子科技】 3\r"
       - "🇭🇰 HK🐲™️【橘子科技】 4\r"
       - "🇭🇰 HK🐲™️【橘子科技】 5\r"
       - "🇸🇬 SG🐲™️【橘子科技】\r"
-      - "🇸🇬 SG🐲™️【橘子科技】 2\r"
       - "🇸🇬 SG🐲™️【橘子科技】 3\r"
       - "🇸🇬 SG🐲™️【橘子科技】 4\r"
       - "🇸🇬 SG🐲™️【橘子科技】 5\r"
       - "🇯🇵 JP🐲™️【橘子科技】\r"
       - "🇯🇵 JP🐲™️【橘子科技】 2\r"
       - "🇯🇵 JP🐲™️【橘子科技】 3\r"
-      - "🇯🇵 JP🐲™️【橘子科技】 4\r"
-      - "TW\r\r_3"
+      - "🇹🇼 TW🐲™️【橘子科技】\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 2\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 3\r"
+      - "🇹🇼 TW🐲™️【橘子科技】 4\r"
       - "🇰🇷 KR🐲™️【橘子科技】\r"
       - "🇰🇷 KR🐲™️【橘子科技】 2\r"
       - "🇰🇷 KR🐲™️【橘子科技】 3\r"
@@ -1292,103 +1428,39 @@ proxy-groups:
       - "🇺🇸 US🐲™️【橘子科技】 4\r"
       - "🇺🇸 US🐲™️【橘子科技】 5\r"
       - "🇵🇱 PL🐲™️【橘子科技】\r"
-      - 🇵🇱 PL🐲™️【橘子科技】 2
-      - "CMCC\r\r_7"
-      - "AU\r\r"
-      - "US\r\r_4"
-      - "KR\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_1"
-      - "KR\r\r_6"
-      - "KR\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_2"
-      - "US\r\r_3"
-      - "CMCC-IPV6\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_3"
-      - "HK\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_5"
-      - "US\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_6"
-      - "oz.ylks0033.dpdns.org\r\r_7"
-      - "oz.ylks0033.dpdns.org\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_33"
-      - "CT\r\r_1"
-      - "FR\r\r_1"
-      - "US\r\r_14"
-      - "oz.ylks0033.dpdns.org\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_10"
-      - "US\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_12"
-      - "oz.ylks0033.dpdns.org\r\r_13"
-      - "US\r\r_9"
-      - "oz.ylks0033.dpdns.org\r\r_14"
-      - "US\r\r_10"
-      - "oz.ylks0033.dpdns.org\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_17"
-      - "oz.ylks0033.dpdns.org\r\r_18"
-      - "CT\r\r_4"
-      - "oz.ylks0033.dpdns.org\r\r_19"
-      - "US\r\r_11"
-      - "oz.ylks0033.dpdns.org\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_22"
-      - "oz.ylks0033.dpdns.org\r\r_23"
-      - "oz.ylks0033.dpdns.org\r\r_24"
-      - "🇺🇸 US\r\r"
-      - "US\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_25"
-      - "oz.ylks0033.dpdns.org\r\r_26"
-      - "oz.ylks0033.dpdns.org\r\r_27"
-      - "oz.ylks0033.dpdns.org\r\r_28"
-      - "oz.ylks0033.dpdns.org\r\r_29"
-      - "CT\r\r_5"
-      - "US\r\r_16"
-      - "oz.ylks0033.dpdns.org\r\r_30"
-      - "oz.ylks0033.dpdns.org\r\r_31"
-      - "US\r\r_17"
-      - "US\r\r_18"
-      - "US\r\r_19"
-      - "oz.ylks0033.dpdns.org\r\r_32"
-      - "RU\r\r"
-      - "FR\r\r_2"
-      - "DE\r\r"
-      - "US\r\r_20"
-      - "oz.ylks0033.dpdns.org\r\r_34"
-      - "US\r\r_21"
-      - "oz.ylks0033.dpdns.org\r\r_35"
-      - "oz.ylks0033.dpdns.org\r\r_36"
-      - "CT\r\r_6"
-      - "ZA\r\r"
-      - "oz.ylks0033.dpdns.org\r\r_37"
-      - "oz.ylks0033.dpdns.org\r\r_38"
-      - "oz.ylks0033.dpdns.org\r\r_39"
-      - "KR\r\r_8"
-      - "oz.ylks0033.dpdns.org\r\r_40"
-      - "oz.ylks0033.dpdns.org\r\r_41"
-      - "CMCC\r\r_13"
-      - "CMCC\r\r_3"
-      - "oz.ylks0033.dpdns.org\r\r_42"
-      - "CMCC\r\r_14"
-      - "US\r\r_23"
-      - "CMCC\r\r_5"
-      - "oz.ylks0033.dpdns.org\r\r_43"
-      - "CMCC\r\r_6"
-      - "CMCC\r\r_8"
-      - "CMCC\r\r_10"
-      - "CMCC\r\r_11"
-      - "🇭🇰 HK\r\r"
-      - "CMCC\r\r_15"
-      - "oz.ylks0033.dpdns.org\r\r_44"
-      - "sg\r"
-      - "中转节点-3.50MB/s\r"
-      - "香港-80.2MB/s\r"
-      - "香港-314.1KB/s\r"
-      - "中转节点-171.2KB/s\r"
-      - 未知国家-2.63MB/s
-      - 中转节点-10.7MB/s
-      - 中转节点-3.4MB/s
+      - "🇵🇱 PL🐲™️【橘子科技】 2\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 3\r"
+      - "🇵🇱 PL🐲™️【橘子科技】 4\r"
+      - 🇵🇱 PL🐲™️【橘子科技】 5
+      - 广州→香港🇭🇰 联通500Mbps
+      - 广州→香港🇭🇰 移动500Mbps
+      - defaultName
+      - "🇭🇰 Coal HK V2 nano-v4\r"
+      - "🇭🇰 Coal HK V2 ss-v6\r"
+      - "🇭🇰 Coal HK V1 nano-v4\r"
+      - 🇭🇰 Coal HK V1 ss-v6
+      - "香港-907.9KB/s\r"
+      - "韩国-29.0MB/s\r"
+      - "🇭🇰 香港6|@ripaojiedian\r_2"
+      - "中转节点-5.58MB/s\r"
+      - "中转节点-196.3KB/s\r"
+      - "韩国-23.8MB/s\r"
+      - "🇷🇺 RU_202\r"
+      - "中转节点-1.1MB/s\r"
+      - 德国-34.9MB/s
+      - "[Rawdroid/Free-servers]俄罗斯 V2CROSS.COM\r"
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_1
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_2
+      - ✅سرورهایبیشتردرکانال:prrofile_purple@✅_3
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_1"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_1_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_2_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_3_2"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_4"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_5"
+      - "✅سرورهایبیشتردرکانال:prrofile_purple@✅\r_6"
 
 rules:
 # 本地/局域网地址
