@@ -1,9 +1,5 @@
 hysteria2://e6d8d743-a9bc-48c9-be99-8f3cc94d16e1@aus.pagate.top:10086/?insecure=1&sni=aus.pagate.top#🇺🇸US_133 | ⬇️ 10.7MB/s|29%|Netflix|Openai
 vless://7028cb85-9611-4876-bb19-e15fa050b253@172.234.31.253:2321?security=none&type=tcp&encryption=none&headerType=none#%E7%BE%8E%E5%9B%BD%207
-http://test:test.+@cthka.ssv.vc:30443
-http://test:test.+@cmhka.ssv.vc:30443
-http://test:test.+@cuusb.ssv.vc:30445
-http://test:test.+@cmusb.ssv.vc:30445
 vless://029254f9-05e8-47b2-a9a9-6e62e84aeb92@172.234.150.158:2321?security=none&type=tcp&encryption=none&headerType=none#%E7%BE%8E%E5%9B%BD%20%E5%BC%97%E5%90%89%E5%B0%BC%E4%BA%9A%20%E9%98%BF%E4%BB%80%E6%9C%AC%20Akamai
 vless://c7f423b7-ced8-43da-a9ae-e906cb4a222c@104.21.89.221:443?security=tls&type=ws&sni=kkkkkkkkkkkklo.999824.xyz&fp=chrome&path=/wU3lZaUTRQTqot0LE&encryption=none&headerType=none#%F0%9F%87%BA%F0%9F%87%B8US_19%20%7C%20%E2%AC%87%EF%B8%8F%208.7MB%2Fs
 vless://7fb18dca-47a6-498a-b5ec-9e3bdce1b592@104.18.20.69:443?security=tls&type=ws&sni=us2s.pqvip.top&fp=chrome&path=/pq/us2&encryption=none&headerType=none#%E7%BE%8E%E5%9B%BD-04%20%7C%20%E2%AC%87%EF%B8%8F%202.1MB%2Fs%7COpenai%0D
